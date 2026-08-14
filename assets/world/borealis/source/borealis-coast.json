@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "borealis-prototype-coast",
+  "metresPerPixel": 0.5,
+  "widthPixels": 384,
+  "heightPixels": 256,
+  "bounds": {
+    "minX": -128,
+    "maxX": 64,
+    "minZ": -64,
+    "maxZ": 64
+  },
+  "coordinates": {
+    "imageOrigin": "NORTH_WEST",
+    "positiveX": "EAST",
+    "positiveZ": "SOUTH"
+  },
+  "layers": {
+    "terrain": "terrain.png",
+    "bathymetry": "bathymetry.png"
+  },
+  "terrainPalette": {
+    "WATER": [
+      16,
+      69,
+      104,
+      255
+    ],
+    "SHORE": [
+      123,
+      188,
+      182,
+      255
+    ],
+    "LAND": [
+      77,
+      118,
+      104,
+      255
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "generator-set",
+  "source": "generator-set.dae",
+  "units": "centimetres",
+  "upAxis": "+Z",
+  "forwardAxis": "-Y",
+  "normalization": "sidecar",
+  "pivotNode": "SOCKET__bottom",
+  "replaceProcedural": true,
+  "visualNodes": ["MODEL__LOD0"],
+  "collisionNodes": ["COLLIDER__body"],
+  "sockets": [
+    { "id": "bottom", "node": "SOCKET__bottom" },
+    { "id": "top", "node": "SOCKET__top" }
+  ],
+  "decalSlots": [
+    { "slotId": "service-label", "node": "DECAL__service-label" }
+  ],
+  "materials": [
+    { "sourceMaterial": "PAINT_PRIMARY", "mode": "paint" },
+    { "sourceMaterial": "DETAIL_DARK", "mode": "preserve" }
+  ],
+  "animations": [
+    { "node": "ANIM__flywheel", "axis": "z", "speed": 4.2 }
+  ]
+}
