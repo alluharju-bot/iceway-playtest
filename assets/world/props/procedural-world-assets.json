@@ -1,0 +1,7644 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": "src/land/WorldAssetCatalog.ts",
+  "assetCount": 79,
+  "materials": [
+    {
+      "id": "TRUNK_DARK",
+      "color": 5191980,
+      "roughness": 0.97
+    },
+    {
+      "id": "TRUNK_PALE",
+      "color": 12103584,
+      "roughness": 0.96
+    },
+    {
+      "id": "BARK_RED",
+      "color": 7358008,
+      "roughness": 0.96
+    },
+    {
+      "id": "FOLIAGE_PINE",
+      "color": 2641734,
+      "roughness": 0.95
+    },
+    {
+      "id": "FOLIAGE_SPRUCE",
+      "color": 3235669,
+      "roughness": 0.95
+    },
+    {
+      "id": "FOLIAGE_BLUE",
+      "color": 4024419,
+      "roughness": 0.94
+    },
+    {
+      "id": "FOLIAGE_DARK",
+      "color": 2113337,
+      "roughness": 0.96
+    },
+    {
+      "id": "FOLIAGE_LEAF",
+      "color": 5141337,
+      "roughness": 0.94
+    },
+    {
+      "id": "FOLIAGE_AUTUMN",
+      "color": 10121281,
+      "roughness": 0.94
+    },
+    {
+      "id": "STONE_LIGHT",
+      "color": 8884364,
+      "roughness": 0.99
+    },
+    {
+      "id": "STONE_MID",
+      "color": 7437175,
+      "roughness": 0.99
+    },
+    {
+      "id": "STONE_DARK",
+      "color": 5661021,
+      "roughness": 1
+    },
+    {
+      "id": "STONE_WARM",
+      "color": 8484458,
+      "roughness": 0.99
+    },
+    {
+      "id": "WOOD",
+      "color": 8411963,
+      "roughness": 0.94
+    },
+    {
+      "id": "WOOD_PALE",
+      "color": 11174744,
+      "roughness": 0.94
+    },
+    {
+      "id": "METAL_DARK",
+      "color": 2702144,
+      "roughness": 0.72,
+      "metalness": 0.34
+    },
+    {
+      "id": "METAL_GREY",
+      "color": 6648180,
+      "roughness": 0.68,
+      "metalness": 0.42
+    },
+    {
+      "id": "METAL_GREEN",
+      "color": 4810592,
+      "roughness": 0.74,
+      "metalness": 0.28
+    },
+    {
+      "id": "HEAT_PIPE_RED",
+      "color": 10439737,
+      "roughness": 0.76,
+      "metalness": 0.24
+    },
+    {
+      "id": "HEAT_PIPE_BAND",
+      "color": 13547639,
+      "roughness": 0.7,
+      "metalness": 0.2
+    },
+    {
+      "id": "COPPER_DARK",
+      "color": 8673090,
+      "roughness": 0.7,
+      "metalness": 0.48
+    },
+    {
+      "id": "CERAMIC_PALE",
+      "color": 14144452,
+      "roughness": 0.78,
+      "metalness": 0.02
+    },
+    {
+      "id": "EQUIPMENT_DARK",
+      "color": 2306358,
+      "roughness": 0.64,
+      "metalness": 0.36
+    },
+    {
+      "id": "STATUS_GREEN",
+      "color": 8242314,
+      "roughness": 0.3,
+      "emissive": 3306308,
+      "emissiveIntensity": 0.65
+    },
+    {
+      "id": "STATUS_RED",
+      "color": 14244680,
+      "roughness": 0.3,
+      "emissive": 8003608,
+      "emissiveIntensity": 0.72
+    },
+    {
+      "id": "GLASS",
+      "color": 8304833,
+      "roughness": 0.3,
+      "metalness": 0.08
+    },
+    {
+      "id": "PAINT_RED",
+      "color": 11028792,
+      "roughness": 0.76,
+      "metalness": 0.08
+    },
+    {
+      "id": "PAINT_BLUE",
+      "color": 4157317,
+      "roughness": 0.76,
+      "metalness": 0.08
+    },
+    {
+      "id": "PAINT_YELLOW",
+      "color": 13673541,
+      "roughness": 0.76,
+      "metalness": 0.08
+    },
+    {
+      "id": "PAINT_ORANGE",
+      "color": 14839858,
+      "roughness": 0.76,
+      "metalness": 0.04
+    },
+    {
+      "id": "PAINT_WHITE",
+      "color": 14278875,
+      "roughness": 0.82
+    },
+    {
+      "id": "RUBBER_DARK",
+      "color": 2107434,
+      "roughness": 0.98
+    },
+    {
+      "id": "ROPE",
+      "color": 12098928,
+      "roughness": 0.99
+    },
+    {
+      "id": "LAMP_WARM",
+      "color": 16767127,
+      "roughness": 0.22,
+      "emissive": 16759131,
+      "emissiveIntensity": 0.8
+    }
+  ],
+  "assets": [
+    {
+      "id": "CONIFER_SPRUCE_01",
+      "displayName": "Narrow spruce",
+      "icon": "♠",
+      "category": "CONIFERS",
+      "suggestedModelUrl": "assets/world/props/models/conifer-spruce-01.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.72,
+        "height": 4.5,
+        "depth": 0.72,
+        "offsetY": 2.25
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "TRUNK_DARK",
+          "position": [
+            0,
+            1.215,
+            0
+          ],
+          "scale": [
+            0.15,
+            2.43,
+            0.15
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "CONE_7",
+          "material": "FOLIAGE_SPRUCE",
+          "position": [
+            0,
+            2.205,
+            0
+          ],
+          "scale": [
+            0.88,
+            2.16,
+            0.88
+          ]
+        },
+        {
+          "geometry": "CONE_7",
+          "material": "FOLIAGE_SPRUCE",
+          "position": [
+            0,
+            3.15,
+            0
+          ],
+          "scale": [
+            0.6864,
+            1.89,
+            0.6864
+          ]
+        },
+        {
+          "geometry": "CONE_7",
+          "material": "FOLIAGE_SPRUCE",
+          "position": [
+            0,
+            3.915,
+            0
+          ],
+          "scale": [
+            0.4224,
+            1.3499999999999999,
+            0.4224
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CONIFER_SPRUCE_02",
+      "displayName": "Broad spruce",
+      "icon": "♠",
+      "category": "CONIFERS",
+      "suggestedModelUrl": "assets/world/props/models/conifer-spruce-02.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.72,
+        "height": 4.1,
+        "depth": 0.72,
+        "offsetY": 2.05
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "TRUNK_DARK",
+          "position": [
+            0.04,
+            1.107,
+            0
+          ],
+          "scale": [
+            0.15,
+            2.214,
+            0.15
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            -1.28
+          ]
+        },
+        {
+          "geometry": "CONE_7",
+          "material": "FOLIAGE_PINE",
+          "position": [
+            0.07200000000000001,
+            2.009,
+            0
+          ],
+          "scale": [
+            1.15,
+            1.9679999999999997,
+            1.15
+          ]
+        },
+        {
+          "geometry": "CONE_7",
+          "material": "FOLIAGE_PINE",
+          "position": [
+            0.10880000000000001,
+            2.8699999999999997,
+            0
+          ],
+          "scale": [
+            0.8969999999999999,
+            1.7219999999999998,
+            0.8969999999999999
+          ]
+        },
+        {
+          "geometry": "CONE_7",
+          "material": "FOLIAGE_PINE",
+          "position": [
+            0.16,
+            3.5669999999999997,
+            0
+          ],
+          "scale": [
+            0.5519999999999999,
+            1.2299999999999998,
+            0.5519999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CONIFER_SPRUCE_03",
+      "displayName": "Blue spruce",
+      "icon": "♠",
+      "category": "CONIFERS",
+      "suggestedModelUrl": "assets/world/props/models/conifer-spruce-03.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.72,
+        "height": 4.8,
+        "depth": 0.72,
+        "offsetY": 2.4
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "TRUNK_DARK",
+          "position": [
+            -0.03,
+            1.296,
+            0
+          ],
+          "scale": [
+            0.15,
+            2.592,
+            0.15
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0.96
+          ]
+        },
+        {
+          "geometry": "CONE_7",
+          "material": "FOLIAGE_BLUE",
+          "position": [
+            -0.054,
+            2.352,
+            0
+          ],
+          "scale": [
+            1.02,
+            2.304,
+            1.02
+          ]
+        },
+        {
+          "geometry": "CONE_7",
+          "material": "FOLIAGE_BLUE",
+          "position": [
+            -0.0816,
+            3.36,
+            0
+          ],
+          "scale": [
+            0.7956000000000001,
+            2.016,
+            0.7956000000000001
+          ]
+        },
+        {
+          "geometry": "CONE_7",
+          "material": "FOLIAGE_BLUE",
+          "position": [
+            -0.12,
+            4.176,
+            0
+          ],
+          "scale": [
+            0.4896,
+            1.44,
+            0.4896
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CONIFER_SPRUCE_04",
+      "displayName": "Young spruce",
+      "icon": "♠",
+      "category": "CONIFERS",
+      "suggestedModelUrl": "assets/world/props/models/conifer-spruce-04.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.72,
+        "height": 3.05,
+        "depth": 0.72,
+        "offsetY": 1.525
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "TRUNK_DARK",
+          "position": [
+            0.02,
+            0.8235,
+            0
+          ],
+          "scale": [
+            0.15,
+            1.647,
+            0.15
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            -0.64
+          ]
+        },
+        {
+          "geometry": "CONE_7",
+          "material": "FOLIAGE_SPRUCE",
+          "position": [
+            0.036000000000000004,
+            1.4945,
+            0
+          ],
+          "scale": [
+            0.68,
+            1.464,
+            0.68
+          ]
+        },
+        {
+          "geometry": "CONE_7",
+          "material": "FOLIAGE_SPRUCE",
+          "position": [
+            0.054400000000000004,
+            2.135,
+            0
+          ],
+          "scale": [
+            0.5304000000000001,
+            1.281,
+            0.5304000000000001
+          ]
+        },
+        {
+          "geometry": "CONE_7",
+          "material": "FOLIAGE_SPRUCE",
+          "position": [
+            0.08,
+            2.6534999999999997,
+            0
+          ],
+          "scale": [
+            0.3264,
+            0.9149999999999999,
+            0.3264
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CONIFER_SPRUCE_05",
+      "displayName": "Wind-bent pine",
+      "icon": "♠",
+      "category": "CONIFERS",
+      "suggestedModelUrl": "assets/world/props/models/conifer-spruce-05.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.72,
+        "height": 4.25,
+        "depth": 0.72,
+        "offsetY": 2.125
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "BARK_RED",
+          "position": [
+            0.085,
+            1.1475,
+            0
+          ],
+          "scale": [
+            0.15,
+            2.295,
+            0.15
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            -2.72
+          ]
+        },
+        {
+          "geometry": "CONE_7",
+          "material": "FOLIAGE_DARK",
+          "position": [
+            0.15300000000000002,
+            2.0825,
+            0
+          ],
+          "scale": [
+            0.96,
+            2.04,
+            0.96
+          ]
+        },
+        {
+          "geometry": "CONE_7",
+          "material": "FOLIAGE_DARK",
+          "position": [
+            0.23120000000000004,
+            2.9749999999999996,
+            0
+          ],
+          "scale": [
+            0.7488,
+            1.785,
+            0.7488
+          ]
+        },
+        {
+          "geometry": "CONE_7",
+          "material": "FOLIAGE_DARK",
+          "position": [
+            0.34,
+            3.6975,
+            0
+          ],
+          "scale": [
+            0.4608,
+            1.275,
+            0.4608
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DECIDUOUS_BIRCH_01",
+      "displayName": "Arctic birch",
+      "icon": "♣",
+      "category": "DECIDUOUS",
+      "suggestedModelUrl": "assets/world/props/models/deciduous-birch-01.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.7,
+        "height": 3.8,
+        "depth": 0.7,
+        "offsetY": 1.9
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "TRUNK_PALE",
+          "position": [
+            0,
+            1.216,
+            0
+          ],
+          "scale": [
+            0.18,
+            2.432,
+            0.18
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "TRUNK_PALE",
+          "position": [
+            -0.34,
+            2.3939999999999997,
+            0
+          ],
+          "scale": [
+            0.09,
+            1.3679999999999999,
+            0.09
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            35
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "TRUNK_PALE",
+          "position": [
+            0.38,
+            2.584,
+            0.08
+          ],
+          "scale": [
+            0.08,
+            1.292,
+            0.08
+          ],
+          "rotationDegrees": [
+            20,
+            0,
+            -38
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "FOLIAGE_LEAF",
+          "position": [
+            0,
+            2.964,
+            0
+          ],
+          "scale": [
+            1.12,
+            1.25,
+            1.02
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "FOLIAGE_LEAF",
+          "position": [
+            -0.5,
+            2.622,
+            0
+          ],
+          "scale": [
+            0.6272000000000001,
+            0.675,
+            0.5712
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "FOLIAGE_LEAF",
+          "position": [
+            0.55,
+            2.7359999999999998,
+            0.12
+          ],
+          "scale": [
+            0.6496000000000001,
+            0.7000000000000001,
+            0.5916
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DECIDUOUS_ROWAN_02",
+      "displayName": "Round rowan",
+      "icon": "♣",
+      "category": "DECIDUOUS",
+      "suggestedModelUrl": "assets/world/props/models/deciduous-rowan-02.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.7,
+        "height": 4.2,
+        "depth": 0.7,
+        "offsetY": 2.1
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "BARK_RED",
+          "position": [
+            0,
+            1.344,
+            0
+          ],
+          "scale": [
+            0.18,
+            2.688,
+            0.18
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "BARK_RED",
+          "position": [
+            -0.34,
+            2.6460000000000004,
+            0
+          ],
+          "scale": [
+            0.09,
+            1.512,
+            0.09
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            35
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "BARK_RED",
+          "position": [
+            0.38,
+            2.8560000000000003,
+            0.08
+          ],
+          "scale": [
+            0.08,
+            1.4280000000000002,
+            0.08
+          ],
+          "rotationDegrees": [
+            20,
+            0,
+            -38
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "FOLIAGE_AUTUMN",
+          "position": [
+            0,
+            3.2760000000000002,
+            0
+          ],
+          "scale": [
+            1.3,
+            1.2,
+            1.18
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "FOLIAGE_AUTUMN",
+          "position": [
+            -0.5,
+            2.8979999999999997,
+            0
+          ],
+          "scale": [
+            0.7280000000000001,
+            0.648,
+            0.6608
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "FOLIAGE_AUTUMN",
+          "position": [
+            0.55,
+            3.024,
+            0.12
+          ],
+          "scale": [
+            0.754,
+            0.672,
+            0.6843999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DECIDUOUS_BARE_03",
+      "displayName": "Bare winter tree",
+      "icon": "♣",
+      "category": "DECIDUOUS",
+      "suggestedModelUrl": "assets/world/props/models/deciduous-bare-03.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.7,
+        "height": 4.45,
+        "depth": 0.7,
+        "offsetY": 2.225
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "TRUNK_DARK",
+          "position": [
+            0,
+            1.4240000000000002,
+            0
+          ],
+          "scale": [
+            0.18,
+            2.8480000000000003,
+            0.18
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "TRUNK_DARK",
+          "position": [
+            -0.34,
+            2.8035,
+            0
+          ],
+          "scale": [
+            0.09,
+            1.602,
+            0.09
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            35
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "TRUNK_DARK",
+          "position": [
+            0.38,
+            3.0260000000000002,
+            0.08
+          ],
+          "scale": [
+            0.08,
+            1.5130000000000001,
+            0.08
+          ],
+          "rotationDegrees": [
+            20,
+            0,
+            -38
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DECIDUOUS_ROUND_04",
+      "displayName": "Park canopy tree",
+      "icon": "♣",
+      "category": "DECIDUOUS",
+      "suggestedModelUrl": "assets/world/props/models/deciduous-round-04.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.7,
+        "height": 4.7,
+        "depth": 0.7,
+        "offsetY": 2.35
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "TRUNK_DARK",
+          "position": [
+            0,
+            1.504,
+            0
+          ],
+          "scale": [
+            0.18,
+            3.008,
+            0.18
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "TRUNK_DARK",
+          "position": [
+            -0.34,
+            2.9610000000000003,
+            0
+          ],
+          "scale": [
+            0.09,
+            1.692,
+            0.09
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            35
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "TRUNK_DARK",
+          "position": [
+            0.38,
+            3.196,
+            0.08
+          ],
+          "scale": [
+            0.08,
+            1.598,
+            0.08
+          ],
+          "rotationDegrees": [
+            20,
+            0,
+            -38
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "FOLIAGE_LEAF",
+          "position": [
+            0,
+            3.6660000000000004,
+            0
+          ],
+          "scale": [
+            1.48,
+            1.35,
+            1.4
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "FOLIAGE_LEAF",
+          "position": [
+            -0.5,
+            3.243,
+            0
+          ],
+          "scale": [
+            0.8288000000000001,
+            0.7290000000000001,
+            0.784
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "FOLIAGE_LEAF",
+          "position": [
+            0.55,
+            3.384,
+            0.12
+          ],
+          "scale": [
+            0.8583999999999999,
+            0.7560000000000001,
+            0.8119999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DECIDUOUS_WINDSWEPT_05",
+      "displayName": "Windswept birch",
+      "icon": "♣",
+      "category": "DECIDUOUS",
+      "suggestedModelUrl": "assets/world/props/models/deciduous-windswept-05.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.7,
+        "height": 3.65,
+        "depth": 0.7,
+        "offsetY": 1.825
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "TRUNK_PALE",
+          "position": [
+            0.12,
+            1.168,
+            0
+          ],
+          "scale": [
+            0.18,
+            2.336,
+            0.18
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            -3.36
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "TRUNK_PALE",
+          "position": [
+            0.13999999999999996,
+            2.2995,
+            0
+          ],
+          "scale": [
+            0.09,
+            1.3139999999999998,
+            0.09
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            35
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "TRUNK_PALE",
+          "position": [
+            0.86,
+            2.482,
+            0.08
+          ],
+          "scale": [
+            0.08,
+            1.241,
+            0.08
+          ],
+          "rotationDegrees": [
+            20,
+            0,
+            -38
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "FOLIAGE_LEAF",
+          "position": [
+            0.48,
+            2.847,
+            0
+          ],
+          "scale": [
+            1.2,
+            0.92,
+            1.02
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "FOLIAGE_LEAF",
+          "position": [
+            -0.020000000000000018,
+            2.5185,
+            0
+          ],
+          "scale": [
+            0.672,
+            0.4968000000000001,
+            0.5712
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "FOLIAGE_LEAF",
+          "position": [
+            1.03,
+            2.6279999999999997,
+            0.12
+          ],
+          "scale": [
+            0.696,
+            0.5152000000000001,
+            0.5916
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROCK_SMALL_01",
+      "displayName": "Small rock 1",
+      "icon": "◆",
+      "category": "ROCKS_SMALL",
+      "suggestedModelUrl": "assets/world/props/models/rock-small-01.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 0.5924099999999999,
+        "height": 0.4426799999999999,
+        "depth": 0.62496,
+        "offsetY": 0.19529999999999997
+      },
+      "parts": [
+        {
+          "geometry": "DODECAHEDRON_0",
+          "material": "STONE_MID",
+          "position": [
+            0,
+            0.16926,
+            0
+          ],
+          "scale": [
+            0.38219999999999993,
+            0.26039999999999996,
+            0.40319999999999995
+          ],
+          "rotationDegrees": [
+            7,
+            31,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROCK_SMALL_02",
+      "displayName": "Small rock 2",
+      "icon": "⬟",
+      "category": "ROCKS_SMALL",
+      "suggestedModelUrl": "assets/world/props/models/rock-small-02.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 0.651,
+        "height": 0.2998799999999999,
+        "depth": 0.5207999999999999,
+        "offsetY": 0.13229999999999997
+      },
+      "parts": [
+        {
+          "geometry": "DODECAHEDRON_0",
+          "material": "STONE_LIGHT",
+          "position": [
+            0,
+            0.11465999999999998,
+            0
+          ],
+          "scale": [
+            0.42,
+            0.17639999999999997,
+            0.33599999999999997
+          ],
+          "rotationDegrees": [
+            14,
+            62,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROCK_SMALL_03",
+      "displayName": "Small rock 3",
+      "icon": "◆",
+      "category": "ROCKS_SMALL",
+      "suggestedModelUrl": "assets/world/props/models/rock-small-03.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 0.7095899999999999,
+        "height": 0.4426799999999999,
+        "depth": 0.6770400000000001,
+        "offsetY": 0.19529999999999997
+      },
+      "parts": [
+        {
+          "geometry": "DODECAHEDRON_0",
+          "material": "STONE_WARM",
+          "position": [
+            0,
+            0.16926,
+            0
+          ],
+          "scale": [
+            0.45779999999999993,
+            0.26039999999999996,
+            0.4368
+          ],
+          "rotationDegrees": [
+            21,
+            93,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROCK_SMALL_04",
+      "displayName": "Small rock 4",
+      "icon": "⬟",
+      "category": "ROCKS_SMALL",
+      "suggestedModelUrl": "assets/world/props/models/rock-small-04.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 0.7681799999999999,
+        "height": 0.2998799999999999,
+        "depth": 0.57288,
+        "offsetY": 0.13229999999999997
+      },
+      "parts": [
+        {
+          "geometry": "DODECAHEDRON_1",
+          "material": "STONE_LIGHT",
+          "position": [
+            0,
+            0.11465999999999998,
+            0
+          ],
+          "scale": [
+            0.49559999999999993,
+            0.17639999999999997,
+            0.3696
+          ],
+          "rotationDegrees": [
+            28,
+            124,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROCK_SMALL_05",
+      "displayName": "Small rock 5",
+      "icon": "◆",
+      "category": "ROCKS_SMALL",
+      "suggestedModelUrl": "assets/world/props/models/rock-small-05.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 0.82677,
+        "height": 0.4426799999999999,
+        "depth": 0.46872,
+        "offsetY": 0.19529999999999997
+      },
+      "parts": [
+        {
+          "geometry": "DODECAHEDRON_1",
+          "material": "STONE_MID",
+          "position": [
+            0,
+            0.16926,
+            0
+          ],
+          "scale": [
+            0.5334,
+            0.26039999999999996,
+            0.3024
+          ],
+          "rotationDegrees": [
+            35,
+            155,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROCK_LARGE_01",
+      "displayName": "Large rock 1",
+      "icon": "◆",
+      "category": "ROCKS_LARGE",
+      "suggestedModelUrl": "assets/world/props/models/rock-large-01.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 1.7208099999999997,
+        "height": 1.28588,
+        "depth": 1.81536,
+        "offsetY": 0.5672999999999999
+      },
+      "parts": [
+        {
+          "geometry": "DODECAHEDRON_0",
+          "material": "STONE_MID",
+          "position": [
+            0,
+            0.49166,
+            0
+          ],
+          "scale": [
+            1.1101999999999999,
+            0.7564,
+            1.1712
+          ],
+          "rotationDegrees": [
+            7,
+            31,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROCK_LARGE_02",
+      "displayName": "Large rock 2",
+      "icon": "⬟",
+      "category": "ROCKS_LARGE",
+      "suggestedModelUrl": "assets/world/props/models/rock-large-02.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 1.891,
+        "height": 0.87108,
+        "depth": 1.5128,
+        "offsetY": 0.3843
+      },
+      "parts": [
+        {
+          "geometry": "DODECAHEDRON_0",
+          "material": "STONE_LIGHT",
+          "position": [
+            0,
+            0.33305999999999997,
+            0
+          ],
+          "scale": [
+            1.22,
+            0.5124,
+            0.9759999999999999
+          ],
+          "rotationDegrees": [
+            14,
+            62,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROCK_LARGE_03",
+      "displayName": "Large rock 3",
+      "icon": "◆",
+      "category": "ROCKS_LARGE",
+      "suggestedModelUrl": "assets/world/props/models/rock-large-03.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.06119,
+        "height": 1.28588,
+        "depth": 1.96664,
+        "offsetY": 0.5672999999999999
+      },
+      "parts": [
+        {
+          "geometry": "DODECAHEDRON_0",
+          "material": "STONE_WARM",
+          "position": [
+            0,
+            0.49166,
+            0
+          ],
+          "scale": [
+            1.3297999999999999,
+            0.7564,
+            1.2688
+          ],
+          "rotationDegrees": [
+            21,
+            93,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROCK_LARGE_04",
+      "displayName": "Large rock 4",
+      "icon": "⬟",
+      "category": "ROCKS_LARGE",
+      "suggestedModelUrl": "assets/world/props/models/rock-large-04.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.23138,
+        "height": 0.87108,
+        "depth": 1.6640799999999998,
+        "offsetY": 0.3843
+      },
+      "parts": [
+        {
+          "geometry": "DODECAHEDRON_1",
+          "material": "STONE_LIGHT",
+          "position": [
+            0,
+            0.33305999999999997,
+            0
+          ],
+          "scale": [
+            1.4396,
+            0.5124,
+            1.0735999999999999
+          ],
+          "rotationDegrees": [
+            28,
+            124,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROCK_LARGE_05",
+      "displayName": "Large rock 5",
+      "icon": "◆",
+      "category": "ROCKS_LARGE",
+      "suggestedModelUrl": "assets/world/props/models/rock-large-05.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.40157,
+        "height": 1.28588,
+        "depth": 1.36152,
+        "offsetY": 0.5672999999999999
+      },
+      "parts": [
+        {
+          "geometry": "DODECAHEDRON_1",
+          "material": "STONE_MID",
+          "position": [
+            0,
+            0.49166,
+            0
+          ],
+          "scale": [
+            1.5493999999999999,
+            0.7564,
+            0.8784
+          ],
+          "rotationDegrees": [
+            35,
+            155,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROCK_HUGE_01",
+      "displayName": "Monolith boulder",
+      "icon": "▲",
+      "category": "ROCKS_LARGE",
+      "suggestedModelUrl": "assets/world/props/models/rock-huge-01.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 4.3,
+        "height": 4.5,
+        "depth": 3.4,
+        "offsetY": 2.05
+      },
+      "parts": [
+        {
+          "geometry": "DODECAHEDRON_1",
+          "material": "STONE_DARK",
+          "position": [
+            0,
+            2,
+            0
+          ],
+          "scale": [
+            2.35,
+            2.7,
+            1.75
+          ],
+          "rotationDegrees": [
+            8,
+            22,
+            -5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROCK_HUGE_02",
+      "displayName": "Split giant rock",
+      "icon": "◭",
+      "category": "ROCKS_LARGE",
+      "suggestedModelUrl": "assets/world/props/models/rock-huge-02.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 5.3,
+        "height": 3.8,
+        "depth": 3.8,
+        "offsetY": 1.65
+      },
+      "parts": [
+        {
+          "geometry": "DODECAHEDRON_1",
+          "material": "STONE_MID",
+          "position": [
+            -1.05,
+            1.55,
+            0
+          ],
+          "scale": [
+            1.8,
+            2.05,
+            1.75
+          ],
+          "rotationDegrees": [
+            0,
+            18,
+            -9
+          ]
+        },
+        {
+          "geometry": "DODECAHEDRON_1",
+          "material": "STONE_DARK",
+          "position": [
+            1.15,
+            1.35,
+            0.2
+          ],
+          "scale": [
+            1.65,
+            1.78,
+            1.55
+          ],
+          "rotationDegrees": [
+            7,
+            -24,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RAIL_STRAIGHT_4M",
+      "displayName": "Straight rail · 4 m",
+      "icon": "═",
+      "category": "RAILWAY",
+      "suggestedModelUrl": "assets/world/props/models/rail-straight-4m.glb",
+      "defaultCollision": {
+        "kind": "NONE",
+        "width": 4,
+        "height": 0.28,
+        "depth": 2.2,
+        "offsetY": 0.14
+      },
+      "connector": {
+        "kind": "RAIL",
+        "spanMetres": 4
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "STONE_DARK",
+          "position": [
+            0,
+            0.035,
+            0
+          ],
+          "scale": [
+            4,
+            0.07,
+            2.25
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            -2,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            -1.3333333333333335,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            -0.6666666666666667,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            0,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            0.6666666666666665,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            1.3333333333333335,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            2,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0,
+            0.25,
+            -0.72
+          ],
+          "scale": [
+            4,
+            0.11,
+            0.11
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0,
+            0.25,
+            0.72
+          ],
+          "scale": [
+            4,
+            0.11,
+            0.11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RAIL_STRAIGHT_8M",
+      "displayName": "Straight rail · 8 m",
+      "icon": "═",
+      "category": "RAILWAY",
+      "suggestedModelUrl": "assets/world/props/models/rail-straight-8m.glb",
+      "defaultCollision": {
+        "kind": "NONE",
+        "width": 8,
+        "height": 0.28,
+        "depth": 2.2,
+        "offsetY": 0.14
+      },
+      "connector": {
+        "kind": "RAIL",
+        "spanMetres": 8
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "STONE_DARK",
+          "position": [
+            0,
+            0.035,
+            0
+          ],
+          "scale": [
+            8,
+            0.07,
+            2.25
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            -4,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            -3.3333333333333335,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            -2.666666666666667,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            -2,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            -1.3333333333333335,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            -0.6666666666666665,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            0,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            0.666666666666667,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            1.333333333333333,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            2,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            2.666666666666667,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            3.333333333333333,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            4,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0,
+            0.25,
+            -0.72
+          ],
+          "scale": [
+            8,
+            0.11,
+            0.11
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0,
+            0.25,
+            0.72
+          ],
+          "scale": [
+            8,
+            0.11,
+            0.11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RAIL_LEVEL_CROSSING_4M",
+      "displayName": "Rail level crossing · 4 m",
+      "icon": "═",
+      "category": "RAILWAY",
+      "suggestedModelUrl": "assets/world/props/models/rail-level-crossing-4m.glb",
+      "defaultCollision": {
+        "kind": "NONE",
+        "width": 4,
+        "height": 0.28,
+        "depth": 2.2,
+        "offsetY": 0.14
+      },
+      "connector": {
+        "kind": "RAIL",
+        "spanMetres": 4
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "STONE_DARK",
+          "position": [
+            0,
+            0.035,
+            0
+          ],
+          "scale": [
+            4,
+            0.07,
+            2.25
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            -2,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            -1.3333333333333335,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            -0.6666666666666667,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            0,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            0.6666666666666665,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            1.3333333333333335,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            2,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0,
+            0.25,
+            -0.72
+          ],
+          "scale": [
+            4,
+            0.11,
+            0.11
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0,
+            0.25,
+            0.72
+          ],
+          "scale": [
+            4,
+            0.11,
+            0.11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RAIL_SWITCH_4M",
+      "displayName": "Railway switch · 4 m",
+      "icon": "≪",
+      "category": "RAILWAY",
+      "suggestedModelUrl": "assets/world/props/models/rail-switch-4m.glb",
+      "defaultCollision": {
+        "kind": "NONE",
+        "width": 4,
+        "height": 0.28,
+        "depth": 2.2,
+        "offsetY": 0.14
+      },
+      "connector": {
+        "kind": "RAIL",
+        "spanMetres": 4
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "STONE_DARK",
+          "position": [
+            0,
+            0.035,
+            0
+          ],
+          "scale": [
+            4,
+            0.07,
+            2.25
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            -2,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            -1.3333333333333335,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            -0.6666666666666667,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            0,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            0.6666666666666665,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            1.3333333333333335,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            2,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.13,
+            2.05
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0,
+            0.25,
+            -0.72
+          ],
+          "scale": [
+            4,
+            0.11,
+            0.11
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0,
+            0.25,
+            0.72
+          ],
+          "scale": [
+            4,
+            0.11,
+            0.11
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0.65,
+            0.25,
+            0.94
+          ],
+          "scale": [
+            2.8,
+            0.1,
+            0.1
+          ],
+          "rotationDegrees": [
+            0,
+            18,
+            0
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0.65,
+            0.25,
+            -0.94
+          ],
+          "scale": [
+            2.8,
+            0.1,
+            0.1
+          ],
+          "rotationDegrees": [
+            0,
+            -18,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RAIL_PLATFORM_4M",
+      "displayName": "Station platform · 4 m",
+      "icon": "▔",
+      "category": "RAILWAY",
+      "suggestedModelUrl": "assets/world/props/models/rail-platform-4m.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 4,
+        "height": 0.45,
+        "depth": 1.8,
+        "offsetY": 0.225
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "STONE_MID",
+          "position": [
+            0,
+            0.2,
+            0
+          ],
+          "scale": [
+            4,
+            0.4,
+            1.8
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_WHITE",
+          "position": [
+            0,
+            0.42,
+            -0.76
+          ],
+          "scale": [
+            4,
+            0.04,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RAIL_BUFFER_STOP",
+      "displayName": "Rail buffer stop",
+      "icon": "⊥",
+      "category": "RAILWAY",
+      "suggestedModelUrl": "assets/world/props/models/rail-buffer-stop.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 1.8,
+        "height": 1.1,
+        "depth": 0.55,
+        "offsetY": 0.55
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.65,
+            0.5,
+            0
+          ],
+          "scale": [
+            0.13,
+            1,
+            0.13
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            -22
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.65,
+            0.5,
+            0
+          ],
+          "scale": [
+            0.13,
+            1,
+            0.13
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            22
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_YELLOW",
+          "position": [
+            0,
+            0.82,
+            0
+          ],
+          "scale": [
+            1.65,
+            0.22,
+            0.25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RAIL_SIGNAL",
+      "displayName": "Railway signal",
+      "icon": "◉",
+      "category": "RAILWAY",
+      "suggestedModelUrl": "assets/world/props/models/rail-signal.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.32,
+        "height": 3.5,
+        "depth": 0.32,
+        "offsetY": 1.75
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            1.55,
+            0
+          ],
+          "scale": [
+            0.08,
+            3.1,
+            0.08
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            2.95,
+            0
+          ],
+          "scale": [
+            0.48,
+            0.82,
+            0.32
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "PAINT_RED",
+          "position": [
+            0,
+            3.15,
+            0.18
+          ],
+          "scale": [
+            0.13,
+            0.13,
+            0.08
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "LAMP_WARM",
+          "position": [
+            0,
+            2.78,
+            0.18
+          ],
+          "scale": [
+            0.13,
+            0.13,
+            0.08
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DISTRICT_HEAT_PIPE_STRAIGHT_2M",
+      "displayName": "District heat pipe · straight 2 m",
+      "icon": "━",
+      "category": "HEATING",
+      "suggestedModelUrl": "assets/world/props/models/district-heat-pipe-straight-2m.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.05,
+        "height": 0.62,
+        "depth": 0.42,
+        "offsetY": 0.3
+      },
+      "connector": {
+        "kind": "HEAT_PIPE",
+        "spanMetres": 2,
+        "networkId": "DISTRICT_HEAT",
+        "endpoints": [
+          {
+            "x": -1,
+            "z": 0,
+            "outwardX": -1,
+            "outwardZ": 0
+          },
+          {
+            "x": 1,
+            "z": 0,
+            "outwardX": 1,
+            "outwardZ": 0
+          }
+        ]
+      },
+      "snowMelt": {
+        "kind": "LINE",
+        "radiusMetres": 2.35,
+        "strength": 1,
+        "halfLengthMetres": 1
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_RED",
+          "position": [
+            0,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.16,
+            2,
+            0.16
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            -0.72,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.19,
+            0.1,
+            0.19
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            0.72,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.19,
+            0.1,
+            0.19
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            -0.96,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.48,
+            0.48,
+            0.48
+          ],
+          "rotationDegrees": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            0.96,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.48,
+            0.48,
+            0.48
+          ],
+          "rotationDegrees": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.55,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.08,
+            0.26,
+            0.42
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.55,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.08,
+            0.26,
+            0.42
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.55,
+            0.025,
+            0
+          ],
+          "scale": [
+            0.42,
+            0.05,
+            0.5
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.55,
+            0.025,
+            0
+          ],
+          "scale": [
+            0.42,
+            0.05,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DISTRICT_HEAT_PIPE_ELBOW_2M",
+      "displayName": "District heat pipe · 90° elbow",
+      "icon": "┗",
+      "category": "HEATING",
+      "suggestedModelUrl": "assets/world/props/models/district-heat-pipe-elbow-2m.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 1.2,
+        "height": 0.62,
+        "depth": 1.2,
+        "offsetY": 0.3,
+        "offsetX": -0.5,
+        "offsetZ": 0.5
+      },
+      "connector": {
+        "kind": "HEAT_PIPE",
+        "networkId": "DISTRICT_HEAT",
+        "endpoints": [
+          {
+            "x": -1,
+            "z": 0,
+            "outwardX": -1,
+            "outwardZ": 0
+          },
+          {
+            "x": 0,
+            "z": 1,
+            "outwardX": 0,
+            "outwardZ": 1
+          }
+        ]
+      },
+      "snowMelt": {
+        "kind": "RADIAL",
+        "radiusMetres": 2.7,
+        "strength": 1
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_RED",
+          "position": [
+            -0.5,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.16,
+            1,
+            0.16
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_RED",
+          "position": [
+            0,
+            0.3,
+            0.5
+          ],
+          "scale": [
+            0.16,
+            1,
+            0.16
+          ],
+          "rotationDegrees": [
+            90,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "HEAT_PIPE_RED",
+          "position": [
+            0,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.23,
+            0.23,
+            0.23
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            -0.86,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.19,
+            0.1,
+            0.19
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            0,
+            0.3,
+            0.86
+          ],
+          "scale": [
+            0.19,
+            0.1,
+            0.19
+          ],
+          "rotationDegrees": [
+            90,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            -0.96,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.48,
+            0.48,
+            0.48
+          ],
+          "rotationDegrees": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            0,
+            0.3,
+            0.96
+          ],
+          "scale": [
+            0.48,
+            0.48,
+            0.48
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.36,
+            0.025,
+            0.36
+          ],
+          "scale": [
+            0.62,
+            0.05,
+            0.62
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.36,
+            0.14,
+            0.36
+          ],
+          "scale": [
+            0.08,
+            0.28,
+            0.08
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DISTRICT_HEAT_PIPE_T_JUNCTION_2M",
+      "displayName": "District heat pipe · T-junction",
+      "icon": "┳",
+      "category": "HEATING",
+      "suggestedModelUrl": "assets/world/props/models/district-heat-pipe-t-junction-2m.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.05,
+        "height": 0.62,
+        "depth": 1.2,
+        "offsetY": 0.3,
+        "offsetZ": 0.5
+      },
+      "connector": {
+        "kind": "HEAT_PIPE",
+        "networkId": "DISTRICT_HEAT",
+        "endpoints": [
+          {
+            "x": -1,
+            "z": 0,
+            "outwardX": -1,
+            "outwardZ": 0
+          },
+          {
+            "x": 1,
+            "z": 0,
+            "outwardX": 1,
+            "outwardZ": 0
+          },
+          {
+            "x": 0,
+            "z": 1,
+            "outwardX": 0,
+            "outwardZ": 1
+          }
+        ]
+      },
+      "snowMelt": {
+        "kind": "RADIAL",
+        "radiusMetres": 2.85,
+        "strength": 1
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_RED",
+          "position": [
+            0,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.16,
+            2,
+            0.16
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            -0.72,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.19,
+            0.1,
+            0.19
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            0.72,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.19,
+            0.1,
+            0.19
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            -0.96,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.48,
+            0.48,
+            0.48
+          ],
+          "rotationDegrees": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            0.96,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.48,
+            0.48,
+            0.48
+          ],
+          "rotationDegrees": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.55,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.08,
+            0.26,
+            0.42
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.55,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.08,
+            0.26,
+            0.42
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.55,
+            0.025,
+            0
+          ],
+          "scale": [
+            0.42,
+            0.05,
+            0.5
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.55,
+            0.025,
+            0
+          ],
+          "scale": [
+            0.42,
+            0.05,
+            0.5
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_RED",
+          "position": [
+            0,
+            0.3,
+            0.5
+          ],
+          "scale": [
+            0.16,
+            1,
+            0.16
+          ],
+          "rotationDegrees": [
+            90,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "HEAT_PIPE_RED",
+          "position": [
+            0,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.24,
+            0.24,
+            0.24
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            0,
+            0.3,
+            0.86
+          ],
+          "scale": [
+            0.19,
+            0.1,
+            0.19
+          ],
+          "rotationDegrees": [
+            90,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            0,
+            0.3,
+            0.96
+          ],
+          "scale": [
+            0.48,
+            0.48,
+            0.48
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DISTRICT_HEAT_MANIFOLD",
+      "displayName": "District heat valve manifold",
+      "icon": "▣",
+      "category": "HEATING",
+      "suggestedModelUrl": "assets/world/props/models/district-heat-manifold.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.05,
+        "height": 1.35,
+        "depth": 0.92,
+        "offsetY": 0.67
+      },
+      "connector": {
+        "kind": "HEAT_PIPE",
+        "spanMetres": 2,
+        "networkId": "DISTRICT_HEAT",
+        "endpoints": [
+          {
+            "x": -1,
+            "z": 0,
+            "outwardX": -1,
+            "outwardZ": 0
+          },
+          {
+            "x": 1,
+            "z": 0,
+            "outwardX": 1,
+            "outwardZ": 0
+          }
+        ]
+      },
+      "snowMelt": {
+        "kind": "RADIAL",
+        "radiusMetres": 3.4,
+        "strength": 1
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_RED",
+          "position": [
+            0,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.16,
+            2,
+            0.16
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            -0.72,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.19,
+            0.1,
+            0.19
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            0.72,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.19,
+            0.1,
+            0.19
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            -0.96,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.48,
+            0.48,
+            0.48
+          ],
+          "rotationDegrees": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            0.96,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.48,
+            0.48,
+            0.48
+          ],
+          "rotationDegrees": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.55,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.08,
+            0.26,
+            0.42
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.55,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.08,
+            0.26,
+            0.42
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.55,
+            0.025,
+            0
+          ],
+          "scale": [
+            0.42,
+            0.05,
+            0.5
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.55,
+            0.025,
+            0
+          ],
+          "scale": [
+            0.42,
+            0.05,
+            0.5
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREEN",
+          "position": [
+            0,
+            0.78,
+            0
+          ],
+          "scale": [
+            1.15,
+            0.92,
+            0.72
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "EQUIPMENT_DARK",
+          "position": [
+            0,
+            0.78,
+            0.365
+          ],
+          "scale": [
+            0.95,
+            0.72,
+            0.035
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            -0.28,
+            1.28,
+            0
+          ],
+          "scale": [
+            0.18,
+            0.08,
+            0.18
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            0.28,
+            1.28,
+            0
+          ],
+          "scale": [
+            0.18,
+            0.08,
+            0.18
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_YELLOW",
+          "position": [
+            0,
+            0.82,
+            0.37
+          ],
+          "scale": [
+            0.3,
+            0.3,
+            0.025
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            -0.29,
+            0.9,
+            0.41
+          ],
+          "scale": [
+            0.62,
+            0.62,
+            0.28
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            0.29,
+            0.9,
+            0.41
+          ],
+          "scale": [
+            0.62,
+            0.62,
+            0.28
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "PAINT_WHITE",
+          "position": [
+            0,
+            1.08,
+            0.405
+          ],
+          "scale": [
+            0.15,
+            0.05,
+            0.15
+          ],
+          "rotationDegrees": [
+            90,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            1.08,
+            0.46
+          ],
+          "scale": [
+            0.025,
+            0.11,
+            0.018
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            -35
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "STATUS_GREEN",
+          "position": [
+            0.42,
+            0.62,
+            0.405
+          ],
+          "scale": [
+            0.055,
+            0.055,
+            0.03
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DISTRICT_HEAT_ISOLATION_VALVE_2M",
+      "displayName": "District heat isolation valve",
+      "icon": "⊗",
+      "category": "HEATING",
+      "suggestedModelUrl": "assets/world/props/models/district-heat-isolation-valve-2m.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.05,
+        "height": 1.05,
+        "depth": 0.7,
+        "offsetY": 0.5
+      },
+      "connector": {
+        "kind": "HEAT_PIPE",
+        "spanMetres": 2,
+        "networkId": "DISTRICT_HEAT",
+        "endpoints": [
+          {
+            "x": -1,
+            "z": 0,
+            "outwardX": -1,
+            "outwardZ": 0
+          },
+          {
+            "x": 1,
+            "z": 0,
+            "outwardX": 1,
+            "outwardZ": 0
+          }
+        ]
+      },
+      "snowMelt": {
+        "kind": "LINE",
+        "radiusMetres": 2.55,
+        "strength": 1,
+        "halfLengthMetres": 1
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_RED",
+          "position": [
+            0,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.16,
+            2,
+            0.16
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            -0.72,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.19,
+            0.1,
+            0.19
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            0.72,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.19,
+            0.1,
+            0.19
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            -0.96,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.48,
+            0.48,
+            0.48
+          ],
+          "rotationDegrees": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            0.96,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.48,
+            0.48,
+            0.48
+          ],
+          "rotationDegrees": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.55,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.08,
+            0.26,
+            0.42
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.55,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.08,
+            0.26,
+            0.42
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.55,
+            0.025,
+            0
+          ],
+          "scale": [
+            0.42,
+            0.05,
+            0.5
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.55,
+            0.025,
+            0
+          ],
+          "scale": [
+            0.42,
+            0.05,
+            0.5
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            0,
+            0.48,
+            0
+          ],
+          "scale": [
+            0.25,
+            0.34,
+            0.25
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.78,
+            0
+          ],
+          "scale": [
+            0.055,
+            0.48,
+            0.055
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "PAINT_YELLOW",
+          "position": [
+            0,
+            1.01,
+            0
+          ],
+          "scale": [
+            0.92,
+            0.92,
+            0.4
+          ],
+          "rotationDegrees": [
+            90,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            1.01,
+            0
+          ],
+          "scale": [
+            0.68,
+            0.045,
+            0.045
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            1.01,
+            0
+          ],
+          "scale": [
+            0.045,
+            0.045,
+            0.68
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DISTRICT_HEAT_PIPE_RUPTURED_2M",
+      "displayName": "Storm-ruptured heat pipe · quest state",
+      "icon": "≋",
+      "category": "REPAIR_COMPONENTS",
+      "suggestedModelUrl": "assets/world/props/models/district-heat-pipe-ruptured-2m.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.05,
+        "height": 0.72,
+        "depth": 0.72,
+        "offsetY": 0.32
+      },
+      "connector": {
+        "kind": "HEAT_PIPE",
+        "spanMetres": 2,
+        "networkId": "DISTRICT_HEAT",
+        "endpoints": [
+          {
+            "x": -1,
+            "z": 0,
+            "outwardX": -1,
+            "outwardZ": 0
+          },
+          {
+            "x": 1,
+            "z": 0,
+            "outwardX": 1,
+            "outwardZ": 0
+          }
+        ]
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_RED",
+          "position": [
+            -0.55,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.86,
+            0.16
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            84
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "HEAT_PIPE_RED",
+          "position": [
+            0.57,
+            0.32,
+            0.05
+          ],
+          "scale": [
+            0.16,
+            0.82,
+            0.16
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            97
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            -0.96,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.48,
+            0.48,
+            0.48
+          ],
+          "rotationDegrees": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "HEAT_PIPE_BAND",
+          "position": [
+            0.96,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.48,
+            0.48,
+            0.48
+          ],
+          "rotationDegrees": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "EQUIPMENT_DARK",
+          "position": [
+            -0.1,
+            0.36,
+            0
+          ],
+          "scale": [
+            0.55,
+            0.55,
+            0.42
+          ],
+          "rotationDegrees": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "EQUIPMENT_DARK",
+          "position": [
+            0.14,
+            0.34,
+            0.05
+          ],
+          "scale": [
+            0.55,
+            0.55,
+            0.42
+          ],
+          "rotationDegrees": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.55,
+            0.025,
+            0
+          ],
+          "scale": [
+            0.42,
+            0.05,
+            0.5
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.55,
+            0.025,
+            0
+          ],
+          "scale": [
+            0.42,
+            0.05,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FENCE_WOOD_2M",
+      "displayName": "Wood fence · 2 m",
+      "icon": "╫",
+      "category": "INFRASTRUCTURE",
+      "suggestedModelUrl": "assets/world/props/models/fence-wood-2m.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.08,
+        "height": 1.15,
+        "depth": 0.16,
+        "offsetY": 0.57
+      },
+      "connector": {
+        "kind": "FENCE",
+        "spanMetres": 2
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            -1,
+            0.62,
+            0
+          ],
+          "scale": [
+            0.13,
+            1.24,
+            0.13
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            1,
+            0.62,
+            0
+          ],
+          "scale": [
+            0.13,
+            1.24,
+            0.13
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            0,
+            0.45,
+            0
+          ],
+          "scale": [
+            2,
+            0.11,
+            0.1
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            0,
+            0.88,
+            0
+          ],
+          "scale": [
+            2,
+            0.11,
+            0.1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FENCE_GATE_2M",
+      "displayName": "Wood fence gate · 2 m",
+      "icon": "⋈",
+      "category": "INFRASTRUCTURE",
+      "suggestedModelUrl": "assets/world/props/models/fence-gate-2m.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.08,
+        "height": 1.2,
+        "depth": 0.18,
+        "offsetY": 0.6
+      },
+      "connector": {
+        "kind": "FENCE",
+        "spanMetres": 2
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            -1,
+            0.65,
+            0
+          ],
+          "scale": [
+            0.15,
+            1.3,
+            0.15
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            1,
+            0.65,
+            0
+          ],
+          "scale": [
+            0.15,
+            1.3,
+            0.15
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            0,
+            0.55,
+            0
+          ],
+          "scale": [
+            1.85,
+            0.12,
+            0.11
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            22
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            0,
+            0.55,
+            0
+          ],
+          "scale": [
+            1.85,
+            0.12,
+            0.11
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            -22
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LAMP_WIRED_WARM",
+      "displayName": "Wired lantern post",
+      "icon": "●",
+      "category": "INFRASTRUCTURE",
+      "suggestedModelUrl": "assets/world/props/models/lamp-wired-warm.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.36,
+        "height": 1.8,
+        "depth": 0.36,
+        "offsetY": 0.9
+      },
+      "connector": {
+        "kind": "WIRE_NODE",
+        "attachmentHeight": 1.67,
+        "maximumDistance": 12,
+        "networkId": "STREET_LIGHTS"
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.77,
+            0
+          ],
+          "scale": [
+            0.08,
+            1.54,
+            0.08
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            1.52,
+            0
+          ],
+          "scale": [
+            0.38,
+            0.07,
+            0.07
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "LAMP_WARM",
+          "position": [
+            0,
+            1.66,
+            0
+          ],
+          "scale": [
+            0.18,
+            0.21,
+            0.18
+          ]
+        }
+      ]
+    },
+    {
+      "id": "POWER_CABINET",
+      "displayName": "Electrical cabinet",
+      "icon": "⚡",
+      "category": "INFRASTRUCTURE",
+      "suggestedModelUrl": "assets/world/props/models/power-cabinet.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 0.85,
+        "height": 1.35,
+        "depth": 0.5,
+        "offsetY": 0.67
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.055,
+            0
+          ],
+          "scale": [
+            0.98,
+            0.11,
+            0.68
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREEN",
+          "position": [
+            0,
+            0.68,
+            0
+          ],
+          "scale": [
+            0.82,
+            1.35,
+            0.48
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "EQUIPMENT_DARK",
+          "position": [
+            0,
+            0.72,
+            0.248
+          ],
+          "scale": [
+            0.72,
+            1.08,
+            0.025
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.72,
+            0.251
+          ],
+          "scale": [
+            0.045,
+            0.52,
+            0.025
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_GREY",
+          "position": [
+            -0.34,
+            0.35,
+            0.27
+          ],
+          "scale": [
+            0.035,
+            0.09,
+            0.035
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_GREY",
+          "position": [
+            -0.34,
+            1.02,
+            0.27
+          ],
+          "scale": [
+            0.035,
+            0.09,
+            0.035
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            -0.18,
+            0.42,
+            0.272
+          ],
+          "scale": [
+            0.045,
+            0.018,
+            0.018
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            -0.09,
+            0.42,
+            0.272
+          ],
+          "scale": [
+            0.045,
+            0.018,
+            0.018
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0,
+            0.42,
+            0.272
+          ],
+          "scale": [
+            0.045,
+            0.018,
+            0.018
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0.09,
+            0.42,
+            0.272
+          ],
+          "scale": [
+            0.045,
+            0.018,
+            0.018
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0.18,
+            0.42,
+            0.272
+          ],
+          "scale": [
+            0.045,
+            0.018,
+            0.018
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_YELLOW",
+          "position": [
+            0.23,
+            0.82,
+            0.265
+          ],
+          "scale": [
+            0.18,
+            0.18,
+            0.025
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "STATUS_GREEN",
+          "position": [
+            0.23,
+            1.08,
+            0.28
+          ],
+          "scale": [
+            0.045,
+            0.045,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LIGHT_POLE_SINGLE",
+      "displayName": "Single street light",
+      "icon": "◔",
+      "category": "INFRASTRUCTURE",
+      "suggestedModelUrl": "assets/world/props/models/light-pole-single.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.32,
+        "height": 5.4,
+        "depth": 0.32,
+        "offsetY": 2.7
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_GREY",
+          "position": [
+            0,
+            2.35,
+            0
+          ],
+          "scale": [
+            0.095,
+            4.7,
+            0.095
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0.45,
+            4.67,
+            0
+          ],
+          "scale": [
+            0.9,
+            0.09,
+            0.09
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "LAMP_WARM",
+          "position": [
+            0.86,
+            4.58,
+            0
+          ],
+          "scale": [
+            0.42,
+            0.12,
+            0.28
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LIGHT_POLE_DOUBLE",
+      "displayName": "Double street light",
+      "icon": "◑",
+      "category": "INFRASTRUCTURE",
+      "suggestedModelUrl": "assets/world/props/models/light-pole-double.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.34,
+        "height": 5.65,
+        "depth": 0.34,
+        "offsetY": 2.82
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            2.45,
+            0
+          ],
+          "scale": [
+            0.1,
+            4.9,
+            0.1
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            4.87,
+            0
+          ],
+          "scale": [
+            1.75,
+            0.09,
+            0.09
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "LAMP_WARM",
+          "position": [
+            -0.84,
+            4.78,
+            0
+          ],
+          "scale": [
+            0.4,
+            0.12,
+            0.27
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "LAMP_WARM",
+          "position": [
+            0.84,
+            4.78,
+            0
+          ],
+          "scale": [
+            0.4,
+            0.12,
+            0.27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TELEGRAPH_POLE",
+      "displayName": "Telegraph pole",
+      "icon": "†",
+      "category": "INFRASTRUCTURE",
+      "suggestedModelUrl": "assets/world/props/models/telegraph-pole.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.34,
+        "height": 5.2,
+        "depth": 0.34,
+        "offsetY": 2.6
+      },
+      "connector": {
+        "kind": "WIRE_NODE",
+        "attachmentHeight": 4.75,
+        "maximumDistance": 18,
+        "networkId": "TELEGRAPH"
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "WOOD",
+          "position": [
+            0,
+            2.4,
+            0
+          ],
+          "scale": [
+            0.12,
+            4.8,
+            0.12
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            0,
+            4.52,
+            0
+          ],
+          "scale": [
+            1.7,
+            0.12,
+            0.12
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "PAINT_WHITE",
+          "position": [
+            -0.68,
+            4.42,
+            0
+          ],
+          "scale": [
+            0.09,
+            0.12,
+            0.09
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "PAINT_WHITE",
+          "position": [
+            0.68,
+            4.42,
+            0
+          ],
+          "scale": [
+            0.09,
+            0.12,
+            0.09
+          ]
+        }
+      ]
+    },
+    {
+      "id": "POWER_POLE_DISTRIBUTION",
+      "displayName": "Village distribution pole",
+      "icon": "ϟ",
+      "category": "INFRASTRUCTURE",
+      "suggestedModelUrl": "assets/world/props/models/power-pole-distribution.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.42,
+        "height": 5.9,
+        "depth": 0.42,
+        "offsetY": 2.95
+      },
+      "connector": {
+        "kind": "WIRE_NODE",
+        "attachmentHeight": 5.34,
+        "maximumDistance": 22,
+        "networkId": "POWER_DISTRIBUTION"
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "WOOD",
+          "position": [
+            0,
+            2.75,
+            0
+          ],
+          "scale": [
+            0.14,
+            5.5,
+            0.14
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            0,
+            5.05,
+            0
+          ],
+          "scale": [
+            2.15,
+            0.15,
+            0.16
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.62,
+            4.83,
+            0
+          ],
+          "scale": [
+            0.05,
+            0.52,
+            0.05
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            16
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.62,
+            4.83,
+            0
+          ],
+          "scale": [
+            0.05,
+            0.52,
+            0.05
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            -16
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "CERAMIC_PALE",
+          "position": [
+            -0.78,
+            5.25,
+            0
+          ],
+          "scale": [
+            0.09,
+            0.28,
+            0.09
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "CERAMIC_PALE",
+          "position": [
+            0,
+            5.25,
+            0
+          ],
+          "scale": [
+            0.09,
+            0.28,
+            0.09
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "CERAMIC_PALE",
+          "position": [
+            0.78,
+            5.25,
+            0
+          ],
+          "scale": [
+            0.09,
+            0.28,
+            0.09
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_GREY",
+          "position": [
+            0,
+            3.9,
+            -0.2
+          ],
+          "scale": [
+            0.32,
+            0.72,
+            0.32
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_YELLOW",
+          "position": [
+            0,
+            3.92,
+            -0.525
+          ],
+          "scale": [
+            0.3,
+            0.3,
+            0.025
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.04,
+            0
+          ],
+          "scale": [
+            0.72,
+            0.08,
+            0.72
+          ]
+        }
+      ]
+    },
+    {
+      "id": "POWER_POLE_STORM_DAMAGED",
+      "displayName": "Storm-damaged distribution pole",
+      "icon": "↯",
+      "category": "REPAIR_COMPONENTS",
+      "suggestedModelUrl": "assets/world/props/models/power-pole-storm-damaged.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.4,
+        "height": 5.4,
+        "depth": 0.65,
+        "offsetX": 0.65,
+        "offsetY": 2.7
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "WOOD",
+          "position": [
+            0.72,
+            2.64,
+            0
+          ],
+          "scale": [
+            0.14,
+            5.35,
+            0.14
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            -16
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            1.38,
+            4.93,
+            0
+          ],
+          "scale": [
+            2.05,
+            0.15,
+            0.16
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            -16
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "CERAMIC_PALE",
+          "position": [
+            0.58,
+            5.18,
+            0
+          ],
+          "scale": [
+            0.09,
+            0.26,
+            0.09
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            -16
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "CERAMIC_PALE",
+          "position": [
+            1.38,
+            4.95,
+            0.06
+          ],
+          "scale": [
+            0.09,
+            0.26,
+            0.09
+          ],
+          "rotationDegrees": [
+            32,
+            0,
+            72
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "CERAMIC_PALE",
+          "position": [
+            2.13,
+            4.73,
+            0
+          ],
+          "scale": [
+            0.09,
+            0.26,
+            0.09
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            -16
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "COPPER_DARK",
+          "position": [
+            2.32,
+            3.86,
+            0
+          ],
+          "scale": [
+            0.025,
+            1.55,
+            0.025
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            8
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_YELLOW",
+          "position": [
+            0.34,
+            1.78,
+            0.18
+          ],
+          "scale": [
+            0.38,
+            0.48,
+            0.025
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            -16
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.04,
+            0
+          ],
+          "scale": [
+            0.74,
+            0.08,
+            0.74
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RADIO_FEEDER_SERVICE_BOX",
+      "displayName": "Radio feeder service box · open",
+      "icon": "⚡",
+      "category": "REPAIR_COMPONENTS",
+      "suggestedModelUrl": "assets/world/props/models/radio-feeder-service-box.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 1.35,
+        "height": 1.5,
+        "depth": 0.85,
+        "offsetX": 0.2,
+        "offsetY": 0.75,
+        "offsetZ": 0.12
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.055,
+            0
+          ],
+          "scale": [
+            0.9,
+            0.11,
+            0.68
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREEN",
+          "position": [
+            0,
+            0.72,
+            0
+          ],
+          "scale": [
+            0.78,
+            1.38,
+            0.46
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "EQUIPMENT_DARK",
+          "position": [
+            0,
+            0.72,
+            0.245
+          ],
+          "scale": [
+            0.64,
+            1.12,
+            0.035
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREEN",
+          "position": [
+            0.52,
+            0.72,
+            0.32
+          ],
+          "scale": [
+            0.72,
+            1.3,
+            0.045
+          ],
+          "rotationDegrees": [
+            0,
+            -52,
+            0
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "CERAMIC_PALE",
+          "position": [
+            -0.2,
+            0.85,
+            0.3
+          ],
+          "scale": [
+            0.065,
+            0.34,
+            0.065
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "CERAMIC_PALE",
+          "position": [
+            0,
+            0.85,
+            0.3
+          ],
+          "scale": [
+            0.065,
+            0.34,
+            0.065
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "CERAMIC_PALE",
+          "position": [
+            0.2,
+            0.85,
+            0.3
+          ],
+          "scale": [
+            0.065,
+            0.34,
+            0.065
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "COPPER_DARK",
+          "position": [
+            -0.2,
+            0.58,
+            0.3
+          ],
+          "scale": [
+            0.08,
+            0.22,
+            0.04
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "COPPER_DARK",
+          "position": [
+            0,
+            0.58,
+            0.3
+          ],
+          "scale": [
+            0.08,
+            0.22,
+            0.04
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "COPPER_DARK",
+          "position": [
+            0.2,
+            0.58,
+            0.3
+          ],
+          "scale": [
+            0.08,
+            0.22,
+            0.04
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "STATUS_RED",
+          "position": [
+            0.24,
+            1.18,
+            0.305
+          ],
+          "scale": [
+            0.045,
+            0.045,
+            0.025
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_YELLOW",
+          "position": [
+            -0.2,
+            1.18,
+            0.305
+          ],
+          "scale": [
+            0.19,
+            0.19,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RADIO_POWER_CONDITIONER",
+      "displayName": "Radio power conditioner module",
+      "icon": "▤",
+      "category": "REPAIR_COMPONENTS",
+      "suggestedModelUrl": "assets/world/props/models/radio-power-conditioner.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 0.92,
+        "height": 0.58,
+        "depth": 0.62,
+        "offsetY": 0.29
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "EQUIPMENT_DARK",
+          "position": [
+            0,
+            0.29,
+            0
+          ],
+          "scale": [
+            0.9,
+            0.56,
+            0.6
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0,
+            0.3,
+            0.305
+          ],
+          "scale": [
+            0.76,
+            0.42,
+            0.025
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "COPPER_DARK",
+          "position": [
+            -0.24,
+            0.3,
+            0.34
+          ],
+          "scale": [
+            0.38,
+            0.38,
+            0.24
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "COPPER_DARK",
+          "position": [
+            0,
+            0.3,
+            0.34
+          ],
+          "scale": [
+            0.38,
+            0.38,
+            0.24
+          ]
+        },
+        {
+          "geometry": "TORUS_8",
+          "material": "COPPER_DARK",
+          "position": [
+            0.24,
+            0.3,
+            0.34
+          ],
+          "scale": [
+            0.38,
+            0.38,
+            0.24
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "STATUS_RED",
+          "position": [
+            0.34,
+            0.48,
+            0.34
+          ],
+          "scale": [
+            0.04,
+            0.04,
+            0.022
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.3,
+            0.055,
+            0
+          ],
+          "scale": [
+            0.13,
+            0.11,
+            0.74
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.3,
+            0.055,
+            0
+          ],
+          "scale": [
+            0.13,
+            0.11,
+            0.74
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RADIO_TRANSMITTER_FINAL_AMPLIFIER",
+      "displayName": "Radio transmitter final amplifier",
+      "icon": "▥",
+      "category": "REPAIR_COMPONENTS",
+      "suggestedModelUrl": "assets/world/props/models/radio-transmitter-final-amplifier.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 1.05,
+        "height": 0.68,
+        "depth": 0.72,
+        "offsetY": 0.34
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "EQUIPMENT_DARK",
+          "position": [
+            0,
+            0.34,
+            0
+          ],
+          "scale": [
+            1.02,
+            0.66,
+            0.7
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0,
+            0.34,
+            0.355
+          ],
+          "scale": [
+            0.88,
+            0.5,
+            0.025
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.38,
+            0.36,
+            -0.37
+          ],
+          "scale": [
+            0.055,
+            0.55,
+            0.14
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.25,
+            0.36,
+            -0.37
+          ],
+          "scale": [
+            0.055,
+            0.55,
+            0.14
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.12,
+            0.36,
+            -0.37
+          ],
+          "scale": [
+            0.055,
+            0.55,
+            0.14
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.01,
+            0.36,
+            -0.37
+          ],
+          "scale": [
+            0.055,
+            0.55,
+            0.14
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "COPPER_DARK",
+          "position": [
+            0.22,
+            0.39,
+            0.37
+          ],
+          "scale": [
+            0.1,
+            0.3,
+            0.1
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "COPPER_DARK",
+          "position": [
+            0.43,
+            0.39,
+            0.37
+          ],
+          "scale": [
+            0.1,
+            0.3,
+            0.1
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "STATUS_RED",
+          "position": [
+            -0.38,
+            0.53,
+            0.39
+          ],
+          "scale": [
+            0.04,
+            0.04,
+            0.022
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.34,
+            0.055,
+            0
+          ],
+          "scale": [
+            0.15,
+            0.11,
+            0.84
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.34,
+            0.055,
+            0
+          ],
+          "scale": [
+            0.15,
+            0.11,
+            0.84
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEPOT_TRANSFORMER_STORM_DAMAGED",
+      "displayName": "Storm-damaged depot transformer",
+      "icon": "▧",
+      "category": "REPAIR_COMPONENTS",
+      "suggestedModelUrl": "assets/world/props/models/depot-transformer-storm-damaged.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.35,
+        "height": 1.65,
+        "depth": 1.45,
+        "offsetY": 0.82
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.08,
+            0
+          ],
+          "scale": [
+            2.32,
+            0.16,
+            1.44
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREEN",
+          "position": [
+            0,
+            0.82,
+            0
+          ],
+          "scale": [
+            1.85,
+            1.38,
+            1.12
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            -0.98,
+            0.82,
+            0
+          ],
+          "scale": [
+            0.06,
+            1.12,
+            1.2
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            -0.84,
+            0.82,
+            0
+          ],
+          "scale": [
+            0.06,
+            1.12,
+            1.2
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0.84,
+            0.82,
+            0
+          ],
+          "scale": [
+            0.06,
+            1.12,
+            1.2
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0.98,
+            0.82,
+            0
+          ],
+          "scale": [
+            0.06,
+            1.12,
+            1.2
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "CERAMIC_PALE",
+          "position": [
+            -0.58,
+            1.58,
+            0
+          ],
+          "scale": [
+            0.11,
+            0.42,
+            0.11
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "EQUIPMENT_DARK",
+          "position": [
+            0,
+            1.58,
+            0
+          ],
+          "scale": [
+            0.11,
+            0.42,
+            0.11
+          ],
+          "rotationDegrees": [
+            18,
+            0,
+            24
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "CERAMIC_PALE",
+          "position": [
+            0.58,
+            1.58,
+            0
+          ],
+          "scale": [
+            0.11,
+            0.42,
+            0.11
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "EQUIPMENT_DARK",
+          "position": [
+            0.58,
+            1.02,
+            0.575
+          ],
+          "scale": [
+            0.42,
+            0.46,
+            0.025
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "STATUS_RED",
+          "position": [
+            0.58,
+            1.18,
+            0.6
+          ],
+          "scale": [
+            0.05,
+            0.05,
+            0.028
+          ]
+        },
+        {
+          "geometry": "DODECAHEDRON_0",
+          "material": "EQUIPMENT_DARK",
+          "position": [
+            0.34,
+            0.04,
+            0.78
+          ],
+          "scale": [
+            0.75,
+            0.025,
+            0.42
+          ],
+          "rotationDegrees": [
+            0,
+            18,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SIGN_DIRECTIONAL_01",
+      "displayName": "Directional signpost",
+      "icon": "➜",
+      "category": "SIGNS",
+      "suggestedModelUrl": "assets/world/props/models/sign-directional-01.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 0.62,
+        "height": 2.25,
+        "depth": 0.38,
+        "offsetY": 1.12
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "WOOD",
+          "position": [
+            0,
+            1.05,
+            0
+          ],
+          "scale": [
+            0.08,
+            2.1,
+            0.08
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_BLUE",
+          "position": [
+            0.28,
+            1.72,
+            0
+          ],
+          "scale": [
+            1.15,
+            0.28,
+            0.09
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_YELLOW",
+          "position": [
+            -0.24,
+            2.05,
+            0
+          ],
+          "scale": [
+            0.95,
+            0.25,
+            0.09
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SIGN_STREET_02",
+      "displayName": "Street name sign",
+      "icon": "▬",
+      "category": "SIGNS",
+      "suggestedModelUrl": "assets/world/props/models/sign-street-02.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 0.62,
+        "height": 2.25,
+        "depth": 0.38,
+        "offsetY": 1.12
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "WOOD",
+          "position": [
+            0,
+            1.05,
+            0
+          ],
+          "scale": [
+            0.08,
+            2.1,
+            0.08
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_BLUE",
+          "position": [
+            0,
+            1.93,
+            0
+          ],
+          "scale": [
+            1.28,
+            0.32,
+            0.1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SIGN_WARNING_03",
+      "displayName": "Warning sign",
+      "icon": "△",
+      "category": "SIGNS",
+      "suggestedModelUrl": "assets/world/props/models/sign-warning-03.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 0.62,
+        "height": 2.25,
+        "depth": 0.38,
+        "offsetY": 1.12
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "WOOD",
+          "position": [
+            0,
+            1.05,
+            0
+          ],
+          "scale": [
+            0.08,
+            2.1,
+            0.08
+          ]
+        },
+        {
+          "geometry": "CYLINDER_3",
+          "material": "PAINT_RED",
+          "position": [
+            0,
+            1.87,
+            0
+          ],
+          "scale": [
+            0.48,
+            0.08,
+            0.48
+          ],
+          "rotationDegrees": [
+            90,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "CYLINDER_3",
+          "material": "PAINT_WHITE",
+          "position": [
+            0,
+            1.87,
+            0.06
+          ],
+          "scale": [
+            0.33,
+            0.07,
+            0.33
+          ],
+          "rotationDegrees": [
+            90,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SIGN_SHOP_04",
+      "displayName": "Hanging shop sign",
+      "icon": "▣",
+      "category": "SIGNS",
+      "suggestedModelUrl": "assets/world/props/models/sign-shop-04.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 0.62,
+        "height": 2.25,
+        "depth": 0.38,
+        "offsetY": 1.12
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "WOOD",
+          "position": [
+            0,
+            1.05,
+            0
+          ],
+          "scale": [
+            0.08,
+            2.1,
+            0.08
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.35,
+            2.03,
+            0
+          ],
+          "scale": [
+            0.7,
+            0.07,
+            0.07
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            0.68,
+            1.67,
+            0
+          ],
+          "scale": [
+            0.62,
+            0.66,
+            0.09
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SIGN_NOTICEBOARD_05",
+      "displayName": "Town noticeboard",
+      "icon": "▤",
+      "category": "SIGNS",
+      "suggestedModelUrl": "assets/world/props/models/sign-noticeboard-05.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 1.8,
+        "height": 1.9,
+        "depth": 0.3,
+        "offsetY": 0.95
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            -0.72,
+            0.8,
+            0
+          ],
+          "scale": [
+            0.1,
+            1.6,
+            0.1
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            0.72,
+            0.8,
+            0
+          ],
+          "scale": [
+            0.1,
+            1.6,
+            0.1
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            0,
+            1.22,
+            0
+          ],
+          "scale": [
+            1.55,
+            1,
+            0.12
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_WHITE",
+          "position": [
+            0,
+            1.22,
+            0.07
+          ],
+          "scale": [
+            1.3,
+            0.76,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BENCH_PARK",
+      "displayName": "Park bench",
+      "icon": "▰",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/bench-park.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.15,
+        "height": 1.18,
+        "depth": 0.75,
+        "offsetY": 0.59
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            0,
+            0.62,
+            0
+          ],
+          "scale": [
+            2.1,
+            0.16,
+            0.62
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            0,
+            1.08,
+            0.28
+          ],
+          "scale": [
+            2.1,
+            0.72,
+            0.13
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.75,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.1,
+            0.6,
+            0.5
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.75,
+            0.3,
+            0
+          ],
+          "scale": [
+            0.1,
+            0.6,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SHRUB_ARCTIC",
+      "displayName": "Arctic shrub",
+      "icon": "✣",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/shrub-arctic.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.65,
+        "height": 0.85,
+        "depth": 0.65,
+        "offsetY": 0.42
+      },
+      "parts": [
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "FOLIAGE_DARK",
+          "position": [
+            -0.26,
+            0.42,
+            0
+          ],
+          "scale": [
+            0.55,
+            0.55,
+            0.5
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "FOLIAGE_SPRUCE",
+          "position": [
+            0.28,
+            0.35,
+            0.08
+          ],
+          "scale": [
+            0.5,
+            0.45,
+            0.48
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TRASH_BIN",
+      "displayName": "Town trash bin",
+      "icon": "▥",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/trash-bin.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.62,
+        "height": 0.95,
+        "depth": 0.62,
+        "offsetY": 0.47
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_GREEN",
+          "position": [
+            0,
+            0.45,
+            0
+          ],
+          "scale": [
+            0.29,
+            0.9,
+            0.29
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.93,
+            0
+          ],
+          "scale": [
+            0.33,
+            0.08,
+            0.33
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BOLLARD",
+      "displayName": "Harbor bollard",
+      "icon": "▮",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/bollard.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.42,
+        "height": 0.82,
+        "depth": 0.42,
+        "offsetY": 0.41
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.38,
+            0
+          ],
+          "scale": [
+            0.18,
+            0.76,
+            0.18
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "PAINT_YELLOW",
+          "position": [
+            0,
+            0.77,
+            0
+          ],
+          "scale": [
+            0.24,
+            0.1,
+            0.24
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SUPPLY_CRATE",
+      "displayName": "Supply crate",
+      "icon": "◇",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/supply-crate.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 1.05,
+        "height": 0.9,
+        "depth": 0.85,
+        "offsetY": 0.45
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            0,
+            0.43,
+            0
+          ],
+          "scale": [
+            1,
+            0.85,
+            0.8
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.43,
+            0.41
+          ],
+          "scale": [
+            0.88,
+            0.08,
+            0.035
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FIRE_HYDRANT",
+      "displayName": "Fire hydrant",
+      "icon": "♜",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/fire-hydrant.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.48,
+        "height": 0.95,
+        "depth": 0.48,
+        "offsetY": 0.47
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "PAINT_RED",
+          "position": [
+            0,
+            0.45,
+            0
+          ],
+          "scale": [
+            0.17,
+            0.9,
+            0.17
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "PAINT_RED",
+          "position": [
+            0,
+            0.62,
+            0
+          ],
+          "scale": [
+            0.32,
+            0.17,
+            0.32
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "PAINT_RED",
+          "position": [
+            0,
+            0.91,
+            0
+          ],
+          "scale": [
+            0.24,
+            0.14,
+            0.24
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SNOW_MARKER_POLE",
+      "displayName": "Road snow marker",
+      "icon": "│",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/snow-marker-pole.glb",
+      "defaultCollision": {
+        "kind": "NONE",
+        "width": 0.12,
+        "height": 2.6,
+        "depth": 0.12,
+        "offsetY": 1.3
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_6",
+          "material": "PAINT_RED",
+          "position": [
+            0,
+            1.3,
+            0
+          ],
+          "scale": [
+            0.035,
+            2.6,
+            0.035
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_WHITE",
+          "position": [
+            0,
+            2.05,
+            0
+          ],
+          "scale": [
+            0.09,
+            0.34,
+            0.09
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MAILBOX",
+      "displayName": "Town mailbox",
+      "icon": "▱",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/mailbox.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 0.72,
+        "height": 1.35,
+        "depth": 0.55,
+        "offsetY": 0.68
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.55,
+            0
+          ],
+          "scale": [
+            0.06,
+            1.1,
+            0.06
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_BLUE",
+          "position": [
+            0,
+            1.18,
+            0
+          ],
+          "scale": [
+            0.68,
+            0.48,
+            0.52
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            1.25,
+            0.27
+          ],
+          "scale": [
+            0.42,
+            0.055,
+            0.035
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PICNIC_TABLE",
+      "displayName": "Picnic table",
+      "icon": "╪",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/picnic-table.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.2,
+        "height": 0.85,
+        "depth": 1.65,
+        "offsetY": 0.43
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            0,
+            0.78,
+            0
+          ],
+          "scale": [
+            2.1,
+            0.14,
+            0.72
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            0,
+            0.48,
+            -0.72
+          ],
+          "scale": [
+            2.1,
+            0.13,
+            0.34
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            0,
+            0.48,
+            0.72
+          ],
+          "scale": [
+            2.1,
+            0.13,
+            0.34
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.72,
+            0.38,
+            0
+          ],
+          "scale": [
+            0.11,
+            0.76,
+            1.25
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.72,
+            0.38,
+            0
+          ],
+          "scale": [
+            0.11,
+            0.76,
+            1.25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FIREWOOD_STACK",
+      "displayName": "Firewood stack",
+      "icon": "▥",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/firewood-stack.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 1.8,
+        "height": 1.1,
+        "depth": 0.75,
+        "offsetY": 0.55
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_6",
+          "material": "BARK_RED",
+          "position": [
+            -0.62,
+            0.19,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.72,
+            0.16
+          ],
+          "rotationDegrees": [
+            90,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "WOOD",
+          "position": [
+            0,
+            0.19,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.72,
+            0.16
+          ],
+          "rotationDegrees": [
+            90,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "BARK_RED",
+          "position": [
+            0.62,
+            0.19,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.72,
+            0.16
+          ],
+          "rotationDegrees": [
+            90,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "WOOD",
+          "position": [
+            -0.62,
+            0.53,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.72,
+            0.16
+          ],
+          "rotationDegrees": [
+            90,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "BARK_RED",
+          "position": [
+            0,
+            0.53,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.72,
+            0.16
+          ],
+          "rotationDegrees": [
+            90,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "WOOD",
+          "position": [
+            0.62,
+            0.53,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.72,
+            0.16
+          ],
+          "rotationDegrees": [
+            90,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "BARK_RED",
+          "position": [
+            -0.62,
+            0.8700000000000001,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.72,
+            0.16
+          ],
+          "rotationDegrees": [
+            90,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "WOOD",
+          "position": [
+            0,
+            0.8700000000000001,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.72,
+            0.16
+          ],
+          "rotationDegrees": [
+            90,
+            0,
+            0
+          ]
+        },
+        {
+          "geometry": "CYLINDER_6",
+          "material": "BARK_RED",
+          "position": [
+            0.62,
+            0.8700000000000001,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.72,
+            0.16
+          ],
+          "rotationDegrees": [
+            90,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "STEEL_BARREL",
+      "displayName": "Steel barrel",
+      "icon": "◫",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/steel-barrel.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.62,
+        "height": 0.95,
+        "depth": 0.62,
+        "offsetY": 0.48
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "PAINT_BLUE",
+          "position": [
+            0,
+            0.47,
+            0
+          ],
+          "scale": [
+            0.3,
+            0.94,
+            0.3
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.91,
+            0
+          ],
+          "scale": [
+            0.32,
+            0.045,
+            0.32
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DRAIN_GRATE",
+      "displayName": "Road drain grate",
+      "icon": "≡",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/drain-grate.glb",
+      "defaultCollision": {
+        "kind": "NONE",
+        "width": 0.72,
+        "height": 0.04,
+        "depth": 0.48,
+        "offsetY": 0.02
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.025,
+            0
+          ],
+          "scale": [
+            0.72,
+            0.05,
+            0.48
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            -0.24,
+            0.055,
+            0
+          ],
+          "scale": [
+            0.035,
+            0.025,
+            0.42
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            -0.08,
+            0.055,
+            0
+          ],
+          "scale": [
+            0.035,
+            0.025,
+            0.42
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0.08,
+            0.055,
+            0
+          ],
+          "scale": [
+            0.035,
+            0.025,
+            0.42
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_GREY",
+          "position": [
+            0.24,
+            0.055,
+            0
+          ],
+          "scale": [
+            0.035,
+            0.025,
+            0.42
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MANHOLE_COVER",
+      "displayName": "Manhole cover",
+      "icon": "⊙",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/manhole-cover.glb",
+      "defaultCollision": {
+        "kind": "NONE",
+        "width": 0.75,
+        "height": 0.04,
+        "depth": 0.75,
+        "offsetY": 0.02
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.025,
+            0
+          ],
+          "scale": [
+            0.37,
+            0.05,
+            0.37
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BUS_STOP_SHELTER",
+      "displayName": "Small transit shelter",
+      "icon": "⌂",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/bus-stop-shelter.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.7,
+        "height": 2.35,
+        "depth": 1.15,
+        "offsetY": 1.17
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -1.2,
+            1.1,
+            0
+          ],
+          "scale": [
+            0.08,
+            2.2,
+            0.08
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            1.2,
+            1.1,
+            0
+          ],
+          "scale": [
+            0.08,
+            2.2,
+            0.08
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            2.2,
+            0
+          ],
+          "scale": [
+            2.65,
+            0.12,
+            1.15
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "GLASS",
+          "position": [
+            0,
+            1.1,
+            -0.52
+          ],
+          "scale": [
+            2.35,
+            2.05,
+            0.055
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            0,
+            0.58,
+            0
+          ],
+          "scale": [
+            1.8,
+            0.14,
+            0.48
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROAD_CONE",
+      "displayName": "Road cone",
+      "icon": "▲",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/road-cone.glb",
+      "defaultCollision": {
+        "kind": "NONE",
+        "width": 0.45,
+        "height": 0.72,
+        "depth": 0.45,
+        "offsetY": 0.36
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "RUBBER_DARK",
+          "position": [
+            0,
+            0.035,
+            0
+          ],
+          "scale": [
+            0.48,
+            0.07,
+            0.48
+          ]
+        },
+        {
+          "geometry": "CONE_8",
+          "material": "PAINT_ORANGE",
+          "position": [
+            0,
+            0.36,
+            0
+          ],
+          "scale": [
+            0.22,
+            0.66,
+            0.22
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "PAINT_WHITE",
+          "position": [
+            0,
+            0.41,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.12,
+            0.16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROAD_BARRIER",
+      "displayName": "Road work barrier",
+      "icon": "━",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/road-barrier.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.25,
+        "height": 1.05,
+        "depth": 0.5,
+        "offsetY": 0.52
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.82,
+            0.48,
+            0
+          ],
+          "scale": [
+            0.09,
+            0.96,
+            0.09
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.82,
+            0.48,
+            0
+          ],
+          "scale": [
+            0.09,
+            0.96,
+            0.09
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_ORANGE",
+          "position": [
+            0,
+            0.72,
+            0
+          ],
+          "scale": [
+            2.15,
+            0.25,
+            0.12
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_WHITE",
+          "position": [
+            -0.48,
+            0.72,
+            0.065
+          ],
+          "scale": [
+            0.38,
+            0.2,
+            0.025
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_WHITE",
+          "position": [
+            0.48,
+            0.72,
+            0.065
+          ],
+          "scale": [
+            0.38,
+            0.2,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WOOD_PALLET",
+      "displayName": "Wooden pallet",
+      "icon": "▦",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/wood-pallet.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 1.2,
+        "height": 0.18,
+        "depth": 0.85,
+        "offsetY": 0.09
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            -0.48,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.09,
+            0.85
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            -0.16,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.09,
+            0.85
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            0.16,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.09,
+            0.85
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            0.48,
+            0.13,
+            0
+          ],
+          "scale": [
+            0.16,
+            0.09,
+            0.85
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            0,
+            0.055,
+            -0.31
+          ],
+          "scale": [
+            1.18,
+            0.11,
+            0.12
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            0,
+            0.055,
+            0.31
+          ],
+          "scale": [
+            1.18,
+            0.11,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROPE_COIL",
+      "displayName": "Harbor rope coil",
+      "icon": "◎",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/rope-coil.glb",
+      "defaultCollision": {
+        "kind": "NONE",
+        "width": 0.82,
+        "height": 0.14,
+        "depth": 0.82,
+        "offsetY": 0.07
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "ROPE",
+          "position": [
+            0,
+            0.055,
+            0
+          ],
+          "scale": [
+            0.42,
+            0.11,
+            0.42
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.115,
+            0
+          ],
+          "scale": [
+            0.24,
+            0.025,
+            0.24
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FUEL_TANK_HORIZONTAL",
+      "displayName": "Horizontal fuel tank",
+      "icon": "◉",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/fuel-tank-horizontal.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.65,
+        "height": 1.3,
+        "depth": 1.25,
+        "offsetY": 0.65
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_GREY",
+          "position": [
+            0,
+            0.82,
+            0
+          ],
+          "scale": [
+            0.58,
+            2.4,
+            0.58
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.72,
+            0.24,
+            0
+          ],
+          "scale": [
+            0.12,
+            0.48,
+            0.9
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.72,
+            0.24,
+            0
+          ],
+          "scale": [
+            0.12,
+            0.48,
+            0.9
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_YELLOW",
+          "position": [
+            0,
+            0.88,
+            0.59
+          ],
+          "scale": [
+            0.32,
+            0.32,
+            0.035
+          ]
+        }
+      ]
+    },
+    {
+      "id": "HAND_WATER_PUMP",
+      "displayName": "Hand water pump",
+      "icon": "⌐",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/hand-water-pump.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.58,
+        "height": 1.42,
+        "depth": 0.58,
+        "offsetY": 0.71
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_GREEN",
+          "position": [
+            0,
+            0.62,
+            0
+          ],
+          "scale": [
+            0.18,
+            1.24,
+            0.18
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.31,
+            1.12,
+            0
+          ],
+          "scale": [
+            0.62,
+            0.11,
+            0.11
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0.58,
+            0.94,
+            0
+          ],
+          "scale": [
+            0.09,
+            0.42,
+            0.09
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            -0.28,
+            1.36,
+            0
+          ],
+          "scale": [
+            0.72,
+            0.07,
+            0.07
+          ],
+          "rotationDegrees": [
+            0,
+            0,
+            -12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FISHING_NET_RACK",
+      "displayName": "Fishing net rack",
+      "icon": "⋕",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/fishing-net-rack.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.5,
+        "height": 1.9,
+        "depth": 0.42,
+        "offsetY": 0.95
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            -1.05,
+            0.92,
+            0
+          ],
+          "scale": [
+            0.12,
+            1.84,
+            0.12
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            1.05,
+            0.92,
+            0
+          ],
+          "scale": [
+            0.12,
+            1.84,
+            0.12
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            0,
+            1.72,
+            0
+          ],
+          "scale": [
+            2.2,
+            0.12,
+            0.12
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "ROPE",
+          "position": [
+            -0.7,
+            0.92,
+            0.03
+          ],
+          "scale": [
+            0.025,
+            1.35,
+            0.025
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "ROPE",
+          "position": [
+            -0.35,
+            0.92,
+            0.03
+          ],
+          "scale": [
+            0.025,
+            1.35,
+            0.025
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "ROPE",
+          "position": [
+            0,
+            0.92,
+            0.03
+          ],
+          "scale": [
+            0.025,
+            1.35,
+            0.025
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "ROPE",
+          "position": [
+            0.35,
+            0.92,
+            0.03
+          ],
+          "scale": [
+            0.025,
+            1.35,
+            0.025
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "ROPE",
+          "position": [
+            0.7,
+            0.92,
+            0.03
+          ],
+          "scale": [
+            0.025,
+            1.35,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FLAG_POLE",
+      "displayName": "Town flag pole",
+      "icon": "⚑",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/world/props/models/flag-pole.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.25,
+        "height": 6.2,
+        "depth": 0.25,
+        "offsetY": 3.1
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "METAL_GREY",
+          "position": [
+            0,
+            3,
+            0
+          ],
+          "scale": [
+            0.07,
+            6,
+            0.07
+          ]
+        },
+        {
+          "geometry": "SPHERE_LOW",
+          "material": "PAINT_YELLOW",
+          "position": [
+            0,
+            6.04,
+            0
+          ],
+          "scale": [
+            0.12,
+            0.12,
+            0.12
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "PAINT_BLUE",
+          "position": [
+            0.72,
+            5.38,
+            0
+          ],
+          "scale": [
+            1.42,
+            0.72,
+            0.035
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMPORT_CRATE_WOOD_01",
+      "displayName": "Imported wooden crate (candidate)",
+      "icon": "◇",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/wooden+crate+3d+model.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 0.9,
+        "height": 0.84,
+        "depth": 0.87,
+        "offsetY": 0.42
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "WOOD",
+          "position": [
+            0,
+            0.42,
+            0
+          ],
+          "scale": [
+            0.9,
+            0.84,
+            0.87
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.42,
+            0.45
+          ],
+          "scale": [
+            0.78,
+            0.07,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMPORT_MAILBOX_SET_01",
+      "displayName": "Imported mailbox set (candidate)",
+      "icon": "▱",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/colorful+mailbox+set+3d+model.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2.7,
+        "height": 1.67,
+        "depth": 0.57,
+        "offsetY": 0.84
+      },
+      "parts": [
+        {
+          "geometry": "BOX",
+          "material": "PAINT_BLUE",
+          "position": [
+            0,
+            1.25,
+            0
+          ],
+          "scale": [
+            2.65,
+            0.76,
+            0.55
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "METAL_DARK",
+          "position": [
+            0,
+            0.55,
+            0
+          ],
+          "scale": [
+            2.35,
+            1.1,
+            0.12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMPORT_SIGNBOARD_FANTASY_01",
+      "displayName": "Imported fantasy signboard (candidate)",
+      "icon": "▣",
+      "category": "SIGNS",
+      "suggestedModelUrl": "assets/fantasy+signboard+3d+model.glb",
+      "defaultCollision": {
+        "kind": "BOX",
+        "width": 2,
+        "height": 2.1,
+        "depth": 1.08,
+        "offsetY": 1.05
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "WOOD",
+          "position": [
+            0,
+            0.94,
+            0
+          ],
+          "scale": [
+            0.1,
+            1.88,
+            0.1
+          ]
+        },
+        {
+          "geometry": "BOX",
+          "material": "WOOD_PALE",
+          "position": [
+            0,
+            1.62,
+            0
+          ],
+          "scale": [
+            1.9,
+            0.72,
+            0.18
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMPORT_TIRE_STACK_01",
+      "displayName": "Imported tire stack (candidate)",
+      "icon": "◉",
+      "category": "STREET_FURNITURE",
+      "suggestedModelUrl": "assets/tire+stack+3d+model.glb",
+      "defaultCollision": {
+        "kind": "CYLINDER",
+        "width": 0.9,
+        "height": 0.86,
+        "depth": 0.79,
+        "offsetY": 0.43
+      },
+      "parts": [
+        {
+          "geometry": "CYLINDER_8",
+          "material": "RUBBER_DARK",
+          "position": [
+            0,
+            0.18,
+            0
+          ],
+          "scale": [
+            0.45,
+            0.26,
+            0.4
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "RUBBER_DARK",
+          "position": [
+            0,
+            0.44,
+            0
+          ],
+          "scale": [
+            0.45,
+            0.26,
+            0.4
+          ]
+        },
+        {
+          "geometry": "CYLINDER_8",
+          "material": "RUBBER_DARK",
+          "position": [
+            0,
+            0.7,
+            0
+          ],
+          "scale": [
+            0.45,
+            0.26,
+            0.4
+          ]
+        }
+      ]
+    }
+  ]
+}

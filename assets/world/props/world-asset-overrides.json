@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "replacements": [
+    {
+      "id": "CONIFER_SPRUCE_01",
+      "modelUrl": "assets/pine+tree+3d+model.glb",
+      "scale": 4.508806,
+      "rotationYDegrees": 0,
+      "yOffset": 0,
+      "windWeight": 0.72
+    },
+    {
+      "id": "LAMP_WIRED_WARM",
+      "modelUrl": "assets/street+lamp+3d+model.glb",
+      "scale": 1.803523,
+      "rotationYDegrees": 0,
+      "xOffset": 0.23422,
+      "yOffset": 0,
+      "zOffset": 0
+    },
+    {
+      "id": "IMPORT_CRATE_WOOD_01",
+      "modelUrl": "assets/wooden+crate+3d+model.glb",
+      "scale": 0.9,
+      "rotationYDegrees": 0,
+      "yOffset": 0
+    },
+    {
+      "id": "IMPORT_MAILBOX_SET_01",
+      "modelUrl": "assets/colorful+mailbox+set+3d+model.glb",
+      "scale": 2.7,
+      "rotationYDegrees": 0,
+      "yOffset": 0
+    },
+    {
+      "id": "IMPORT_SIGNBOARD_FANTASY_01",
+      "modelUrl": "assets/fantasy+signboard+3d+model.glb",
+      "scale": 2.1,
+      "rotationYDegrees": 0,
+      "yOffset": 0
+    },
+    {
+      "id": "IMPORT_TIRE_STACK_01",
+      "modelUrl": "assets/tire+stack+3d+model.glb",
+      "scale": 0.9,
+      "rotationYDegrees": 0,
+      "yOffset": 0
+    }
+  ]
+}

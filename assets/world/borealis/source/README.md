@@ -35,11 +35,28 @@ The game uses this layer for water color and wave exposure. Painting darker
 water along a beach makes the sea lighter and calmer there. Keep intentional
 harbor channels lighter than the surrounding shelf.
 
+`elevation.png` is opaque grayscale and aligned to the same pixels. Black is
+the current ground terrace and white is 64 metres above it. The runtime
+interpolates the raster before adding sparse in-game editor deltas.
+
+`surface-material.png` uses exact opaque colors:
+
+- tundra: `#4d7668`
+- rock: `#707875`
+- dirt: `#735237`
+- road: `#343a3c`
+- raised sidewalk: `#737b7e`
+- snow exclusion / heated surface: `#e17632`
+
+The in-game world editor saves its changes separately, so these authored PNGs
+remain reusable source maps. Export the editor JSON patch before resetting a
+browser save.
+
 `npm run world:borealis-coast` regenerates the starter maps and overwrites
 these PNGs. Use it only when resetting the prototype source, not after manual
 painting.
 
-Future aligned layers can add `surface-material.png` for road, grass, sand,
-rock and soil under the deformable snow. Sea-resource placement belongs in the
-full-world `resources.png`, where a Cozium field can validate resource-platform
-and drill construction sites without hardcoded coordinates.
+Future aligned layers can add finer biome and resource data. Sea-resource
+placement belongs in the full-world `resources.png`, where a Cozium field can
+validate resource-platform and drill construction sites without hardcoded
+coordinates.

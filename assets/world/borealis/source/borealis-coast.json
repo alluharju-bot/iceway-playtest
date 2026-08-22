@@ -17,7 +17,9 @@
   },
   "layers": {
     "terrain": "terrain.png",
-    "bathymetry": "bathymetry.png"
+    "bathymetry": "bathymetry.png",
+    "elevation": "elevation.png",
+    "surfaceMaterial": "surface-material.png"
   },
   "terrainPalette": {
     "WATER": [
