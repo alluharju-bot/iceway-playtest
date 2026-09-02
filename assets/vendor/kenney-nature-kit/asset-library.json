@@ -1,0 +1,1983 @@
+{
+  "schemaVersion": 1,
+  "source": "Kenney Nature Kit 2.1",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "license": "CC0-1.0",
+  "assetCount": 329,
+  "assets": [
+    {
+      "id": "KENNEY_NATURE_BED",
+      "fileName": "bed.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bed.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_BED_FLOOR",
+      "fileName": "bed_floor.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bed_floor.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_BRIDGE_CENTER_STONE",
+      "fileName": "bridge_center_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bridge_center_stone.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_BRIDGE_CENTER_STONE_ROUND",
+      "fileName": "bridge_center_stoneRound.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bridge_center_stoneRound.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_BRIDGE_CENTER_WOOD",
+      "fileName": "bridge_center_wood.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bridge_center_wood.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_BRIDGE_CENTER_WOOD_ROUND",
+      "fileName": "bridge_center_woodRound.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bridge_center_woodRound.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_BRIDGE_SIDE_STONE",
+      "fileName": "bridge_side_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bridge_side_stone.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_BRIDGE_SIDE_STONE_ROUND",
+      "fileName": "bridge_side_stoneRound.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bridge_side_stoneRound.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_BRIDGE_SIDE_WOOD",
+      "fileName": "bridge_side_wood.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bridge_side_wood.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_BRIDGE_SIDE_WOOD_ROUND",
+      "fileName": "bridge_side_woodRound.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bridge_side_woodRound.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_BRIDGE_STONE",
+      "fileName": "bridge_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bridge_stone.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_BRIDGE_STONE_NARROW",
+      "fileName": "bridge_stoneNarrow.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bridge_stoneNarrow.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_BRIDGE_STONE_ROUND",
+      "fileName": "bridge_stoneRound.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bridge_stoneRound.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_BRIDGE_STONE_ROUND_NARROW",
+      "fileName": "bridge_stoneRoundNarrow.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bridge_stoneRoundNarrow.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_BRIDGE_WOOD",
+      "fileName": "bridge_wood.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bridge_wood.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_BRIDGE_WOOD_NARROW",
+      "fileName": "bridge_woodNarrow.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bridge_woodNarrow.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_BRIDGE_WOOD_ROUND",
+      "fileName": "bridge_woodRound.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bridge_woodRound.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_BRIDGE_WOOD_ROUND_NARROW",
+      "fileName": "bridge_woodRoundNarrow.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/bridge_woodRoundNarrow.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CACTUS_SHORT",
+      "fileName": "cactus_short.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cactus_short.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CACTUS_TALL",
+      "fileName": "cactus_tall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cactus_tall.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CAMPFIRE_BRICKS",
+      "fileName": "campfire_bricks.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/campfire_bricks.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CAMPFIRE_LOGS",
+      "fileName": "campfire_logs.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/campfire_logs.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CAMPFIRE_PLANKS",
+      "fileName": "campfire_planks.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/campfire_planks.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CAMPFIRE_STONES",
+      "fileName": "campfire_stones.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/campfire_stones.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CANOE",
+      "fileName": "canoe.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/canoe.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CANOE_PADDLE",
+      "fileName": "canoe_paddle.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/canoe_paddle.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_BLOCK_CAVE_ROCK",
+      "fileName": "cliff_blockCave_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_blockCave_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_BLOCK_CAVE_STONE",
+      "fileName": "cliff_blockCave_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_blockCave_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_BLOCK_DIAGONAL_ROCK",
+      "fileName": "cliff_blockDiagonal_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_blockDiagonal_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_BLOCK_DIAGONAL_STONE",
+      "fileName": "cliff_blockDiagonal_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_blockDiagonal_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_BLOCK_HALF_ROCK",
+      "fileName": "cliff_blockHalf_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_blockHalf_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_BLOCK_HALF_STONE",
+      "fileName": "cliff_blockHalf_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_blockHalf_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_BLOCK_QUARTER_ROCK",
+      "fileName": "cliff_blockQuarter_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_blockQuarter_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_BLOCK_QUARTER_STONE",
+      "fileName": "cliff_blockQuarter_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_blockQuarter_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_BLOCK_SLOPE_HALF_WALLS_ROCK",
+      "fileName": "cliff_blockSlopeHalfWalls_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_blockSlopeHalfWalls_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_BLOCK_SLOPE_HALF_WALLS_STONE",
+      "fileName": "cliff_blockSlopeHalfWalls_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_blockSlopeHalfWalls_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_BLOCK_SLOPE_WALLS_ROCK",
+      "fileName": "cliff_blockSlopeWalls_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_blockSlopeWalls_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_BLOCK_SLOPE_WALLS_STONE",
+      "fileName": "cliff_blockSlopeWalls_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_blockSlopeWalls_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_BLOCK_SLOPE_ROCK",
+      "fileName": "cliff_blockSlope_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_blockSlope_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_BLOCK_SLOPE_STONE",
+      "fileName": "cliff_blockSlope_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_blockSlope_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_BLOCK_ROCK",
+      "fileName": "cliff_block_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_block_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_BLOCK_STONE",
+      "fileName": "cliff_block_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_block_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_CAVE_ROCK",
+      "fileName": "cliff_cave_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_cave_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_CAVE_STONE",
+      "fileName": "cliff_cave_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_cave_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_CORNER_INNER_LARGE_ROCK",
+      "fileName": "cliff_cornerInnerLarge_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_cornerInnerLarge_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_CORNER_INNER_LARGE_STONE",
+      "fileName": "cliff_cornerInnerLarge_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_cornerInnerLarge_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_CORNER_INNER_TOP_ROCK",
+      "fileName": "cliff_cornerInnerTop_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_cornerInnerTop_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_CORNER_INNER_TOP_STONE",
+      "fileName": "cliff_cornerInnerTop_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_cornerInnerTop_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_CORNER_INNER_ROCK",
+      "fileName": "cliff_cornerInner_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_cornerInner_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_CORNER_INNER_STONE",
+      "fileName": "cliff_cornerInner_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_cornerInner_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_CORNER_LARGE_ROCK",
+      "fileName": "cliff_cornerLarge_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_cornerLarge_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_CORNER_LARGE_STONE",
+      "fileName": "cliff_cornerLarge_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_cornerLarge_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_CORNER_TOP_ROCK",
+      "fileName": "cliff_cornerTop_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_cornerTop_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_CORNER_TOP_STONE",
+      "fileName": "cliff_cornerTop_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_cornerTop_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_CORNER_ROCK",
+      "fileName": "cliff_corner_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_corner_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_CORNER_STONE",
+      "fileName": "cliff_corner_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_corner_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_DIAGONAL_ROCK",
+      "fileName": "cliff_diagonal_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_diagonal_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_DIAGONAL_STONE",
+      "fileName": "cliff_diagonal_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_diagonal_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_HALF_CORNER_INNER_ROCK",
+      "fileName": "cliff_halfCornerInner_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_halfCornerInner_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_HALF_CORNER_INNER_STONE",
+      "fileName": "cliff_halfCornerInner_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_halfCornerInner_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_HALF_CORNER_ROCK",
+      "fileName": "cliff_halfCorner_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_halfCorner_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_HALF_CORNER_STONE",
+      "fileName": "cliff_halfCorner_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_halfCorner_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_HALF_ROCK",
+      "fileName": "cliff_half_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_half_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_HALF_STONE",
+      "fileName": "cliff_half_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_half_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_LARGE_ROCK",
+      "fileName": "cliff_large_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_large_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_LARGE_STONE",
+      "fileName": "cliff_large_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_large_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_ROCK",
+      "fileName": "cliff_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_STEPS_CORNER_INNER_ROCK",
+      "fileName": "cliff_stepsCornerInner_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_stepsCornerInner_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_STEPS_CORNER_INNER_STONE",
+      "fileName": "cliff_stepsCornerInner_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_stepsCornerInner_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_STEPS_CORNER_ROCK",
+      "fileName": "cliff_stepsCorner_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_stepsCorner_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_STEPS_CORNER_STONE",
+      "fileName": "cliff_stepsCorner_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_stepsCorner_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_STEPS_ROCK",
+      "fileName": "cliff_steps_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_steps_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_STEPS_STONE",
+      "fileName": "cliff_steps_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_steps_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_STONE",
+      "fileName": "cliff_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_TOP_DIAGONAL_ROCK",
+      "fileName": "cliff_topDiagonal_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_topDiagonal_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_TOP_DIAGONAL_STONE",
+      "fileName": "cliff_topDiagonal_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_topDiagonal_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_TOP_ROCK",
+      "fileName": "cliff_top_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_top_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_TOP_STONE",
+      "fileName": "cliff_top_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_top_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_WATERFALL_TOP_ROCK",
+      "fileName": "cliff_waterfallTop_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_waterfallTop_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_WATERFALL_TOP_STONE",
+      "fileName": "cliff_waterfallTop_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_waterfallTop_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_WATERFALL_ROCK",
+      "fileName": "cliff_waterfall_rock.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_waterfall_rock.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CLIFF_WATERFALL_STONE",
+      "fileName": "cliff_waterfall_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/cliff_waterfall_stone.glb",
+      "family": "CLIFF"
+    },
+    {
+      "id": "KENNEY_NATURE_CROP_CARROT",
+      "fileName": "crop_carrot.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crop_carrot.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROP_MELON",
+      "fileName": "crop_melon.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crop_melon.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROP_PUMPKIN",
+      "fileName": "crop_pumpkin.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crop_pumpkin.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROP_TURNIP",
+      "fileName": "crop_turnip.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crop_turnip.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROPS_BAMBOO_STAGE_A",
+      "fileName": "crops_bambooStageA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crops_bambooStageA.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROPS_BAMBOO_STAGE_B",
+      "fileName": "crops_bambooStageB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crops_bambooStageB.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROPS_CORN_STAGE_A",
+      "fileName": "crops_cornStageA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crops_cornStageA.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROPS_CORN_STAGE_B",
+      "fileName": "crops_cornStageB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crops_cornStageB.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROPS_CORN_STAGE_C",
+      "fileName": "crops_cornStageC.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crops_cornStageC.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROPS_CORN_STAGE_D",
+      "fileName": "crops_cornStageD.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crops_cornStageD.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROPS_DIRT_DOUBLE_ROW",
+      "fileName": "crops_dirtDoubleRow.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crops_dirtDoubleRow.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROPS_DIRT_DOUBLE_ROW_CORNER",
+      "fileName": "crops_dirtDoubleRowCorner.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crops_dirtDoubleRowCorner.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROPS_DIRT_DOUBLE_ROW_END",
+      "fileName": "crops_dirtDoubleRowEnd.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crops_dirtDoubleRowEnd.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROPS_DIRT_ROW",
+      "fileName": "crops_dirtRow.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crops_dirtRow.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROPS_DIRT_ROW_CORNER",
+      "fileName": "crops_dirtRowCorner.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crops_dirtRowCorner.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROPS_DIRT_ROW_END",
+      "fileName": "crops_dirtRowEnd.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crops_dirtRowEnd.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROPS_DIRT_SINGLE",
+      "fileName": "crops_dirtSingle.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crops_dirtSingle.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROPS_LEAFS_STAGE_A",
+      "fileName": "crops_leafsStageA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crops_leafsStageA.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROPS_LEAFS_STAGE_B",
+      "fileName": "crops_leafsStageB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crops_leafsStageB.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROPS_WHEAT_STAGE_A",
+      "fileName": "crops_wheatStageA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crops_wheatStageA.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_CROPS_WHEAT_STAGE_B",
+      "fileName": "crops_wheatStageB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/crops_wheatStageB.glb",
+      "family": "CROP"
+    },
+    {
+      "id": "KENNEY_NATURE_FENCE_BEND",
+      "fileName": "fence_bend.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/fence_bend.glb",
+      "family": "FENCE"
+    },
+    {
+      "id": "KENNEY_NATURE_FENCE_BEND_CENTER",
+      "fileName": "fence_bendCenter.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/fence_bendCenter.glb",
+      "family": "FENCE"
+    },
+    {
+      "id": "KENNEY_NATURE_FENCE_CORNER",
+      "fileName": "fence_corner.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/fence_corner.glb",
+      "family": "FENCE"
+    },
+    {
+      "id": "KENNEY_NATURE_FENCE_GATE",
+      "fileName": "fence_gate.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/fence_gate.glb",
+      "family": "FENCE"
+    },
+    {
+      "id": "KENNEY_NATURE_FENCE_PLANKS",
+      "fileName": "fence_planks.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/fence_planks.glb",
+      "family": "FENCE"
+    },
+    {
+      "id": "KENNEY_NATURE_FENCE_PLANKS_DOUBLE",
+      "fileName": "fence_planksDouble.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/fence_planksDouble.glb",
+      "family": "FENCE"
+    },
+    {
+      "id": "KENNEY_NATURE_FENCE_SIMPLE",
+      "fileName": "fence_simple.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/fence_simple.glb",
+      "family": "FENCE"
+    },
+    {
+      "id": "KENNEY_NATURE_FENCE_SIMPLE_CENTER",
+      "fileName": "fence_simpleCenter.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/fence_simpleCenter.glb",
+      "family": "FENCE"
+    },
+    {
+      "id": "KENNEY_NATURE_FENCE_SIMPLE_DIAGONAL",
+      "fileName": "fence_simpleDiagonal.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/fence_simpleDiagonal.glb",
+      "family": "FENCE"
+    },
+    {
+      "id": "KENNEY_NATURE_FENCE_SIMPLE_DIAGONAL_CENTER",
+      "fileName": "fence_simpleDiagonalCenter.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/fence_simpleDiagonalCenter.glb",
+      "family": "FENCE"
+    },
+    {
+      "id": "KENNEY_NATURE_FENCE_SIMPLE_HIGH",
+      "fileName": "fence_simpleHigh.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/fence_simpleHigh.glb",
+      "family": "FENCE"
+    },
+    {
+      "id": "KENNEY_NATURE_FENCE_SIMPLE_LOW",
+      "fileName": "fence_simpleLow.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/fence_simpleLow.glb",
+      "family": "FENCE"
+    },
+    {
+      "id": "KENNEY_NATURE_FLOWER_PURPLE_A",
+      "fileName": "flower_purpleA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/flower_purpleA.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_FLOWER_PURPLE_B",
+      "fileName": "flower_purpleB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/flower_purpleB.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_FLOWER_PURPLE_C",
+      "fileName": "flower_purpleC.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/flower_purpleC.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_FLOWER_RED_A",
+      "fileName": "flower_redA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/flower_redA.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_FLOWER_RED_B",
+      "fileName": "flower_redB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/flower_redB.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_FLOWER_RED_C",
+      "fileName": "flower_redC.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/flower_redC.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_FLOWER_YELLOW_A",
+      "fileName": "flower_yellowA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/flower_yellowA.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_FLOWER_YELLOW_B",
+      "fileName": "flower_yellowB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/flower_yellowB.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_FLOWER_YELLOW_C",
+      "fileName": "flower_yellowC.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/flower_yellowC.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_GRASS",
+      "fileName": "grass.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/grass.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_GRASS_LARGE",
+      "fileName": "grass_large.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/grass_large.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_GRASS_LEAFS",
+      "fileName": "grass_leafs.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/grass_leafs.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_GRASS_LEAFS_LARGE",
+      "fileName": "grass_leafsLarge.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/grass_leafsLarge.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_GRASS",
+      "fileName": "ground_grass.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_grass.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_PATH_BEND",
+      "fileName": "ground_pathBend.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_pathBend.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_PATH_BEND_BANK",
+      "fileName": "ground_pathBendBank.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_pathBendBank.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_PATH_CORNER",
+      "fileName": "ground_pathCorner.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_pathCorner.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_PATH_CORNER_SMALL",
+      "fileName": "ground_pathCornerSmall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_pathCornerSmall.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_PATH_CROSS",
+      "fileName": "ground_pathCross.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_pathCross.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_PATH_END",
+      "fileName": "ground_pathEnd.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_pathEnd.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_PATH_END_CLOSED",
+      "fileName": "ground_pathEndClosed.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_pathEndClosed.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_PATH_OPEN",
+      "fileName": "ground_pathOpen.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_pathOpen.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_PATH_ROCKS",
+      "fileName": "ground_pathRocks.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_pathRocks.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_PATH_SIDE",
+      "fileName": "ground_pathSide.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_pathSide.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_PATH_SIDE_OPEN",
+      "fileName": "ground_pathSideOpen.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_pathSideOpen.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_PATH_SPLIT",
+      "fileName": "ground_pathSplit.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_pathSplit.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_PATH_STRAIGHT",
+      "fileName": "ground_pathStraight.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_pathStraight.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_PATH_TILE",
+      "fileName": "ground_pathTile.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_pathTile.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_RIVER_BEND",
+      "fileName": "ground_riverBend.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_riverBend.glb",
+      "family": "HYDROLOGY"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_RIVER_BEND_BANK",
+      "fileName": "ground_riverBendBank.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_riverBendBank.glb",
+      "family": "HYDROLOGY"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_RIVER_CORNER",
+      "fileName": "ground_riverCorner.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_riverCorner.glb",
+      "family": "HYDROLOGY"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_RIVER_CORNER_SMALL",
+      "fileName": "ground_riverCornerSmall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_riverCornerSmall.glb",
+      "family": "HYDROLOGY"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_RIVER_CROSS",
+      "fileName": "ground_riverCross.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_riverCross.glb",
+      "family": "HYDROLOGY"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_RIVER_END",
+      "fileName": "ground_riverEnd.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_riverEnd.glb",
+      "family": "HYDROLOGY"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_RIVER_END_CLOSED",
+      "fileName": "ground_riverEndClosed.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_riverEndClosed.glb",
+      "family": "HYDROLOGY"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_RIVER_OPEN",
+      "fileName": "ground_riverOpen.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_riverOpen.glb",
+      "family": "HYDROLOGY"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_RIVER_ROCKS",
+      "fileName": "ground_riverRocks.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_riverRocks.glb",
+      "family": "HYDROLOGY"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_RIVER_SIDE",
+      "fileName": "ground_riverSide.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_riverSide.glb",
+      "family": "HYDROLOGY"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_RIVER_SIDE_OPEN",
+      "fileName": "ground_riverSideOpen.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_riverSideOpen.glb",
+      "family": "HYDROLOGY"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_RIVER_SPLIT",
+      "fileName": "ground_riverSplit.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_riverSplit.glb",
+      "family": "HYDROLOGY"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_RIVER_STRAIGHT",
+      "fileName": "ground_riverStraight.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_riverStraight.glb",
+      "family": "HYDROLOGY"
+    },
+    {
+      "id": "KENNEY_NATURE_GROUND_RIVER_TILE",
+      "fileName": "ground_riverTile.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/ground_riverTile.glb",
+      "family": "HYDROLOGY"
+    },
+    {
+      "id": "KENNEY_NATURE_HANGING_MOSS",
+      "fileName": "hanging_moss.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/hanging_moss.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_LILY_LARGE",
+      "fileName": "lily_large.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/lily_large.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_LILY_SMALL",
+      "fileName": "lily_small.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/lily_small.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_LOG",
+      "fileName": "log.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/log.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_LOG_LARGE",
+      "fileName": "log_large.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/log_large.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_LOG_STACK",
+      "fileName": "log_stack.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/log_stack.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_LOG_STACK_LARGE",
+      "fileName": "log_stackLarge.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/log_stackLarge.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_MUSHROOM_RED",
+      "fileName": "mushroom_red.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/mushroom_red.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_MUSHROOM_RED_GROUP",
+      "fileName": "mushroom_redGroup.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/mushroom_redGroup.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_MUSHROOM_RED_TALL",
+      "fileName": "mushroom_redTall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/mushroom_redTall.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_MUSHROOM_TAN",
+      "fileName": "mushroom_tan.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/mushroom_tan.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_MUSHROOM_TAN_GROUP",
+      "fileName": "mushroom_tanGroup.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/mushroom_tanGroup.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_MUSHROOM_TAN_TALL",
+      "fileName": "mushroom_tanTall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/mushroom_tanTall.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_PATH_STONE",
+      "fileName": "path_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/path_stone.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_PATH_STONE_CIRCLE",
+      "fileName": "path_stoneCircle.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/path_stoneCircle.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_PATH_STONE_CORNER",
+      "fileName": "path_stoneCorner.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/path_stoneCorner.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_PATH_STONE_END",
+      "fileName": "path_stoneEnd.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/path_stoneEnd.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_PATH_WOOD",
+      "fileName": "path_wood.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/path_wood.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_PATH_WOOD_CORNER",
+      "fileName": "path_woodCorner.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/path_woodCorner.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_PATH_WOOD_END",
+      "fileName": "path_woodEnd.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/path_woodEnd.glb",
+      "family": "GROUND"
+    },
+    {
+      "id": "KENNEY_NATURE_PLANT_BUSH",
+      "fileName": "plant_bush.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/plant_bush.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_PLANT_BUSH_DETAILED",
+      "fileName": "plant_bushDetailed.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/plant_bushDetailed.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_PLANT_BUSH_LARGE",
+      "fileName": "plant_bushLarge.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/plant_bushLarge.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_PLANT_BUSH_LARGE_TRIANGLE",
+      "fileName": "plant_bushLargeTriangle.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/plant_bushLargeTriangle.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_PLANT_BUSH_SMALL",
+      "fileName": "plant_bushSmall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/plant_bushSmall.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_PLANT_BUSH_TRIANGLE",
+      "fileName": "plant_bushTriangle.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/plant_bushTriangle.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_PLANT_FLAT_SHORT",
+      "fileName": "plant_flatShort.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/plant_flatShort.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_PLANT_FLAT_TALL",
+      "fileName": "plant_flatTall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/plant_flatTall.glb",
+      "family": "PLANT"
+    },
+    {
+      "id": "KENNEY_NATURE_PLATFORM_BEACH",
+      "fileName": "platform_beach.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/platform_beach.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_PLATFORM_GRASS",
+      "fileName": "platform_grass.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/platform_grass.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_PLATFORM_STONE",
+      "fileName": "platform_stone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/platform_stone.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_POT_LARGE",
+      "fileName": "pot_large.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/pot_large.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_POT_SMALL",
+      "fileName": "pot_small.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/pot_small.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_LARGE_A",
+      "fileName": "rock_largeA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_largeA.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_LARGE_B",
+      "fileName": "rock_largeB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_largeB.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_LARGE_C",
+      "fileName": "rock_largeC.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_largeC.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_LARGE_D",
+      "fileName": "rock_largeD.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_largeD.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_LARGE_E",
+      "fileName": "rock_largeE.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_largeE.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_LARGE_F",
+      "fileName": "rock_largeF.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_largeF.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_SMALL_A",
+      "fileName": "rock_smallA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_smallA.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_SMALL_B",
+      "fileName": "rock_smallB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_smallB.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_SMALL_C",
+      "fileName": "rock_smallC.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_smallC.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_SMALL_D",
+      "fileName": "rock_smallD.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_smallD.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_SMALL_E",
+      "fileName": "rock_smallE.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_smallE.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_SMALL_F",
+      "fileName": "rock_smallF.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_smallF.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_SMALL_FLAT_A",
+      "fileName": "rock_smallFlatA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_smallFlatA.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_SMALL_FLAT_B",
+      "fileName": "rock_smallFlatB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_smallFlatB.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_SMALL_FLAT_C",
+      "fileName": "rock_smallFlatC.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_smallFlatC.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_SMALL_G",
+      "fileName": "rock_smallG.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_smallG.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_SMALL_H",
+      "fileName": "rock_smallH.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_smallH.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_SMALL_I",
+      "fileName": "rock_smallI.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_smallI.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_SMALL_TOP_A",
+      "fileName": "rock_smallTopA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_smallTopA.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_SMALL_TOP_B",
+      "fileName": "rock_smallTopB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_smallTopB.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_TALL_A",
+      "fileName": "rock_tallA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_tallA.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_TALL_B",
+      "fileName": "rock_tallB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_tallB.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_TALL_C",
+      "fileName": "rock_tallC.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_tallC.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_TALL_D",
+      "fileName": "rock_tallD.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_tallD.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_TALL_E",
+      "fileName": "rock_tallE.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_tallE.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_TALL_F",
+      "fileName": "rock_tallF.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_tallF.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_TALL_G",
+      "fileName": "rock_tallG.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_tallG.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_TALL_H",
+      "fileName": "rock_tallH.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_tallH.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_TALL_I",
+      "fileName": "rock_tallI.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_tallI.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_ROCK_TALL_J",
+      "fileName": "rock_tallJ.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_tallJ.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_SIGN",
+      "fileName": "sign.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/sign.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_STATUE_BLOCK",
+      "fileName": "statue_block.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/statue_block.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_STATUE_COLUMN",
+      "fileName": "statue_column.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/statue_column.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_STATUE_COLUMN_DAMAGED",
+      "fileName": "statue_columnDamaged.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/statue_columnDamaged.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_STATUE_HEAD",
+      "fileName": "statue_head.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/statue_head.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_STATUE_OBELISK",
+      "fileName": "statue_obelisk.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/statue_obelisk.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_STATUE_RING",
+      "fileName": "statue_ring.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/statue_ring.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_LARGE_A",
+      "fileName": "stone_largeA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_largeA.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_LARGE_B",
+      "fileName": "stone_largeB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_largeB.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_LARGE_C",
+      "fileName": "stone_largeC.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_largeC.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_LARGE_D",
+      "fileName": "stone_largeD.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_largeD.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_LARGE_E",
+      "fileName": "stone_largeE.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_largeE.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_LARGE_F",
+      "fileName": "stone_largeF.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_largeF.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_SMALL_A",
+      "fileName": "stone_smallA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_smallA.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_SMALL_B",
+      "fileName": "stone_smallB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_smallB.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_SMALL_C",
+      "fileName": "stone_smallC.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_smallC.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_SMALL_D",
+      "fileName": "stone_smallD.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_smallD.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_SMALL_E",
+      "fileName": "stone_smallE.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_smallE.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_SMALL_F",
+      "fileName": "stone_smallF.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_smallF.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_SMALL_FLAT_A",
+      "fileName": "stone_smallFlatA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_smallFlatA.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_SMALL_FLAT_B",
+      "fileName": "stone_smallFlatB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_smallFlatB.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_SMALL_FLAT_C",
+      "fileName": "stone_smallFlatC.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_smallFlatC.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_SMALL_G",
+      "fileName": "stone_smallG.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_smallG.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_SMALL_H",
+      "fileName": "stone_smallH.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_smallH.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_SMALL_I",
+      "fileName": "stone_smallI.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_smallI.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_SMALL_TOP_A",
+      "fileName": "stone_smallTopA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_smallTopA.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_SMALL_TOP_B",
+      "fileName": "stone_smallTopB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_smallTopB.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_TALL_A",
+      "fileName": "stone_tallA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_tallA.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_TALL_B",
+      "fileName": "stone_tallB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_tallB.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_TALL_C",
+      "fileName": "stone_tallC.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_tallC.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_TALL_D",
+      "fileName": "stone_tallD.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_tallD.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_TALL_E",
+      "fileName": "stone_tallE.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_tallE.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_TALL_F",
+      "fileName": "stone_tallF.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_tallF.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_TALL_G",
+      "fileName": "stone_tallG.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_tallG.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_TALL_H",
+      "fileName": "stone_tallH.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_tallH.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_TALL_I",
+      "fileName": "stone_tallI.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_tallI.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STONE_TALL_J",
+      "fileName": "stone_tallJ.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_tallJ.glb",
+      "family": "ROCK"
+    },
+    {
+      "id": "KENNEY_NATURE_STUMP_OLD",
+      "fileName": "stump_old.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stump_old.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_STUMP_OLD_TALL",
+      "fileName": "stump_oldTall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stump_oldTall.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_STUMP_ROUND",
+      "fileName": "stump_round.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stump_round.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_STUMP_ROUND_DETAILED",
+      "fileName": "stump_roundDetailed.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stump_roundDetailed.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_STUMP_SQUARE",
+      "fileName": "stump_square.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stump_square.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_STUMP_SQUARE_DETAILED",
+      "fileName": "stump_squareDetailed.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stump_squareDetailed.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_STUMP_SQUARE_DETAILED_WIDE",
+      "fileName": "stump_squareDetailedWide.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stump_squareDetailedWide.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_TENT_DETAILED_CLOSED",
+      "fileName": "tent_detailedClosed.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tent_detailedClosed.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_TENT_DETAILED_OPEN",
+      "fileName": "tent_detailedOpen.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tent_detailedOpen.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_TENT_SMALL_CLOSED",
+      "fileName": "tent_smallClosed.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tent_smallClosed.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_TENT_SMALL_OPEN",
+      "fileName": "tent_smallOpen.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tent_smallOpen.glb",
+      "family": "PROP"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_BLOCKS",
+      "fileName": "tree_blocks.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_blocks.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_BLOCKS_DARK",
+      "fileName": "tree_blocks_dark.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_blocks_dark.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_BLOCKS_FALL",
+      "fileName": "tree_blocks_fall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_blocks_fall.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_CONE",
+      "fileName": "tree_cone.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_cone.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_CONE_DARK",
+      "fileName": "tree_cone_dark.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_cone_dark.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_CONE_FALL",
+      "fileName": "tree_cone_fall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_cone_fall.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_DEFAULT",
+      "fileName": "tree_default.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_default.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_DEFAULT_DARK",
+      "fileName": "tree_default_dark.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_default_dark.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_DEFAULT_FALL",
+      "fileName": "tree_default_fall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_default_fall.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_DETAILED",
+      "fileName": "tree_detailed.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_detailed.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_DETAILED_DARK",
+      "fileName": "tree_detailed_dark.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_detailed_dark.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_DETAILED_FALL",
+      "fileName": "tree_detailed_fall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_detailed_fall.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_FAT",
+      "fileName": "tree_fat.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_fat.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_FAT_DARKH",
+      "fileName": "tree_fat_darkh.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_fat_darkh.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_FAT_FALL",
+      "fileName": "tree_fat_fall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_fat_fall.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_OAK",
+      "fileName": "tree_oak.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_oak.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_OAK_DARK",
+      "fileName": "tree_oak_dark.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_oak_dark.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_OAK_FALL",
+      "fileName": "tree_oak_fall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_oak_fall.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PALM",
+      "fileName": "tree_palm.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_palm.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PALM_BEND",
+      "fileName": "tree_palmBend.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_palmBend.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PALM_DETAILED_SHORT",
+      "fileName": "tree_palmDetailedShort.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_palmDetailedShort.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PALM_DETAILED_TALL",
+      "fileName": "tree_palmDetailedTall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_palmDetailedTall.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PALM_SHORT",
+      "fileName": "tree_palmShort.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_palmShort.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PALM_TALL",
+      "fileName": "tree_palmTall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_palmTall.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_DEFAULT_A",
+      "fileName": "tree_pineDefaultA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineDefaultA.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_DEFAULT_B",
+      "fileName": "tree_pineDefaultB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineDefaultB.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_GROUND_A",
+      "fileName": "tree_pineGroundA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineGroundA.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_GROUND_B",
+      "fileName": "tree_pineGroundB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineGroundB.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_ROUND_A",
+      "fileName": "tree_pineRoundA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineRoundA.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_ROUND_B",
+      "fileName": "tree_pineRoundB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineRoundB.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_ROUND_C",
+      "fileName": "tree_pineRoundC.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineRoundC.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_ROUND_D",
+      "fileName": "tree_pineRoundD.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineRoundD.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_ROUND_E",
+      "fileName": "tree_pineRoundE.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineRoundE.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_ROUND_F",
+      "fileName": "tree_pineRoundF.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineRoundF.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_SMALL_A",
+      "fileName": "tree_pineSmallA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineSmallA.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_SMALL_B",
+      "fileName": "tree_pineSmallB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineSmallB.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_SMALL_C",
+      "fileName": "tree_pineSmallC.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineSmallC.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_SMALL_D",
+      "fileName": "tree_pineSmallD.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineSmallD.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_TALL_A",
+      "fileName": "tree_pineTallA.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineTallA.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_TALL_A_DETAILED",
+      "fileName": "tree_pineTallA_detailed.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineTallA_detailed.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_TALL_B",
+      "fileName": "tree_pineTallB.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineTallB.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_TALL_B_DETAILED",
+      "fileName": "tree_pineTallB_detailed.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineTallB_detailed.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_TALL_C",
+      "fileName": "tree_pineTallC.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineTallC.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_TALL_C_DETAILED",
+      "fileName": "tree_pineTallC_detailed.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineTallC_detailed.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_TALL_D",
+      "fileName": "tree_pineTallD.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineTallD.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PINE_TALL_D_DETAILED",
+      "fileName": "tree_pineTallD_detailed.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineTallD_detailed.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PLATEAU",
+      "fileName": "tree_plateau.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_plateau.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PLATEAU_DARK",
+      "fileName": "tree_plateau_dark.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_plateau_dark.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_PLATEAU_FALL",
+      "fileName": "tree_plateau_fall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_plateau_fall.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_SIMPLE",
+      "fileName": "tree_simple.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_simple.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_SIMPLE_DARK",
+      "fileName": "tree_simple_dark.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_simple_dark.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_SIMPLE_FALL",
+      "fileName": "tree_simple_fall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_simple_fall.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_SMALL",
+      "fileName": "tree_small.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_small.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_SMALL_DARK",
+      "fileName": "tree_small_dark.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_small_dark.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_SMALL_FALL",
+      "fileName": "tree_small_fall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_small_fall.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_TALL",
+      "fileName": "tree_tall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_tall.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_TALL_DARK",
+      "fileName": "tree_tall_dark.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_tall_dark.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_TALL_FALL",
+      "fileName": "tree_tall_fall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_tall_fall.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_THIN",
+      "fileName": "tree_thin.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_thin.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_THIN_DARK",
+      "fileName": "tree_thin_dark.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_thin_dark.glb",
+      "family": "TREE"
+    },
+    {
+      "id": "KENNEY_NATURE_TREE_THIN_FALL",
+      "fileName": "tree_thin_fall.glb",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_thin_fall.glb",
+      "family": "TREE"
+    }
+  ]
+}

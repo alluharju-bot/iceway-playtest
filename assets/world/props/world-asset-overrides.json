@@ -3,7 +3,7 @@
   "replacements": [
     {
       "id": "CONIFER_SPRUCE_01",
-      "modelUrl": "assets/pine+tree+3d+model.glb",
+      "modelUrl": "assets/world/props/models/conifers/spruce-tripo-01.glb",
       "scale": 4.508806,
       "rotationYDegrees": 0,
       "yOffset": 0,
@@ -11,7 +11,7 @@
     },
     {
       "id": "LAMP_WIRED_WARM",
-      "modelUrl": "assets/street+lamp+3d+model.glb",
+      "modelUrl": "assets/world/props/models/street/street-lamp-tripo-01.glb",
       "scale": 1.803523,
       "rotationYDegrees": 0,
       "xOffset": 0.23422,
@@ -20,31 +20,337 @@
     },
     {
       "id": "IMPORT_CRATE_WOOD_01",
-      "modelUrl": "assets/wooden+crate+3d+model.glb",
+      "modelUrl": "assets/world/props/models/containers/wooden-crate-tripo-01.glb",
       "scale": 0.9,
       "rotationYDegrees": 0,
       "yOffset": 0
     },
     {
       "id": "IMPORT_MAILBOX_SET_01",
-      "modelUrl": "assets/colorful+mailbox+set+3d+model.glb",
+      "modelUrl": "assets/world/props/models/street/mailbox-set-tripo-01.glb",
       "scale": 2.7,
       "rotationYDegrees": 0,
       "yOffset": 0
     },
     {
       "id": "IMPORT_SIGNBOARD_FANTASY_01",
-      "modelUrl": "assets/fantasy+signboard+3d+model.glb",
+      "modelUrl": "assets/world/props/models/street/fantasy-signboard-tripo-01.glb",
       "scale": 2.1,
       "rotationYDegrees": 0,
       "yOffset": 0
     },
     {
       "id": "IMPORT_TIRE_STACK_01",
-      "modelUrl": "assets/tire+stack+3d+model.glb",
+      "modelUrl": "assets/world/props/models/vehicle-yard/tire-stack-tripo-01.glb",
       "scale": 0.9,
       "rotationYDegrees": 0,
       "yOffset": 0
+    },
+    {
+      "id": "CONIFER_SPRUCE_02",
+      "modelUrl": "assets/world/props/models/conifers/low-poly+tree+3d+model.glb",
+      "scale": 4.65,
+      "windWeight": 0.72
+    },
+    {
+      "id": "CONIFER_SPRUCE_03",
+      "modelUrl": "assets/world/props/models/conifers/pine+tree+3d+model.glb",
+      "scale": 6.2,
+      "windWeight": 0.72
+    },
+    {
+      "id": "CONIFER_SPRUCE_04",
+      "modelUrl": "assets/world/props/models/conifers/tall+conifer+tree+3d+model.glb",
+      "scale": 3.35,
+      "windWeight": 0.72
+    },
+    {
+      "id": "CONIFER_SPRUCE_05",
+      "modelUrl": "assets/world/props/models/conifers/tall+pine+tree+3d+model.glb",
+      "scale": 6.8,
+      "windWeight": 0.72
+    },
+    {
+      "id": "CONIFER_SPRUCE_06",
+      "modelUrl": "assets/world/props/models/conifers/spruce-tripo-02.glb",
+      "scale": 4.45,
+      "windWeight": 0.72
+    },
+    {
+      "id": "CONIFER_SPRUCE_07",
+      "modelUrl": "assets/world/props/models/conifers/spruce-tripo-03.glb",
+      "scale": 4.65,
+      "windWeight": 0.72
+    },
+    {
+      "id": "CONIFER_SPRUCE_08",
+      "modelUrl": "assets/world/props/models/conifers/spruce-tripo-04.glb",
+      "scale": 4.35,
+      "windWeight": 0.72
+    },
+    {
+      "id": "CONIFER_SPRUCE_09",
+      "modelUrl": "assets/world/props/models/conifers/pine-tripo-05.glb",
+      "scale": 5.7,
+      "windWeight": 0.7
+    },
+    {
+      "id": "CONIFER_SPRUCE_10",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineTallA_detailed.glb",
+      "scale": 3.15,
+      "windWeight": 0.62
+    },
+    {
+      "id": "CONIFER_SPRUCE_11",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineTallB_detailed.glb",
+      "scale": 3.05,
+      "windWeight": 0.62
+    },
+    {
+      "id": "CONIFER_SPRUCE_12",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineRoundA.glb",
+      "scale": 2.85,
+      "windWeight": 0.62
+    },
+    {
+      "id": "CONIFER_PINE_01",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineTallC_detailed.glb",
+      "scale": 3.1,
+      "windWeight": 0.64
+    },
+    {
+      "id": "CONIFER_PINE_02",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineTallD_detailed.glb",
+      "scale": 3.2,
+      "windWeight": 0.64
+    },
+    {
+      "id": "CONIFER_PINE_03",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineRoundB.glb",
+      "scale": 3.0,
+      "windWeight": 0.64
+    },
+    {
+      "id": "CONIFER_PINE_04",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineGroundA.glb",
+      "scale": 3.15,
+      "windWeight": 0.64
+    },
+    {
+      "id": "CONIFER_PINE_05",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineSmallA.glb",
+      "scale": 2.65,
+      "windWeight": 0.68
+    },
+    {
+      "id": "CONIFER_PINE_06",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineDefaultA.glb",
+      "scale": 3.05,
+      "windWeight": 0.64
+    },
+    {
+      "id": "CONIFER_PINE_07",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineTallB.glb",
+      "scale": 3.2,
+      "windWeight": 0.62
+    },
+    {
+      "id": "CONIFER_PINE_08",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineRoundD.glb",
+      "scale": 2.95,
+      "windWeight": 0.65
+    },
+    {
+      "id": "CONIFER_FIR_01",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineDefaultB.glb",
+      "scale": 3.05,
+      "windWeight": 0.62
+    },
+    {
+      "id": "CONIFER_FIR_02",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineRoundE.glb",
+      "scale": 2.95,
+      "windWeight": 0.62
+    },
+    {
+      "id": "CONIFER_FIR_03",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineGroundB.glb",
+      "scale": 3.0,
+      "windWeight": 0.62
+    },
+    {
+      "id": "CONIFER_FIR_04",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineTallC.glb",
+      "scale": 3.18,
+      "windWeight": 0.62
+    },
+    {
+      "id": "CONIFER_FIR_05",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineRoundF.glb",
+      "scale": 3.0,
+      "windWeight": 0.62
+    },
+    {
+      "id": "CONIFER_FIR_06",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineSmallD.glb",
+      "scale": 2.55,
+      "windWeight": 0.68
+    },
+    {
+      "id": "DECIDUOUS_BARE_03",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_thin_dark.glb",
+      "scale": 2.9,
+      "windWeight": 0.66
+    },
+    {
+      "id": "ROCK_SMALL_01",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_smallA.glb",
+      "scale": 2.2
+    },
+    {
+      "id": "ROCK_SMALL_02",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_smallB.glb",
+      "scale": 2.15
+    },
+    {
+      "id": "ROCK_SMALL_03",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_smallC.glb",
+      "scale": 2.2
+    },
+    {
+      "id": "ROCK_SMALL_04",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_smallFlatB.glb",
+      "scale": 2.3
+    },
+    {
+      "id": "ROCK_SMALL_05",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_smallE.glb",
+      "scale": 2.15
+    },
+    {
+      "id": "ROCK_LARGE_01",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_largeA.glb",
+      "scale": 3.9
+    },
+    {
+      "id": "ROCK_LARGE_02",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_largeB.glb",
+      "scale": 4.05
+    },
+    {
+      "id": "ROCK_LARGE_03",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_largeC.glb",
+      "scale": 3.9
+    },
+    {
+      "id": "ROCK_LARGE_04",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/rock_largeD.glb",
+      "scale": 4.0
+    },
+    {
+      "id": "ROCK_LARGE_05",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stone_largeE.glb",
+      "scale": 3.95
+    },
+    {
+      "id": "SHRUB_ARCTIC",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/plant_bush.glb",
+      "scale": 2.45,
+      "windWeight": 0.82
+    },
+    {
+      "id": "UNDERSTORY_GRASS_FINE_01",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/grass.glb",
+      "scale": 0.78,
+      "windWeight": 0.7
+    },
+    {
+      "id": "UNDERSTORY_GRASS_TUFT_02",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/grass_leafs.glb",
+      "scale": 0.82,
+      "windWeight": 0.78
+    },
+    {
+      "id": "UNDERSTORY_GRASS_TALL_03",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/grass_leafsLarge.glb",
+      "scale": 0.9,
+      "windWeight": 0.84
+    },
+    {
+      "id": "UNDERSTORY_GRASS_DRY_04",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/grass_large.glb",
+      "scale": 0.82,
+      "windWeight": 0.78
+    },
+    {
+      "id": "UNDERSTORY_HEATH_SHORT_01",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/plant_flatShort.glb",
+      "scale": 0.72,
+      "windWeight": 0.68
+    },
+    {
+      "id": "UNDERSTORY_HEATH_TALL_02",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/plant_flatTall.glb",
+      "scale": 0.76,
+      "windWeight": 0.74
+    },
+    {
+      "id": "UNDERSTORY_SHRUB_DWARF_01",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/plant_bushSmall.glb",
+      "scale": 0.82,
+      "windWeight": 0.72
+    },
+    {
+      "id": "UNDERSTORY_SHRUB_ROUND_02",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/plant_bush.glb",
+      "scale": 0.88,
+      "windWeight": 0.72
+    },
+    {
+      "id": "UNDERSTORY_SHRUB_DETAIL_03",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/plant_bushDetailed.glb",
+      "scale": 0.86,
+      "windWeight": 0.76
+    },
+    {
+      "id": "UNDERSTORY_SHRUB_LOW_04",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/plant_bushLarge.glb",
+      "scale": 0.82,
+      "windWeight": 0.74
+    },
+    {
+      "id": "UNDERSTORY_SHRUB_ANGULAR_05",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/plant_bushTriangle.glb",
+      "scale": 0.86,
+      "windWeight": 0.72
+    },
+    {
+      "id": "UNDERSTORY_SHRUB_LARGE_06",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/plant_bushLargeTriangle.glb",
+      "scale": 0.82,
+      "windWeight": 0.74
+    },
+    {
+      "id": "SURVIVAL_TREE_STUMP_01",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/stump_round.glb",
+      "scale": 1.75
+    },
+    {
+      "id": "SURVIVAL_LOG_SPRUCE_01",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/log.glb",
+      "scale": 2.25
+    },
+    {
+      "id": "NATURE_FOREST_HLOD_SPRUCE_01",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineTallA.glb",
+      "scale": 3.15,
+      "windWeight": 0.56
+    },
+    {
+      "id": "NATURE_FOREST_HLOD_PINE_01",
+      "modelUrl": "assets/vendor/kenney-nature-kit/models/tree_pineSmallC.glb",
+      "scale": 2.75,
+      "windWeight": 0.54
     }
   ]
 }
