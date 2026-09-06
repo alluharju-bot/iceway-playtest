@@ -20,13 +20,26 @@ is represented as an original ICEWAY recording.
   Source: https://opengameart.org/content/wind
 - `ambience/fire-loop.m4a`: **Fireplace Sound Loop**, CC0.
   Source: https://opengameart.org/content/fireplace-sound-loop
+- `fire/torch-loop.ogg`: **Fire Loop** by qubodup, CC-BY 3.0. Used as the
+  restrained moving-flame body of mounted and carried torches.
+  Source: https://opengameart.org/content/fire-loop
+- `fire/campfire-crackle.ogg`: **Fire Crackling** by AntumDeluge, CC0. Used
+  sparsely for the distinct pops and cracks of burning wood.
+  Source: https://opengameart.org/content/fire-crackling
+- `fire/structure-fire-loop.mp3`: **R28-02-Large Fire Burning** by craigsmith,
+  CC0. The bundled HQ preview is the large-fire body and only grows into a
+  roar when several connected construction cells are burning.
+  Source: https://freesound.org/people/craigsmith/sounds/483321/
 - `birds/crow.m4a`: **Crow Caw**, CC0.
   Source: https://opengameart.org/content/crow-caw
 - `birds/raven.m4a`: Common raven recording from Grand Teton National Park,
   public domain.
   Source: https://commons.wikimedia.org/wiki/File:Common_Raven_Grand_Teton_National_Park.ogg
-- `birds/great-tit.m4a`: Great tit recording by Aelwyn, public domain.
-  Source: https://commons.wikimedia.org/wiki/File:Parus_major.ogg
+- `birds/winter-bird-call.wav`: **Bird chirping sounds** by syncopika,
+  CC0. The short isolated calls were converted to mono, high-pass filtered,
+  gently gated and normalized; an additional in-game filter keeps the source
+  recording's outdoor noise out of the ambience bed.
+  Source: https://opengameart.org/content/bird-chirping-sounds
 - `world/wolf-howls.m4a`: wolves howling, recorded by the United States Fish
   and Wildlife Service, public domain.
   Source: https://commons.wikimedia.org/wiki/File:Wolf_howls.ogg
