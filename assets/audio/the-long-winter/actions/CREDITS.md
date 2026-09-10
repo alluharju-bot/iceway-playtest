@@ -1,6 +1,6 @@
-# Construction and fire recordings — R19
+# Construction and fire recordings — R19 / R21
 
-These are real recordings, not generated tones. All five sources are **CC0 1.0**:
+These are real recordings, not generated tones. All sources are **CC0 1.0**:
 https://creativecommons.org/publicdomain/zero/1.0/
 
 | Local files | Recording / author | Public source preview |
@@ -26,6 +26,25 @@ The complete reproducible cue sheet is in
 `ignite-decoded.wav`, `throw-decoded.wav`) then run that script with the directory
 as its argument. No source recordings or processing code run in the game.
 
-Runtime registry: `src/audio/WildernessRecordedActions.ts`. Twelve files, roughly
-450 KiB total on disk; decoded once and shared by repeated events. No per-step
-fetches, and no new continuous audio loops. Existing one-shot voice cap applies.
+Runtime registry: `src/audio/WildernessRecordedActions.ts`. Eighteen short files,
+decoded once and shared by repeated events. No per-step fetches. Existing one-shot
+voice cap applies.
+
+## R21 — timber-family foley and wick flame
+
+Verified 2026-09-11, CC0; downloaded the public HQ MP3 previews.
+
+- `mallet-1…3.wav`: [Wooden Mallet — leo153](https://freesound.org/people/leo153/sounds/535629/).
+  Three separate strikes, used for wooden uprights/walls/beams.
+- `saw-1…3.wav`: [Hand Saw — deleted_user_7146007](https://freesound.org/people/deleted_user_7146007/sounds/383725/).
+  Three short cues, used for timber roof work. Floors/stairs retain nail strikes.
+- `../fire/wick-flame-loop.wav`: [Fire Crackle and Flames 002 — TheWoodlandNomad / FractalStudios](https://freesound.org/people/TheWoodlandNomad/sounds/363092/).
+  Adapted wood-fire recording, **not a recording of an actual hand torch**.
+  A quieter flame bed replaces the welding-like loop on mounted/carried torches.
+  The old loop is retained for other fuel effects.
+
+Processing: `tools/audio/prepare-torch-build-foley.mjs` decodes in offline Chrome,
+downmixes to mono, resamples to 32 kHz, filters rumble, applies cue fades and peak
+normalization. The 11.6 s flame loop has a 400 ms seam crossfade. Source preview
+filenames in the preparation directory: `flame.mp3`, `mallet.mp3`, `saw.mp3`.
+No offline processing script is shipped in the gameplay bundle.

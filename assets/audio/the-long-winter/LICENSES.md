@@ -6,6 +6,12 @@ is represented as an original ICEWAY recording.
 
 ## CC0 / public-domain recordings
 
+- `fire/wick-flame-loop.wav`: **Fire Crackle and Flames 002**,
+  TheWoodlandNomad / FractalStudios, CC0. Adapted flame loop, not a torch field recording.
+  Source: https://freesound.org/people/TheWoodlandNomad/sounds/363092/
+- `actions/mallet-*.wav`, `actions/saw-*.wav`: CC0 recordings by leo153 and
+  deleted_user_7146007. Sources, processing and cue provenance: [actions/CREDITS.md](actions/CREDITS.md).
+
 - `footsteps/snow-dry-*.m4a`: **4 Dry Snow Steps** by qubodup, CC0.
   Source: https://opengameart.org/content/4-dry-snow-steps
 - `footsteps/snow-deep-*.m4a`: **42 Snow and Gravel Footsteps** by

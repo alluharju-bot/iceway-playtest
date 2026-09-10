@@ -2,6 +2,16 @@
   "schemaVersion": 1,
   "replacements": [
     {
+      "id": "SURVIVAL_HELD_TORCH_01",
+      "modelUrl": "assets/world/survival/models/held-winter-torch-01.glb",
+      "windWeight": 0
+    },
+    {
+      "id": "SURVIVAL_BUILD_WALL_TORCH_01",
+      "modelUrl": "assets/world/survival/models/wall-winter-torch-01.glb",
+      "windWeight": 0
+    },
+    {
       "id": "CONIFER_SPRUCE_01",
       "modelUrl": "assets/world/props/models/conifers/spruce-tripo-01.glb",
       "scale": 4.508806,
