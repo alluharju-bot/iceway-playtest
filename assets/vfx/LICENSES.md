@@ -1,5 +1,17 @@
 # Runtime VFX sources
 
+## Particle fire
+
+- Atlas and layout/lifetime equations: https://github.com/yomotsu/three-particle-fire
+- Copyright (c) 2017 @yomotsu. MIT.
+- The atlas is embedded in `src/survival/vfx/ParticleFireSprite.ts`.
+- Full notice: `three-particle-fire.LICENSE.txt` (also shipped in the build)
+  and `src/survival/vfx/THREE_PARTICLE_FIRE_LICENSE.md`.
+- ICEWAY adapts the effect with a blue/orange/yellow height gradient, local
+  wind, perspective/orthographic sizing, density LOD and glow blending that
+  preserves colour over snow. The shared distant flame cards remain the LOD
+  and loading fallback. Smoke, light budgets and combustion are independent.
+
 ## Volumetric campfire density
 
 - `fire-volumetric-density.png` is the grayscale density texture distributed
@@ -8,7 +20,5 @@
 - License: MIT
 - Copyright (c) 2015 typeWolffo
 
-The runtime uses the modern vanilla GLSL implementation through the published
-`@wolffo/three-fire` package. ICEWAY limits it to the two nearest campfires at
-12 ray-march iterations and two noise octaves; pooled billboard fire remains
-the low-cost fallback for distant fires and texture-load failure.
+Retained as a reference asset. The survival presenter now uses particle fire,
+not the `@wolffo/three-fire` ray-marching shader.
