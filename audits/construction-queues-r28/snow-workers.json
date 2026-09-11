@@ -1,0 +1,105 @@
+{
+  "logicalCpus": 10,
+  "verifiedTiles": 12,
+  "weatherTriggered": true,
+  "verticesPerTile": 4225,
+  "rows": [
+    {
+      "iteration": 0,
+      "dispatchMainMs": 2.1000003814697266,
+      "applyMainMs": 0.20000028610229492,
+      "syncMainMs": 3.4000000953674316,
+      "readyMs": 25.40000009536743,
+      "computeMs": 2.799999713897705
+    },
+    {
+      "iteration": 1,
+      "dispatchMainMs": 1.299999713897705,
+      "applyMainMs": 0,
+      "syncMainMs": 1.1999998092651367,
+      "readyMs": 19.699999809265137,
+      "computeMs": 2.700000286102295
+    },
+    {
+      "iteration": 2,
+      "dispatchMainMs": 0.9000000953674316,
+      "applyMainMs": 0.09999990463256836,
+      "syncMainMs": 1.3000001907348633,
+      "readyMs": 23.800000190734863,
+      "computeMs": 2.9000000953674316
+    },
+    {
+      "iteration": 3,
+      "dispatchMainMs": 0.9000000953674316,
+      "applyMainMs": 0,
+      "syncMainMs": 1.3000001907348633,
+      "readyMs": 18.5,
+      "computeMs": 2.8000001907348633
+    },
+    {
+      "iteration": 4,
+      "dispatchMainMs": 1,
+      "applyMainMs": 0,
+      "syncMainMs": 1.1999998092651367,
+      "readyMs": 19.5,
+      "computeMs": 2.799999713897705
+    },
+    {
+      "iteration": 5,
+      "dispatchMainMs": 1,
+      "applyMainMs": 0,
+      "syncMainMs": 1.0999999046325684,
+      "readyMs": 19.40000009536743,
+      "computeMs": 2.8999996185302734
+    },
+    {
+      "iteration": 6,
+      "dispatchMainMs": 1.200000286102295,
+      "applyMainMs": 0.09999990463256836,
+      "syncMainMs": 0.9000000953674316,
+      "readyMs": 19.700000286102295,
+      "computeMs": 2.799999713897705
+    },
+    {
+      "iteration": 7,
+      "dispatchMainMs": 0.8999996185302734,
+      "applyMainMs": 0,
+      "syncMainMs": 0.8999996185302734,
+      "readyMs": 19.5,
+      "computeMs": 2.6999998092651367
+    },
+    {
+      "iteration": 8,
+      "dispatchMainMs": 0.6000003814697266,
+      "applyMainMs": 0,
+      "syncMainMs": 0.9000000953674316,
+      "readyMs": 22.800000190734863,
+      "computeMs": 2.8999996185302734
+    },
+    {
+      "iteration": 9,
+      "dispatchMainMs": 0.6999998092651367,
+      "applyMainMs": 0.09999990463256836,
+      "syncMainMs": 0.6999998092651367,
+      "readyMs": 19.300000190734863,
+      "computeMs": 2.799999713897705
+    },
+    {
+      "iteration": 10,
+      "dispatchMainMs": 0.7000002861022949,
+      "applyMainMs": 0,
+      "syncMainMs": 0.6999998092651367,
+      "readyMs": 19.200000286102295,
+      "computeMs": 2.6999998092651367
+    },
+    {
+      "iteration": 11,
+      "dispatchMainMs": 0.7000002861022949,
+      "applyMainMs": 0,
+      "syncMainMs": 0.8000001907348633,
+      "readyMs": 18.90000009536743,
+      "computeMs": 2.8000001907348633
+    }
+  ],
+  "scope": "Real module Workers and transferred copies. Cached terrain; every pool cold-started intentionally. Same old/new attributes checked exactly. CPU timings, NOT game FPS or GPU time."
+}
