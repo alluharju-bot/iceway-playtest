@@ -1,0 +1,36 @@
+{
+  "logicalCpus": 10,
+  "runs": [
+    {
+      "cores": 3,
+      "capacity": 1,
+      "workers": 1,
+      "peakConcurrent": 1,
+      "coldMs": 216.80000019073486,
+      "warmMs": [
+        155.7000002861023,
+        158.09999990463257,
+        157.40000009536743,
+        156.59999990463257
+      ],
+      "failures": 0,
+      "completed": 2560
+    },
+    {
+      "cores": 10,
+      "capacity": 8,
+      "workers": 8,
+      "peakConcurrent": 8,
+      "coldMs": 196.2999997138977,
+      "warmMs": [
+        20.09999990463257,
+        20.09999990463257,
+        19.799999713897705,
+        19.300000190734863
+      ],
+      "failures": 0,
+      "completed": 2560
+    }
+  ],
+  "scope": "Identical 512 ceiling/escape queries, 121 roof panels. First batch includes startup; four fresh-revision warm batches. Not game FPS or a cross-machine benchmark."
+}
