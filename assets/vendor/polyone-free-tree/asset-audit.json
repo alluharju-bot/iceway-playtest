@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "source": "PolyOne Studio — Free Pack - Tree",
+  "sourceUrl": "https://www.fab.com/listings/97b20cea-a7e6-4104-a884-0ece175b707d",
+  "licenseStatus": "User-supplied download; no license file included. Verify acquisition terms before publishing.",
+  "sourceSha256": "2c96839974ad1613107215c05f6bfbd5cf36526e0af0562609b8e1a7ef4843cf",
+  "textureSha256": "3ed165ab60178e76b568c8adb2eac5423827385b17a5856a317c573d9aa1d88e",
+  "sourceUnitsToMetres": 0.01,
+  "assetCount": 8,
+  "totalTriangles": 7253,
+  "sharedMaterials": 1,
+  "sharedTextures": 1,
+  "assets": [
+    {
+      "id": "POLYONE_FREE_TREE_01",
+      "sourceMesh": "SM_FreeTree_01",
+      "modelUrl": "assets/vendor/polyone-free-tree/models/free-trees.glb",
+      "modelNode": "SM_FreeTree_01",
+      "triangles": 736,
+      "meshCount": 1,
+      "materialCount": 1,
+      "sizeMetres": [
+        2.02905,
+        6.80668,
+        1.98148
+      ],
+      "trunkDiameterMetres": 0.2233606,
+      "groundPivotSource": [
+        -1195.5321655273438,
+        0,
+        -40.63210582733154
+      ],
+      "bounds": {
+        "min": [
+          -0.8788751363754272,
+          0,
+          -0.9545015692710876
+        ],
+        "max": [
+          1.1501715183258057,
+          6.806682109832764,
+          1.026978611946106
+        ]
+      }
+    },
+    {
+      "id": "POLYONE_FREE_TREE_02",
+      "sourceMesh": "SM_FreeTree_02",
+      "modelUrl": "assets/vendor/polyone-free-tree/models/free-trees.glb",
+      "modelNode": "SM_FreeTree_02",
+      "triangles": 740,
+      "meshCount": 1,
+      "materialCount": 1,
+      "sizeMetres": [
+        5.20713,
+        10.2276,
+        4.67243
+      ],
+      "trunkDiameterMetres": 1.3513195999999998,
+      "groundPivotSource": [
+        -732.8594360351562,
+        0,
+        -48.815948486328125
+      ],
+      "bounds": {
+        "min": [
+          -2.963606595993042,
+          0,
+          -2.4053711891174316
+        ],
+        "max": [
+          2.2435271739959717,
+          10.2275972366333,
+          2.267063617706299
+        ]
+      }
+    },
+    {
+      "id": "POLYONE_FREE_TREE_03",
+      "sourceMesh": "SM_FreeTree_03",
+      "modelUrl": "assets/vendor/polyone-free-tree/models/free-trees.glb",
+      "modelNode": "SM_FreeTree_03",
+      "triangles": 749,
+      "meshCount": 1,
+      "materialCount": 1,
+      "sizeMetres": [
+        2.04809,
+        4.54609,
+        1.88307
+      ],
+      "trunkDiameterMetres": 0.20572780000000002,
+      "groundPivotSource": [
+        -342.0160369873047,
+        0,
+        129.6780662536621
+      ],
+      "bounds": {
+        "min": [
+          -1.070003867149353,
+          0,
+          -1.0780099630355835
+        ],
+        "max": [
+          0.9780836701393127,
+          4.546086311340332,
+          0.8050564527511597
+        ]
+      }
+    },
+    {
+      "id": "POLYONE_FREE_TREE_04",
+      "sourceMesh": "SM_FreeTree_04",
+      "modelUrl": "assets/vendor/polyone-free-tree/models/free-trees.glb",
+      "modelNode": "SM_FreeTree_04",
+      "triangles": 716,
+      "meshCount": 1,
+      "materialCount": 1,
+      "sizeMetres": [
+        2.03298,
+        12.27509,
+        2.16243
+      ],
+      "trunkDiameterMetres": 0.6965958000000001,
+      "groundPivotSource": [
+        -137.01466369628906,
+        0,
+        14.496603012084961
+      ],
+      "bounds": {
+        "min": [
+          -1.114069938659668,
+          0,
+          -1.1025043725967407
+        ],
+        "max": [
+          0.9189123511314392,
+          12.275094985961914,
+          1.0599257946014404
+        ]
+      }
+    },
+    {
+      "id": "POLYONE_FREE_TREE_05",
+      "sourceMesh": "SM_FreeTree_05",
+      "modelUrl": "assets/vendor/polyone-free-tree/models/free-trees.glb",
+      "modelNode": "SM_FreeTree_05",
+      "triangles": 1212,
+      "meshCount": 1,
+      "materialCount": 1,
+      "sizeMetres": [
+        2.91199,
+        8.04482,
+        3.02247
+      ],
+      "trunkDiameterMetres": 0.8621063,
+      "groundPivotSource": [
+        155.27313232421875,
+        0,
+        16.29134750366211
+      ],
+      "bounds": {
+        "min": [
+          -1.564173936843872,
+          0,
+          -1.56803560256958
+        ],
+        "max": [
+          1.3478186130523682,
+          8.044820785522461,
+          1.4544388055801392
+        ]
+      }
+    },
+    {
+      "id": "POLYONE_FREE_TREE_06",
+      "sourceMesh": "SM_FreeTree_06",
+      "modelUrl": "assets/vendor/polyone-free-tree/models/free-trees.glb",
+      "modelNode": "SM_FreeTree_06",
+      "triangles": 1365,
+      "meshCount": 1,
+      "materialCount": 1,
+      "sizeMetres": [
+        4.11948,
+        9.41239,
+        4.35452
+      ],
+      "trunkDiameterMetres": 1.2043317,
+      "groundPivotSource": [
+        608.9109802246094,
+        0,
+        116.75463104248047
+      ],
+      "bounds": {
+        "min": [
+          -2.394728660583496,
+          0,
+          -2.4656412601470947
+        ],
+        "max": [
+          1.7247543334960938,
+          9.412386894226074,
+          1.888877511024475
+        ]
+      }
+    },
+    {
+      "id": "POLYONE_FREE_TREE_07",
+      "sourceMesh": "SM_FreeTree_07",
+      "modelUrl": "assets/vendor/polyone-free-tree/models/free-trees.glb",
+      "modelNode": "SM_FreeTree_07",
+      "triangles": 742,
+      "meshCount": 1,
+      "materialCount": 1,
+      "sizeMetres": [
+        2.8784,
+        8.10551,
+        2.04061
+      ],
+      "trunkDiameterMetres": 0.6608301,
+      "groundPivotSource": [
+        898.5403442382812,
+        0,
+        14.387292861938477
+      ],
+      "bounds": {
+        "min": [
+          -0.3304150402545929,
+          0,
+          -1.035102367401123
+        ],
+        "max": [
+          2.547982692718506,
+          8.105506896972656,
+          1.0055041313171387
+        ]
+      }
+    },
+    {
+      "id": "POLYONE_FREE_TREE_08",
+      "sourceMesh": "SM_FreeTree_08",
+      "modelUrl": "assets/vendor/polyone-free-tree/models/free-trees.glb",
+      "modelNode": "SM_FreeTree_08",
+      "triangles": 993,
+      "meshCount": 1,
+      "materialCount": 1,
+      "sizeMetres": [
+        1.43386,
+        2.9411,
+        1.5338
+      ],
+      "trunkDiameterMetres": 0.2376392,
+      "groundPivotSource": [
+        1207.4237060546875,
+        0,
+        -61.39889717102051
+      ],
+      "bounds": {
+        "min": [
+          -0.7937610149383545,
+          0,
+          -0.7957214117050171
+        ],
+        "max": [
+          0.6401037573814392,
+          2.9411041736602783,
+          0.7380752563476562
+        ]
+      }
+    }
+  ]
+}

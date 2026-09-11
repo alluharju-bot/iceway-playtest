@@ -26,3 +26,9 @@ Stable semantic ids live in
 `src/characters/HoodedAdventurerAnimationCatalog.ts`. Ambiguous source suffixes
 such as `(2)` intentionally became A/B until an in-engine prop-contact review
 identifies their exact role.
+
+The 2026-09 action-pass uploads now live under `animations/action-pass/` with
+URL-safe filenames (throw, sitting, glider, carry and torch motions). The
+semantic catalog points to these reviewed clips; older animation variants
+remain available in the parent directory. Mekanos is not a player clip: its
+skin and walk were moved together to `../mekanos/model-and-walk.fbx`.

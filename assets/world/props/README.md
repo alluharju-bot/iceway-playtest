@@ -38,3 +38,9 @@ semantic `leaf`, `branch`, `flag` or `cloth` hint.
 The runtime loads and instances the GLB mesh parts under the same catalog ID.
 All existing placements, transforms, smart connections and collision settings
 remain intact. Keep the entry absent while using the procedural fallback.
+
+For a multi-model GLB, set optional `modelNode` to the exact named subtree
+(for example `SM_FreeTree_01`). The file and textures are loaded once for all
+replacements that reference its URL. Missing nodes retain the procedural
+fallback and log a warning. Node transforms relative to the GLB scene are
+retained, so centre a tree at its own ground-contact pivot before export.

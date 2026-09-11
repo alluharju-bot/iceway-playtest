@@ -1,6 +1,14 @@
 {
   "schemaVersion": 1,
   "replacements": [
+    { "id": "POLYONE_FREE_TREE_01", "modelUrl": "assets/vendor/polyone-free-tree/models/free-trees.glb", "modelNode": "SM_FreeTree_01", "windWeight": 0.55 },
+    { "id": "POLYONE_FREE_TREE_02", "modelUrl": "assets/vendor/polyone-free-tree/models/free-trees.glb", "modelNode": "SM_FreeTree_02", "windWeight": 0.4 },
+    { "id": "POLYONE_FREE_TREE_03", "modelUrl": "assets/vendor/polyone-free-tree/models/free-trees.glb", "modelNode": "SM_FreeTree_03", "windWeight": 0.6 },
+    { "id": "POLYONE_FREE_TREE_04", "modelUrl": "assets/vendor/polyone-free-tree/models/free-trees.glb", "modelNode": "SM_FreeTree_04", "windWeight": 0.5 },
+    { "id": "POLYONE_FREE_TREE_05", "modelUrl": "assets/vendor/polyone-free-tree/models/free-trees.glb", "modelNode": "SM_FreeTree_05", "windWeight": 0.5 },
+    { "id": "POLYONE_FREE_TREE_06", "modelUrl": "assets/vendor/polyone-free-tree/models/free-trees.glb", "modelNode": "SM_FreeTree_06", "windWeight": 0.4 },
+    { "id": "POLYONE_FREE_TREE_07", "modelUrl": "assets/vendor/polyone-free-tree/models/free-trees.glb", "modelNode": "SM_FreeTree_07", "windWeight": 0.6 },
+    { "id": "POLYONE_FREE_TREE_08", "modelUrl": "assets/vendor/polyone-free-tree/models/free-trees.glb", "modelNode": "SM_FreeTree_08", "windWeight": 0.6 },
     {
       "id": "SURVIVAL_HELD_TORCH_01",
       "modelUrl": "assets/world/survival/models/held-winter-torch-01.glb",

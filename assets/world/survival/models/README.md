@@ -1,7 +1,7 @@
 # Replaceable winter torch
 
 `held-winter-torch-01.glb` and `wall-winter-torch-01.glb` derive from the
-user-supplied `public/assets/wooden+club+3d+model.glb`. The source geometry and
+user-supplied `assets/source/props/wooden-club/wooden-club-original.glb`. The source geometry and
 texture are retained; this import does not claim a new third-party license.
 The user plans to replace the source with a lower-poly model later.
 
