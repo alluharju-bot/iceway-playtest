@@ -1,0 +1,2974 @@
+{
+  "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+  "images": [
+    {
+      "label": "0000_baseline",
+      "placed": 0,
+      "standing": 0,
+      "burning": 0,
+      "debris": 0,
+      "frames": 296,
+      "fps": 59.20236809472376,
+      "p95FrameMs": 16.799999999999272,
+      "maxFrameMs": 33.30000000000291,
+      "cpuMs": 12.941554051798743,
+      "gpuMs": 9.604373652026977,
+      "drawCalls": 586.902027027027,
+      "triangles": 4317876.189189189,
+      "angle": 0.9295180000042921,
+      "radius": 38,
+      "height": 24,
+      "image": "0000_baseline.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0100_courtyard",
+      "placed": 100,
+      "standing": 100,
+      "burning": 0,
+      "debris": 0,
+      "frames": 180,
+      "fps": 60.00200006666886,
+      "p95FrameMs": 16.700000000000728,
+      "maxFrameMs": 16.80000000000291,
+      "cpuMs": 11.618888894716898,
+      "gpuMs": 9.21450621111114,
+      "drawCalls": 594.1222222222223,
+      "triangles": 4405018.588888889,
+      "angle": 0.9353914999914172,
+      "radius": 36,
+      "height": 16,
+      "image": "0100_courtyard.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0100_roof",
+      "placed": 100,
+      "standing": 100,
+      "burning": 0,
+      "debris": 0,
+      "frames": 181,
+      "fps": 60.00331510028178,
+      "p95FrameMs": 16.799999999999272,
+      "maxFrameMs": 16.80000000000291,
+      "cpuMs": 11.567955817965514,
+      "gpuMs": 9.313416563535904,
+      "drawCalls": 564.6132596685082,
+      "triangles": 4403175.690607735,
+      "angle": 2.535724499995697,
+      "radius": 30,
+      "height": 35,
+      "image": "0100_roof.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0100_rear",
+      "placed": 100,
+      "standing": 100,
+      "burning": 0,
+      "debris": 0,
+      "frames": 180,
+      "fps": 60.00200006666886,
+      "p95FrameMs": 16.799999999995634,
+      "maxFrameMs": 16.80000000000291,
+      "cpuMs": 12.295555551846823,
+      "gpuMs": 7.977892155555538,
+      "drawCalls": 879.85,
+      "triangles": 4745154.155555556,
+      "angle": 4.235625500004334,
+      "radius": 46,
+      "height": 12,
+      "image": "0100_rear.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0200_courtyard",
+      "placed": 200,
+      "standing": 200,
+      "burning": 0,
+      "debris": 0,
+      "frames": 179,
+      "fps": 59.668655621854036,
+      "p95FrameMs": 16.799999999995634,
+      "maxFrameMs": 33.30000000000291,
+      "cpuMs": 13.966480462910743,
+      "gpuMs": 9.40038368156425,
+      "drawCalls": 827.5810055865921,
+      "triangles": 4436291.754189944,
+      "angle": 0.9356750000000004,
+      "radius": 36,
+      "height": 16,
+      "image": "0200_courtyard.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0200_roof",
+      "placed": 200,
+      "standing": 200,
+      "burning": 0,
+      "debris": 0,
+      "frames": 180,
+      "fps": 60.00400026668439,
+      "p95FrameMs": 16.700000000004366,
+      "maxFrameMs": 16.80000000000291,
+      "cpuMs": 13.558888861868116,
+      "gpuMs": 9.32464168333331,
+      "drawCalls": 764.6333333333333,
+      "triangles": 4414927.377777778,
+      "angle": 2.5355174999999917,
+      "radius": 30,
+      "height": 35,
+      "image": "0200_roof.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0200_rear",
+      "placed": 200,
+      "standing": 200,
+      "burning": 0,
+      "debris": 0,
+      "frames": 181,
+      "fps": 60.00132599615464,
+      "p95FrameMs": 16.700000000004366,
+      "maxFrameMs": 16.80000000000291,
+      "cpuMs": 14.363535939000588,
+      "gpuMs": 8.96732111049724,
+      "drawCalls": 1026.828729281768,
+      "triangles": 4735392.209944751,
+      "angle": 4.235778500008615,
+      "radius": 46,
+      "height": 12,
+      "image": "0200_rear.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0300_courtyard",
+      "placed": 300,
+      "standing": 300,
+      "burning": 0,
+      "debris": 0,
+      "frames": 149,
+      "fps": 49.94636631804778,
+      "p95FrameMs": 33.39999999999418,
+      "maxFrameMs": 33.400000000001455,
+      "cpuMs": 18.46442954492249,
+      "gpuMs": 9.87983855033559,
+      "drawCalls": 1145.496644295302,
+      "triangles": 4453589.436241611,
+      "angle": 0.9361339999914172,
+      "radius": 36,
+      "height": 16,
+      "image": "0300_courtyard.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0300_roof",
+      "placed": 300,
+      "standing": 300,
+      "burning": 0,
+      "debris": 0,
+      "frames": 164,
+      "fps": 54.66848894963163,
+      "p95FrameMs": 33.30000000000291,
+      "maxFrameMs": 33.400000000001455,
+      "cpuMs": 16.648780462218493,
+      "gpuMs": 9.735661859756112,
+      "drawCalls": 1059.6158536585365,
+      "triangles": 4439466.9878048785,
+      "angle": 2.535670500004289,
+      "radius": 30,
+      "height": 35,
+      "image": "0300_roof.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0300_rear",
+      "placed": 300,
+      "standing": 300,
+      "burning": 0,
+      "debris": 0,
+      "frames": 156,
+      "fps": 52.292839903459424,
+      "p95FrameMs": 33.39999999999418,
+      "maxFrameMs": 33.400000000001455,
+      "cpuMs": 17.56346155129946,
+      "gpuMs": 8.780453743589746,
+      "drawCalls": 1282.8846153846155,
+      "triangles": 4744446.025641026,
+      "angle": 4.235269999999993,
+      "radius": 46,
+      "height": 12,
+      "image": "0300_rear.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0400_courtyard",
+      "placed": 400,
+      "standing": 400,
+      "burning": 0,
+      "debris": 0,
+      "frames": 125,
+      "fps": 42.13577833209727,
+      "p95FrameMs": 33.39999999999418,
+      "maxFrameMs": 33.40000000000873,
+      "cpuMs": 22.158399993896484,
+      "gpuMs": 9.984093336000003,
+      "drawCalls": 1504.352,
+      "triangles": 4452923.744,
+      "angle": 0.9356794999957085,
+      "radius": 36,
+      "height": 16,
+      "image": "0400_courtyard.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0400_roof",
+      "placed": 400,
+      "standing": 400,
+      "burning": 0,
+      "debris": 0,
+      "frames": 130,
+      "fps": 43.334777825927404,
+      "p95FrameMs": 33.40000000000873,
+      "maxFrameMs": 33.40000000000873,
+      "cpuMs": 21.305384610249448,
+      "gpuMs": 10.428812953846151,
+      "drawCalls": 1422.7384615384615,
+      "triangles": 4432296.4,
+      "angle": 2.5359540000128695,
+      "radius": 30,
+      "height": 35,
+      "image": "0400_roof.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0400_rear",
+      "placed": 400,
+      "standing": 400,
+      "burning": 0,
+      "debris": 0,
+      "frames": 129,
+      "fps": 43.242156074014524,
+      "p95FrameMs": 33.39999999999418,
+      "maxFrameMs": 33.40000000000873,
+      "cpuMs": 21.560465114061223,
+      "gpuMs": 10.400371922480625,
+      "drawCalls": 1750.4883720930231,
+      "triangles": 4777513.162790698,
+      "angle": 4.2355894999956964,
+      "radius": 46,
+      "height": 12,
+      "image": "0400_rear.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0500_courtyard",
+      "placed": 500,
+      "standing": 500,
+      "burning": 0,
+      "debris": 0,
+      "frames": 101,
+      "fps": 33.85739666789575,
+      "p95FrameMs": 33.40000000000873,
+      "maxFrameMs": 49.90000000000873,
+      "cpuMs": 27.50099008862335,
+      "gpuMs": 11.070949514851486,
+      "drawCalls": 1916.7425742574258,
+      "triangles": 4469259.712871287,
+      "angle": 0.9361654999828338,
+      "radius": 36,
+      "height": 16,
+      "image": "0500_courtyard.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0500_roof",
+      "placed": 500,
+      "standing": 500,
+      "burning": 0,
+      "debris": 0,
+      "frames": 102,
+      "fps": 34.19032614889548,
+      "p95FrameMs": 33.40000000000873,
+      "maxFrameMs": 50,
+      "cpuMs": 27.442156875834744,
+      "gpuMs": 10.693094637254893,
+      "drawCalls": 1860.421568627451,
+      "triangles": 4451746.725490196,
+      "angle": 2.535850500004293,
+      "radius": 30,
+      "height": 35,
+      "image": "0500_roof.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0500_rear",
+      "placed": 500,
+      "standing": 500,
+      "burning": 0,
+      "debris": 0,
+      "frames": 101,
+      "fps": 33.66778892629745,
+      "p95FrameMs": 33.40000000000873,
+      "maxFrameMs": 50,
+      "cpuMs": 27.79603959074115,
+      "gpuMs": 10.863166168316841,
+      "drawCalls": 2073.366336633663,
+      "triangles": 4745792.188118812,
+      "angle": 4.235701999995725,
+      "radius": 46,
+      "height": 12,
+      "image": "0500_rear.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0600_courtyard",
+      "placed": 600,
+      "standing": 600,
+      "burning": 0,
+      "debris": 0,
+      "frames": 102,
+      "fps": 34.191472244569624,
+      "p95FrameMs": 33.40000000000873,
+      "maxFrameMs": 50,
+      "cpuMs": 27.3401960625368,
+      "gpuMs": 11.779885823529414,
+      "drawCalls": 2148.0098039215686,
+      "triangles": 4482848.637254902,
+      "angle": 0.9368135000085833,
+      "radius": 36,
+      "height": 16,
+      "image": "0600_courtyard.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0600_roof",
+      "placed": 600,
+      "standing": 600,
+      "burning": 0,
+      "debris": 0,
+      "frames": 100,
+      "fps": 33.334444481482784,
+      "p95FrameMs": 33.40000000000873,
+      "maxFrameMs": 49.90000000000873,
+      "cpuMs": 28.189000024795533,
+      "gpuMs": 10.66035641000001,
+      "drawCalls": 2105.35,
+      "triangles": 4456652.68,
+      "angle": 2.536057499999998,
+      "radius": 30,
+      "height": 35,
+      "image": "0600_roof.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0600_rear",
+      "placed": 600,
+      "standing": 600,
+      "burning": 0,
+      "debris": 0,
+      "frames": 83,
+      "fps": 27.97909994943536,
+      "p95FrameMs": 50,
+      "maxFrameMs": 50.10000000000582,
+      "cpuMs": 34.05903613998229,
+      "gpuMs": 11.038321240963857,
+      "drawCalls": 2361.012048192771,
+      "triangles": 4773600.084337349,
+      "angle": 4.235040500004291,
+      "radius": 46,
+      "height": 12,
+      "image": "0600_rear.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0700_courtyard",
+      "placed": 700,
+      "standing": 700,
+      "burning": 0,
+      "debris": 0,
+      "frames": 84,
+      "fps": 28.316197539187595,
+      "p95FrameMs": 50,
+      "maxFrameMs": 50.10000000000582,
+      "cpuMs": 33.08690475282215,
+      "gpuMs": 12.115538678571443,
+      "drawCalls": 2358.059523809524,
+      "triangles": 4529875.05952381,
+      "angle": 0.9375964999914168,
+      "radius": 36,
+      "height": 16,
+      "image": "0700_courtyard.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0700_roof",
+      "placed": 700,
+      "standing": 700,
+      "burning": 0,
+      "debris": 0,
+      "frames": 89,
+      "fps": 29.833735585948002,
+      "p95FrameMs": 50,
+      "maxFrameMs": 50.10000000000582,
+      "cpuMs": 31.82359548633018,
+      "gpuMs": 11.212450325842703,
+      "drawCalls": 2261.5730337078653,
+      "triangles": 4478278.921348315,
+      "angle": 2.535836999995709,
+      "radius": 30,
+      "height": 35,
+      "image": "0700_roof.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0700_rear",
+      "placed": 700,
+      "standing": 700,
+      "burning": 0,
+      "debris": 0,
+      "frames": 81,
+      "fps": 27.304904769930896,
+      "p95FrameMs": 50.09999999997672,
+      "maxFrameMs": 50.10000000000582,
+      "cpuMs": 34.75432099236382,
+      "gpuMs": 10.767124925925927,
+      "drawCalls": 2629.777777777778,
+      "triangles": 4842954.666666667,
+      "angle": 4.2353959999871265,
+      "radius": 46,
+      "height": 12,
+      "image": "0700_rear.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0800_courtyard",
+      "placed": 800,
+      "standing": 800,
+      "burning": 0,
+      "debris": 0,
+      "frames": 68,
+      "fps": 22.79431482971297,
+      "p95FrameMs": 66.69999999998254,
+      "maxFrameMs": 83.29999999998836,
+      "cpuMs": 41.39999996213352,
+      "gpuMs": 13.536249735294108,
+      "drawCalls": 2531.735294117647,
+      "triangles": 4559817.676470588,
+      "angle": 0.9385369999957086,
+      "radius": 36,
+      "height": 16,
+      "image": "0800_courtyard.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0800_roof",
+      "placed": 800,
+      "standing": 800,
+      "burning": 0,
+      "debris": 0,
+      "frames": 71,
+      "fps": 23.799946366317954,
+      "p95FrameMs": 50.10000000000582,
+      "maxFrameMs": 66.70000000001164,
+      "cpuMs": 40.15211268545876,
+      "gpuMs": 13.492829295774637,
+      "drawCalls": 2494.478873239437,
+      "triangles": 4532792.112676056,
+      "angle": 2.5357064999914147,
+      "radius": 30,
+      "height": 35,
+      "image": "0800_roof.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0800_rear",
+      "placed": 800,
+      "standing": 800,
+      "burning": 0,
+      "debris": 0,
+      "frames": 67,
+      "fps": 22.712634326587384,
+      "p95FrameMs": 50.10000000000582,
+      "maxFrameMs": 66.70000000001164,
+      "cpuMs": 42.252238821627486,
+      "gpuMs": 12.200634611940309,
+      "drawCalls": 2815.2388059701493,
+      "triangles": 4883447.388059702,
+      "angle": 4.2351754999828355,
+      "radius": 46,
+      "height": 12,
+      "image": "0800_rear.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0900_courtyard",
+      "placed": 900,
+      "standing": 900,
+      "burning": 0,
+      "debris": 0,
+      "frames": 75,
+      "fps": 25.140788415124845,
+      "p95FrameMs": 50.10000000000582,
+      "maxFrameMs": 66.60000000000582,
+      "cpuMs": 37.587999986012775,
+      "gpuMs": 13.424880653333311,
+      "drawCalls": 2575.733333333333,
+      "triangles": 4530312.973333334,
+      "angle": 0.9371374999999998,
+      "radius": 36,
+      "height": 16,
+      "image": "0900_courtyard.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0900_roof",
+      "placed": 900,
+      "standing": 900,
+      "burning": 0,
+      "debris": 0,
+      "frames": 67,
+      "fps": 22.334077802593463,
+      "p95FrameMs": 50.10000000000582,
+      "maxFrameMs": 66.59999999997672,
+      "cpuMs": 42.62985075053884,
+      "gpuMs": 13.376891014925382,
+      "drawCalls": 2539.283582089552,
+      "triangles": 4513214.119402985,
+      "angle": 2.5369575,
+      "radius": 30,
+      "height": 35,
+      "image": "0900_roof.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "0900_rear",
+      "placed": 900,
+      "standing": 900,
+      "burning": 0,
+      "debris": 0,
+      "frames": 66,
+      "fps": 22.001466764450836,
+      "p95FrameMs": 50.10000000000582,
+      "maxFrameMs": 99.89999999999418,
+      "cpuMs": 43.209090919205636,
+      "gpuMs": 12.842497106060605,
+      "drawCalls": 2969.8636363636365,
+      "triangles": 4906650.333333333,
+      "angle": 4.236448999991415,
+      "radius": 46,
+      "height": 12,
+      "image": "0900_rear.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "1000_courtyard",
+      "placed": 1000,
+      "standing": 1000,
+      "burning": 0,
+      "debris": 0,
+      "frames": 54,
+      "fps": 18.100760902356523,
+      "p95FrameMs": 66.70000000001164,
+      "maxFrameMs": 100,
+      "cpuMs": 46.25740736502188,
+      "gpuMs": 15.954483962962971,
+      "drawCalls": 2984.222222222222,
+      "triangles": 4622533.277777778,
+      "angle": 0.9388339999914168,
+      "radius": 36,
+      "height": 16,
+      "image": "1000_courtyard.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "1000_roof",
+      "placed": 1000,
+      "standing": 1000,
+      "burning": 0,
+      "debris": 0,
+      "frames": 49,
+      "fps": 16.517781897859432,
+      "p95FrameMs": 83.29999999998836,
+      "maxFrameMs": 83.39999999999418,
+      "cpuMs": 53.61428575126492,
+      "gpuMs": 17.230965836734708,
+      "drawCalls": 2926.530612244898,
+      "triangles": 4596171.0612244895,
+      "angle": 2.5356660000085847,
+      "radius": 30,
+      "height": 35,
+      "image": "1000_roof.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "1000_rear",
+      "placed": 1000,
+      "standing": 1000,
+      "burning": 0,
+      "debris": 0,
+      "frames": 53,
+      "fps": 17.766157146688048,
+      "p95FrameMs": 66.70000000001164,
+      "maxFrameMs": 66.80000000001746,
+      "cpuMs": 50.04339619402616,
+      "gpuMs": 16.202462490566024,
+      "drawCalls": 3190.9622641509436,
+      "triangles": 4905306.0566037735,
+      "angle": 4.236093500008579,
+      "radius": 46,
+      "height": 12,
+      "image": "1000_rear.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "1000_close_windows",
+      "placed": 1000,
+      "standing": 1000,
+      "burning": 0,
+      "debris": 0,
+      "frames": 103,
+      "fps": 20.669864140795866,
+      "p95FrameMs": 66.69999999998254,
+      "maxFrameMs": 66.80000000001746,
+      "cpuMs": 45.94951456495859,
+      "gpuMs": 16.384241436893195,
+      "drawCalls": 2811.8252427184466,
+      "triangles": 4593057.922330097,
+      "angle": 1.427524499995708,
+      "radius": 19,
+      "height": 8,
+      "image": "1000_close_windows.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "1000_instrumented_trace",
+      "placed": 1000,
+      "standing": 1000,
+      "burning": 0,
+      "debris": 0,
+      "frames": 328,
+      "fps": 20.52218961752397,
+      "p95FrameMs": 66.69999999998254,
+      "maxFrameMs": 83.39999999999418,
+      "cpuMs": 46.36249998575303,
+      "gpuMs": null,
+      "drawCalls": 2908.817073170732,
+      "triangles": 4596002.743902439,
+      "angle": 1.522389499995707,
+      "radius": 36,
+      "height": 16,
+      "image": "1000_instrumented_trace.jpg",
+      "instrumented": true
+    },
+    {
+      "label": "fire_00",
+      "placed": 1000,
+      "standing": 1000,
+      "burning": 3,
+      "debris": 0,
+      "frames": 156,
+      "fps": 15.652906825068714,
+      "p95FrameMs": 83.39999999999418,
+      "maxFrameMs": 200.10000000000582,
+      "cpuMs": 61.566025633078354,
+      "gpuMs": 18.802366615384603,
+      "drawCalls": 3028.7051282051284,
+      "triangles": 4587238.096153846,
+      "angle": 0.4448925000000001,
+      "radius": 26,
+      "height": 8,
+      "image": "fire_00.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "fire_01",
+      "placed": 1000,
+      "standing": 1000,
+      "burning": 3,
+      "debris": 0,
+      "frames": 121,
+      "fps": 12.22283953735037,
+      "p95FrameMs": 133.30000000001746,
+      "maxFrameMs": 250,
+      "cpuMs": 79.64462810311436,
+      "gpuMs": 20.265487223140475,
+      "drawCalls": 3031.809917355372,
+      "triangles": 4608615.157024793,
+      "angle": 1.0725905000042908,
+      "radius": 35,
+      "height": 16,
+      "image": "fire_01.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "fire_02",
+      "placed": 1000,
+      "standing": 1000,
+      "burning": 3,
+      "debris": 0,
+      "frames": 125,
+      "fps": 12.52141161385967,
+      "p95FrameMs": 116.70000000001164,
+      "maxFrameMs": 166.69999999998254,
+      "cpuMs": 77.18479998016358,
+      "gpuMs": 19.056089727999975,
+      "drawCalls": 3054.064,
+      "triangles": 4685361.296,
+      "angle": 1.737017499999999,
+      "radius": 44,
+      "height": 24,
+      "image": "fire_02.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "fire_03",
+      "placed": 1000,
+      "standing": 998,
+      "burning": 1,
+      "debris": 0,
+      "frames": 62,
+      "fps": 6.210557948512471,
+      "p95FrameMs": 250,
+      "maxFrameMs": 2266.600000000035,
+      "cpuMs": 159.4677419508657,
+      "gpuMs": 16.528328774193543,
+      "drawCalls": 2885.3064516129034,
+      "triangles": 4504798.774193549,
+      "angle": 2.1760125000000023,
+      "radius": 26,
+      "height": 32,
+      "image": "fire_03.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "fire_04",
+      "placed": 1000,
+      "standing": 997,
+      "burning": 0,
+      "debris": 0,
+      "frames": 107,
+      "fps": 10.71822097565862,
+      "p95FrameMs": 116.70000000001164,
+      "maxFrameMs": 2166.600000000035,
+      "cpuMs": 90.72803741080739,
+      "gpuMs": 13.419749130841149,
+      "drawCalls": 2954.177570093458,
+      "triangles": 4862727.177570093,
+      "angle": 2.933908999991421,
+      "radius": 35,
+      "height": 8,
+      "image": "fire_04.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "fire_05",
+      "placed": 1000,
+      "standing": 997,
+      "burning": 0,
+      "debris": 0,
+      "frames": 172,
+      "fps": 17.200688027521142,
+      "p95FrameMs": 83.29999999998836,
+      "maxFrameMs": 83.40000000002328,
+      "cpuMs": 55.80755814286165,
+      "gpuMs": 14.536823511627897,
+      "drawCalls": 3079.5116279069766,
+      "triangles": 4938639.4069767445,
+      "angle": 3.702528999991417,
+      "radius": 44,
+      "height": 16,
+      "image": "fire_05.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "fire_06",
+      "placed": 1000,
+      "standing": 997,
+      "burning": 3,
+      "debris": 0,
+      "frames": 156,
+      "fps": 15.626721694096869,
+      "p95FrameMs": 99.90000000002328,
+      "maxFrameMs": 166.70000000001164,
+      "cpuMs": 60.743589761929634,
+      "gpuMs": null,
+      "drawCalls": 2989.2884615384614,
+      "triangles": 4712769.391025641,
+      "angle": 4.34660700001717,
+      "radius": 26,
+      "height": 24,
+      "image": "fire_06.jpg",
+      "instrumented": true
+    },
+    {
+      "label": "fire_07",
+      "placed": 1000,
+      "standing": 997,
+      "burning": 3,
+      "debris": 0,
+      "frames": 154,
+      "fps": 15.52998598267501,
+      "p95FrameMs": 83.40000000002328,
+      "maxFrameMs": 100,
+      "cpuMs": 62.070129874464754,
+      "gpuMs": null,
+      "drawCalls": 3286.746753246753,
+      "triangles": 4961509.798701298,
+      "angle": 4.999185499982834,
+      "radius": 35,
+      "height": 32,
+      "image": "fire_07.jpg",
+      "instrumented": true
+    },
+    {
+      "label": "fire_08",
+      "placed": 1000,
+      "standing": 997,
+      "burning": 26,
+      "debris": 0,
+      "frames": 159,
+      "fps": 15.900636025441054,
+      "p95FrameMs": 83.40000000002328,
+      "maxFrameMs": 133.40000000002328,
+      "cpuMs": 60.63710692243756,
+      "gpuMs": 15.777826446540868,
+      "drawCalls": 3219.566037735849,
+      "triangles": 4892266.855345912,
+      "angle": 5.650512999961373,
+      "radius": 44,
+      "height": 8,
+      "image": "fire_08.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "fire_09",
+      "placed": 1000,
+      "standing": 997,
+      "burning": 66,
+      "debris": 0,
+      "frames": 117,
+      "fps": 11.778918755662941,
+      "p95FrameMs": 133.29999999998836,
+      "maxFrameMs": 150,
+      "cpuMs": 82.18974361256656,
+      "gpuMs": 22.378132777777775,
+      "drawCalls": 3113.871794871795,
+      "triangles": 4692028.179487179,
+      "angle": 6.280969499974255,
+      "radius": 26,
+      "height": 16,
+      "image": "fire_09.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "fire_10",
+      "placed": 1000,
+      "standing": 997,
+      "burning": 66,
+      "debris": 0,
+      "frames": 130,
+      "fps": 13.06585189354349,
+      "p95FrameMs": 100,
+      "maxFrameMs": 116.70000000001164,
+      "cpuMs": 74.15692308499263,
+      "gpuMs": 18.914968430769246,
+      "drawCalls": 3033.1,
+      "triangles": 4563010.361538461,
+      "angle": 6.947443999927049,
+      "radius": 35,
+      "height": 24,
+      "image": "fire_10.jpg",
+      "instrumented": false
+    },
+    {
+      "label": "fire_11",
+      "placed": 1000,
+      "standing": 992,
+      "burning": 77,
+      "debris": 5,
+      "frames": 82,
+      "fps": 8.213963738355204,
+      "p95FrameMs": 133.30000000004657,
+      "maxFrameMs": 2866.600000000035,
+      "cpuMs": 119.02195121020806,
+      "gpuMs": 23.720780073170722,
+      "drawCalls": 3085.1463414634145,
+      "triangles": 4536950.707317073,
+      "angle": 7.460148999927045,
+      "radius": 44,
+      "height": 32,
+      "image": "fire_11.jpg",
+      "instrumented": false
+    }
+  ],
+  "final": {
+    "placed": 1000,
+    "standing": 989,
+    "burning": 75,
+    "debris": 8
+  },
+  "placement": {
+    "count": 1000,
+    "meanMs": 16.535500001907348,
+    "p95Ms": 37,
+    "maximumMs": 80.59999990463257
+  },
+  "floorChecks": 162,
+  "floorFailures": [],
+  "unsupported": [],
+  "errors": [],
+  "traces": [
+    {
+      "file": "intact-detailed-trace.json",
+      "frames": 310,
+      "dropped": {
+        "frames": 0,
+        "events": 0,
+        "gpuSegments": 0,
+        "cpuSpans": 0
+      },
+      "cpu": {
+        "count": 310,
+        "meanMs": 46.089677404588265,
+        "p50Ms": 45.19999980926514,
+        "p95Ms": 54.5,
+        "p99Ms": 68.19999980926514,
+        "maximumMs": 77.59999990463257
+      },
+      "gpu": {
+        "total": {
+          "count": 62,
+          "meanMs": 14.759879838709676,
+          "p50Ms": 14.4835,
+          "p95Ms": 20.723083,
+          "p99Ms": 25.997708,
+          "maximumMs": 25.997708
+        }
+      },
+      "scopes": [
+        [
+          "frame.world-render",
+          {
+            "count": 310,
+            "meanMs": 25.033870956974646,
+            "p50Ms": 24.899999618530273,
+            "p95Ms": 27.09999990463257,
+            "p99Ms": 30.199999809265137,
+            "maximumMs": 43.30000019073486
+          }
+        ],
+        [
+          "frame.scene-render",
+          {
+            "count": 310,
+            "meanMs": 24.11741934591724,
+            "p50Ms": 23.90000009536743,
+            "p95Ms": 26.199999809265137,
+            "p99Ms": 29,
+            "maximumMs": 42
+          }
+        ],
+        [
+          "render.total",
+          {
+            "count": 310,
+            "meanMs": 17.712258080513248,
+            "p50Ms": 17.59999990463257,
+            "p95Ms": 19.699999809265137,
+            "p99Ms": 22.200000286102295,
+            "maximumMs": 34.90000009536743
+          }
+        ],
+        [
+          "render.scene",
+          {
+            "count": 310,
+            "meanMs": 17.618387114617132,
+            "p50Ms": 17.5,
+            "p95Ms": 19.5,
+            "p99Ms": 22.100000381469727,
+            "maximumMs": 34.30000019073486
+          }
+        ],
+        [
+          "render.renderer-call:Scene#25",
+          {
+            "count": 310,
+            "meanMs": 17.58709678496084,
+            "p50Ms": 17.40000009536743,
+            "p95Ms": 19.5,
+            "p99Ms": 22.100000381469727,
+            "maximumMs": 34.09999990463257
+          }
+        ],
+        [
+          "frame.land-simulation",
+          {
+            "count": 310,
+            "meanMs": 16.248387098312378,
+            "p50Ms": 15.200000286102295,
+            "p95Ms": 25.199999809265137,
+            "p99Ms": 38.59999990463257,
+            "maximumMs": 49.09999990463257
+          }
+        ],
+        [
+          "frame.wilderness-survival",
+          {
+            "count": 310,
+            "meanMs": 15.127419344071418,
+            "p50Ms": 14,
+            "p95Ms": 24,
+            "p99Ms": 37.30000019073486,
+            "maximumMs": 47.69999980926514
+          }
+        ],
+        [
+          "frame.persistence-total",
+          {
+            "count": 1,
+            "meanMs": 11.599999904632568,
+            "p50Ms": 11.599999904632568,
+            "p95Ms": 11.599999904632568,
+            "p99Ms": 11.599999904632568,
+            "maximumMs": 11.599999904632568
+          }
+        ],
+        [
+          "game.persistWorldState",
+          {
+            "count": 1,
+            "meanMs": 11.599999904632568,
+            "p50Ms": 11.599999904632568,
+            "p95Ms": 11.599999904632568,
+            "p99Ms": 11.599999904632568,
+            "maximumMs": 11.599999904632568
+          }
+        ],
+        [
+          "frame.persistence",
+          {
+            "count": 1,
+            "meanMs": 11.599999904632568,
+            "p50Ms": 11.599999904632568,
+            "p95Ms": 11.599999904632568,
+            "p99Ms": 11.599999904632568,
+            "maximumMs": 11.599999904632568
+          }
+        ],
+        [
+          "construction.update",
+          {
+            "count": 310,
+            "meanMs": 8.528064518590128,
+            "p50Ms": 7.200000286102295,
+            "p95Ms": 17.800000190734863,
+            "p99Ms": 29.90000009536743,
+            "maximumMs": 42
+          }
+        ],
+        [
+          "construction.updateRuntimeSurfaceSnow",
+          {
+            "count": 310,
+            "meanMs": 6.265161298936413,
+            "p50Ms": 5.099999904632568,
+            "p95Ms": 13.199999809265137,
+            "p99Ms": 29,
+            "maximumMs": 41
+          }
+        ],
+        [
+          "survival.simulation.update",
+          {
+            "count": 310,
+            "meanMs": 4.75129031519736,
+            "p50Ms": 4.5,
+            "p95Ms": 6,
+            "p99Ms": 6.800000190734863,
+            "maximumMs": 7.199999809265137
+          }
+        ],
+        [
+          "survival.simulation.updateAnimals",
+          {
+            "count": 310,
+            "meanMs": 4.740967732091104,
+            "p50Ms": 4.5,
+            "p95Ms": 5.900000095367432,
+            "p99Ms": 6.800000190734863,
+            "maximumMs": 7.199999809265137
+          }
+        ],
+        [
+          "render.shadow-maps",
+          {
+            "count": 310,
+            "meanMs": 3.0974193711434643,
+            "p50Ms": 2.9000000953674316,
+            "p95Ms": 3.9000000953674316,
+            "p99Ms": 4.599999904632568,
+            "maximumMs": 8.400000095367432
+          }
+        ],
+        [
+          "sky.updateProjectedCelestials",
+          {
+            "count": 310,
+            "meanMs": 2.3890322623714324,
+            "p50Ms": 2.4000000953674316,
+            "p95Ms": 3.299999713897705,
+            "p99Ms": 4,
+            "maximumMs": 7.40000057220459
+          }
+        ],
+        [
+          "snow.v5.advanceRefreshJob",
+          {
+            "count": 57,
+            "meanMs": 2.310526312443248,
+            "p50Ms": 2.6000003814697266,
+            "p95Ms": 3.4000000953674316,
+            "p99Ms": 4.5,
+            "maximumMs": 4.5
+          }
+        ],
+        [
+          "frame.hud-and-debug",
+          {
+            "count": 310,
+            "meanMs": 1.6799999960007206,
+            "p50Ms": 1,
+            "p95Ms": 3.8999996185302734,
+            "p99Ms": 4.199999809265137,
+            "maximumMs": 4.5
+          }
+        ],
+        [
+          "construction.updateSurfaceMountedFurniture",
+          {
+            "count": 310,
+            "meanMs": 1.4603225815680718,
+            "p50Ms": 0,
+            "p95Ms": 8.800000190734863,
+            "p99Ms": 9.900000095367432,
+            "maximumMs": 10.300000190734863
+          }
+        ],
+        [
+          "world.floating-island-motion",
+          {
+            "count": 310,
+            "meanMs": 0.9451612872462118,
+            "p50Ms": 0.9000000953674316,
+            "p95Ms": 1.1999998092651367,
+            "p99Ms": 2.4000000953674316,
+            "maximumMs": 2.5
+          }
+        ],
+        [
+          "construction.updateCameraCutaway",
+          {
+            "count": 310,
+            "meanMs": 0.8525806380856422,
+            "p50Ms": 0.8000001907348633,
+            "p95Ms": 1.0999999046325684,
+            "p99Ms": 2,
+            "maximumMs": 2.5999999046325684
+          }
+        ],
+        [
+          "frame.land-operations",
+          {
+            "count": 310,
+            "meanMs": 0.759032243297946,
+            "p50Ms": 0.8000001907348633,
+            "p95Ms": 0.9000000953674316,
+            "p99Ms": 1,
+            "maximumMs": 1.9000000953674316
+          }
+        ],
+        [
+          "snow.v3.applyWeather",
+          {
+            "count": 310,
+            "meanMs": 0.7499999830799718,
+            "p50Ms": 0.8000001907348633,
+            "p95Ms": 0.9000000953674316,
+            "p99Ms": 1,
+            "maximumMs": 1.9000000953674316
+          }
+        ],
+        [
+          "survival.synchronizeThermalInfluences",
+          {
+            "count": 53,
+            "meanMs": 0.6981131625625322,
+            "p50Ms": 0.6999998092651367,
+            "p95Ms": 0.9000000953674316,
+            "p99Ms": 1,
+            "maximumMs": 1
+          }
+        ],
+        [
+          "frame.presentation-and-audio",
+          {
+            "count": 310,
+            "meanMs": 0.6464516285927066,
+            "p50Ms": 0.20000028610229492,
+            "p95Ms": 2.9000000953674316,
+            "p99Ms": 3.1999998092651367,
+            "maximumMs": 4.900000095367432
+          }
+        ],
+        [
+          "survival.updateAnimalPresentation",
+          {
+            "count": 310,
+            "meanMs": 0.5600000135360226,
+            "p50Ms": 0.5,
+            "p95Ms": 0.6999998092651367,
+            "p99Ms": 1.8000001907348633,
+            "maximumMs": 2
+          }
+        ],
+        [
+          "frame.environment",
+          {
+            "count": 310,
+            "meanMs": 0.5206451785179876,
+            "p50Ms": 0.20000028610229492,
+            "p95Ms": 2.4000000953674316,
+            "p99Ms": 6,
+            "maximumMs": 10
+          }
+        ],
+        [
+          "frame.land-snow-v5-microdetail",
+          {
+            "count": 310,
+            "meanMs": 0.4777419520962623,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 2.8000001907348633,
+            "p99Ms": 3,
+            "maximumMs": 4.600000381469727
+          }
+        ],
+        [
+          "scene.updateCharacterToolCamera",
+          {
+            "count": 310,
+            "meanMs": 0.4722580679001347,
+            "p50Ms": 0.40000009536743164,
+            "p95Ms": 0.5999999046325684,
+            "p99Ms": 1.8000001907348633,
+            "maximumMs": 2.1999998092651367
+          }
+        ],
+        [
+          "diagnostics.context",
+          {
+            "count": 310,
+            "meanMs": 0.4599999966159944,
+            "p50Ms": 0.5,
+            "p95Ms": 0.5999999046325684,
+            "p99Ms": 0.7000002861022949,
+            "maximumMs": 1.0999999046325684
+          }
+        ],
+        [
+          "survival.thermal.update",
+          {
+            "count": 310,
+            "meanMs": 0.440645150215395,
+            "p50Ms": 0.40000009536743164,
+            "p95Ms": 0.5999999046325684,
+            "p99Ms": 0.5999999046325684,
+            "maximumMs": 1.4000000953674316
+          }
+        ],
+        [
+          "snow.mid.writeTilePositions",
+          {
+            "count": 64,
+            "meanMs": 0.3578125387430191,
+            "p50Ms": 0.3000001907348633,
+            "p95Ms": 0.5999999046325684,
+            "p99Ms": 0.6000003814697266,
+            "maximumMs": 0.6000003814697266
+          }
+        ],
+        [
+          "snow.v3.exportState",
+          {
+            "count": 1,
+            "meanMs": 0.20000028610229492,
+            "p50Ms": 0.20000028610229492,
+            "p95Ms": 0.20000028610229492,
+            "p99Ms": 0.20000028610229492,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "survival.updateResourcePresentation",
+          {
+            "count": 66,
+            "meanMs": 0.1712121024276271,
+            "p50Ms": 0.19999980926513672,
+            "p95Ms": 0.3000001907348633,
+            "p99Ms": 0.3000001907348633,
+            "maximumMs": 0.3000001907348633
+          }
+        ],
+        [
+          "construction.updateStructuralFireRisk",
+          {
+            "count": 310,
+            "meanMs": 0.145806457150367,
+            "p50Ms": 0,
+            "p95Ms": 0.9000000953674316,
+            "p99Ms": 1.0999999046325684,
+            "maximumMs": 1.799999713897705
+          }
+        ],
+        [
+          "survival.updateNearSceneryShadowCasters",
+          {
+            "count": 310,
+            "meanMs": 0.1435483855585898,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.40000009536743164,
+            "p99Ms": 0.40000009536743164,
+            "maximumMs": 1.4000000953674316
+          }
+        ],
+        [
+          "snow.v3.updateTileMesh",
+          {
+            "count": 56,
+            "meanMs": 0.13392854588372366,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.5,
+            "p99Ms": 0.6999998092651367,
+            "maximumMs": 0.6999998092651367
+          }
+        ],
+        [
+          "construction.updateCantileverLoads",
+          {
+            "count": 310,
+            "meanMs": 0.10451611088168236,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.20000028610229492,
+            "p99Ms": 0.20000028610229492,
+            "maximumMs": 0.3000001907348633
+          }
+        ],
+        [
+          "frame.land-snow-stream",
+          {
+            "count": 310,
+            "meanMs": 0.10096774562712639,
+            "p50Ms": 0,
+            "p95Ms": 0.5,
+            "p99Ms": 0.6999998092651367,
+            "maximumMs": 0.7000002861022949
+          }
+        ],
+        [
+          "scene.applyEnvironmentPresentation",
+          {
+            "count": 310,
+            "meanMs": 0.08870966972843293,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.3000001907348633,
+            "p99Ms": 0.40000009536743164,
+            "maximumMs": 0.5
+          }
+        ],
+        [
+          "snow.mid.rebuildDirty",
+          {
+            "count": 310,
+            "meanMs": 0.07483871675306751,
+            "p50Ms": 0,
+            "p95Ms": 0.5,
+            "p99Ms": 0.5999999046325684,
+            "maximumMs": 0.6000003814697266
+          }
+        ],
+        [
+          "snow.v5.createRefreshJob",
+          {
+            "count": 24,
+            "meanMs": 0.07083332538604736,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.19999980926513672,
+            "p99Ms": 0.19999980926513672,
+            "maximumMs": 0.19999980926513672
+          }
+        ],
+        [
+          "snow.v3.storeTile",
+          {
+            "count": 27,
+            "meanMs": 0.07037042688440394,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.20000028610229492,
+            "p99Ms": 0.2999997138977051,
+            "maximumMs": 0.2999997138977051
+          }
+        ],
+        [
+          "survival.updateTreeMotion",
+          {
+            "count": 310,
+            "meanMs": 0.06419354715654926,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.19999980926513672,
+            "p99Ms": 0.20000028610229492,
+            "maximumMs": 0.3000001907348633
+          }
+        ],
+        [
+          "frame.world-presentation",
+          {
+            "count": 310,
+            "meanMs": 0.05967742550757624,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.10000038146972656,
+            "p99Ms": 0.20000028610229492,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "survival.updateCampSmoke",
+          {
+            "count": 310,
+            "meanMs": 0.05967742243120747,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.10000038146972656,
+            "p99Ms": 0.20000028610229492,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "render.atmosphere-grade",
+          {
+            "count": 310,
+            "meanMs": 0.043225809835618544,
+            "p50Ms": 0,
+            "p95Ms": 0.10000038146972656,
+            "p99Ms": 0.19999980926513672,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "snow.v3.preparePersistence",
+          {
+            "count": 47,
+            "meanMs": 0.03617023914418322,
+            "p50Ms": 0,
+            "p95Ms": 0.10000038146972656,
+            "p99Ms": 0.2999997138977051,
+            "maximumMs": 0.2999997138977051
+          }
+        ],
+        [
+          "frame.land-snow-mesh",
+          {
+            "count": 310,
+            "meanMs": 0.03612902395186886,
+            "p50Ms": 0,
+            "p95Ms": 0.20000028610229492,
+            "p99Ms": 0.5,
+            "maximumMs": 0.8000001907348633
+          }
+        ],
+        [
+          "snow.v3.flushVisualUpdates",
+          {
+            "count": 310,
+            "meanMs": 0.03548386327682003,
+            "p50Ms": 0,
+            "p95Ms": 0.20000028610229492,
+            "p99Ms": 0.5,
+            "maximumMs": 0.8000001907348633
+          }
+        ],
+        [
+          "frame.floating-islands",
+          {
+            "count": 310,
+            "meanMs": 0.02935484455477807,
+            "p50Ms": 0,
+            "p95Ms": 0.10000038146972656,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "render.renderer-call:Mesh#2194",
+          {
+            "count": 310,
+            "meanMs": 0.029354836863856162,
+            "p50Ms": 0,
+            "p95Ms": 0.10000038146972656,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "sky-islands.update",
+          {
+            "count": 310,
+            "meanMs": 0.027419360991447202,
+            "p50Ms": 0,
+            "p95Ms": 0.10000038146972656,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "render.output",
+          {
+            "count": 310,
+            "meanMs": 0.02322580737452353,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "sky-islands.sampleCelestialVisibility",
+          {
+            "count": 310,
+            "meanMs": 0.021290325349377047,
+            "p50Ms": 0,
+            "p95Ms": 0.10000038146972656,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.19999980926513672
+          }
+        ],
+        [
+          "sky.update",
+          {
+            "count": 310,
+            "meanMs": 0.020967746550037015,
+            "p50Ms": 0,
+            "p95Ms": 0.10000038146972656,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.19999980926513672
+          }
+        ],
+        [
+          "snowfall.update",
+          {
+            "count": 310,
+            "meanMs": 0.02064515544522193,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "snow.v5.syncDetailCoverage",
+          {
+            "count": 310,
+            "meanMs": 0.018709682649181734,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "survival.updateInteractionMarker",
+          {
+            "count": 310,
+            "meanMs": 0.01709677480882214,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "construction.updateBuiltFireLights",
+          {
+            "count": 310,
+            "meanMs": 0.016774203700404014,
+            "p50Ms": 0,
+            "p95Ms": 0.10000038146972656,
+            "p99Ms": 0.19999980926513672,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "render.renderer-call:Mesh#2195",
+          {
+            "count": 310,
+            "meanMs": 0.016774192933113344,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "frame.gameplay",
+          {
+            "count": 310,
+            "meanMs": 0.013870965280840473,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 1.3000001907348633
+          }
+        ],
+        [
+          "clouds.update",
+          {
+            "count": 310,
+            "meanMs": 0.012903225806451613,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "survival.updateTreeSurfaceSnow",
+          {
+            "count": 310,
+            "meanMs": 0.01064515882922757,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.19999980926513672,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "frame.world-chunks",
+          {
+            "count": 310,
+            "meanMs": 0.010322575415334394,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "scene.updateCelestialWorldPositions",
+          {
+            "count": 310,
+            "meanMs": 0.006774190164381458,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.19999980926513672
+          }
+        ],
+        [
+          "diagnostics.gpu-poll",
+          {
+            "count": 310,
+            "meanMs": 0.005806450689992597,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "clouds.setPresentation",
+          {
+            "count": 310,
+            "meanMs": 0.00548386727609942,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "construction.updateUnfinishedRoofPresentation",
+          {
+            "count": 310,
+            "meanMs": 0.003225809527981666,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "frame.land-snow-prefetch",
+          {
+            "count": 310,
+            "meanMs": 0.0032258064516129032,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "construction.updateFireDamage",
+          {
+            "count": 310,
+            "meanMs": 0.002903226114088489,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "frame.land-snow-v4-detail",
+          {
+            "count": 310,
+            "meanMs": 0.002580645776564075,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "snow.v3.setActiveCenter",
+          {
+            "count": 310,
+            "meanMs": 0.0019354835633308657,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "construction.updateRecoveredParts",
+          {
+            "count": 310,
+            "meanMs": 0.0019354820251464844,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.19999980926513672
+          }
+        ],
+        [
+          "survival.snow-melt.advance",
+          {
+            "count": 310,
+            "meanMs": 0.0016129032258064516,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "snow.v3.processPrefetchBudget",
+          {
+            "count": 310,
+            "meanMs": 0.0016129032258064516,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "survival.roomSmoke.update",
+          {
+            "count": 310,
+            "meanMs": 0.0012903244264664188,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "survival.updateCliffWeather",
+          {
+            "count": 310,
+            "meanMs": 0.0012903228882820375,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "survival.refreshPlanPlacementPreview",
+          {
+            "count": 310,
+            "meanMs": 0.0009677425507576235,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "survival.updateCampEmbers",
+          {
+            "count": 310,
+            "meanMs": 0.0009677425507576235,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "frame.cave-aim",
+          {
+            "count": 310,
+            "meanMs": 0.0009677425507576235,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "construction.updateDemolitionWarnings",
+          {
+            "count": 310,
+            "meanMs": 0.0006451622132332094,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "construction.roofCollapse.update",
+          {
+            "count": 310,
+            "meanMs": 0.0006451606750488281,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0.09999990463256836
+          }
+        ],
+        [
+          "input.pointer-aim",
+          {
+            "count": 310,
+            "meanMs": 0.00032258033752441406,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0.09999990463256836
+          }
+        ],
+        [
+          "frame.npc-presentation",
+          {
+            "count": 310,
+            "meanMs": 0.00032258033752441406,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0.09999990463256836
+          }
+        ],
+        [
+          "construction.updateBurnedDebris",
+          {
+            "count": 310,
+            "meanMs": 0.00032258033752441406,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0.09999990463256836
+          }
+        ],
+        [
+          "survival.updateAnimalHomeSnow",
+          {
+            "count": 310,
+            "meanMs": 0.00032258033752441406,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0.09999990463256836
+          }
+        ],
+        [
+          "survival.updateAnimalForageSnow",
+          {
+            "count": 310,
+            "meanMs": 0.00032258033752441406,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0.09999990463256836
+          }
+        ],
+        [
+          "survival.updateWorldItemSurfaceAnchors",
+          {
+            "count": 310,
+            "meanMs": 0.00032258033752441406,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0.09999990463256836
+          }
+        ],
+        [
+          "frame.ice",
+          {
+            "count": 310,
+            "meanMs": 0,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0
+          }
+        ]
+      ]
+    },
+    {
+      "file": "fire-detailed-trace.json",
+      "frames": 230,
+      "dropped": {
+        "frames": 0,
+        "events": 0,
+        "gpuSegments": 0,
+        "cpuSpans": 0
+      },
+      "cpu": {
+        "count": 230,
+        "meanMs": 62.36826088946798,
+        "p50Ms": 58.5,
+        "p95Ms": 85.5,
+        "p99Ms": 105.40000009536743,
+        "maximumMs": 152.30000019073486
+      },
+      "gpu": {
+        "total": {
+          "count": 46,
+          "meanMs": 18.25164989130435,
+          "p50Ms": 17.882875,
+          "p95Ms": 25.960749,
+          "p99Ms": 27.614874,
+          "maximumMs": 27.614874
+        }
+      },
+      "scopes": [
+        [
+          "frame.world-render",
+          {
+            "count": 230,
+            "meanMs": 30.977826099810393,
+            "p50Ms": 30.300000190734863,
+            "p95Ms": 33.5,
+            "p99Ms": 42.59999990463257,
+            "maximumMs": 97.89999961853027
+          }
+        ],
+        [
+          "frame.scene-render",
+          {
+            "count": 230,
+            "meanMs": 30.000869562314904,
+            "p50Ms": 29.40000009536743,
+            "p95Ms": 32.5,
+            "p99Ms": 41.40000009536743,
+            "maximumMs": 96.5
+          }
+        ],
+        [
+          "frame.land-simulation",
+          {
+            "count": 230,
+            "meanMs": 25.20260870560356,
+            "p50Ms": 22.90000009536743,
+            "p95Ms": 45.89999961853027,
+            "p99Ms": 59.39999961853027,
+            "maximumMs": 105.7999997138977
+          }
+        ],
+        [
+          "frame.wilderness-survival",
+          {
+            "count": 230,
+            "meanMs": 23.683478280772334,
+            "p50Ms": 21.300000190734863,
+            "p95Ms": 44.39999961853027,
+            "p99Ms": 58.39999961853027,
+            "maximumMs": 104.2999997138977
+          }
+        ],
+        [
+          "render.total",
+          {
+            "count": 230,
+            "meanMs": 23.43826087454091,
+            "p50Ms": 22.700000286102295,
+            "p95Ms": 25.800000190734863,
+            "p99Ms": 33.69999980926514,
+            "maximumMs": 86.5
+          }
+        ],
+        [
+          "render.scene",
+          {
+            "count": 230,
+            "meanMs": 23.35130434865537,
+            "p50Ms": 22.699999809265137,
+            "p95Ms": 25.700000286102295,
+            "p99Ms": 33.59999990463257,
+            "maximumMs": 86.5
+          }
+        ],
+        [
+          "render.renderer-call:Scene#25",
+          {
+            "count": 230,
+            "meanMs": 23.319999991292537,
+            "p50Ms": 22.699999809265137,
+            "p95Ms": 25.699999809265137,
+            "p99Ms": 33.59999990463257,
+            "maximumMs": 86.40000009536743
+          }
+        ],
+        [
+          "construction.update",
+          {
+            "count": 230,
+            "meanMs": 9.960869569363801,
+            "p50Ms": 6.800000190734863,
+            "p95Ms": 27.59999990463257,
+            "p99Ms": 38.30000019073486,
+            "maximumMs": 48.59999990463257
+          }
+        ],
+        [
+          "frame.persistence-total",
+          {
+            "count": 1,
+            "meanMs": 9.5,
+            "p50Ms": 9.5,
+            "p95Ms": 9.5,
+            "p99Ms": 9.5,
+            "maximumMs": 9.5
+          }
+        ],
+        [
+          "game.persistWorldState",
+          {
+            "count": 1,
+            "meanMs": 9.5,
+            "p50Ms": 9.5,
+            "p95Ms": 9.5,
+            "p99Ms": 9.5,
+            "maximumMs": 9.5
+          }
+        ],
+        [
+          "frame.persistence",
+          {
+            "count": 1,
+            "meanMs": 9.5,
+            "p50Ms": 9.5,
+            "p95Ms": 9.5,
+            "p99Ms": 9.5,
+            "maximumMs": 9.5
+          }
+        ],
+        [
+          "construction.updateRuntimeSurfaceSnow",
+          {
+            "count": 230,
+            "meanMs": 7.125652195059735,
+            "p50Ms": 5.300000190734863,
+            "p95Ms": 20,
+            "p99Ms": 35.700000286102295,
+            "maximumMs": 38.30000019073486
+          }
+        ],
+        [
+          "sky.updateProjectedCelestials",
+          {
+            "count": 230,
+            "meanMs": 6.735217419914577,
+            "p50Ms": 6.5,
+            "p95Ms": 8.5,
+            "p99Ms": 9.099999904632568,
+            "maximumMs": 18.59999990463257
+          }
+        ],
+        [
+          "survival.updateCampSmoke",
+          {
+            "count": 230,
+            "meanMs": 6.487826084054035,
+            "p50Ms": 4.399999618530273,
+            "p95Ms": 19.399999618530273,
+            "p99Ms": 25.5,
+            "maximumMs": 89.5
+          }
+        ],
+        [
+          "survival.simulation.update",
+          {
+            "count": 230,
+            "meanMs": 4.973043460431306,
+            "p50Ms": 4.700000286102295,
+            "p95Ms": 6.199999809265137,
+            "p99Ms": 6.899999618530273,
+            "maximumMs": 7.599999904632568
+          }
+        ],
+        [
+          "survival.simulation.updateAnimals",
+          {
+            "count": 230,
+            "meanMs": 4.962608683627585,
+            "p50Ms": 4.699999809265137,
+            "p95Ms": 6.199999809265137,
+            "p99Ms": 6.899999618530273,
+            "maximumMs": 7.599999904632568
+          }
+        ],
+        [
+          "render.shadow-maps",
+          {
+            "count": 230,
+            "meanMs": 3.190869567705237,
+            "p50Ms": 3,
+            "p95Ms": 4.099999904632568,
+            "p99Ms": 5.700000286102295,
+            "maximumMs": 19.90000009536743
+          }
+        ],
+        [
+          "survival.roomSmoke.update",
+          {
+            "count": 230,
+            "meanMs": 2.472173902262812,
+            "p50Ms": 0,
+            "p95Ms": 11.599999904632568,
+            "p99Ms": 18.799999713897705,
+            "maximumMs": 86.59999990463257
+          }
+        ],
+        [
+          "snow.v5.advanceRefreshJob",
+          {
+            "count": 149,
+            "meanMs": 1.9489932956311526,
+            "p50Ms": 2.1000003814697266,
+            "p95Ms": 2.799999713897705,
+            "p99Ms": 3.1000003814697266,
+            "maximumMs": 3.6999998092651367
+          }
+        ],
+        [
+          "construction.updateSurfaceMountedFurniture",
+          {
+            "count": 230,
+            "meanMs": 1.7691304269044295,
+            "p50Ms": 0,
+            "p95Ms": 9.599999904632568,
+            "p99Ms": 11.900000095367432,
+            "maximumMs": 13.900000095367432
+          }
+        ],
+        [
+          "frame.presentation-and-audio",
+          {
+            "count": 230,
+            "meanMs": 1.5639130281365436,
+            "p50Ms": 1.6999998092651367,
+            "p95Ms": 3.0999999046325684,
+            "p99Ms": 3.299999713897705,
+            "maximumMs": 4
+          }
+        ],
+        [
+          "frame.hud-and-debug",
+          {
+            "count": 230,
+            "meanMs": 1.56260869814002,
+            "p50Ms": 1.6999998092651367,
+            "p95Ms": 3.3000001907348633,
+            "p99Ms": 4.400000095367432,
+            "maximumMs": 5.099999904632568
+          }
+        ],
+        [
+          "frame.land-snow-v5-microdetail",
+          {
+            "count": 230,
+            "meanMs": 1.3208695556806482,
+            "p50Ms": 1.5,
+            "p95Ms": 2.8000001907348633,
+            "p99Ms": 2.9000000953674316,
+            "maximumMs": 3.799999713897705
+          }
+        ],
+        [
+          "world.floating-island-motion",
+          {
+            "count": 230,
+            "meanMs": 1.2104347933893618,
+            "p50Ms": 1.0999999046325684,
+            "p95Ms": 1.5,
+            "p99Ms": 2.5999999046325684,
+            "maximumMs": 17.700000286102295
+          }
+        ],
+        [
+          "construction.updateCameraCutaway",
+          {
+            "count": 230,
+            "meanMs": 0.8891304223433785,
+            "p50Ms": 0.8999996185302734,
+            "p95Ms": 1.200000286102295,
+            "p99Ms": 1.9000000953674316,
+            "maximumMs": 2.0999999046325684
+          }
+        ],
+        [
+          "frame.land-operations",
+          {
+            "count": 230,
+            "meanMs": 0.7830434674802034,
+            "p50Ms": 0.8000001907348633,
+            "p95Ms": 1,
+            "p99Ms": 1.6999998092651367,
+            "maximumMs": 1.9000000953674316
+          }
+        ],
+        [
+          "snow.v3.applyWeather",
+          {
+            "count": 230,
+            "meanMs": 0.7778260749319326,
+            "p50Ms": 0.8000001907348633,
+            "p95Ms": 0.9000000953674316,
+            "p99Ms": 1.6999998092651367,
+            "maximumMs": 1.9000000953674316
+          }
+        ],
+        [
+          "survival.synchronizeThermalInfluences",
+          {
+            "count": 53,
+            "meanMs": 0.7415094105702527,
+            "p50Ms": 0.6999998092651367,
+            "p95Ms": 1,
+            "p99Ms": 1.799999713897705,
+            "maximumMs": 1.799999713897705
+          }
+        ],
+        [
+          "survival.updateAnimalPresentation",
+          {
+            "count": 230,
+            "meanMs": 0.6721739188484523,
+            "p50Ms": 0.6999998092651367,
+            "p95Ms": 0.8000001907348633,
+            "p99Ms": 1.8000001907348633,
+            "maximumMs": 1.9000000953674316
+          }
+        ],
+        [
+          "frame.environment",
+          {
+            "count": 230,
+            "meanMs": 0.5682608728823455,
+            "p50Ms": 0.20000028610229492,
+            "p95Ms": 2.8000001907348633,
+            "p99Ms": 7.599999904632568,
+            "maximumMs": 8.299999713897705
+          }
+        ],
+        [
+          "survival.thermal.update",
+          {
+            "count": 230,
+            "meanMs": 0.5217391262883725,
+            "p50Ms": 0.5,
+            "p95Ms": 0.6999998092651367,
+            "p99Ms": 0.7999997138977051,
+            "maximumMs": 2.1999998092651367
+          }
+        ],
+        [
+          "scene.updateCharacterToolCamera",
+          {
+            "count": 230,
+            "meanMs": 0.4786956413932469,
+            "p50Ms": 0.5,
+            "p95Ms": 0.6999998092651367,
+            "p99Ms": 1.1999998092651367,
+            "maximumMs": 1.8000001907348633
+          }
+        ],
+        [
+          "diagnostics.context",
+          {
+            "count": 230,
+            "meanMs": 0.4499999896339748,
+            "p50Ms": 0.40000009536743164,
+            "p95Ms": 0.5999999046325684,
+            "p99Ms": 0.7000002861022949,
+            "maximumMs": 0.8999996185302734
+          }
+        ],
+        [
+          "snow.mid.writeTilePositions",
+          {
+            "count": 154,
+            "meanMs": 0.3642857229554808,
+            "p50Ms": 0.3000001907348633,
+            "p95Ms": 0.6000003814697266,
+            "p99Ms": 0.8000001907348633,
+            "maximumMs": 1.5
+          }
+        ],
+        [
+          "frame.land-snow-stream",
+          {
+            "count": 230,
+            "meanMs": 0.29869565134463105,
+            "p50Ms": 0.3000001907348633,
+            "p95Ms": 0.6999998092651367,
+            "p99Ms": 0.9000000953674316,
+            "maximumMs": 1.5
+          }
+        ],
+        [
+          "snow.mid.rebuildDirty",
+          {
+            "count": 230,
+            "meanMs": 0.24565218220586363,
+            "p50Ms": 0.2999997138977051,
+            "p95Ms": 0.5999999046325684,
+            "p99Ms": 0.8000001907348633,
+            "maximumMs": 1.5
+          }
+        ],
+        [
+          "construction.updateStructuralFireRisk",
+          {
+            "count": 230,
+            "meanMs": 0.23173913126406462,
+            "p50Ms": 0,
+            "p95Ms": 1.0999999046325684,
+            "p99Ms": 1.3000001907348633,
+            "maximumMs": 1.9000000953674316
+          }
+        ],
+        [
+          "survival.updateResourcePresentation",
+          {
+            "count": 64,
+            "meanMs": 0.1718750223517418,
+            "p50Ms": 0.19999980926513672,
+            "p95Ms": 0.3000001907348633,
+            "p99Ms": 0.40000009536743164,
+            "maximumMs": 0.40000009536743164
+          }
+        ],
+        [
+          "snow.v3.meltSnowRadial",
+          {
+            "count": 55,
+            "meanMs": 0.1636363462968306,
+            "p50Ms": 0.10000038146972656,
+            "p95Ms": 0.40000009536743164,
+            "p99Ms": 1.1999998092651367,
+            "maximumMs": 1.1999998092651367
+          }
+        ],
+        [
+          "survival.updateNearSceneryShadowCasters",
+          {
+            "count": 230,
+            "meanMs": 0.16086957972982655,
+            "p50Ms": 0.19999980926513672,
+            "p95Ms": 0.40000009536743164,
+            "p99Ms": 0.5,
+            "maximumMs": 1.5
+          }
+        ],
+        [
+          "construction.updateCantileverLoads",
+          {
+            "count": 230,
+            "meanMs": 0.11347827082094938,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.20000028610229492,
+            "p99Ms": 0.40000009536743164,
+            "maximumMs": 0.5
+          }
+        ],
+        [
+          "scene.applyEnvironmentPresentation",
+          {
+            "count": 230,
+            "meanMs": 0.11260868984719981,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.20000028610229492,
+            "p99Ms": 0.40000009536743164,
+            "maximumMs": 8.199999809265137
+          }
+        ],
+        [
+          "snow.v3.exportState",
+          {
+            "count": 1,
+            "meanMs": 0.10000038146972656,
+            "p50Ms": 0.10000038146972656,
+            "p95Ms": 0.10000038146972656,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "frame.world-presentation",
+          {
+            "count": 230,
+            "meanMs": 0.07913046297819717,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.20000028610229492,
+            "p99Ms": 0.20000028610229492,
+            "maximumMs": 0.9000000953674316
+          }
+        ],
+        [
+          "snow.v3.updateTileMesh",
+          {
+            "count": 153,
+            "meanMs": 0.07777778151767706,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.20000028610229492,
+            "p99Ms": 0.40000009536743164,
+            "maximumMs": 0.40000009536743164
+          }
+        ],
+        [
+          "construction.updateBuiltFireLights",
+          {
+            "count": 230,
+            "meanMs": 0.07565216603486434,
+            "p50Ms": 0,
+            "p95Ms": 0.19999980926513672,
+            "p99Ms": 0.2999997138977051,
+            "maximumMs": 5.900000095367432
+          }
+        ],
+        [
+          "frame.land-snow-mesh",
+          {
+            "count": 230,
+            "meanMs": 0.07434782981872559,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.20000028610229492,
+            "p99Ms": 0.40000009536743164,
+            "maximumMs": 0.5
+          }
+        ],
+        [
+          "snow.v3.flushVisualUpdates",
+          {
+            "count": 230,
+            "meanMs": 0.07347826335741126,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.20000028610229492,
+            "p99Ms": 0.40000009536743164,
+            "maximumMs": 0.5
+          }
+        ],
+        [
+          "snow.v3.storeTile",
+          {
+            "count": 25,
+            "meanMs": 0.06800004959106445,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.20000028610229492,
+            "p99Ms": 0.20000028610229492,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "snow.v3.preparePersistence",
+          {
+            "count": 25,
+            "meanMs": 0.06800004959106445,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.20000028610229492,
+            "p99Ms": 0.20000028610229492,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "survival.updateTreeMotion",
+          {
+            "count": 230,
+            "meanMs": 0.06739130020141601,
+            "p50Ms": 0.09999990463256836,
+            "p95Ms": 0.19999980926513672,
+            "p99Ms": 0.20000028610229492,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "survival.snow-melt.advance",
+          {
+            "count": 230,
+            "meanMs": 0.05347825755243716,
+            "p50Ms": 0,
+            "p95Ms": 0.3000001907348633,
+            "p99Ms": 0.40000009536743164,
+            "maximumMs": 1.1999998092651367
+          }
+        ],
+        [
+          "render.atmosphere-grade",
+          {
+            "count": 230,
+            "meanMs": 0.043043476602305536,
+            "p50Ms": 0,
+            "p95Ms": 0.10000038146972656,
+            "p99Ms": 0.19999980926513672,
+            "maximumMs": 0.19999980926513672
+          }
+        ],
+        [
+          "sky-islands.sampleCelestialVisibility",
+          {
+            "count": 230,
+            "meanMs": 0.033913033941517706,
+            "p50Ms": 0,
+            "p95Ms": 0.10000038146972656,
+            "p99Ms": 0.19999980926513672,
+            "maximumMs": 1.1999998092651367
+          }
+        ],
+        [
+          "render.renderer-call:Mesh#2194",
+          {
+            "count": 230,
+            "meanMs": 0.032608693578968874,
+            "p50Ms": 0,
+            "p95Ms": 0.10000038146972656,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.19999980926513672
+          }
+        ],
+        [
+          "frame.floating-islands",
+          {
+            "count": 230,
+            "meanMs": 0.0273913051771081,
+            "p50Ms": 0,
+            "p95Ms": 0.10000038146972656,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "sky.update",
+          {
+            "count": 230,
+            "meanMs": 0.02521737762119459,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.19999980926513672
+          }
+        ],
+        [
+          "snow.v5.syncDetailCoverage",
+          {
+            "count": 230,
+            "meanMs": 0.023913041405055836,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.19999980926513672,
+            "maximumMs": 1.1000003814697266
+          }
+        ],
+        [
+          "render.output",
+          {
+            "count": 230,
+            "meanMs": 0.02347826335741126,
+            "p50Ms": 0,
+            "p95Ms": 0.10000038146972656,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "sky-islands.update",
+          {
+            "count": 230,
+            "meanMs": 0.02347825921100119,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "snowfall.update",
+          {
+            "count": 230,
+            "meanMs": 0.019565219464509384,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "render.renderer-call:Mesh#2195",
+          {
+            "count": 230,
+            "meanMs": 0.017391308494236157,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "snow.v5.createRefreshJob",
+          {
+            "count": 115,
+            "meanMs": 0.016521735813306727,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "clouds.update",
+          {
+            "count": 230,
+            "meanMs": 0.014782611183498216,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "survival.updateInteractionMarker",
+          {
+            "count": 230,
+            "meanMs": 0.01434783935546875,
+            "p50Ms": 0,
+            "p95Ms": 0.10000038146972656,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "frame.gameplay",
+          {
+            "count": 230,
+            "meanMs": 0.011739129605500595,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "survival.updateTreeSurfaceSnow",
+          {
+            "count": 230,
+            "meanMs": 0.011304341191830842,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.19999980926513672,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "scene.updateCelestialWorldPositions",
+          {
+            "count": 230,
+            "meanMs": 0.008695654247118078,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.19999980926513672
+          }
+        ],
+        [
+          "frame.world-chunks",
+          {
+            "count": 230,
+            "meanMs": 0.008695645954297936,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "diagnostics.gpu-poll",
+          {
+            "count": 230,
+            "meanMs": 0.006521743276844854,
+            "p50Ms": 0,
+            "p95Ms": 0.09999990463256836,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.20000028610229492
+          }
+        ],
+        [
+          "frame.land-snow-v4-detail",
+          {
+            "count": 230,
+            "meanMs": 0.0047826124274212385,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "construction.updateUnfinishedRoofPresentation",
+          {
+            "count": 230,
+            "meanMs": 0.003913043892901876,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "clouds.setPresentation",
+          {
+            "count": 230,
+            "meanMs": 0.0034782616988472317,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "survival.updateCampEmbers",
+          {
+            "count": 230,
+            "meanMs": 0.0030434795047925866,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "frame.land-snow-prefetch",
+          {
+            "count": 230,
+            "meanMs": 0.0030434795047925866,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "survival.updateCliffWeather",
+          {
+            "count": 230,
+            "meanMs": 0.0026086931643278704,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.09999990463256836
+          }
+        ],
+        [
+          "snow.v3.setActiveCenter",
+          {
+            "count": 230,
+            "meanMs": 0.002173913043478261,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "construction.updateFireDamage",
+          {
+            "count": 230,
+            "meanMs": 0.0017391349958336872,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.10000038146972656,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "input.pointer-aim",
+          {
+            "count": 230,
+            "meanMs": 0.0017391308494236158,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "construction.updateBurnedDebris",
+          {
+            "count": 230,
+            "meanMs": 0.0017391308494236158,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "snow.v3.processPrefetchBudget",
+          {
+            "count": 230,
+            "meanMs": 0.0017391308494236158,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "construction.updateDemolitionWarnings",
+          {
+            "count": 230,
+            "meanMs": 0.0017391287762185802,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.09999990463256836
+          }
+        ],
+        [
+          "survival.refreshPlanPlacementPreview",
+          {
+            "count": 230,
+            "meanMs": 0.0013043465821639352,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.09999990463256836
+          }
+        ],
+        [
+          "frame.cave-aim",
+          {
+            "count": 230,
+            "meanMs": 0.0013043465821639352,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0.09999990463256836,
+            "maximumMs": 0.09999990463256836
+          }
+        ],
+        [
+          "survival.updateWorldItemSurfaceAnchors",
+          {
+            "count": 230,
+            "meanMs": 0.0008695685345193614,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "survival.updateAnimalForageSnow",
+          {
+            "count": 230,
+            "meanMs": 0.0008695664613143257,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "frame.npc-presentation",
+          {
+            "count": 230,
+            "meanMs": 0.0004347842672596807,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0.10000038146972656
+          }
+        ],
+        [
+          "construction.updateRecoveredParts",
+          {
+            "count": 230,
+            "meanMs": 0.00043478219405464506,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0.09999990463256836
+          }
+        ],
+        [
+          "survival.updateAnimalHomeSnow",
+          {
+            "count": 230,
+            "meanMs": 0.00043478219405464506,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0.09999990463256836
+          }
+        ],
+        [
+          "frame.ice",
+          {
+            "count": 230,
+            "meanMs": 0,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0
+          }
+        ],
+        [
+          "construction.roofCollapse.update",
+          {
+            "count": 230,
+            "meanMs": 0,
+            "p50Ms": 0,
+            "p95Ms": 0,
+            "p99Ms": 0,
+            "maximumMs": 0
+          }
+        ]
+      ]
+    }
+  ]
+}
