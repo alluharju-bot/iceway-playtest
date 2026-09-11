@@ -1,0 +1,1130 @@
+{
+  "architecturalGoalSatisfied": false,
+  "intentions": 137,
+  "acceptedIntentions": 98,
+  "standing": 99,
+  "failed": [
+    {
+      "intent": {
+        "label": "hall roof SIMPLE_ROOF_SLOPE_26 6,2.63,0",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 6,
+        "y": 2.63,
+        "z": 0,
+        "yaw": 90,
+        "stage": "hall roof",
+        "required": true
+      },
+      "latest": {
+        "x": -826.3167612804516,
+        "y": 8.296233647850071,
+        "z": -233.00248580793303,
+        "yaw": -90,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "hall roof SIMPLE_ROOF_SLOPE_26 4,3.63,0",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 4,
+        "y": 3.63,
+        "z": 0,
+        "yaw": 90,
+        "stage": "hall roof",
+        "required": true
+      },
+      "latest": {
+        "x": -827.3220907410432,
+        "y": 8.302004225046524,
+        "z": -233.15168638884438,
+        "yaw": -90,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "hall roof SIMPLE_ROOF_SLOPE_26 0,2.63,0",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 0,
+        "y": 2.63,
+        "z": 0,
+        "yaw": 270,
+        "stage": "hall roof",
+        "required": true
+      },
+      "latest": {
+        "x": -832,
+        "y": 8.643463256355272,
+        "z": -233.9787249027858,
+        "yaw": 0,
+        "valid": true,
+        "reason": "Roof sockets · R 45° · Shift+R 22.5°",
+        "connection": {
+          "targetPieceId": "tlw-build-piece:3",
+          "targetSocketId": "wall-seat",
+          "sourceSocketId": "eave"
+        }
+      }
+    },
+    {
+      "intent": {
+        "label": "hall roof SIMPLE_ROOF_SLOPE_26 2,3.63,0",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 2,
+        "y": 3.63,
+        "z": 0,
+        "yaw": 270,
+        "stage": "hall roof",
+        "required": true
+      },
+      "latest": {
+        "x": -829.18,
+        "y": 8.583463256355271,
+        "z": -233.9787249027858,
+        "yaw": 0,
+        "valid": true,
+        "reason": "Roof sockets · R 45° · Shift+R 22.5°",
+        "connection": {
+          "targetPieceId": "tlw-build-piece:4",
+          "targetSocketId": "post-right",
+          "sourceSocketId": "eave"
+        }
+      }
+    },
+    {
+      "intent": {
+        "label": "hall ridge SIMPLE_ROOF_RIDGE_26 3,4.63,0",
+        "definition": "SIMPLE_ROOF_RIDGE_26",
+        "x": 3,
+        "y": 4.63,
+        "z": 0,
+        "yaw": 90,
+        "stage": "hall ridge",
+        "required": true
+      },
+      "latest": {
+        "x": -829.2433097610348,
+        "y": 8.306128766840123,
+        "z": -233.0135035358448,
+        "yaw": 0,
+        "valid": false,
+        "reason": "Occupied volume"
+      }
+    },
+    {
+      "intent": {
+        "label": "hall roof SIMPLE_ROOF_SLOPE_26 6,2.63,2",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 6,
+        "y": 2.63,
+        "z": 2,
+        "yaw": 90,
+        "stage": "hall roof",
+        "required": true
+      },
+      "latest": {
+        "x": -826.3167612804516,
+        "y": 8.298816509606871,
+        "z": -231.00248580793303,
+        "yaw": -90,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "hall roof SIMPLE_ROOF_SLOPE_26 4,3.63,2",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 4,
+        "y": 3.63,
+        "z": 2,
+        "yaw": 90,
+        "stage": "hall roof",
+        "required": true
+      },
+      "latest": {
+        "x": -827.312617688287,
+        "y": 8.29988966309439,
+        "z": -231.15310734675782,
+        "yaw": -90,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "hall roof SIMPLE_ROOF_SLOPE_26 0,2.63,2",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 0,
+        "y": 2.63,
+        "z": 2,
+        "yaw": 270,
+        "stage": "hall roof",
+        "required": true
+      },
+      "latest": {
+        "x": -832,
+        "y": 8.643463256355272,
+        "z": -229.9787249027858,
+        "yaw": -180,
+        "valid": true,
+        "reason": "Roof sockets · R 45° · Shift+R 22.5°",
+        "connection": {
+          "targetPieceId": "tlw-build-piece:7",
+          "targetSocketId": "wall-seat",
+          "sourceSocketId": "eave"
+        }
+      }
+    },
+    {
+      "intent": {
+        "label": "hall roof SIMPLE_ROOF_SLOPE_26 2,3.63,2",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 2,
+        "y": 3.63,
+        "z": 2,
+        "yaw": 270,
+        "stage": "hall roof",
+        "required": true
+      },
+      "latest": {
+        "x": -829.18,
+        "y": 8.583463256355271,
+        "z": -229.9787249027858,
+        "yaw": -180,
+        "valid": true,
+        "reason": "Roof sockets · R 45° · Shift+R 22.5°",
+        "connection": {
+          "targetPieceId": "tlw-build-piece:6",
+          "targetSocketId": "post-left",
+          "sourceSocketId": "eave"
+        }
+      }
+    },
+    {
+      "intent": {
+        "label": "hall ridge SIMPLE_ROOF_RIDGE_26 3,4.63,2",
+        "definition": "SIMPLE_ROOF_RIDGE_26",
+        "x": 3,
+        "y": 4.63,
+        "z": 2,
+        "yaw": 90,
+        "stage": "hall ridge",
+        "required": true
+      },
+      "latest": {
+        "x": -829.2433097610348,
+        "y": 8.304503789962007,
+        "z": -231.0135035358448,
+        "yaw": -180,
+        "valid": false,
+        "reason": "Occupied volume"
+      }
+    },
+    {
+      "intent": {
+        "label": "hall roof SIMPLE_ROOF_SLOPE_26 6,2.63,4",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 6,
+        "y": 2.63,
+        "z": 4,
+        "yaw": 90,
+        "stage": "hall roof",
+        "required": true
+      },
+      "latest": {
+        "x": -826.3262343332079,
+        "y": 8.301452361468696,
+        "z": -229.0010648500196,
+        "yaw": -90,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "hall roof SIMPLE_ROOF_SLOPE_26 4,3.63,4",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 4,
+        "y": 3.63,
+        "z": 4,
+        "yaw": 90,
+        "stage": "hall roof",
+        "required": true
+      },
+      "latest": {
+        "x": -827.312617688287,
+        "y": 8.297953989625512,
+        "z": -229.15310734675782,
+        "yaw": -90,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "hall roof SIMPLE_ROOF_SLOPE_26 0,2.63,4",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 0,
+        "y": 2.63,
+        "z": 4,
+        "yaw": 270,
+        "stage": "hall roof",
+        "required": true
+      },
+      "latest": {
+        "x": -832,
+        "y": 8.643463256355272,
+        "z": -229.9787249027858,
+        "yaw": 0,
+        "valid": true,
+        "reason": "Roof sockets · R 45° · Shift+R 22.5°",
+        "connection": {
+          "targetPieceId": "tlw-build-piece:13",
+          "targetSocketId": "wall-seat",
+          "sourceSocketId": "eave"
+        }
+      }
+    },
+    {
+      "intent": {
+        "label": "hall roof SIMPLE_ROOF_SLOPE_26 2,3.63,4",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 2,
+        "y": 3.63,
+        "z": 4,
+        "yaw": 270,
+        "stage": "hall roof",
+        "required": true
+      },
+      "latest": {
+        "x": -829.18,
+        "y": 8.583463256355271,
+        "z": -229.9787249027858,
+        "yaw": 0,
+        "valid": true,
+        "reason": "Roof sockets · R 45° · Shift+R 22.5°",
+        "connection": {
+          "targetPieceId": "tlw-build-piece:14",
+          "targetSocketId": "post-right",
+          "sourceSocketId": "eave"
+        }
+      }
+    },
+    {
+      "intent": {
+        "label": "hall ridge SIMPLE_ROOF_RIDGE_26 3,4.63,4",
+        "definition": "SIMPLE_ROOF_RIDGE_26",
+        "x": 3,
+        "y": 4.63,
+        "z": 4,
+        "yaw": 90,
+        "stage": "hall ridge",
+        "required": true
+      },
+      "latest": {
+        "x": -829.2433097610348,
+        "y": 8.30287895113612,
+        "z": -229.0135035358448,
+        "yaw": 0,
+        "valid": false,
+        "reason": "Occupied volume"
+      }
+    },
+    {
+      "intent": {
+        "label": "hall roof SIMPLE_ROOF_SLOPE_26 6,2.63,6",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 6,
+        "y": 2.63,
+        "z": 6,
+        "yaw": 90,
+        "stage": "hall roof",
+        "required": true
+      },
+      "latest": {
+        "x": -826.3262343332079,
+        "y": 8.304067669588548,
+        "z": -227.0010648500196,
+        "yaw": 90,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "hall roof SIMPLE_ROOF_SLOPE_26 4,3.63,6",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 4,
+        "y": 3.63,
+        "z": 6,
+        "yaw": 90,
+        "stage": "hall roof",
+        "required": true
+      },
+      "latest": {
+        "x": -827.312617688287,
+        "y": 8.296019238207396,
+        "z": -227.15310734675782,
+        "yaw": 90,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "hall roof SIMPLE_ROOF_SLOPE_26 0,2.63,6",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 0,
+        "y": 2.63,
+        "z": 6,
+        "yaw": 270,
+        "stage": "hall roof",
+        "required": true
+      },
+      "latest": {
+        "x": -832.3262343332079,
+        "y": 8.307116322885824,
+        "z": -227.0010648500196,
+        "yaw": 0,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "hall roof SIMPLE_ROOF_SLOPE_26 2,3.63,6",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 2,
+        "y": 3.63,
+        "z": 6,
+        "yaw": 270,
+        "stage": "hall roof",
+        "required": true
+      },
+      "latest": {
+        "x": -828,
+        "y": 8.583463256355271,
+        "z": -227.15872490278582,
+        "yaw": -90,
+        "valid": false,
+        "reason": "Move closer to the build point.",
+        "connection": {
+          "targetPieceId": "tlw-build-piece:15",
+          "targetSocketId": "post-right",
+          "sourceSocketId": "eave"
+        }
+      }
+    },
+    {
+      "intent": {
+        "label": "hall ridge SIMPLE_ROOF_RIDGE_26 3,4.63,6",
+        "definition": "SIMPLE_ROOF_RIDGE_26",
+        "x": 3,
+        "y": 4.63,
+        "z": 6,
+        "yaw": 90,
+        "stage": "hall ridge",
+        "required": true
+      },
+      "latest": {
+        "x": -829.2350648675156,
+        "y": 8.301243708403437,
+        "z": -227.01474026987265,
+        "yaw": -90,
+        "valid": false,
+        "reason": "Occupied volume"
+      }
+    },
+    {
+      "intent": {
+        "label": "hall gables SIMPLE_ROOF_GABLE_26 0,2.63,-1",
+        "definition": "SIMPLE_ROOF_GABLE_26",
+        "x": 0,
+        "y": 2.63,
+        "z": -1,
+        "yaw": 0,
+        "stage": "hall gables",
+        "required": true
+      },
+      "latest": {
+        "x": -832.3357073859642,
+        "y": 8.312308626381459,
+        "z": -233.99964389210612,
+        "yaw": -90,
+        "valid": false,
+        "reason": "Occupied volume"
+      }
+    },
+    {
+      "intent": {
+        "label": "hall gables SIMPLE_ROOF_GABLE_26 6,2.63,-1",
+        "definition": "SIMPLE_ROOF_GABLE_26",
+        "x": 6,
+        "y": 2.63,
+        "z": -1,
+        "yaw": 180,
+        "stage": "hall gables",
+        "required": true
+      },
+      "latest": {
+        "x": -826.3167612804516,
+        "y": 8.295508655268767,
+        "z": -234.00248580793303,
+        "yaw": -180,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "hall gables SIMPLE_ROOF_GABLE_26 0,2.63,7",
+        "definition": "SIMPLE_ROOF_GABLE_26",
+        "x": 0,
+        "y": 2.63,
+        "z": 7,
+        "yaw": 0,
+        "stage": "hall gables",
+        "required": true
+      },
+      "latest": {
+        "x": -833,
+        "y": 8.783463256355272,
+        "z": -225.9787249027858,
+        "yaw": -90,
+        "valid": true,
+        "reason": "Roof sockets · R 45° · Shift+R 22.5°",
+        "connection": {
+          "targetPieceId": "tlw-build-piece:42",
+          "targetSocketId": "north",
+          "sourceSocketId": "eave"
+        }
+      }
+    },
+    {
+      "intent": {
+        "label": "hall gables SIMPLE_ROOF_GABLE_26 6,2.63,7",
+        "definition": "SIMPLE_ROOF_GABLE_26",
+        "x": 6,
+        "y": 2.63,
+        "z": 7,
+        "yaw": 180,
+        "stage": "hall gables",
+        "required": true
+      },
+      "latest": {
+        "x": -826.3262343332079,
+        "y": 8.30576629635759,
+        "z": -226.0010648500196,
+        "yaw": -90,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "angled sills LOG_FOUNDATION 8.707106780813453,0,3.2928932188134525",
+        "definition": "LOG_FOUNDATION",
+        "x": 8.707106780813453,
+        "y": 0,
+        "z": 3.2928932188134525,
+        "yaw": 45,
+        "stage": "angled sills",
+        "required": true
+      },
+      "latest": {
+        "x": -827,
+        "y": 8.303463256355272,
+        "z": -229.9787249027858,
+        "yaw": 90,
+        "valid": true,
+        "reason": "Storey 1 · socket building · R joint rotation · G grid",
+        "connection": {
+          "targetPieceId": "tlw-build-piece:69",
+          "targetSocketId": "right",
+          "sourceSocketId": "left"
+        }
+      }
+    },
+    {
+      "intent": {
+        "label": "angled floor TIMBER_FLOOR 9.414213562,0.34,4",
+        "definition": "TIMBER_FLOOR",
+        "x": 9.414213562,
+        "y": 0.34,
+        "z": 4,
+        "yaw": 45,
+        "stage": "angled floor",
+        "required": true
+      },
+      "latest": {
+        "x": -829,
+        "y": 10.933463256355273,
+        "z": -227.9787249027858,
+        "yaw": -90,
+        "valid": true,
+        "reason": "Storey 2 · socket building · R joint rotation · G grid",
+        "connection": {
+          "targetPieceId": "tlw-build-piece:59",
+          "targetSocketId": "top",
+          "sourceSocketId": "bearing-bottom"
+        }
+      }
+    },
+    {
+      "intent": {
+        "label": "angled bay LOG_WALL_WINDOW 8.707106780813453,0.48000000000000004,3.2928932188134525",
+        "definition": "LOG_WALL_WINDOW",
+        "x": 8.707106780813453,
+        "y": 0.48000000000000004,
+        "z": 3.2928932188134525,
+        "yaw": 45,
+        "stage": "angled bay",
+        "required": true
+      },
+      "latest": {
+        "x": -824.4644660944404,
+        "y": 8.79338955832374,
+        "z": -230.12163847582403,
+        "yaw": -45,
+        "valid": true,
+        "reason": "Storey 1 · socket building · R joint rotation · G grid",
+        "connection": {
+          "targetPieceId": "tlw-build-piece:76",
+          "targetSocketId": "south",
+          "sourceSocketId": "bottom"
+        }
+      }
+    },
+    {
+      "intent": {
+        "label": "angled bay DOOR_FRAME 8.707106780813453,0.48000000000000004,4.707106781186548",
+        "definition": "DOOR_FRAME",
+        "x": 8.707106780813453,
+        "y": 0.48000000000000004,
+        "z": 4.707106781186548,
+        "yaw": 135,
+        "stage": "angled bay",
+        "required": true
+      },
+      "latest": {
+        "x": -824.4644660944404,
+        "y": 8.775942298224988,
+        "z": -228.70742491345098,
+        "yaw": 45,
+        "valid": true,
+        "reason": "Storey 1 · socket building · R joint rotation · G grid",
+        "connection": {
+          "targetPieceId": "tlw-build-piece:78",
+          "targetSocketId": "west",
+          "sourceSocketId": "bottom"
+        }
+      }
+    },
+    {
+      "intent": {
+        "label": "bay roof SIMPLE_ROOF_SLOPE_26 9.414213562,2.63,4",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 9.414213562,
+        "y": 2.63,
+        "z": 4,
+        "yaw": 315,
+        "stage": "bay roof",
+        "required": true
+      },
+      "latest": {
+        "x": -822.912020771208,
+        "y": 8.302225324213069,
+        "z": -229.0010648500196,
+        "yaw": -135,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "bay roof SIMPLE_ROOF_SLOPE_26 10.828427124373096,2.63,2.585786437626905",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 10.828427124373096,
+        "y": 2.63,
+        "z": 2.585786437626905,
+        "yaw": 135,
+        "stage": "bay roof",
+        "required": true
+      },
+      "latest": {
+        "x": -821.5262263671036,
+        "y": 8.329233365867939,
+        "z": -230.41101553865235,
+        "yaw": -135,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "bay ridge SIMPLE_ROOF_RIDGE_26 10.121320343186548,3.63,3.2928932188134525",
+        "definition": "SIMPLE_ROOF_RIDGE_26",
+        "x": 10.121320343186548,
+        "y": 3.63,
+        "z": 3.2928932188134525,
+        "yaw": 135,
+        "stage": "bay ridge",
+        "required": true
+      },
+      "latest": {
+        "x": -822.8887645151315,
+        "y": 8.28093809564979,
+        "z": -229.60559405243885,
+        "yaw": -135,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "bay roof SIMPLE_ROOF_SLOPE_26 10.828427124373096,2.63,5.414213562373095",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 10.828427124373096,
+        "y": 2.63,
+        "z": 5.414213562373095,
+        "yaw": 315,
+        "stage": "bay roof",
+        "required": true
+      },
+      "latest": {
+        "x": -821.4693880505661,
+        "y": 8.279925995927183,
+        "z": -227.5911141613868,
+        "yaw": -135,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "bay roof SIMPLE_ROOF_SLOPE_26 12.242640686746192,2.63,4",
+        "definition": "SIMPLE_ROOF_SLOPE_26",
+        "x": 12.242640686746192,
+        "y": 2.63,
+        "z": 4,
+        "yaw": 135,
+        "stage": "bay roof",
+        "required": true
+      },
+      "latest": {
+        "x": -820.0835936464617,
+        "y": 8.302078933537723,
+        "z": -229.0010648500196,
+        "yaw": -135,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "bay ridge SIMPLE_ROOF_RIDGE_26 11.535533905559642,3.63,4.707106781186548",
+        "definition": "SIMPLE_ROOF_RIDGE_26",
+        "x": 11.535533905559642,
+        "y": 3.63,
+        "z": 4.707106781186548,
+        "yaw": 135,
+        "stage": "bay ridge",
+        "required": true
+      },
+      "latest": {
+        "x": -821.4992856333159,
+        "y": 8.319732192821542,
+        "z": -228.18767028798212,
+        "yaw": -135,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "bay gables SIMPLE_ROOF_GABLE_26 8.707106780813453,2.63,3.2928932188134525",
+        "definition": "SIMPLE_ROOF_GABLE_26",
+        "x": 8.707106780813453,
+        "y": 2.63,
+        "z": 3.2928932188134525,
+        "yaw": 45,
+        "stage": "bay gables",
+        "required": true
+      },
+      "latest": {
+        "x": -823.8846385338674,
+        "y": 8.570680815796992,
+        "z": -229.28725247402392,
+        "yaw": 45,
+        "valid": true,
+        "reason": "Roof sockets · R 45° · Shift+R 22.5°",
+        "connection": {
+          "targetPieceId": "tlw-build-piece:73",
+          "targetSocketId": "post-right",
+          "sourceSocketId": "eave"
+        }
+      }
+    },
+    {
+      "intent": {
+        "label": "bay gables SIMPLE_ROOF_GABLE_26 10.121320343186548,2.63,1.8786796564403576",
+        "definition": "SIMPLE_ROOF_GABLE_26",
+        "x": 10.121320343186548,
+        "y": 2.63,
+        "z": 1.8786796564403576,
+        "yaw": 225,
+        "stage": "bay gables",
+        "required": true
+      },
+      "latest": {
+        "x": -822.1954409372651,
+        "y": 8.292372323480881,
+        "z": -231.12380615149266,
+        "yaw": 45,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "bay gables SIMPLE_ROOF_GABLE_26 11.535533905559642,2.63,6.121320343559643",
+        "definition": "SIMPLE_ROOF_GABLE_26",
+        "x": 11.535533905559642,
+        "y": 2.63,
+        "z": 6.121320343559643,
+        "yaw": 45,
+        "stage": "bay gables",
+        "required": true
+      },
+      "latest": {
+        "x": -820.8001734804046,
+        "y": 8.310704543200755,
+        "z": -226.8783235485465,
+        "yaw": -180,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "bay gables SIMPLE_ROOF_GABLE_26 12.949747467932738,2.63,4.707106781186548",
+        "definition": "SIMPLE_ROOF_GABLE_26",
+        "x": 12.949747467932738,
+        "y": 2.63,
+        "z": 4.707106781186548,
+        "yaw": 225,
+        "stage": "bay gables",
+        "required": true
+      },
+      "latest": {
+        "x": -819.3954329707877,
+        "y": 8.32704336740054,
+        "z": -228.29111615300613,
+        "yaw": -90,
+        "valid": false,
+        "reason": "Needs a real bearing to ground"
+      }
+    },
+    {
+      "intent": {
+        "label": "porch LOG_FOUNDATION 0,0,9",
+        "definition": "LOG_FOUNDATION",
+        "x": 0,
+        "y": 0,
+        "z": 9,
+        "yaw": 0,
+        "stage": "porch",
+        "required": true
+      },
+      "latest": {
+        "x": -835.8780484909148,
+        "y": 8.282656480989168,
+        "z": -223.4682927263626,
+        "yaw": -180,
+        "valid": true,
+        "reason": "Storey 1 · socket building · R joint rotation · G grid"
+      }
+    }
+  ],
+  "captures": [
+    {
+      "name": "front",
+      "pacing": {
+        "frames": 306,
+        "totalMs": 5099.799999999996,
+        "worstFrameMs": 16.80000000000291,
+        "minimumInstantFps": 59.523809523799216,
+        "p95FrameMs": 16.700000000004366,
+        "p99FrameMs": 16.80000000000291,
+        "p999FrameMs": 16.80000000000291,
+        "onePercentLowFps": 59.523809523799216,
+        "pointOnePercentLowFps": 59.523809523799216,
+        "targets": [
+          {
+            "targetFps": 60,
+            "tolerancePercent": 0,
+            "budgetMs": 16.666666666666668,
+            "thresholdMs": 16.666666666666668,
+            "slowFrames": 192,
+            "slowFramePercent": 62.745098039215684,
+            "slowTimeMs": 3207.399999999987,
+            "slowTimePercent": 62.89266245735107,
+            "episodes": 100,
+            "longestEpisodeMs": 66.80000000000291
+          },
+          {
+            "targetFps": 60,
+            "tolerancePercent": 3,
+            "budgetMs": 16.666666666666668,
+            "thresholdMs": 17.182130584192443,
+            "slowFrames": 0,
+            "slowFramePercent": 0,
+            "slowTimeMs": 0,
+            "slowTimePercent": 0,
+            "episodes": 0,
+            "longestEpisodeMs": 0
+          },
+          {
+            "targetFps": 120,
+            "tolerancePercent": 0,
+            "budgetMs": 8.333333333333334,
+            "thresholdMs": 8.333333333333334,
+            "slowFrames": 306,
+            "slowFramePercent": 100,
+            "slowTimeMs": 5099.799999999996,
+            "slowTimePercent": 100,
+            "episodes": 1,
+            "longestEpisodeMs": 5099.799999999996
+          },
+          {
+            "targetFps": 120,
+            "tolerancePercent": 3,
+            "budgetMs": 8.333333333333334,
+            "thresholdMs": 8.591065292096221,
+            "slowFrames": 306,
+            "slowFramePercent": 100,
+            "slowTimeMs": 5099.799999999996,
+            "slowTimePercent": 100,
+            "episodes": 1,
+            "longestEpisodeMs": 5099.799999999996
+          }
+        ],
+        "stalls": [
+          {
+            "thresholdMs": 33.334,
+            "count": 0,
+            "timeMs": 0
+          },
+          {
+            "thresholdMs": 50,
+            "count": 0,
+            "timeMs": 0
+          },
+          {
+            "thresholdMs": 100,
+            "count": 0,
+            "timeMs": 0
+          },
+          {
+            "thresholdMs": 250,
+            "count": 0,
+            "timeMs": 0
+          },
+          {
+            "thresholdMs": 1000,
+            "count": 0,
+            "timeMs": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "roof",
+      "pacing": {
+        "frames": 305,
+        "totalMs": 5083.100000000006,
+        "worstFrameMs": 16.80000000000291,
+        "minimumInstantFps": 59.523809523799216,
+        "p95FrameMs": 16.70000000001164,
+        "p99FrameMs": 16.80000000000291,
+        "p999FrameMs": 16.80000000000291,
+        "onePercentLowFps": 59.523809523799216,
+        "pointOnePercentLowFps": 59.523809523799216,
+        "targets": [
+          {
+            "targetFps": 60,
+            "tolerancePercent": 0,
+            "budgetMs": 16.666666666666668,
+            "thresholdMs": 16.666666666666668,
+            "slowFrames": 189,
+            "slowFramePercent": 61.967213114754095,
+            "slowTimeMs": 3157.7000000001135,
+            "slowTimePercent": 62.121540005117154,
+            "episodes": 104,
+            "longestEpisodeMs": 66.80000000000291
+          },
+          {
+            "targetFps": 60,
+            "tolerancePercent": 3,
+            "budgetMs": 16.666666666666668,
+            "thresholdMs": 17.182130584192443,
+            "slowFrames": 0,
+            "slowFramePercent": 0,
+            "slowTimeMs": 0,
+            "slowTimePercent": 0,
+            "episodes": 0,
+            "longestEpisodeMs": 0
+          },
+          {
+            "targetFps": 120,
+            "tolerancePercent": 0,
+            "budgetMs": 8.333333333333334,
+            "thresholdMs": 8.333333333333334,
+            "slowFrames": 305,
+            "slowFramePercent": 100,
+            "slowTimeMs": 5083.100000000006,
+            "slowTimePercent": 100,
+            "episodes": 1,
+            "longestEpisodeMs": 5083.100000000006
+          },
+          {
+            "targetFps": 120,
+            "tolerancePercent": 3,
+            "budgetMs": 8.333333333333334,
+            "thresholdMs": 8.591065292096221,
+            "slowFrames": 305,
+            "slowFramePercent": 100,
+            "slowTimeMs": 5083.100000000006,
+            "slowTimePercent": 100,
+            "episodes": 1,
+            "longestEpisodeMs": 5083.100000000006
+          }
+        ],
+        "stalls": [
+          {
+            "thresholdMs": 33.334,
+            "count": 0,
+            "timeMs": 0
+          },
+          {
+            "thresholdMs": 50,
+            "count": 0,
+            "timeMs": 0
+          },
+          {
+            "thresholdMs": 100,
+            "count": 0,
+            "timeMs": 0
+          },
+          {
+            "thresholdMs": 250,
+            "count": 0,
+            "timeMs": 0
+          },
+          {
+            "thresholdMs": 1000,
+            "count": 0,
+            "timeMs": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "rear",
+      "pacing": {
+        "frames": 306,
+        "totalMs": 5099.899999999994,
+        "worstFrameMs": 16.80000000000291,
+        "minimumInstantFps": 59.523809523799216,
+        "p95FrameMs": 16.79999999998836,
+        "p99FrameMs": 16.80000000000291,
+        "p999FrameMs": 16.80000000000291,
+        "onePercentLowFps": 59.523809523799216,
+        "pointOnePercentLowFps": 59.523809523799216,
+        "targets": [
+          {
+            "targetFps": 60,
+            "tolerancePercent": 0,
+            "budgetMs": 16.666666666666668,
+            "thresholdMs": 16.666666666666668,
+            "slowFrames": 188,
+            "slowFramePercent": 61.43790849673203,
+            "slowTimeMs": 3141.599999999904,
+            "slowTimePercent": 61.6012078668191,
+            "episodes": 101,
+            "longestEpisodeMs": 66.80000000000291
+          },
+          {
+            "targetFps": 60,
+            "tolerancePercent": 3,
+            "budgetMs": 16.666666666666668,
+            "thresholdMs": 17.182130584192443,
+            "slowFrames": 0,
+            "slowFramePercent": 0,
+            "slowTimeMs": 0,
+            "slowTimePercent": 0,
+            "episodes": 0,
+            "longestEpisodeMs": 0
+          },
+          {
+            "targetFps": 120,
+            "tolerancePercent": 0,
+            "budgetMs": 8.333333333333334,
+            "thresholdMs": 8.333333333333334,
+            "slowFrames": 306,
+            "slowFramePercent": 100,
+            "slowTimeMs": 5099.899999999994,
+            "slowTimePercent": 100,
+            "episodes": 1,
+            "longestEpisodeMs": 5099.899999999994
+          },
+          {
+            "targetFps": 120,
+            "tolerancePercent": 3,
+            "budgetMs": 8.333333333333334,
+            "thresholdMs": 8.591065292096221,
+            "slowFrames": 306,
+            "slowFramePercent": 100,
+            "slowTimeMs": 5099.899999999994,
+            "slowTimePercent": 100,
+            "episodes": 1,
+            "longestEpisodeMs": 5099.899999999994
+          }
+        ],
+        "stalls": [
+          {
+            "thresholdMs": 33.334,
+            "count": 0,
+            "timeMs": 0
+          },
+          {
+            "thresholdMs": 50,
+            "count": 0,
+            "timeMs": 0
+          },
+          {
+            "thresholdMs": 100,
+            "count": 0,
+            "timeMs": 0
+          },
+          {
+            "thresholdMs": 250,
+            "count": 0,
+            "timeMs": 0
+          },
+          {
+            "thresholdMs": 1000,
+            "count": 0,
+            "timeMs": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "warning": "Capture driver completed, but the roof and the desired usable/beautiful building did not. One extra furniture insertion must be accounted for in the next driver revision."
+}
