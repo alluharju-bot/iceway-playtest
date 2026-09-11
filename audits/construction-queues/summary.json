@@ -1,0 +1,2902 @@
+{
+  "release": "R27",
+  "kernels": {
+    "logicalCpus": 10,
+    "queues": [
+      {
+        "count": 100,
+        "bursts": 4,
+        "oldMs": [
+          0.3000001907348633,
+          0.19999980926513672,
+          0.19999980926513672,
+          0.3000001907348633,
+          0.19999980926513672
+        ],
+        "indexedMs": [
+          0.19999980926513672,
+          0,
+          0,
+          0.09999990463256836,
+          0
+        ],
+        "oldWorstMs": 0.3000001907348633,
+        "indexedWorstMs": 0.19999980926513672
+      },
+      {
+        "count": 250,
+        "bursts": 4,
+        "oldMs": [
+          0.8999996185302734,
+          1,
+          1,
+          0.9000000953674316,
+          1.0999999046325684
+        ],
+        "indexedMs": [
+          0.3000001907348633,
+          0.20000028610229492,
+          0.19999980926513672,
+          0.20000028610229492,
+          0.09999990463256836
+        ],
+        "oldWorstMs": 1.0999999046325684,
+        "indexedWorstMs": 0.3000001907348633
+      },
+      {
+        "count": 500,
+        "bursts": 4,
+        "oldMs": [
+          3.6999998092651367,
+          3.5999999046325684,
+          1.4000000953674316,
+          1.299999713897705,
+          1
+        ],
+        "indexedMs": [
+          0.7000002861022949,
+          0.5999999046325684,
+          0.5,
+          0.3000001907348633,
+          0.3000001907348633
+        ],
+        "oldWorstMs": 3.6999998092651367,
+        "indexedWorstMs": 0.7000002861022949
+      },
+      {
+        "count": 1000,
+        "bursts": 4,
+        "oldMs": [
+          4,
+          3.8999996185302734,
+          3.8000001907348633,
+          3.9000000953674316,
+          3.9000000953674316
+        ],
+        "indexedMs": [
+          0.6999998092651367,
+          0.7000002861022949,
+          0.9000000953674316,
+          0.8999996185302734,
+          0.6999998092651367
+        ],
+        "oldWorstMs": 4,
+        "indexedWorstMs": 0.9000000953674316
+      }
+    ],
+    "fields": [
+      {
+        "capacity": 1,
+        "peakConcurrent": 1,
+        "coldMs": 52.59999990463257,
+        "warmMs": [
+          27.59999990463257,
+          26.40000009536743,
+          27.200000286102295,
+          27.199999809265137
+        ],
+        "verified": 60,
+        "stats": {
+          "workers": 1,
+          "pending": 0,
+          "completed": 60,
+          "failures": 0,
+          "rejected": 0,
+          "bytes": 23777640,
+          "computeMs": 2.3000001907348633,
+          "postMs": 0
+        }
+      },
+      {
+        "capacity": 8,
+        "peakConcurrent": 8,
+        "coldMs": 47.40000009536743,
+        "warmMs": [
+          9.600000381469727,
+          10.300000190734863,
+          9.700000286102295,
+          9.699999809265137
+        ],
+        "verified": 60,
+        "stats": {
+          "workers": 8,
+          "pending": 0,
+          "completed": 60,
+          "failures": 0,
+          "rejected": 0,
+          "bytes": 23777640,
+          "computeMs": 2.3000001907348633,
+          "postMs": 0
+        }
+      }
+    ],
+    "scope": "Isolated CPU/worker timings, not game FPS. Same formulas/requests. First two queue bursts warm JIT; snow first batch includes worker startup. Main thread never waits for these fields in the game."
+  },
+  "runs": [
+    {
+      "variant": "native",
+      "setup": {
+        "pieces": 1000,
+        "logicalCpus": 10,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+        "features": {
+          "animals": false,
+          "buildingSurfaceSnow": false,
+          "thermalField": false
+        }
+      },
+      "ignitions": [
+        {
+          "mode": "three",
+          "ignited": 3,
+          "atSimulationSeconds": 27.31600000000001
+        },
+        {
+          "mode": "all",
+          "ignited": 997,
+          "atSimulationSeconds": 57.66640000009539
+        }
+      ],
+      "results": [
+        {
+          "phase": "baseline",
+          "pacing": {
+            "frames": 669,
+            "totalMs": 14999.400000000001,
+            "worstFrameMs": 50,
+            "minimumInstantFps": 20,
+            "p95FrameMs": 33.400000000001455,
+            "p99FrameMs": 33.400000000001455,
+            "p999FrameMs": 50,
+            "onePercentLowFps": 27.955271565494236,
+            "pointOnePercentLowFps": 20,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 488,
+                "slowFramePercent": 72.94469357249626,
+                "slowTimeMs": 11994.899999999947,
+                "slowTimePercent": 79.96919876795036,
+                "episodes": 167,
+                "longestEpisodeMs": 350.1000000000058
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 230,
+                "slowFramePercent": 34.379671150971596,
+                "slowTimeMs": 7684.399999999961,
+                "slowTimePercent": 51.23138258863662,
+                "episodes": 218,
+                "longestEpisodeMs": 100.09999999999854
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 669,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.400000000001,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.400000000001
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 669,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.400000000001,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.400000000001
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 99,
+                "timeMs": 3323.19999999995
+              },
+              {
+                "thresholdMs": 50,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 1000,
+          "burning": 0,
+          "ruins": 0,
+          "smokeParticles": 0,
+          "simulationSeconds": 27.061700000286113,
+          "peakFireMs": 0.09999990463256836,
+          "peakDamageMs": 0.09999990463256836,
+          "peakSupportMs": 0.20000028610229492,
+          "peakAirPostMs": 0,
+          "peakCollapseMs": 0,
+          "airWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 0,
+            "completed": 0,
+            "failures": 0,
+            "stale": 0,
+            "cacheHits": 0,
+            "computeMs": 0,
+            "latencyMs": 0,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 0.4975,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 8,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 738.2999997138977,
+            "latencyMs": 850.5,
+            "terrainBytes": 153600,
+            "patchRecords": 17920,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "fireWork": {
+            "cycles": 0,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.16080000019073487
+          },
+          "peakAirPending": 0
+        },
+        {
+          "phase": "three-seed-spread",
+          "pacing": {
+            "frames": 1050,
+            "totalMs": 29998.800000000003,
+            "worstFrameMs": 83.40000000000873,
+            "minimumInstantFps": 11.990407673859655,
+            "p95FrameMs": 33.40000000000873,
+            "p99FrameMs": 50.099999999998545,
+            "p999FrameMs": 83.29999999998836,
+            "onePercentLowFps": 16.481869943062236,
+            "pointOnePercentLowFps": 11.997600479904229,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 910,
+                "slowFramePercent": 86.66666666666667,
+                "slowTimeMs": 27675.200000000033,
+                "slowTimePercent": 92.2543568409404,
+                "episodes": 140,
+                "longestEpisodeMs": 1816.7000000000116
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 716,
+                "slowFramePercent": 68.19047619047619,
+                "slowTimeMs": 24433.900000000016,
+                "slowTimePercent": 81.44959131698604,
+                "episodes": 318,
+                "longestEpisodeMs": 833.3000000000029
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 1050,
+                "slowFramePercent": 100,
+                "slowTimeMs": 29998.800000000003,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 29998.800000000003
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 1050,
+                "slowFramePercent": 100,
+                "slowTimeMs": 29998.800000000003,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 29998.800000000003
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 301,
+                "timeMs": 10618.799999999988
+              },
+              {
+                "thresholdMs": 50,
+                "count": 13,
+                "timeMs": 767.6000000000058
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 1000,
+          "burning": 3,
+          "ruins": 0,
+          "smokeParticles": 310,
+          "simulationSeconds": 57.369300000190755,
+          "peakFireMs": 0.8000001907348633,
+          "peakDamageMs": 10.599999904632568,
+          "peakSupportMs": 16.90000057220459,
+          "peakAirPostMs": 2,
+          "peakCollapseMs": 0,
+          "airWorker": {
+            "active": 8,
+            "pending": 38,
+            "jobs": 1196,
+            "completed": 4999,
+            "failures": 0,
+            "stale": 55,
+            "cacheHits": 8428,
+            "computeMs": 0.9000000953674316,
+            "latencyMs": 18.5,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 0.4998000001907348,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 24,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 359.5,
+            "latencyMs": 518.9000000953674,
+            "terrainBytes": 153600,
+            "patchRecords": 8,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "fireWork": {
+            "cycles": 59,
+            "steps": 96,
+            "pending": 1,
+            "milliseconds": 0.19999980926513672,
+            "backlogSeconds": 0.022300000190734862
+          },
+          "peakAirPending": 278
+        },
+        {
+          "phase": "mass-ignition-stress",
+          "pacing": {
+            "frames": 292,
+            "totalMs": 19965.899999999994,
+            "worstFrameMs": 133.40000000000873,
+            "minimumInstantFps": 7.4962518740624775,
+            "p95FrameMs": 116.60000000000582,
+            "p99FrameMs": 116.69999999999709,
+            "p999FrameMs": 133.40000000000873,
+            "onePercentLowFps": 8.178844056706263,
+            "pointOnePercentLowFps": 7.4962518740624775,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 292,
+                "slowFramePercent": 100,
+                "slowTimeMs": 19965.899999999994,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 19965.899999999994
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 292,
+                "slowFramePercent": 100,
+                "slowTimeMs": 19965.899999999994,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 19965.899999999994
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 292,
+                "slowFramePercent": 100,
+                "slowTimeMs": 19965.899999999994,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 19965.899999999994
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 292,
+                "slowFramePercent": 100,
+                "slowTimeMs": 19965.899999999994,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 19965.899999999994
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 292,
+                "timeMs": 19965.899999999994
+              },
+              {
+                "thresholdMs": 50,
+                "count": 200,
+                "timeMs": 15368.199999999983
+              },
+              {
+                "thresholdMs": 100,
+                "count": 23,
+                "timeMs": 2600.399999999994
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 997,
+          "burning": 997,
+          "ruins": 0,
+          "smokeParticles": 253,
+          "simulationSeconds": 77.42880000114425,
+          "peakFireMs": 3,
+          "peakDamageMs": 11.099999904632568,
+          "peakSupportMs": 15.40000057220459,
+          "peakAirPostMs": 2,
+          "peakCollapseMs": 32.90000009536743,
+          "airWorker": {
+            "active": 8,
+            "pending": 4080,
+            "jobs": 2725,
+            "completed": 23955,
+            "failures": 0,
+            "stale": 1541,
+            "cacheHits": 150140,
+            "computeMs": 2.4000000953674316,
+            "latencyMs": 62.19999980926514,
+            "postMs": 1.0999999046325684,
+            "fallbackMs": 0,
+            "fallbackQueries": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 3,
+            "removed": 0,
+            "milliseconds": 0.09999990463256836
+          },
+          "peakFireBacklog": 2.230900000095367,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 56,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 285.80000019073486,
+            "latencyMs": 774.5999999046326,
+            "terrainBytes": 152832,
+            "patchRecords": 64,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "fireWork": {
+            "cycles": 72,
+            "steps": 96,
+            "pending": 1,
+            "milliseconds": 0.8000001907348633,
+            "backlogSeconds": 1.1184000000953676
+          },
+          "peakAirPending": 4096
+        },
+        {
+          "phase": "damage",
+          "pacing": {
+            "frames": 310,
+            "totalMs": 24949,
+            "worstFrameMs": 150,
+            "minimumInstantFps": 6.666666666666667,
+            "p95FrameMs": 133.29999999998836,
+            "p99FrameMs": 149.89999999999418,
+            "p999FrameMs": 150,
+            "onePercentLowFps": 6.667777962993897,
+            "pointOnePercentLowFps": 6.666666666666667,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 310,
+                "slowFramePercent": 100,
+                "slowTimeMs": 24949,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 24949
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 310,
+                "slowFramePercent": 100,
+                "slowTimeMs": 24949,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 24949
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 310,
+                "slowFramePercent": 100,
+                "slowTimeMs": 24949,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 24949
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 310,
+                "slowFramePercent": 100,
+                "slowTimeMs": 24949,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 24949
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 310,
+                "timeMs": 24949
+              },
+              {
+                "thresholdMs": 50,
+                "count": 246,
+                "timeMs": 21749.800000000003
+              },
+              {
+                "thresholdMs": 100,
+                "count": 63,
+                "timeMs": 7567.500000000029
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 879,
+          "burning": 879,
+          "ruins": 68,
+          "smokeParticles": 43,
+          "simulationSeconds": 101.78859999990414,
+          "peakFireMs": 2.6999998092651367,
+          "peakDamageMs": 12.699999809265137,
+          "peakSupportMs": 12.600000381469727,
+          "peakAirPostMs": 3.4000000953674316,
+          "peakCollapseMs": 21.699999809265137,
+          "airWorker": {
+            "active": 8,
+            "pending": 4080,
+            "jobs": 3263,
+            "completed": 28531,
+            "failures": 0,
+            "stale": 4772,
+            "cacheHits": 165771,
+            "computeMs": 2.3999996185302734,
+            "latencyMs": 81.69999980926514,
+            "postMs": 1.0999999046325684,
+            "fallbackMs": 0,
+            "fallbackQueries": 0
+          },
+          "collapseQueue": {
+            "pending": 133,
+            "checked": 4,
+            "removed": 4,
+            "milliseconds": 12.700000286102295
+          },
+          "peakFireBacklog": 2.3442000002861025,
+          "supportWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 3,
+            "stale": 24,
+            "failures": 0,
+            "captureMs": 1,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 245.40000009536743,
+            "latencyMs": 454.80000019073486,
+            "terrainBytes": 55680,
+            "patchRecords": 6627,
+            "fallbackChecks": 4,
+            "fallbackMs": 0.09999990463256836,
+            "churnFallbacks": 7
+          },
+          "fireWork": {
+            "cycles": 86,
+            "steps": 60,
+            "pending": 1,
+            "milliseconds": 1.5,
+            "backlogSeconds": 0.6548999996185302
+          },
+          "peakAirPending": 4096
+        },
+        {
+          "phase": "collapse",
+          "pacing": {
+            "frames": 1470,
+            "totalMs": 54981.19999999998,
+            "worstFrameMs": 116.69999999999709,
+            "minimumInstantFps": 8.568980291345543,
+            "p95FrameMs": 83.29999999998836,
+            "p99FrameMs": 100,
+            "p999FrameMs": 116.69999999998254,
+            "onePercentLowFps": 9.676795045481082,
+            "pointOnePercentLowFps": 8.568980291346078,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 1312,
+                "slowFramePercent": 89.25170068027211,
+                "slowTimeMs": 52358.70000000007,
+                "slowTimePercent": 95.23018777327539,
+                "episodes": 159,
+                "longestEpisodeMs": 27565.600000000006
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 1080,
+                "slowFramePercent": 73.46938775510205,
+                "slowTimeMs": 48482.100000000064,
+                "slowTimePercent": 88.1794140542587,
+                "episodes": 378,
+                "longestEpisodeMs": 27565.600000000006
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 1470,
+                "slowFramePercent": 100,
+                "slowTimeMs": 54981.19999999998,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 54981.19999999998
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 1470,
+                "slowFramePercent": 100,
+                "slowTimeMs": 54981.19999999998,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 54981.19999999998
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 678,
+                "timeMs": 35100.500000000015
+              },
+              {
+                "thresholdMs": 50,
+                "count": 265,
+                "timeMs": 18885.899999999747
+              },
+              {
+                "thresholdMs": 100,
+                "count": 4,
+                "timeMs": 450.0999999999767
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 0,
+          "burning": 0,
+          "ruins": 771,
+          "smokeParticles": 320,
+          "simulationSeconds": 157.42959999990381,
+          "peakFireMs": 2.9000000953674316,
+          "peakDamageMs": 1.4000000953674316,
+          "peakSupportMs": 3.4000000953674316,
+          "peakAirPostMs": 1.9000000953674316,
+          "peakCollapseMs": 15.599999904632568,
+          "airWorker": {
+            "active": 8,
+            "pending": 1,
+            "jobs": 7239,
+            "completed": 39003,
+            "failures": 0,
+            "stale": 26035,
+            "cacheHits": 979381,
+            "computeMs": 0,
+            "latencyMs": 23.59999990463257,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 2,
+            "milliseconds": 1
+          },
+          "peakFireBacklog": 2.007499999523163,
+          "supportWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 12,
+            "stale": 15,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 1.5,
+            "latencyMs": 44.90000009536743,
+            "terrainBytes": 2528,
+            "patchRecords": 6,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "fireWork": {
+            "cycles": 124,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.4465999999046326
+          },
+          "peakAirPending": 4096
+        },
+        {
+          "phase": "rubble",
+          "pacing": {
+            "frames": 559,
+            "totalMs": 14999.399999999994,
+            "worstFrameMs": 83.29999999998836,
+            "minimumInstantFps": 12.004801920769985,
+            "p95FrameMs": 33.39999999999418,
+            "p99FrameMs": 33.40000000002328,
+            "p999FrameMs": 83.29999999998836,
+            "onePercentLowFps": 21.16402116401682,
+            "pointOnePercentLowFps": 12.004801920769985,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 492,
+                "slowFramePercent": 88.01431127012522,
+                "slowTimeMs": 13887.199999999866,
+                "slowTimePercent": 92.58503673480186,
+                "episodes": 67,
+                "longestEpisodeMs": 700
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 336,
+                "slowFramePercent": 60.10733452593918,
+                "slowTimeMs": 11280.800000000192,
+                "slowTimePercent": 75.20834166700132,
+                "episodes": 220,
+                "longestEpisodeMs": 166.70000000001164
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 559,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.399999999994,
+                "slowTimePercent": 100.00000000000001,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.399999999994
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 559,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.399999999994,
+                "slowTimePercent": 100.00000000000001,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.399999999994
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 103,
+                "timeMs": 3523.2999999999884
+              },
+              {
+                "thresholdMs": 50,
+                "count": 1,
+                "timeMs": 83.29999999998836
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 0,
+          "burning": 0,
+          "ruins": 771,
+          "smokeParticles": 320,
+          "simulationSeconds": 172.79609999990396,
+          "peakFireMs": 0.09999990463256836,
+          "peakDamageMs": 0.09999990463256836,
+          "peakSupportMs": 0.10000038146972656,
+          "peakAirPostMs": 0.20000028610229492,
+          "peakCollapseMs": 1,
+          "airWorker": {
+            "active": 8,
+            "pending": 8,
+            "jobs": 8090,
+            "completed": 40515,
+            "failures": 0,
+            "stale": 26035,
+            "cacheHits": 1436184,
+            "computeMs": 0,
+            "latencyMs": 28.40000009536743,
+            "postMs": 0.10000038146972656,
+            "fallbackMs": 0,
+            "fallbackQueries": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 2,
+            "milliseconds": 1
+          },
+          "peakFireBacklog": 0.499,
+          "supportWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 12,
+            "stale": 15,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 1.5,
+            "latencyMs": 44.90000009536743,
+            "terrainBytes": 2528,
+            "patchRecords": 6,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "fireWork": {
+            "cycles": 124,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.37779999971389777
+          },
+          "peakAirPending": 21
+        }
+      ],
+      "errors": [],
+      "folder": "fire",
+      "revision": "1a8aae7"
+    },
+    {
+      "variant": "primitive",
+      "setup": {
+        "pieces": 1000,
+        "logicalCpus": 10,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+        "features": {
+          "animals": false,
+          "buildingSurfaceSnow": false,
+          "thermalField": false
+        }
+      },
+      "ignitions": [
+        {
+          "mode": "three",
+          "ignited": 3,
+          "atSimulationSeconds": 27.165999999999986
+        },
+        {
+          "mode": "all",
+          "ignited": 997,
+          "atSimulationSeconds": 57.46819999980925
+        }
+      ],
+      "results": [
+        {
+          "phase": "baseline",
+          "pacing": {
+            "frames": 900,
+            "totalMs": 14985.1999997139,
+            "worstFrameMs": 16.80000000000291,
+            "minimumInstantFps": 59.523809523799216,
+            "p95FrameMs": 16.700000000004366,
+            "p99FrameMs": 16.80000000000291,
+            "p999FrameMs": 16.80000000000291,
+            "onePercentLowFps": 59.523809523799216,
+            "pointOnePercentLowFps": 59.523809523799216,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 550,
+                "slowFramePercent": 61.111111111111114,
+                "slowTimeMs": 9189.49999999992,
+                "slowTimePercent": 61.32383952283165,
+                "episodes": 304,
+                "longestEpisodeMs": 66.80000000000291
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 0,
+                "slowFramePercent": 0,
+                "slowTimeMs": 0,
+                "slowTimePercent": 0,
+                "episodes": 0,
+                "longestEpisodeMs": 0
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 899,
+                "slowFramePercent": 99.88888888888889,
+                "slowTimeMs": 14982.7,
+                "slowTimePercent": 99.98331687455658,
+                "episodes": 1,
+                "longestEpisodeMs": 14982.7
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 899,
+                "slowFramePercent": 99.88888888888889,
+                "slowTimeMs": 14982.7,
+                "slowTimePercent": 99.98331687455658,
+                "episodes": 1,
+                "longestEpisodeMs": 14982.7
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 50,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 1000,
+          "burning": 0,
+          "ruins": 0,
+          "smokeParticles": 0,
+          "simulationSeconds": 27.031400000095353,
+          "peakFireMs": 0.10000038146972656,
+          "peakDamageMs": 0.09999990463256836,
+          "peakSupportMs": 0.20000028610229492,
+          "peakAirPostMs": 0,
+          "peakCollapseMs": 0,
+          "airWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 0,
+            "completed": 0,
+            "failures": 0,
+            "stale": 0,
+            "cacheHits": 0,
+            "computeMs": 0,
+            "latencyMs": 0,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 0.4999000000953675,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 8,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 707.9000000953674,
+            "latencyMs": 965.1999998092651,
+            "terrainBytes": 153600,
+            "patchRecords": 17920,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "fireWork": {
+            "cycles": 0,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.2665999999046325
+          },
+          "peakAirPending": 0
+        },
+        {
+          "phase": "three-seed-spread",
+          "pacing": {
+            "frames": 1728,
+            "totalMs": 30000.399999904635,
+            "worstFrameMs": 50,
+            "minimumInstantFps": 20,
+            "p95FrameMs": 16.80000000000291,
+            "p99FrameMs": 33.39999999999418,
+            "p999FrameMs": 50,
+            "onePercentLowFps": 28.373266078181445,
+            "pointOnePercentLowFps": 20,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 1085,
+                "slowFramePercent": 62.789351851851855,
+                "slowTimeMs": 19342.899999999856,
+                "slowTimePercent": 64.47547366055566,
+                "episodes": 554,
+                "longestEpisodeMs": 200.09999999999127
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 71,
+                "slowFramePercent": 4.108796296296297,
+                "slowTimeMs": 2399.8999999999505,
+                "slowTimePercent": 7.999560005891852,
+                "episodes": 69,
+                "longestEpisodeMs": 83.40000000000873
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 1727,
+                "slowFramePercent": 99.94212962962963,
+                "slowTimeMs": 29998.9,
+                "slowTimePercent": 99.99500006698364,
+                "episodes": 1,
+                "longestEpisodeMs": 29998.9
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 1727,
+                "slowFramePercent": 99.94212962962963,
+                "slowTimeMs": 29998.9,
+                "slowTimePercent": 99.99500006698364,
+                "episodes": 1,
+                "longestEpisodeMs": 29998.9
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 26,
+                "timeMs": 901.6000000000131
+              },
+              {
+                "thresholdMs": 50,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 1000,
+          "burning": 3,
+          "ruins": 0,
+          "smokeParticles": 304,
+          "simulationSeconds": 57.18030000019073,
+          "peakFireMs": 0.7000002861022949,
+          "peakDamageMs": 10.700000286102295,
+          "peakSupportMs": 15.799999237060547,
+          "peakAirPostMs": 1.9000000953674316,
+          "peakCollapseMs": 0,
+          "airWorker": {
+            "active": 6,
+            "pending": 22,
+            "jobs": 1463,
+            "completed": 4712,
+            "failures": 0,
+            "stale": 17,
+            "cacheHits": 10640,
+            "computeMs": 0.8000001907348633,
+            "latencyMs": 15.400000095367432,
+            "postMs": 0.09999990463256836,
+            "fallbackMs": 0,
+            "fallbackQueries": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 0.49990000009536745,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 24,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 433.7000002861023,
+            "latencyMs": 496.69999980926514,
+            "terrainBytes": 153600,
+            "patchRecords": 8,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "fireWork": {
+            "cycles": 59,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.4963000001907348
+          },
+          "peakAirPending": 205
+        },
+        {
+          "phase": "mass-ignition-stress",
+          "pacing": {
+            "frames": 312,
+            "totalMs": 19915.899999999994,
+            "worstFrameMs": 150,
+            "minimumInstantFps": 6.666666666666667,
+            "p95FrameMs": 100,
+            "p99FrameMs": 116.59999999999127,
+            "p999FrameMs": 150,
+            "onePercentLowFps": 7.998400319936152,
+            "pointOnePercentLowFps": 6.666666666666667,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 312,
+                "slowFramePercent": 100,
+                "slowTimeMs": 19915.899999999994,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 19915.899999999994
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 312,
+                "slowFramePercent": 100,
+                "slowTimeMs": 19915.899999999994,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 19915.899999999994
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 312,
+                "slowFramePercent": 100,
+                "slowTimeMs": 19915.899999999994,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 19915.899999999994
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 312,
+                "slowFramePercent": 100,
+                "slowTimeMs": 19915.899999999994,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 19915.899999999994
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 310,
+                "timeMs": 19849.399999999994
+              },
+              {
+                "thresholdMs": 50,
+                "count": 180,
+                "timeMs": 13401.500000000015
+              },
+              {
+                "thresholdMs": 100,
+                "count": 6,
+                "timeMs": 716.7999999999738
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 997,
+          "burning": 997,
+          "ruins": 0,
+          "smokeParticles": 290,
+          "simulationSeconds": 77.38730000066758,
+          "peakFireMs": 2.8999996185302734,
+          "peakDamageMs": 10.600000381469727,
+          "peakSupportMs": 18.100000381469727,
+          "peakAirPostMs": 2.0999999046325684,
+          "peakCollapseMs": 30,
+          "airWorker": {
+            "active": 8,
+            "pending": 4080,
+            "jobs": 3124,
+            "completed": 24691,
+            "failures": 0,
+            "stale": 2062,
+            "cacheHits": 162422,
+            "computeMs": 4.599999904632568,
+            "latencyMs": 78.40000009536743,
+            "postMs": 1.0999999046325684,
+            "fallbackMs": 0,
+            "fallbackQueries": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 1,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 1.7688000001907347,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 56,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0.09999990463256836,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 343.90000009536743,
+            "latencyMs": 727.8999996185303,
+            "terrainBytes": 152832,
+            "patchRecords": 64,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "fireWork": {
+            "cycles": 74,
+            "steps": 96,
+            "pending": 1,
+            "milliseconds": 0.19999980926513672,
+            "backlogSeconds": 1.1953000001907346
+          },
+          "peakAirPending": 4096
+        },
+        {
+          "phase": "damage",
+          "pacing": {
+            "frames": 346,
+            "totalMs": 24965.699999999997,
+            "worstFrameMs": 133.3000000000029,
+            "minimumInstantFps": 7.501875468867053,
+            "p95FrameMs": 100.10000000000582,
+            "p99FrameMs": 116.69999999999709,
+            "p999FrameMs": 133.3000000000029,
+            "onePercentLowFps": 8.000000000000233,
+            "pointOnePercentLowFps": 7.501875468867053,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 346,
+                "slowFramePercent": 100,
+                "slowTimeMs": 24965.699999999997,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 24965.699999999997
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 346,
+                "slowFramePercent": 100,
+                "slowTimeMs": 24965.699999999997,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 24965.699999999997
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 346,
+                "slowFramePercent": 100,
+                "slowTimeMs": 24965.699999999997,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 24965.699999999997
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 346,
+                "slowFramePercent": 100,
+                "slowTimeMs": 24965.699999999997,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 24965.699999999997
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 346,
+                "timeMs": 24965.699999999997
+              },
+              {
+                "thresholdMs": 50,
+                "count": 262,
+                "timeMs": 20783.800000000003
+              },
+              {
+                "thresholdMs": 100,
+                "count": 19,
+                "timeMs": 2150.0999999999767
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 818,
+          "burning": 818,
+          "ruins": 90,
+          "smokeParticles": 18,
+          "simulationSeconds": 102.6492000007627,
+          "peakFireMs": 3.5999999046325684,
+          "peakDamageMs": 11.599999904632568,
+          "peakSupportMs": 14.800000190734863,
+          "peakAirPostMs": 2.200000286102295,
+          "peakCollapseMs": 24.90000009536743,
+          "airWorker": {
+            "active": 8,
+            "pending": 4064,
+            "jobs": 3672,
+            "completed": 29090,
+            "failures": 0,
+            "stale": 5735,
+            "cacheHits": 175850,
+            "computeMs": 3,
+            "latencyMs": 76.59999990463257,
+            "postMs": 1.700000286102295,
+            "fallbackMs": 0,
+            "fallbackQueries": 0
+          },
+          "collapseQueue": {
+            "pending": 123,
+            "checked": 4,
+            "removed": 1,
+            "milliseconds": 12
+          },
+          "peakFireBacklog": 2.2286999998092654,
+          "supportWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 0,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 1,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 0,
+            "latencyMs": 0,
+            "terrainBytes": 0,
+            "patchRecords": 0,
+            "fallbackChecks": 4,
+            "fallbackMs": 0.19999980926513672,
+            "churnFallbacks": 6
+          },
+          "fireWork": {
+            "cycles": 90,
+            "steps": 79,
+            "pending": 1,
+            "milliseconds": 1.5,
+            "backlogSeconds": 0.6295999999046324
+          },
+          "peakAirPending": 4096
+        },
+        {
+          "phase": "collapse",
+          "pacing": {
+            "frames": 2126,
+            "totalMs": 54997.7,
+            "worstFrameMs": 116.70000000001164,
+            "minimumInstantFps": 8.568980291344475,
+            "p95FrameMs": 50,
+            "p99FrameMs": 66.70000000001164,
+            "p999FrameMs": 99.90000000000873,
+            "onePercentLowFps": 12.107203786252587,
+            "pointOnePercentLowFps": 9.475679090334198,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 1632,
+                "slowFramePercent": 76.76387582314204,
+                "slowTimeMs": 46798.30000000021,
+                "slowTimePercent": 85.09137654847422,
+                "episodes": 450,
+                "longestEpisodeMs": 15999.400000000009
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 843,
+                "slowFramePercent": 39.651928504233304,
+                "slowTimeMs": 33615.90000000021,
+                "slowTimePercent": 61.12237420837638,
+                "episodes": 462,
+                "longestEpisodeMs": 15882.599999999991
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 2126,
+                "slowFramePercent": 100,
+                "slowTimeMs": 54997.7,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 54997.7
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 2126,
+                "slowFramePercent": 100,
+                "slowTimeMs": 54997.7,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 54997.7
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 458,
+                "timeMs": 20798.200000000186
+              },
+              {
+                "thresholdMs": 50,
+                "count": 106,
+                "timeMs": 6969.000000000073
+              },
+              {
+                "thresholdMs": 100,
+                "count": 1,
+                "timeMs": 116.70000000001164
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 0,
+          "burning": 0,
+          "ruins": 765,
+          "smokeParticles": 320,
+          "simulationSeconds": 158.28500000095337,
+          "peakFireMs": 2.0999999046325684,
+          "peakDamageMs": 2.3000001907348633,
+          "peakSupportMs": 2.8000001907348633,
+          "peakAirPostMs": 1.8000001907348633,
+          "peakCollapseMs": 19.5,
+          "airWorker": {
+            "active": 8,
+            "pending": 3,
+            "jobs": 10257,
+            "completed": 63444,
+            "failures": 0,
+            "stale": 22920,
+            "cacheHits": 1519906,
+            "computeMs": 0,
+            "latencyMs": 17.199999809265137,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 4,
+            "milliseconds": 0.40000009536743164
+          },
+          "peakFireBacklog": 1.3557999997138976,
+          "supportWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 17,
+            "stale": 7,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 2.5,
+            "latencyMs": 30.5,
+            "terrainBytes": 3616,
+            "patchRecords": 8,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "fireWork": {
+            "cycles": 130,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.1037999997138977
+          },
+          "peakAirPending": 4096
+        },
+        {
+          "phase": "rubble",
+          "pacing": {
+            "frames": 744,
+            "totalMs": 14999.399999999994,
+            "worstFrameMs": 83.29999999998836,
+            "minimumInstantFps": 12.004801920769985,
+            "p95FrameMs": 33.39999999999418,
+            "p99FrameMs": 33.40000000002328,
+            "p999FrameMs": 83.29999999998836,
+            "onePercentLowFps": 25.22863450014564,
+            "pointOnePercentLowFps": 12.004801920769985,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 523,
+                "slowFramePercent": 70.29569892473118,
+                "slowTimeMs": 11331.00000000032,
+                "slowTimePercent": 75.54302172087101,
+                "episodes": 197,
+                "longestEpisodeMs": 200
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 153,
+                "slowFramePercent": 20.56451612903226,
+                "slowTimeMs": 5149.30000000025,
+                "slowTimePercent": 34.33003986826308,
+                "episodes": 150,
+                "longestEpisodeMs": 116.59999999997672
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 744,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.399999999994,
+                "slowTimePercent": 100.00000000000001,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.399999999994
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 744,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.399999999994,
+                "slowTimePercent": 100.00000000000001,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.399999999994
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 49,
+                "timeMs": 1686.5000000001455
+              },
+              {
+                "thresholdMs": 50,
+                "count": 1,
+                "timeMs": 83.29999999998836
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 0,
+          "burning": 0,
+          "ruins": 765,
+          "smokeParticles": 320,
+          "simulationSeconds": 173.65530000114416,
+          "peakFireMs": 0.09999990463256836,
+          "peakDamageMs": 0.09999990463256836,
+          "peakSupportMs": 0.10000038146972656,
+          "peakAirPostMs": 0.20000028610229492,
+          "peakCollapseMs": 0.40000009536743164,
+          "airWorker": {
+            "active": 8,
+            "pending": 6,
+            "jobs": 11638,
+            "completed": 65897,
+            "failures": 0,
+            "stale": 22920,
+            "cacheHits": 2118084,
+            "computeMs": 0,
+            "latencyMs": 20.100000381469727,
+            "postMs": 0.09999990463256836,
+            "fallbackMs": 0,
+            "fallbackQueries": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 4,
+            "milliseconds": 0.40000009536743164
+          },
+          "peakFireBacklog": 0.4999000000953675,
+          "supportWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 17,
+            "stale": 7,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 2.5,
+            "latencyMs": 30.5,
+            "terrainBytes": 3616,
+            "patchRecords": 8,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "fireWork": {
+            "cycles": 130,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.18809999990463258
+          },
+          "peakAirPending": 23
+        }
+      ],
+      "errors": [],
+      "folder": "fire",
+      "revision": "1a8aae7"
+    },
+    {
+      "variant": "native",
+      "setup": {
+        "pieces": 1000,
+        "logicalCpus": 10,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+        "features": {
+          "animals": false,
+          "buildingSurfaceSnow": false,
+          "thermalField": false
+        }
+      },
+      "ignitions": [
+        {
+          "mode": "three",
+          "ignited": 3,
+          "atSimulationSeconds": 27.28530000019081
+        },
+        {
+          "mode": "all",
+          "ignited": 997,
+          "atSimulationSeconds": 57.66950000000013
+        }
+      ],
+      "results": [
+        {
+          "phase": "baseline",
+          "pacing": {
+            "frames": 672,
+            "totalMs": 14999.400000000001,
+            "worstFrameMs": 50,
+            "minimumInstantFps": 20,
+            "p95FrameMs": 33.400000000001455,
+            "p99FrameMs": 33.400000000001455,
+            "p999FrameMs": 50,
+            "onePercentLowFps": 26.21722846441876,
+            "pointOnePercentLowFps": 20,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 497,
+                "slowFramePercent": 73.95833333333333,
+                "slowTimeMs": 12094.699999999993,
+                "slowTimePercent": 80.6345587156819,
+                "episodes": 166,
+                "longestEpisodeMs": 250
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 226,
+                "slowFramePercent": 33.63095238095238,
+                "slowTimeMs": 7567.19999999999,
+                "slowTimePercent": 50.45001800071996,
+                "episodes": 217,
+                "longestEpisodeMs": 83.30000000000291
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 672,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.400000000001,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.400000000001
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 672,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.400000000001,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.400000000001
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 89,
+                "timeMs": 3005.8000000000065
+              },
+              {
+                "thresholdMs": 50,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 1000,
+          "burning": 0,
+          "ruins": 0,
+          "smokeParticles": 0,
+          "simulationSeconds": 27.05769999980934,
+          "peakFireMs": 0.09999990463256836,
+          "peakDamageMs": 0.09999990463256836,
+          "peakSupportMs": 0.20000028610229492,
+          "peakAirPostMs": 0,
+          "peakCollapseMs": 0,
+          "airWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 0,
+            "completed": 0,
+            "failures": 0,
+            "stale": 0,
+            "cacheHits": 0,
+            "computeMs": 0,
+            "latencyMs": 0,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 0.4994000000953675,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 8,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 767.7000002861023,
+            "latencyMs": 916.1000003814697,
+            "terrainBytes": 153600,
+            "patchRecords": 17920,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "fireWork": {
+            "cycles": 0,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.21789999961853027
+          },
+          "peakAirPending": 0
+        },
+        {
+          "phase": "three-seed-spread",
+          "pacing": {
+            "frames": 1049,
+            "totalMs": 29982.1,
+            "worstFrameMs": 83.39999999999418,
+            "minimumInstantFps": 11.990407673861748,
+            "p95FrameMs": 33.40000000000873,
+            "p99FrameMs": 50,
+            "p999FrameMs": 83.30000000000291,
+            "onePercentLowFps": 16.9204737732655,
+            "pointOnePercentLowFps": 11.997600479904229,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 916,
+                "slowFramePercent": 87.32125834127741,
+                "slowTimeMs": 27774.600000000006,
+                "slowTimePercent": 92.63727357323205,
+                "episodes": 134,
+                "longestEpisodeMs": 1250
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 715,
+                "slowFramePercent": 68.16015252621544,
+                "slowTimeMs": 24415.600000000035,
+                "slowTimePercent": 81.43392224027015,
+                "episodes": 318,
+                "longestEpisodeMs": 883.3999999999942
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 1049,
+                "slowFramePercent": 100,
+                "slowTimeMs": 29982.1,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 29982.1
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 1049,
+                "slowFramePercent": 100,
+                "slowTimeMs": 29982.1,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 29982.1
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 293,
+                "timeMs": 10367.600000000057
+              },
+              {
+                "thresholdMs": 50,
+                "count": 6,
+                "timeMs": 400.1000000000058
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 1000,
+          "burning": 3,
+          "ruins": 0,
+          "smokeParticles": 309,
+          "simulationSeconds": 57.33309999990476,
+          "peakFireMs": 0.6999998092651367,
+          "peakDamageMs": 11.400000095367432,
+          "peakSupportMs": 15.499999523162842,
+          "peakAirPostMs": 2,
+          "peakCollapseMs": 0,
+          "airWorker": {
+            "active": 8,
+            "pending": 1,
+            "jobs": 1193,
+            "completed": 5203,
+            "failures": 0,
+            "stale": 32,
+            "cacheHits": 8246,
+            "computeMs": 0.3000001907348633,
+            "latencyMs": 25.699999809265137,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 32
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 0.49979999971389777,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 24,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0.09999990463256836,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 392.40000009536743,
+            "latencyMs": 564.2000002861023,
+            "terrainBytes": 153600,
+            "patchRecords": 8,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "fireWork": {
+            "cycles": 59,
+            "steps": 96,
+            "pending": 1,
+            "milliseconds": 0,
+            "backlogSeconds": 0.11940000009536743
+          },
+          "peakAirPending": 274
+        },
+        {
+          "phase": "mass-ignition-stress",
+          "pacing": {
+            "frames": 282,
+            "totalMs": 19982.59999999999,
+            "worstFrameMs": 166.8000000000029,
+            "minimumInstantFps": 5.995203836930351,
+            "p95FrameMs": 116.69999999999709,
+            "p99FrameMs": 150.10000000000582,
+            "p999FrameMs": 166.8000000000029,
+            "onePercentLowFps": 6.203473945409354,
+            "pointOnePercentLowFps": 5.995203836930351,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 282,
+                "slowFramePercent": 100,
+                "slowTimeMs": 19982.59999999999,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 19982.59999999999
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 282,
+                "slowFramePercent": 100,
+                "slowTimeMs": 19982.59999999999,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 19982.59999999999
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 282,
+                "slowFramePercent": 100,
+                "slowTimeMs": 19982.59999999999,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 19982.59999999999
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 282,
+                "slowFramePercent": 100,
+                "slowTimeMs": 19982.59999999999,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 19982.59999999999
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 282,
+                "timeMs": 19982.59999999999
+              },
+              {
+                "thresholdMs": 50,
+                "count": 208,
+                "timeMs": 16284.799999999988
+              },
+              {
+                "thresholdMs": 100,
+                "count": 27,
+                "timeMs": 3317.499999999971
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 997,
+          "burning": 997,
+          "ruins": 0,
+          "smokeParticles": 269,
+          "simulationSeconds": 77.1616999993325,
+          "peakFireMs": 5.599999904632568,
+          "peakDamageMs": 10.699999809265137,
+          "peakSupportMs": 16,
+          "peakAirPostMs": 2.200000286102295,
+          "peakCollapseMs": 34.19999980926514,
+          "airWorker": {
+            "active": 8,
+            "pending": 2074,
+            "jobs": 2669,
+            "completed": 23024,
+            "failures": 0,
+            "stale": 2104,
+            "cacheHits": 139635,
+            "computeMs": 2.9000000953674316,
+            "latencyMs": 53.5,
+            "postMs": 1.0999999046325684,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 126507
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 1,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 2.12439999961853,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 56,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 312.5,
+            "latencyMs": 813.5999999046326,
+            "terrainBytes": 152832,
+            "patchRecords": 88,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "fireWork": {
+            "cycles": 72,
+            "steps": 78,
+            "pending": 1,
+            "milliseconds": 1.5,
+            "backlogSeconds": 0.45859999942779545
+          },
+          "peakAirPending": 2917
+        },
+        {
+          "phase": "damage",
+          "pacing": {
+            "frames": 302,
+            "totalMs": 24982.300000000003,
+            "worstFrameMs": 166.70000000001164,
+            "minimumInstantFps": 5.99880023995159,
+            "p95FrameMs": 133.3000000000029,
+            "p99FrameMs": 150.09999999999127,
+            "p999FrameMs": 166.70000000001164,
+            "onePercentLowFps": 6.4829821717988745,
+            "pointOnePercentLowFps": 5.99880023995159,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 302,
+                "slowFramePercent": 100,
+                "slowTimeMs": 24982.300000000003,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 24982.300000000003
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 302,
+                "slowFramePercent": 100,
+                "slowTimeMs": 24982.300000000003,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 24982.300000000003
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 302,
+                "slowFramePercent": 100,
+                "slowTimeMs": 24982.300000000003,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 24982.300000000003
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 302,
+                "slowFramePercent": 100,
+                "slowTimeMs": 24982.300000000003,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 24982.300000000003
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 302,
+                "timeMs": 24982.300000000003
+              },
+              {
+                "thresholdMs": 50,
+                "count": 255,
+                "timeMs": 22633.599999999977
+              },
+              {
+                "thresholdMs": 100,
+                "count": 57,
+                "timeMs": 7216.700000000041
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 891,
+          "burning": 891,
+          "ruins": 81,
+          "smokeParticles": 54,
+          "simulationSeconds": 101.27539999914121,
+          "peakFireMs": 2.700000286102295,
+          "peakDamageMs": 15,
+          "peakSupportMs": 15.100000381469727,
+          "peakAirPostMs": 3,
+          "peakCollapseMs": 24.300000190734863,
+          "airWorker": {
+            "active": 8,
+            "pending": 1767,
+            "jobs": 3144,
+            "completed": 26929,
+            "failures": 0,
+            "stale": 5640,
+            "cacheHits": 151796,
+            "computeMs": 4.300000190734863,
+            "latencyMs": 93.80000019073486,
+            "postMs": 1.9000000953674316,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 503703
+          },
+          "collapseQueue": {
+            "pending": 81,
+            "checked": 4,
+            "removed": 1,
+            "milliseconds": 19.59999990463257
+          },
+          "peakFireBacklog": 2.5807000002861034,
+          "supportWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 3,
+            "stale": 22,
+            "failures": 0,
+            "captureMs": 1,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 314.09999990463257,
+            "latencyMs": 433.69999980926514,
+            "terrainBytes": 56544,
+            "patchRecords": 6612,
+            "fallbackChecks": 4,
+            "fallbackMs": 0.09999990463256836,
+            "churnFallbacks": 7
+          },
+          "fireWork": {
+            "cycles": 85,
+            "steps": 63,
+            "pending": 1,
+            "milliseconds": 1.5,
+            "backlogSeconds": 1.3564000005722043
+          },
+          "peakAirPending": 2378
+        },
+        {
+          "phase": "collapse",
+          "pacing": {
+            "frames": 1494,
+            "totalMs": 54997.90000000001,
+            "worstFrameMs": 150,
+            "minimumInstantFps": 6.666666666666667,
+            "p95FrameMs": 83.29999999998836,
+            "p99FrameMs": 100.09999999999127,
+            "p999FrameMs": 133.3000000000029,
+            "onePercentLowFps": 8.488964346349816,
+            "pointOnePercentLowFps": 7.059654076950157,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 1343,
+                "slowFramePercent": 89.89290495314592,
+                "slowTimeMs": 52491.500000000364,
+                "slowTimePercent": 95.4427350862494,
+                "episodes": 149,
+                "longestEpisodeMs": 26765.699999999997
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 1058,
+                "slowFramePercent": 70.81659973226239,
+                "slowTimeMs": 47729.20000000029,
+                "slowTimePercent": 86.78367719494796,
+                "episodes": 413,
+                "longestEpisodeMs": 26582.300000000003
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 1494,
+                "slowFramePercent": 100,
+                "slowTimeMs": 54997.90000000001,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 54997.90000000001
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 1494,
+                "slowFramePercent": 100,
+                "slowTimeMs": 54997.90000000001,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 54997.90000000001
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 614,
+                "timeMs": 32948.30000000032
+              },
+              {
+                "thresholdMs": 50,
+                "count": 253,
+                "timeMs": 18734.699999999997
+              },
+              {
+                "thresholdMs": 100,
+                "count": 15,
+                "timeMs": 1766.9999999999854
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 0,
+          "burning": 0,
+          "ruins": 745,
+          "smokeParticles": 320,
+          "simulationSeconds": 156.8282999987601,
+          "peakFireMs": 2.6999998092651367,
+          "peakDamageMs": 2.8000001907348633,
+          "peakSupportMs": 2.6999998092651367,
+          "peakAirPostMs": 1.8999996185302734,
+          "peakCollapseMs": 15,
+          "airWorker": {
+            "active": 8,
+            "pending": 7,
+            "jobs": 7432,
+            "completed": 37952,
+            "failures": 0,
+            "stale": 29595,
+            "cacheHits": 974668,
+            "computeMs": 0,
+            "latencyMs": 22.700000286102295,
+            "postMs": 0.10000038146972656,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 1078957
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 3,
+            "milliseconds": 3.3000001907348633
+          },
+          "peakFireBacklog": 2.314700000286102,
+          "supportWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 15,
+            "stale": 25,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 0.40000009536743164,
+            "latencyMs": 41,
+            "terrainBytes": 2656,
+            "patchRecords": 5,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "fireWork": {
+            "cycles": 121,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.17380000019073488
+          },
+          "peakAirPending": 2065
+        },
+        {
+          "phase": "rubble",
+          "pacing": {
+            "frames": 575,
+            "totalMs": 14982.700000000012,
+            "worstFrameMs": 83.30000000001746,
+            "minimumInstantFps": 12.004801920765791,
+            "p95FrameMs": 33.39999999999418,
+            "p99FrameMs": 33.40000000002328,
+            "p999FrameMs": 83.30000000001746,
+            "onePercentLowFps": 23.971234518564884,
+            "pointOnePercentLowFps": 12.004801920765791,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 484,
+                "slowFramePercent": 84.17391304347827,
+                "slowTimeMs": 13472.100000000064,
+                "slowTimePercent": 89.9177050865335,
+                "episodes": 91,
+                "longestEpisodeMs": 550.1000000000058
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 321,
+                "slowFramePercent": 55.82608695652174,
+                "slowTimeMs": 10748.900000000227,
+                "slowTimePercent": 71.74207586082763,
+                "episodes": 242,
+                "longestEpisodeMs": 216.70000000001164
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 575,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14982.700000000012,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14982.700000000012
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 575,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14982.700000000012,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14982.700000000012
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 112,
+                "timeMs": 3790.700000000099
+              },
+              {
+                "thresholdMs": 50,
+                "count": 1,
+                "timeMs": 83.30000000001746
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 0,
+          "burning": 0,
+          "ruins": 745,
+          "smokeParticles": 320,
+          "simulationSeconds": 172.23769999837907,
+          "peakFireMs": 0.09999990463256836,
+          "peakDamageMs": 0,
+          "peakSupportMs": 0.10000038146972656,
+          "peakAirPostMs": 0.20000028610229492,
+          "peakCollapseMs": 3.3000001907348633,
+          "airWorker": {
+            "active": 8,
+            "pending": 6,
+            "jobs": 8561,
+            "completed": 40027,
+            "failures": 0,
+            "stale": 29595,
+            "cacheHits": 1431139,
+            "computeMs": 0,
+            "latencyMs": 22.700000286102295,
+            "postMs": 0.10000038146972656,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 1078957
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 3,
+            "milliseconds": 3.3000001907348633
+          },
+          "peakFireBacklog": 0.4974999999999999,
+          "supportWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 15,
+            "stale": 25,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 0.40000009536743164,
+            "latencyMs": 41,
+            "terrainBytes": 2656,
+            "patchRecords": 5,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "fireWork": {
+            "cycles": 121,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.1772999997138977
+          },
+          "peakAirPending": 24
+        }
+      ],
+      "errors": [],
+      "folder": "fire-final",
+      "revision": "e0ef16a"
+    }
+  ],
+  "stable60Accepted": false,
+  "validated120": false,
+  "environment": "M1 Pro, Chrome headless, 1440x900, ~60 Hz, isolated source worktree/Vite. Live weather; not a fixed-world causal A/B or RTX measurement.",
+  "scope": "Same saved 1000-part house, real authored roofs/windows/doors. Orbit at multiple heights. Animals, construction surface snow and thermal field OFF; ground snow, weather, fire, smoke, support, damage and collapse ON. Primitive is a test-only render adapter.",
+  "revisions": "First native/primitive runs precede cancellation of superseded air-region queries; final native run includes that correction. The full primitive run was not repeated after cancellation."
+}
