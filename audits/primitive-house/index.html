@@ -1,0 +1,238 @@
+<!doctype html><html lang="fi"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TLW · primitiivinen 1000 osan vertailukoe</title>
+<style>:root{color-scheme:dark}*{box-sizing:border-box}body{background:#101a23;color:#e7e2d6;font:17px/1.6 system-ui;margin:auto;max-width:1460px;padding:24px}h1,h2{color:#dec598}a{color:#abdaf1}nav{display:flex;gap:16px;flex-wrap:wrap}section{margin:48px 0;border-top:1px solid #44505b;padding-top:20px}img{display:block;width:100%;height:auto;border:1px solid #53616c;border-radius:6px}.metrics{font:600 18px/1.6 monospace;color:#c3e0c9}table{border-collapse:collapse}th,td{padding:8px 18px 8px 0;text-align:left}.scroll{overflow:auto}.note{background:#23303a;padding:18px;border-left:3px solid #dec598}</style>
+<h1>The Long Winter · äärimmäinen rakennuskevennys</h1><p>11.9.2026 · sama yhtenäinen 1 000 osan U-talo, kolme kuvakulmaa jokaista sataa osaa kohti ja 12 palovaihetta. Kaikki 1 000 osaa: yksi yksinkertainen mesh / osa. Rakennusten pintalumi, tukikyselyt ja sortuminen pois; muu pelimaailma edelleen toiminnassa.</p>
+<p class="note">Tulos: vakaa 60 FPS ei toteudu tässäkään kokeessa. Tämä ei silti todista, että lumesta tai rakennustuennasta pitäisi luopua. Yhdistelmäkoe paikantaa jäljelle jäävän kuorman, ei yksittäisen ominaisuuden hintaa. Nykyistä julkaistua peliä ei korvattu näillä primitiiveillä.</p>
+<nav><a href="#1000_courtyard">1 000 osaa</a><a href="#1000_roof">Katot</a><a href="#fire_06">Kattopalo</a><a href="../1000-house/">Aiempi natiivi koe</a><a href="../socket-lodge/">Socket-koe</a><a href="../../">Peli</a></nav>
+<p>ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version) · Chrome headless · 1440 × 900 · Vite-playtest. Ajossa noin 60 Hz:n ruudunpäivitysraja: 120 FPS:n saavuttamista ei tällä ajolla voi hyväksyä eikä hylätä. Ei RTX-koneen mittaus. Sää ja valo etenivät; eri koeajot eivät olleet identtisesti pysäytettyä maailmantilaa.</p>
+<h2>Sujuvuus, ei keski-FPS</h2><p>Hitain yksittäinen ruutu sekä hitaimman 1%:n ruutuaikojen keskiarvosta laskettu 1% low. Alitusaika on ruutuaikapainotettu: pitkä pysähdys ei huku nopeiden ruutujen määrään. Näytämme 3% FPS-toleranssin (60 FPS:llä raja 17,182 ms), jotta 16,7 ms:n ajastinpyöristys ei näytä merkittävältä pudotukselta. Raakadatassa ovat myös täysin tiukat 60 ja 120 FPS:n rajat. 33 ms:n ruutu ei läpäise toleranssia.</p>
+<div class="scroll"><table><thead><tr><th>Vaihe</th><th>Hitain ms</th><th>1% low FPS</th><th>Alle 60: aika</th><th>Jaksoja</th><th>Pisin jakso ms</th></tr></thead><tbody><tr><td><a href="#0100_courtyard">0100_courtyard</a></td><td>16.8</td><td>59.5</td><td>0.0%</td><td>0</td><td>0.0</td></tr><tr><td><a href="#0200_courtyard">0200_courtyard</a></td><td>16.8</td><td>59.5</td><td>0.0%</td><td>0</td><td>0.0</td></tr><tr><td><a href="#0300_courtyard">0300_courtyard</a></td><td>33.4</td><td>39.8</td><td>1.1%</td><td>1</td><td>33.4</td></tr><tr><td><a href="#0400_courtyard">0400_courtyard</a></td><td>16.8</td><td>59.5</td><td>0.0%</td><td>0</td><td>0.0</td></tr><tr><td><a href="#0500_courtyard">0500_courtyard</a></td><td>33.4</td><td>30.0</td><td>2.2%</td><td>2</td><td>33.4</td></tr><tr><td><a href="#0600_courtyard">0600_courtyard</a></td><td>33.4</td><td>29.9</td><td>7.8%</td><td>7</td><td>33.4</td></tr><tr><td><a href="#0700_courtyard">0700_courtyard</a></td><td>33.4</td><td>29.9</td><td>29.8%</td><td>24</td><td>100.0</td></tr><tr><td><a href="#0800_courtyard">0800_courtyard</a></td><td>33.5</td><td>29.9</td><td>35.6%</td><td>32</td><td>33.5</td></tr><tr><td><a href="#0900_courtyard">0900_courtyard</a></td><td>50.1</td><td>24.0</td><td>46.1%</td><td>40</td><td>66.7</td></tr><tr><td><a href="#1000_courtyard">1000_courtyard</a></td><td>33.4</td><td>29.9</td><td>61.5%</td><td>49</td><td>100.0</td></tr><tr><td><a href="#1000_roof">1000_roof</a></td><td>50.0</td><td>24.0</td><td>64.3%</td><td>44</td><td>116.8</td></tr><tr><td><a href="#1000_rear">1000_rear</a></td><td>33.5</td><td>29.9</td><td>70.4%</td><td>47</td><td>99.9</td></tr><tr><td><a href="#fire_06">fire_06</a></td><td>383.4</td><td>4.0</td><td>100.0%</td><td>1</td><td>9916.2</td></tr><tr><td><a href="#fire_11">fire_11</a></td><td>200.0</td><td>5.0</td><td>100.0%</td><td>1</td><td>9983.0</td></tr></tbody></table></div>
+<h2>Mitä testi oikeasti tekee</h2><p>Alkuperäinen suunnitelma hyväksytettiin normaalilla auktoriteetilla. Ajastetussa kevennystestissä sijoittelun hyväksyntä ohitettiin tukilaskennan poistamiseksi. Kappaleet asetettiin tämän jälkeen normaalilla pelitransaktiolla. Tämä ei ole socket-käytettävyyden testi. Lumi maassa, eläimet, ympäristö, valot, varjot, tuli, savu, lämpö ja maan lumen sulaminen jäivät päälle. Ovien/ikkunoiden aukot ja kattojen kaltevuudet säilytettiin; primitiiviversion liikkuvat ovilehdet ja yksittäisten lautojen vaurioesitys poistettiin.</p>
+<p>Varmennus: 0 rakennuslumivastaanotinta, 0 auktoriteetin tukiarviota, 0 worker-työtä. Jokaisessa runtime-osassa yksi mesh. 162 lattian korkeustarkistusta, 0 poikkeamaa. Selainvirheitä 0. Tämä ei korvaa hahmolla tehtävää kulkutestiä.</p>
+<p>Palokoe: 3 seinää sytytettiin, sitten noin minuutin kuluttua 3 katepalaa. Muuten palo eteni itse. Sortumisen poisto jättää palavan materiaalin maailmaan: lopussa 196 palavaa / 1000 pystyssä / 0 raunioita. Siksi myöhäinen palo ei ole sama kuorma kuin normaaliversion sortuva talo. Koko 1000 osan palaminen ei ollut kokeen päättymisehto.</p>
+<p>Testiadapterin rajoitus: loppuun palaneet osat jäävät paikalleen ja aiheuttavat toistuvia sortumakutsuja sekä ilmoituksia. Sortumakäsittelijä ohitettiin 2812 kertaa. Myöhäisen palon mittauksissa on mukana tämä ylimääräinen työ; sen erillistä hintaa ei mitattu. Ehjän talon mittaukseen palovaiheen rajoitus ei liity.</p>
+<p>Kuvakaappaus seuraa mittausjaksoa; elävä palo ja kuvan HUD voivat siksi ehtiä hieman edelle jakson tilastosta. Lyhyet 3–16 sekunnin otokset eivät ole pitkäkestoisen vakauden sertifiointi. Testin rakennus- ja kuvankaappausvaiheet erotetaan yllä olevista kiertomittauksista.</p>
+<nav><a href="summary.json">Yhteenveto</a><a href="verification.json">Tarkistukset</a><a href="intact-house.json">Ehjä talo</a><a href="checkpoint.json">Palon jälkeen</a><a href="intact-detailed-trace.json.gz">Ehjän talon trace</a><a href="fire-detailed-trace.json.gz">Palon trace</a><a href="report.json.gz">Raakaruudut</a></nav><section id="0000_baseline"><h2>0000_baseline · 0 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 50.0 ms (20.0 hetkellinen FPS) · 1% low 25.7 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 5.0% ajasta · 6 jaksoa · pisin 66.6 ms. Ruutuaika p95 16.8 ms / p99 33.4 ms. 292 ruutua / 5.00 s.</p>
+<p>CPU 13.3 ms, GPU 10.5 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 24 m / etäisyys 38 m.</p>
+<a href="0000_baseline.jpg"><img width="1440" height="900" loading="lazy" src="0000_baseline.jpg" alt="0000_baseline: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0100_courtyard"><h2>0100_courtyard · 100 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 16.8 ms (59.5 hetkellinen FPS) · 1% low 59.5 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 0.0% ajasta · 0 jaksoa · pisin 0.0 ms. Ruutuaika p95 16.7 ms / p99 16.8 ms. 180 ruutua / 3.00 s.</p>
+<p>CPU 11.2 ms, GPU 9.6 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 16 m / etäisyys 36 m.</p>
+<a href="0100_courtyard.jpg"><img width="1440" height="900" loading="lazy" src="0100_courtyard.jpg" alt="0100_courtyard: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0100_roof"><h2>0100_roof · 100 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 16.8 ms (59.5 hetkellinen FPS) · 1% low 59.5 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 0.0% ajasta · 0 jaksoa · pisin 0.0 ms. Ruutuaika p95 16.7 ms / p99 16.8 ms. 180 ruutua / 3.00 s.</p>
+<p>CPU 11.1 ms, GPU 9.9 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 35 m / etäisyys 30 m.</p>
+<a href="0100_roof.jpg"><img width="1440" height="900" loading="lazy" src="0100_roof.jpg" alt="0100_roof: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0100_rear"><h2>0100_rear · 100 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 16.8 ms (59.5 hetkellinen FPS) · 1% low 59.5 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 0.0% ajasta · 0 jaksoa · pisin 0.0 ms. Ruutuaika p95 16.8 ms / p99 16.8 ms. 180 ruutua / 3.00 s.</p>
+<p>CPU 12.0 ms, GPU 8.5 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 12 m / etäisyys 46 m.</p>
+<a href="0100_rear.jpg"><img width="1440" height="900" loading="lazy" src="0100_rear.jpg" alt="0100_rear: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0200_courtyard"><h2>0200_courtyard · 200 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 16.8 ms (59.5 hetkellinen FPS) · 1% low 59.5 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 0.0% ajasta · 0 jaksoa · pisin 0.0 ms. Ruutuaika p95 16.7 ms / p99 16.8 ms. 180 ruutua / 3.00 s.</p>
+<p>CPU 12.0 ms, GPU 9.6 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 16 m / etäisyys 36 m.</p>
+<a href="0200_courtyard.jpg"><img width="1440" height="900" loading="lazy" src="0200_courtyard.jpg" alt="0200_courtyard: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0200_roof"><h2>0200_roof · 200 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.4 ms (29.9 hetkellinen FPS) · 1% low 39.8 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 1.1% ajasta · 1 jaksoa · pisin 33.4 ms. Ruutuaika p95 16.8 ms / p99 16.8 ms. 180 ruutua / 3.02 s.</p>
+<p>CPU 11.9 ms, GPU 9.7 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 35 m / etäisyys 30 m.</p>
+<a href="0200_roof.jpg"><img width="1440" height="900" loading="lazy" src="0200_roof.jpg" alt="0200_roof: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0200_rear"><h2>0200_rear · 200 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 16.8 ms (59.5 hetkellinen FPS) · 1% low 59.5 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 0.0% ajasta · 0 jaksoa · pisin 0.0 ms. Ruutuaika p95 16.8 ms / p99 16.8 ms. 180 ruutua / 3.00 s.</p>
+<p>CPU 12.7 ms, GPU 8.8 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 12 m / etäisyys 46 m.</p>
+<a href="0200_rear.jpg"><img width="1440" height="900" loading="lazy" src="0200_rear.jpg" alt="0200_rear: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0300_courtyard"><h2>0300_courtyard · 300 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.4 ms (29.9 hetkellinen FPS) · 1% low 39.8 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 1.1% ajasta · 1 jaksoa · pisin 33.4 ms. Ruutuaika p95 16.8 ms / p99 16.8 ms. 181 ruutua / 3.03 s.</p>
+<p>CPU 12.8 ms, GPU 9.7 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 16 m / etäisyys 36 m.</p>
+<a href="0300_courtyard.jpg"><img width="1440" height="900" loading="lazy" src="0300_courtyard.jpg" alt="0300_courtyard: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0300_roof"><h2>0300_roof · 300 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 16.8 ms (59.5 hetkellinen FPS) · 1% low 59.5 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 0.0% ajasta · 0 jaksoa · pisin 0.0 ms. Ruutuaika p95 16.7 ms / p99 16.8 ms. 180 ruutua / 3.00 s.</p>
+<p>CPU 13.0 ms, GPU 9.8 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 35 m / etäisyys 30 m.</p>
+<a href="0300_roof.jpg"><img width="1440" height="900" loading="lazy" src="0300_roof.jpg" alt="0300_roof: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0300_rear"><h2>0300_rear · 300 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 16.8 ms (59.5 hetkellinen FPS) · 1% low 59.5 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 0.0% ajasta · 0 jaksoa · pisin 0.0 ms. Ruutuaika p95 16.7 ms / p99 16.8 ms. 181 ruutua / 3.02 s.</p>
+<p>CPU 13.9 ms, GPU 8.4 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 12 m / etäisyys 46 m.</p>
+<a href="0300_rear.jpg"><img width="1440" height="900" loading="lazy" src="0300_rear.jpg" alt="0300_rear: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0400_courtyard"><h2>0400_courtyard · 400 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 16.8 ms (59.5 hetkellinen FPS) · 1% low 59.5 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 0.0% ajasta · 0 jaksoa · pisin 0.0 ms. Ruutuaika p95 16.7 ms / p99 16.8 ms. 180 ruutua / 3.00 s.</p>
+<p>CPU 13.8 ms, GPU 9.7 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 16 m / etäisyys 36 m.</p>
+<a href="0400_courtyard.jpg"><img width="1440" height="900" loading="lazy" src="0400_courtyard.jpg" alt="0400_courtyard: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0400_roof"><h2>0400_roof · 400 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 16.8 ms (59.5 hetkellinen FPS) · 1% low 59.5 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 0.0% ajasta · 0 jaksoa · pisin 0.0 ms. Ruutuaika p95 16.8 ms / p99 16.8 ms. 181 ruutua / 3.02 s.</p>
+<p>CPU 13.8 ms, GPU 10.0 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 35 m / etäisyys 30 m.</p>
+<a href="0400_roof.jpg"><img width="1440" height="900" loading="lazy" src="0400_roof.jpg" alt="0400_roof: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0400_rear"><h2>0400_rear · 400 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.3 ms (30.0 hetkellinen FPS) · 1% low 30.0 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 2.2% ajasta · 2 jaksoa · pisin 33.3 ms. Ruutuaika p95 16.7 ms / p99 33.3 ms. 178 ruutua / 3.00 s.</p>
+<p>CPU 15.2 ms, GPU 8.7 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 12 m / etäisyys 46 m.</p>
+<a href="0400_rear.jpg"><img width="1440" height="900" loading="lazy" src="0400_rear.jpg" alt="0400_rear: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0500_courtyard"><h2>0500_courtyard · 500 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.4 ms (29.9 hetkellinen FPS) · 1% low 30.0 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 2.2% ajasta · 2 jaksoa · pisin 33.4 ms. Ruutuaika p95 16.8 ms / p99 33.2 ms. 179 ruutua / 3.02 s.</p>
+<p>CPU 15.0 ms, GPU 10.1 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 16 m / etäisyys 36 m.</p>
+<a href="0500_courtyard.jpg"><img width="1440" height="900" loading="lazy" src="0500_courtyard.jpg" alt="0500_courtyard: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0500_roof"><h2>0500_roof · 500 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.3 ms (30.0 hetkellinen FPS) · 1% low 39.9 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 1.1% ajasta · 1 jaksoa · pisin 33.3 ms. Ruutuaika p95 16.8 ms / p99 16.8 ms. 179 ruutua / 3.00 s.</p>
+<p>CPU 14.8 ms, GPU 9.4 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 35 m / etäisyys 30 m.</p>
+<a href="0500_roof.jpg"><img width="1440" height="900" loading="lazy" src="0500_roof.jpg" alt="0500_roof: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0500_rear"><h2>0500_rear · 500 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.5 ms (29.9 hetkellinen FPS) · 1% low 29.9 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 19.0% ajasta · 17 jaksoa · pisin 33.5 ms. Ruutuaika p95 33.3 ms / p99 33.4 ms. 162 ruutua / 2.98 s.</p>
+<p>CPU 17.0 ms, GPU 9.0 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 12 m / etäisyys 46 m.</p>
+<a href="0500_rear.jpg"><img width="1440" height="900" loading="lazy" src="0500_rear.jpg" alt="0500_rear: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0600_courtyard"><h2>0600_courtyard · 600 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.4 ms (29.9 hetkellinen FPS) · 1% low 29.9 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 7.8% ajasta · 7 jaksoa · pisin 33.4 ms. Ruutuaika p95 16.8 ms / p99 33.4 ms. 173 ruutua / 3.00 s.</p>
+<p>CPU 15.9 ms, GPU 9.6 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 16 m / etäisyys 36 m.</p>
+<a href="0600_courtyard.jpg"><img width="1440" height="900" loading="lazy" src="0600_courtyard.jpg" alt="0600_courtyard: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0600_roof"><h2>0600_roof · 600 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.4 ms (29.9 hetkellinen FPS) · 1% low 29.9 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 5.6% ajasta · 5 jaksoa · pisin 33.4 ms. Ruutuaika p95 16.8 ms / p99 33.4 ms. 175 ruutua / 3.00 s.</p>
+<p>CPU 15.7 ms, GPU 9.5 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 35 m / etäisyys 30 m.</p>
+<a href="0600_roof.jpg"><img width="1440" height="900" loading="lazy" src="0600_roof.jpg" alt="0600_roof: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0600_rear"><h2>0600_rear · 600 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.4 ms (29.9 hetkellinen FPS) · 1% low 29.9 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 19.0% ajasta · 17 jaksoa · pisin 33.4 ms. Ruutuaika p95 33.3 ms / p99 33.4 ms. 162 ruutua / 2.98 s.</p>
+<p>CPU 16.9 ms, GPU 8.8 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 12 m / etäisyys 46 m.</p>
+<a href="0600_rear.jpg"><img width="1440" height="900" loading="lazy" src="0600_rear.jpg" alt="0600_rear: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0700_courtyard"><h2>0700_courtyard · 700 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.4 ms (29.9 hetkellinen FPS) · 1% low 29.9 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 29.8% ajasta · 24 jaksoa · pisin 100.0 ms. Ruutuaika p95 33.4 ms / p99 33.4 ms. 154 ruutua / 3.02 s.</p>
+<p>CPU 17.2 ms, GPU 9.7 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 16 m / etäisyys 36 m.</p>
+<a href="0700_courtyard.jpg"><img width="1440" height="900" loading="lazy" src="0700_courtyard.jpg" alt="0700_courtyard: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0700_roof"><h2>0700_roof · 700 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.4 ms (29.9 hetkellinen FPS) · 1% low 29.9 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 23.3% ajasta · 21 jaksoa · pisin 33.4 ms. Ruutuaika p95 33.4 ms / p99 33.4 ms. 159 ruutua / 3.00 s.</p>
+<p>CPU 17.4 ms, GPU 9.4 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 35 m / etäisyys 30 m.</p>
+<a href="0700_roof.jpg"><img width="1440" height="900" loading="lazy" src="0700_roof.jpg" alt="0700_roof: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0700_rear"><h2>0700_rear · 700 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.4 ms (29.9 hetkellinen FPS) · 1% low 29.9 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 38.0% ajasta · 34 jaksoa · pisin 33.4 ms. Ruutuaika p95 33.4 ms / p99 33.4 ms. 145 ruutua / 2.98 s.</p>
+<p>CPU 19.2 ms, GPU 9.4 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 12 m / etäisyys 46 m.</p>
+<a href="0700_rear.jpg"><img width="1440" height="900" loading="lazy" src="0700_rear.jpg" alt="0700_rear: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0800_courtyard"><h2>0800_courtyard · 800 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.5 ms (29.9 hetkellinen FPS) · 1% low 29.9 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 35.6% ajasta · 32 jaksoa · pisin 33.5 ms. Ruutuaika p95 33.4 ms / p99 33.4 ms. 148 ruutua / 3.00 s.</p>
+<p>CPU 18.9 ms, GPU 9.6 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 16 m / etäisyys 36 m.</p>
+<a href="0800_courtyard.jpg"><img width="1440" height="900" loading="lazy" src="0800_courtyard.jpg" alt="0800_courtyard: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0800_roof"><h2>0800_roof · 800 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 66.7 ms (15.0 hetkellinen FPS) · 1% low 20.0 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 36.8% ajasta · 31 jaksoa · pisin 100.0 ms. Ruutuaika p95 33.3 ms / p99 33.4 ms. 145 ruutua / 2.98 s.</p>
+<p>CPU 18.9 ms, GPU 9.5 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 35 m / etäisyys 30 m.</p>
+<a href="0800_roof.jpg"><img width="1440" height="900" loading="lazy" src="0800_roof.jpg" alt="0800_roof: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0800_rear"><h2>0800_rear · 800 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.4 ms (29.9 hetkellinen FPS) · 1% low 29.9 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 44.7% ajasta · 40 jaksoa · pisin 33.4 ms. Ruutuaika p95 33.4 ms / p99 33.4 ms. 139 ruutua / 2.98 s.</p>
+<p>CPU 20.2 ms, GPU 9.5 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 12 m / etäisyys 46 m.</p>
+<a href="0800_rear.jpg"><img width="1440" height="900" loading="lazy" src="0800_rear.jpg" alt="0800_rear: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0900_courtyard"><h2>0900_courtyard · 900 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 50.1 ms (20.0 hetkellinen FPS) · 1% low 24.0 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 46.1% ajasta · 40 jaksoa · pisin 66.7 ms. Ruutuaika p95 33.4 ms / p99 33.4 ms. 138 ruutua / 3.00 s.</p>
+<p>CPU 20.1 ms, GPU 10.8 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 16 m / etäisyys 36 m.</p>
+<a href="0900_courtyard.jpg"><img width="1440" height="900" loading="lazy" src="0900_courtyard.jpg" alt="0900_courtyard: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0900_roof"><h2>0900_roof · 900 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.4 ms (29.9 hetkellinen FPS) · 1% low 29.9 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 53.6% ajasta · 46 jaksoa · pisin 66.6 ms. Ruutuaika p95 33.4 ms / p99 33.4 ms. 131 ruutua / 2.98 s.</p>
+<p>CPU 21.5 ms, GPU 9.8 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 35 m / etäisyys 30 m.</p>
+<a href="0900_roof.jpg"><img width="1440" height="900" loading="lazy" src="0900_roof.jpg" alt="0900_roof: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="0900_rear"><h2>0900_rear · 900 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.4 ms (29.9 hetkellinen FPS) · 1% low 29.9 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 56.7% ajasta · 49 jaksoa · pisin 66.6 ms. Ruutuaika p95 33.4 ms / p99 33.4 ms. 129 ruutua / 3.00 s.</p>
+<p>CPU 21.7 ms, GPU 9.4 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 12 m / etäisyys 46 m.</p>
+<a href="0900_rear.jpg"><img width="1440" height="900" loading="lazy" src="0900_rear.jpg" alt="0900_rear: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="1000_courtyard"><h2>1000_courtyard · 1000 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.4 ms (29.9 hetkellinen FPS) · 1% low 29.9 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 61.5% ajasta · 49 jaksoa · pisin 100.0 ms. Ruutuaika p95 33.4 ms / p99 33.4 ms. 124 ruutua / 2.98 s.</p>
+<p>CPU 22.5 ms, GPU 10.2 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 16 m / etäisyys 36 m.</p>
+<a href="1000_courtyard.jpg"><img width="1440" height="900" loading="lazy" src="1000_courtyard.jpg" alt="1000_courtyard: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="1000_roof"><h2>1000_roof · 1000 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 50.0 ms (20.0 hetkellinen FPS) · 1% low 24.0 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 64.3% ajasta · 44 jaksoa · pisin 116.8 ms. Ruutuaika p95 33.4 ms / p99 33.4 ms. 121 ruutua / 2.98 s.</p>
+<p>CPU 23.0 ms, GPU 10.4 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 35 m / etäisyys 30 m.</p>
+<a href="1000_roof.jpg"><img width="1440" height="900" loading="lazy" src="1000_roof.jpg" alt="1000_roof: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="1000_rear"><h2>1000_rear · 1000 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.5 ms (29.9 hetkellinen FPS) · 1% low 29.9 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 70.4% ajasta · 47 jaksoa · pisin 99.9 ms. Ruutuaika p95 33.4 ms / p99 33.4 ms. 116 ruutua / 2.98 s.</p>
+<p>CPU 24.2 ms, GPU 10.9 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 12 m / etäisyys 46 m.</p>
+<a href="1000_rear.jpg"><img width="1440" height="900" loading="lazy" src="1000_rear.jpg" alt="1000_rear: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="1000_close_windows"><h2>1000_close_windows · 1000 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 33.4 ms (29.9 hetkellinen FPS) · 1% low 29.9 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 60.9% ajasta · 80 jaksoa · pisin 66.7 ms. Ruutuaika p95 33.4 ms / p99 33.4 ms. 208 ruutua / 4.98 s.</p>
+<p>CPU 22.5 ms, GPU 9.4 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 8 m / etäisyys 19 m.</p>
+<a href="1000_close_windows.jpg"><img width="1440" height="900" loading="lazy" src="1000_close_windows.jpg" alt="1000_close_windows: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="1000_instrumented_trace"><h2>1000_instrumented_trace · 1000 osaa · 0 palavaa</h2>
+<p class="metrics">Hitain ruutu 50.1 ms (20.0 hetkellinen FPS) · 1% low 23.3 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 66.4% ajasta · 236 jaksoa · pisin 166.7 ms. Ruutuaika p95 33.4 ms / p99 33.4 ms. 638 ruutua / 15.97 s.</p>
+<p>CPU 23.5 ms, GPU — ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 16 m / etäisyys 36 m. Tarkka trace käynnissä; luotettava GPU-erittely erillisessä tracessa.</p>
+<a href="1000_instrumented_trace.jpg"><img width="1440" height="900" loading="lazy" src="1000_instrumented_trace.jpg" alt="1000_instrumented_trace: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="fire_00"><h2>fire_00 · 1000 osaa · 3 palavaa</h2>
+<p class="metrics">Hitain ruutu 50.1 ms (20.0 hetkellinen FPS) · 1% low 20.0 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 87.5% ajasta · 75 jaksoa · pisin 1216.7 ms. Ruutuaika p95 33.5 ms / p99 50.0 ms. 329 ruutua / 9.98 s.</p>
+<p>CPU 28.8 ms, GPU 12.1 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 8 m / etäisyys 26 m.</p>
+<a href="fire_00.jpg"><img width="1440" height="900" loading="lazy" src="fire_00.jpg" alt="fire_00: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="fire_01"><h2>fire_01 · 1000 osaa · 3 palavaa</h2>
+<p class="metrics">Hitain ruutu 50.1 ms (20.0 hetkellinen FPS) · 1% low 20.0 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 91.8% ajasta · 49 jaksoa · pisin 1283.3 ms. Ruutuaika p95 50.0 ms / p99 50.1 ms. 313 ruutua / 9.98 s.</p>
+<p>CPU 30.3 ms, GPU 13.1 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 16 m / etäisyys 35 m.</p>
+<a href="fire_01.jpg"><img width="1440" height="900" loading="lazy" src="fire_01.jpg" alt="fire_01: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="fire_02"><h2>fire_02 · 1000 osaa · 3 palavaa</h2>
+<p class="metrics">Hitain ruutu 50.1 ms (20.0 hetkellinen FPS) · 1% low 20.0 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 88.5% ajasta · 70 jaksoa · pisin 466.7 ms. Ruutuaika p95 33.4 ms / p99 50.0 ms. 327 ruutua / 10.00 s.</p>
+<p>CPU 29.0 ms, GPU 13.6 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 24 m / etäisyys 44 m.</p>
+<a href="fire_02.jpg"><img width="1440" height="900" loading="lazy" src="fire_02.jpg" alt="fire_02: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="fire_03"><h2>fire_03 · 1000 osaa · 29 palavaa</h2>
+<p class="metrics">Hitain ruutu 150.0 ms (6.7 hetkellinen FPS) · 1% low 13.3 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 87.2% ajasta · 76 jaksoa · pisin 400.0 ms. Ruutuaika p95 33.4 ms / p99 50.0 ms. 328 ruutua / 9.93 s.</p>
+<p>CPU 29.0 ms, GPU 12.2 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 32 m / etäisyys 26 m.</p>
+<a href="fire_03.jpg"><img width="1440" height="900" loading="lazy" src="fire_03.jpg" alt="fire_03: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="fire_04"><h2>fire_04 · 1000 osaa · 43 palavaa</h2>
+<p class="metrics">Hitain ruutu 150.0 ms (6.7 hetkellinen FPS) · 1% low 7.5 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 100.0% ajasta · 1 jaksoa · pisin 9999.6 ms. Ruutuaika p95 83.3 ms / p99 116.6 ms. 186 ruutua / 10.00 s.</p>
+<p>CPU 52.0 ms, GPU 15.3 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 8 m / etäisyys 35 m.</p>
+<a href="fire_04.jpg"><img width="1440" height="900" loading="lazy" src="fire_04.jpg" alt="fire_04: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="fire_05"><h2>fire_05 · 1000 osaa · 43 palavaa</h2>
+<p class="metrics">Hitain ruutu 266.6 ms (3.8 hetkellinen FPS) · 1% low 3.9 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 100.0% ajasta · 1 jaksoa · pisin 9932.8 ms. Ruutuaika p95 116.7 ms / p99 250.0 ms. 126 ruutua / 9.93 s.</p>
+<p>CPU 74.7 ms, GPU 18.1 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 16 m / etäisyys 44 m.</p>
+<a href="fire_05.jpg"><img width="1440" height="900" loading="lazy" src="fire_05.jpg" alt="fire_05: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="fire_06"><h2>fire_06 · 1000 osaa · 45 palavaa</h2>
+<p class="metrics">Hitain ruutu 383.4 ms (2.6 hetkellinen FPS) · 1% low 4.0 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 100.0% ajasta · 1 jaksoa · pisin 9916.2 ms. Ruutuaika p95 100.1 ms / p99 116.7 ms. 127 ruutua / 9.92 s.</p>
+<p>CPU 73.9 ms, GPU — ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 24 m / etäisyys 26 m. Tarkka trace käynnissä; luotettava GPU-erittely erillisessä tracessa.</p>
+<a href="fire_06.jpg"><img width="1440" height="900" loading="lazy" src="fire_06.jpg" alt="fire_06: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="fire_07"><h2>fire_07 · 1000 osaa · 141 palavaa</h2>
+<p class="metrics">Hitain ruutu 216.7 ms (4.6 hetkellinen FPS) · 1% low 4.8 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 100.0% ajasta · 1 jaksoa · pisin 9999.7 ms. Ruutuaika p95 116.6 ms / p99 199.9 ms. 146 ruutua / 10.00 s.</p>
+<p>CPU 66.4 ms, GPU — ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 32 m / etäisyys 35 m. Tarkka trace käynnissä; luotettava GPU-erittely erillisessä tracessa.</p>
+<a href="fire_07.jpg"><img width="1440" height="900" loading="lazy" src="fire_07.jpg" alt="fire_07: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="fire_08"><h2>fire_08 · 1000 osaa · 167 palavaa</h2>
+<p class="metrics">Hitain ruutu 250.0 ms (4.0 hetkellinen FPS) · 1% low 4.4 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 100.0% ajasta · 1 jaksoa · pisin 9999.6 ms. Ruutuaika p95 166.7 ms / p99 200.0 ms. 104 ruutua / 10.00 s.</p>
+<p>CPU 94.6 ms, GPU 24.7 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 8 m / etäisyys 44 m.</p>
+<a href="fire_08.jpg"><img width="1440" height="900" loading="lazy" src="fire_08.jpg" alt="fire_08: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="fire_09"><h2>fire_09 · 1000 osaa · 168 palavaa</h2>
+<p class="metrics">Hitain ruutu 266.7 ms (3.7 hetkellinen FPS) · 1% low 3.7 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 100.0% ajasta · 1 jaksoa · pisin 9882.9 ms. Ruutuaika p95 233.3 ms / p99 266.7 ms. 67 ruutua / 9.88 s.</p>
+<p>CPU 143.7 ms, GPU 39.2 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 16 m / etäisyys 26 m.</p>
+<a href="fire_09.jpg"><img width="1440" height="900" loading="lazy" src="fire_09.jpg" alt="fire_09: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="fire_10"><h2>fire_10 · 1000 osaa · 187 palavaa</h2>
+<p class="metrics">Hitain ruutu 200.0 ms (5.0 hetkellinen FPS) · 1% low 5.0 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 100.0% ajasta · 1 jaksoa · pisin 9833.1 ms. Ruutuaika p95 183.4 ms / p99 200.0 ms. 69 ruutua / 9.83 s.</p>
+<p>CPU 140.4 ms, GPU 42.1 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 24 m / etäisyys 35 m.</p>
+<a href="fire_10.jpg"><img width="1440" height="900" loading="lazy" src="fire_10.jpg" alt="fire_10: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section>
+<section id="fire_11"><h2>fire_11 · 1000 osaa · 196 palavaa</h2>
+<p class="metrics">Hitain ruutu 200.0 ms (5.0 hetkellinen FPS) · 1% low 5.0 FPS</p>
+<p>Alle 60 FPS (3% toleranssi): 100.0% ajasta · 1 jaksoa · pisin 9983.0 ms. Ruutuaika p95 183.4 ms / p99 200.0 ms. 68 ruutua / 9.98 s.</p>
+<p>CPU 145.0 ms, GPU 38.3 ms (diagnostiset keskiarvot, eivät sujuvuuden hyväksyntä). Kamera: korkeus 32 m / etäisyys 44 m.</p>
+<a href="fire_11.jpg"><img width="1440" height="900" loading="lazy" src="fire_11.jpg" alt="fire_11: aito testiselaimen kuvakaappaus ja ruutuaikamittarit"></a></section></html>
