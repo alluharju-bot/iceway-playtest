@@ -11,12 +11,12 @@
     { "id": "POLYONE_FREE_TREE_08", "modelUrl": "assets/vendor/polyone-free-tree/models/free-trees.glb", "modelNode": "SM_FreeTree_08", "windWeight": 0.6 },
     {
       "id": "SURVIVAL_HELD_TORCH_01",
-      "modelUrl": "assets/world/survival/models/held-winter-torch-01.glb",
+      "modelUrl": "assets/world/survival/models/held-winter-torch-01.glb?v=r29.2",
       "windWeight": 0
     },
     {
       "id": "SURVIVAL_BUILD_WALL_TORCH_01",
-      "modelUrl": "assets/world/survival/models/wall-winter-torch-01.glb",
+      "modelUrl": "assets/world/survival/models/wall-winter-torch-01.glb?v=r29.2",
       "windWeight": 0
     },
     {
