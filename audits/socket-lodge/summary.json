@@ -1126,5 +1126,6 @@
     }
   ],
   "errors": [],
-  "warning": "Capture driver completed, but the roof and the desired usable/beautiful building did not. One extra furniture insertion must be accounted for in the next driver revision."
+  "finalCapturePerformanceValid": false,
+  "warning": "Final capture driver used setActive(false), hiding the building root rather than just its HUD. Final camera FPS and final images are INVALID building evidence. Placement screen projection also omitted the spherical overlay inverse. Roof and usable/beautiful building did not complete; one extra furniture insertion remains to be accounted for."
 }

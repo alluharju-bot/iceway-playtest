@@ -1,0 +1,2170 @@
+{
+  "date": "2026-09-11",
+  "stable60Accepted": false,
+  "validated120": false,
+  "runs": [
+    {
+      "variant": "native",
+      "setup": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+        "origin": {
+          "x": -836,
+          "y": 8.30305710749816,
+          "z": -232
+        },
+        "pieces": 1000,
+        "visible": true
+      },
+      "results": [
+        {
+          "view": "court",
+          "pieces": 1000,
+          "visible": true,
+          "pacing": {
+            "frames": 537,
+            "totalMs": 14999.400000000001,
+            "worstFrameMs": 50,
+            "minimumInstantFps": 20,
+            "p95FrameMs": 33.400000000001455,
+            "p99FrameMs": 33.5,
+            "p999FrameMs": 50,
+            "onePercentLowFps": 25.641025641025642,
+            "pointOnePercentLowFps": 20,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 468,
+                "slowFramePercent": 87.15083798882682,
+                "slowTimeMs": 13854.099999999977,
+                "slowTimePercent": 92.36436124111614,
+                "episodes": 70,
+                "longestEpisodeMs": 716.7000000000044
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 361,
+                "slowFramePercent": 67.22532588454376,
+                "slowTimeMs": 12066.599999999882,
+                "slowTimePercent": 80.44721788871475,
+                "episodes": 177,
+                "longestEpisodeMs": 166.70000000000437
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 537,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.400000000001,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.400000000001
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 537,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.400000000001,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.400000000001
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 136,
+                "timeMs": 4575.999999999964
+              },
+              {
+                "thresholdMs": 50,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "cpu": {
+            "p50": 26.100000381469727,
+            "p95": 31.300000190734863,
+            "max": 39.299999713897705
+          },
+          "gpu": {
+            "p50": 10.675041,
+            "p95": 15.413249,
+            "max": 17.531
+          },
+          "draws": {
+            "p50": 3088,
+            "p95": 3142,
+            "max": 3142
+          },
+          "triangles": {
+            "p50": 4554220,
+            "p95": 4577084,
+            "max": 4577084
+          }
+        },
+        {
+          "view": "roof",
+          "pieces": 1000,
+          "visible": true,
+          "pacing": {
+            "frames": 518,
+            "totalMs": 14999.399999999994,
+            "worstFrameMs": 50.099999999998545,
+            "minimumInstantFps": 19.960079840319942,
+            "p95FrameMs": 33.400000000001455,
+            "p99FrameMs": 50,
+            "p999FrameMs": 50.099999999998545,
+            "onePercentLowFps": 19.973368841544993,
+            "pointOnePercentLowFps": 19.960079840319942,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 466,
+                "slowFramePercent": 89.96138996138995,
+                "slowTimeMs": 14136.29999999996,
+                "slowTimePercent": 94.245769830793,
+                "episodes": 53,
+                "longestEpisodeMs": 1100
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 374,
+                "slowFramePercent": 72.2007722007722,
+                "slowTimeMs": 12599.09999999994,
+                "slowTimePercent": 83.9973598943954,
+                "episodes": 145,
+                "longestEpisodeMs": 200
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 518,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.399999999994,
+                "slowTimePercent": 100.00000000000001,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.399999999994
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 518,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.399999999994,
+                "slowTimePercent": 100.00000000000001,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.399999999994
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 138,
+                "timeMs": 4742.59999999994
+              },
+              {
+                "thresholdMs": 50,
+                "count": 4,
+                "timeMs": 200.39999999999418
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "cpu": {
+            "p50": 27.600000381469727,
+            "p95": 32.40000009536743,
+            "max": 40.09999990463257
+          },
+          "gpu": {
+            "p50": 11.090875,
+            "p95": 16.078416,
+            "max": 18.992874
+          },
+          "draws": {
+            "p50": 2991,
+            "p95": 3005,
+            "max": 3012
+          },
+          "triangles": {
+            "p50": 4420742,
+            "p95": 4421334,
+            "max": 4421630
+          }
+        },
+        {
+          "view": "rear",
+          "pieces": 1000,
+          "visible": true,
+          "pacing": {
+            "frames": 480,
+            "totalMs": 14982.699999999997,
+            "worstFrameMs": 50.10000000000582,
+            "minimumInstantFps": 19.960079840317043,
+            "p95FrameMs": 33.40000000000873,
+            "p99FrameMs": 50,
+            "p999FrameMs": 50.10000000000582,
+            "onePercentLowFps": 19.984012789768418,
+            "pointOnePercentLowFps": 19.960079840317043,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 453,
+                "slowFramePercent": 94.375,
+                "slowTimeMs": 14534.49999999997,
+                "slowTimePercent": 97.00854986083934,
+                "episodes": 28,
+                "longestEpisodeMs": 1716.6000000000058
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 408,
+                "slowFramePercent": 85,
+                "slowTimeMs": 13782.79999999993,
+                "slowTimePercent": 91.99143011606675,
+                "episodes": 72,
+                "longestEpisodeMs": 566.6000000000058
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 480,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14982.699999999997,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14982.699999999997
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 480,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14982.699999999997,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14982.699999999997
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 154,
+                "timeMs": 5326.599999999933
+              },
+              {
+                "thresholdMs": 50,
+                "count": 2,
+                "timeMs": 100.19999999999709
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "cpu": {
+            "p50": 30.09999990463257,
+            "p95": 34.40000009536743,
+            "max": 48.700000286102295
+          },
+          "gpu": {
+            "p50": 11.900208,
+            "p95": 14.454291,
+            "max": 19.995
+          },
+          "draws": {
+            "p50": 3123,
+            "p95": 3180,
+            "max": 3180
+          },
+          "triangles": {
+            "p50": 4730514,
+            "p95": 4755426,
+            "max": 4755426
+          }
+        }
+      ],
+      "errors": []
+    },
+    {
+      "variant": "primitive",
+      "setup": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+        "origin": {
+          "x": -836,
+          "y": 8.30305710749816,
+          "z": -232
+        },
+        "pieces": 1000,
+        "visible": true
+      },
+      "results": [
+        {
+          "view": "court",
+          "pieces": 1000,
+          "visible": true,
+          "pacing": {
+            "frames": 760,
+            "totalMs": 14982.700000000004,
+            "worstFrameMs": 33.5,
+            "minimumInstantFps": 29.850746268656717,
+            "p95FrameMs": 33.39999999999418,
+            "p99FrameMs": 33.400000000001455,
+            "p999FrameMs": 33.5,
+            "onePercentLowFps": 29.906542056073953,
+            "pointOnePercentLowFps": 29.850746268656717,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 522,
+                "slowFramePercent": 68.6842105263158,
+                "slowTimeMs": 11032.499999999927,
+                "slowTimePercent": 73.63492561420789,
+                "episodes": 214,
+                "longestEpisodeMs": 166.8000000000029
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 139,
+                "slowFramePercent": 18.289473684210527,
+                "slowTimeMs": 4633.199999999924,
+                "slowTimePercent": 30.92366529397187,
+                "episodes": 138,
+                "longestEpisodeMs": 66.60000000000582
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 760,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14982.700000000004,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14982.700000000004
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 760,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14982.700000000004,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14982.700000000004
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 50,
+                "timeMs": 1670.2999999999665
+              },
+              {
+                "thresholdMs": 50,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "cpu": {
+            "p50": 18.100000381469727,
+            "p95": 22.5,
+            "max": 31
+          },
+          "gpu": {
+            "p50": 9.892375,
+            "p95": 11.307041,
+            "max": 11.93825
+          },
+          "draws": {
+            "p50": 1068,
+            "p95": 1068,
+            "max": 1070
+          },
+          "triangles": {
+            "p50": 4458340,
+            "p95": 4458340,
+            "max": 4461080
+          }
+        },
+        {
+          "view": "roof",
+          "pieces": 1000,
+          "visible": true,
+          "pacing": {
+            "frames": 758,
+            "totalMs": 14982.799999999996,
+            "worstFrameMs": 33.5,
+            "minimumInstantFps": 29.850746268656717,
+            "p95FrameMs": 33.400000000001455,
+            "p99FrameMs": 33.400000000001455,
+            "p999FrameMs": 33.5,
+            "onePercentLowFps": 29.928918817806565,
+            "pointOnePercentLowFps": 29.850746268656717,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 520,
+                "slowFramePercent": 68.60158311345647,
+                "slowTimeMs": 11032.199999999953,
+                "slowTimePercent": 73.63243185519367,
+                "episodes": 212,
+                "longestEpisodeMs": 216.8000000000029
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 141,
+                "slowFramePercent": 18.601583113456464,
+                "slowTimeMs": 4699.900000000023,
+                "slowTimePercent": 31.368636035988096,
+                "episodes": 137,
+                "longestEpisodeMs": 66.70000000000437
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 758,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14982.799999999996,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14982.799999999996
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 758,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14982.799999999996,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14982.799999999996
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 56,
+                "timeMs": 1870.5000000000146
+              },
+              {
+                "thresholdMs": 50,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "cpu": {
+            "p50": 18.59999990463257,
+            "p95": 22.90000009536743,
+            "max": 33.89999961853027
+          },
+          "gpu": {
+            "p50": 9.3315,
+            "p95": 11.077624,
+            "max": 12.374124
+          },
+          "draws": {
+            "p50": 917,
+            "p95": 931,
+            "max": 938
+          },
+          "triangles": {
+            "p50": 4301998,
+            "p95": 4302590,
+            "max": 4302886
+          }
+        },
+        {
+          "view": "rear",
+          "pieces": 1000,
+          "visible": true,
+          "pacing": {
+            "frames": 708,
+            "totalMs": 14999.299999999988,
+            "worstFrameMs": 33.40000000000873,
+            "minimumInstantFps": 29.940119760471216,
+            "p95FrameMs": 33.39999999999418,
+            "p99FrameMs": 33.40000000000873,
+            "p999FrameMs": 33.40000000000873,
+            "onePercentLowFps": 29.940119760471216,
+            "pointOnePercentLowFps": 29.940119760471216,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 514,
+                "slowFramePercent": 72.59887005649718,
+                "slowTimeMs": 11779.29999999996,
+                "slowTimePercent": 78.53233150880352,
+                "episodes": 179,
+                "longestEpisodeMs": 233.39999999999418
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 192,
+                "slowFramePercent": 27.11864406779661,
+                "slowTimeMs": 6399.700000000128,
+                "slowTimePercent": 42.66665777736383,
+                "episodes": 189,
+                "longestEpisodeMs": 66.70000000001164
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 708,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.299999999988,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.299999999988
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 708,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.299999999988,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.299999999988
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 70,
+                "timeMs": 2338.0000000000146
+              },
+              {
+                "thresholdMs": 50,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "cpu": {
+            "p50": 20.300000190734863,
+            "p95": 24.800000190734863,
+            "max": 31.90000009536743
+          },
+          "gpu": {
+            "p50": 9.427625,
+            "p95": 11.278375,
+            "max": 12.720374
+          },
+          "draws": {
+            "p50": 1049,
+            "p95": 1106,
+            "max": 1106
+          },
+          "triangles": {
+            "p50": 4611770,
+            "p95": 4636570,
+            "max": 4636570
+          }
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "beforeThermalQuery": [
+    {
+      "variant": "native",
+      "setup": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+        "origin": {
+          "x": -836,
+          "y": 8.30305710749816,
+          "z": -232
+        },
+        "pieces": 1000,
+        "visible": true
+      },
+      "results": [
+        {
+          "view": "court",
+          "pieces": 1000,
+          "visible": true,
+          "pacing": {
+            "frames": 441,
+            "totalMs": 14982.799999999996,
+            "worstFrameMs": 66.69999999999709,
+            "minimumInstantFps": 14.992503748126591,
+            "p95FrameMs": 50,
+            "p99FrameMs": 50.099999999998545,
+            "p999FrameMs": 66.69999999999709,
+            "onePercentLowFps": 17.624250969333982,
+            "pointOnePercentLowFps": 14.992503748126591,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 425,
+                "slowFramePercent": 96.3718820861678,
+                "slowTimeMs": 14717.199999999997,
+                "slowTimePercent": 98.22730063806499,
+                "episodes": 17,
+                "longestEpisodeMs": 2066.5999999999985
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 405,
+                "slowFramePercent": 91.83673469387755,
+                "slowTimeMs": 14382.999999999985,
+                "slowTimePercent": 95.99674293189517,
+                "episodes": 37,
+                "longestEpisodeMs": 1616.5999999999985
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 441,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14982.799999999996,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14982.799999999996
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 441,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14982.799999999996,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14982.799999999996
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 190,
+                "timeMs": 7225.900000000023
+              },
+              {
+                "thresholdMs": 50,
+                "count": 8,
+                "timeMs": 433.9999999999927
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "cpu": {
+            "p50": 31.699999809265137,
+            "p95": 43.40000009536743,
+            "max": 56
+          },
+          "gpu": {
+            "p50": 11.713749,
+            "p95": 15.585416,
+            "max": 15.716749
+          },
+          "draws": {
+            "p50": 3142,
+            "p95": 3142,
+            "max": 3144
+          },
+          "triangles": {
+            "p50": 4577084,
+            "p95": 4577084,
+            "max": 4579824
+          }
+        },
+        {
+          "view": "roof",
+          "pieces": 1000,
+          "visible": true,
+          "pacing": {
+            "frames": 402,
+            "totalMs": 14982.700000000004,
+            "worstFrameMs": 83.30000000000291,
+            "minimumInstantFps": 12.004801920767887,
+            "p95FrameMs": 50.099999999998545,
+            "p99FrameMs": 66.59999999999854,
+            "p999FrameMs": 83.30000000000291,
+            "onePercentLowFps": 14.2938822184107,
+            "pointOnePercentLowFps": 12.004801920767887,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 394,
+                "slowFramePercent": 98.00995024875621,
+                "slowTimeMs": 14849.900000000009,
+                "slowTimePercent": 99.11364440321174,
+                "episodes": 9,
+                "longestEpisodeMs": 4349.9000000000015
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 381,
+                "slowFramePercent": 94.77611940298507,
+                "slowTimeMs": 14632.600000000028,
+                "slowTimePercent": 97.66330501178041,
+                "episodes": 22,
+                "longestEpisodeMs": 3849.800000000003
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 402,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14982.700000000004,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14982.700000000004
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 402,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14982.700000000004,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14982.700000000004
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 208,
+                "timeMs": 8873.499999999927
+              },
+              {
+                "thresholdMs": 50,
+                "count": 28,
+                "timeMs": 1535.100000000013
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "cpu": {
+            "p50": 34.5,
+            "p95": 49.30000019073486,
+            "max": 80.2000002861023
+          },
+          "gpu": {
+            "p50": 11.17975,
+            "p95": 16.122625,
+            "max": 17.63025
+          },
+          "draws": {
+            "p50": 2991,
+            "p95": 3005,
+            "max": 3012
+          },
+          "triangles": {
+            "p50": 4420742,
+            "p95": 4421334,
+            "max": 4421630
+          }
+        },
+        {
+          "view": "rear",
+          "pieces": 1000,
+          "visible": true,
+          "pacing": {
+            "frames": 399,
+            "totalMs": 14966,
+            "worstFrameMs": 66.70000000001164,
+            "minimumInstantFps": 14.99250374812332,
+            "p95FrameMs": 50,
+            "p99FrameMs": 50.10000000000582,
+            "p999FrameMs": 66.70000000001164,
+            "onePercentLowFps": 15.993602558975107,
+            "pointOnePercentLowFps": 14.99250374812332,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 399,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14966,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14966
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 398,
+                "slowFramePercent": 99.74937343358395,
+                "slowTimeMs": 14949.300000000003,
+                "slowTimePercent": 99.8884137378057,
+                "episodes": 2,
+                "longestEpisodeMs": 12566.099999999991
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 399,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14966,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14966
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 399,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14966,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14966
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 208,
+                "timeMs": 8623.499999999854
+              },
+              {
+                "thresholdMs": 50,
+                "count": 13,
+                "timeMs": 700.9999999999854
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "cpu": {
+            "p50": 35.5,
+            "p95": 44.10000038146973,
+            "max": 76.69999980926514
+          },
+          "gpu": {
+            "p50": 12.765124,
+            "p95": 19.677249,
+            "max": 21.675208
+          },
+          "draws": {
+            "p50": 3123,
+            "p95": 3180,
+            "max": 3180
+          },
+          "triangles": {
+            "p50": 4730514,
+            "p95": 4755314,
+            "max": 4755314
+          }
+        }
+      ],
+      "errors": []
+    },
+    {
+      "variant": "primitive",
+      "setup": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+        "origin": {
+          "x": -836,
+          "y": 8.30305710749816,
+          "z": -232
+        },
+        "pieces": 1000,
+        "visible": true
+      },
+      "results": [
+        {
+          "view": "court",
+          "pieces": 1000,
+          "visible": true,
+          "pacing": {
+            "frames": 607,
+            "totalMs": 15016.100000000006,
+            "worstFrameMs": 66.69999999999709,
+            "minimumInstantFps": 14.992503748126591,
+            "p95FrameMs": 33.400000000001455,
+            "p99FrameMs": 50,
+            "p999FrameMs": 66.69999999999709,
+            "onePercentLowFps": 18.25769431403262,
+            "pointOnePercentLowFps": 14.992503748126591,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 492,
+                "slowFramePercent": 81.05436573311367,
+                "slowTimeMs": 13107.099999999955,
+                "slowTimePercent": 87.28697864292293,
+                "episodes": 113,
+                "longestEpisodeMs": 1016.7000000000044
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 282,
+                "slowFramePercent": 46.45799011532125,
+                "slowTimeMs": 9599.000000000015,
+                "slowTimePercent": 63.924720799675086,
+                "episodes": 209,
+                "longestEpisodeMs": 466.59999999999854
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 607,
+                "slowFramePercent": 100,
+                "slowTimeMs": 15016.100000000006,
+                "slowTimePercent": 99.99999999999999,
+                "episodes": 1,
+                "longestEpisodeMs": 15016.100000000006
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 607,
+                "slowFramePercent": 100,
+                "slowTimeMs": 15016.100000000006,
+                "slowTimePercent": 99.99999999999999,
+                "episodes": 1,
+                "longestEpisodeMs": 15016.100000000006
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 98,
+                "timeMs": 3472.500000000022
+              },
+              {
+                "thresholdMs": 50,
+                "count": 2,
+                "timeMs": 133.39999999999418
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "cpu": {
+            "p50": 22.59999990463257,
+            "p95": 31.90000009536743,
+            "max": 65.2999997138977
+          },
+          "gpu": {
+            "p50": 10.593167,
+            "p95": 12.678541,
+            "max": 13.829833
+          },
+          "draws": {
+            "p50": 1016,
+            "p95": 1068,
+            "max": 1070
+          },
+          "triangles": {
+            "p50": 4438216,
+            "p95": 4458340,
+            "max": 4461080
+          }
+        },
+        {
+          "view": "roof",
+          "pieces": 1000,
+          "visible": true,
+          "pacing": {
+            "frames": 605,
+            "totalMs": 14999.399999999994,
+            "worstFrameMs": 66.70000000001164,
+            "minimumInstantFps": 14.99250374812332,
+            "p95FrameMs": 33.400000000001455,
+            "p99FrameMs": 50,
+            "p999FrameMs": 66.70000000001164,
+            "onePercentLowFps": 18.252933507169757,
+            "pointOnePercentLowFps": 14.99250374812332,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 488,
+                "slowFramePercent": 80.66115702479338,
+                "slowTimeMs": 13057.500000000007,
+                "slowTimePercent": 87.05348213928565,
+                "episodes": 112,
+                "longestEpisodeMs": 733.4000000000015
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 285,
+                "slowFramePercent": 47.107438016528924,
+                "slowTimeMs": 9665.400000000001,
+                "slowTimePercent": 64.43857754310176,
+                "episodes": 193,
+                "longestEpisodeMs": 616.7000000000044
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 605,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.399999999994,
+                "slowTimePercent": 100.00000000000001,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.399999999994
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 605,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.399999999994,
+                "slowTimePercent": 100.00000000000001,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.399999999994
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 97,
+                "timeMs": 3406.3000000000393
+              },
+              {
+                "thresholdMs": 50,
+                "count": 3,
+                "timeMs": 183.50000000002183
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "cpu": {
+            "p50": 22.800000190734863,
+            "p95": 33.09999990463257,
+            "max": 62
+          },
+          "gpu": {
+            "p50": 10.044749,
+            "p95": 12.206,
+            "max": 15.880333
+          },
+          "draws": {
+            "p50": 917,
+            "p95": 931,
+            "max": 938
+          },
+          "triangles": {
+            "p50": 4301998,
+            "p95": 4302590,
+            "max": 4302886
+          }
+        },
+        {
+          "view": "rear",
+          "pieces": 1000,
+          "visible": true,
+          "pacing": {
+            "frames": 592,
+            "totalMs": 14999.300000000003,
+            "worstFrameMs": 66.60000000000582,
+            "minimumInstantFps": 15.015015015013702,
+            "p95FrameMs": 33.40000000000873,
+            "p99FrameMs": 50,
+            "p999FrameMs": 66.60000000000582,
+            "onePercentLowFps": 18.933417481854953,
+            "pointOnePercentLowFps": 15.015015015013702,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 475,
+                "slowFramePercent": 80.23648648648648,
+                "slowTimeMs": 13057.29999999993,
+                "slowTimePercent": 87.05272912735879,
+                "episodes": 112,
+                "longestEpisodeMs": 650
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 291,
+                "slowFramePercent": 49.1554054054054,
+                "slowTimeMs": 9983.000000000146,
+                "slowTimePercent": 66.55643930050165,
+                "episodes": 216,
+                "longestEpisodeMs": 550
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 592,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.300000000003,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.300000000003
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 592,
+                "slowFramePercent": 100,
+                "slowTimeMs": 14999.300000000003,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 14999.300000000003
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 121,
+                "timeMs": 4323.499999999942
+              },
+              {
+                "thresholdMs": 50,
+                "count": 4,
+                "timeMs": 216.90000000000873
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "cpu": {
+            "p50": 23.300000190734863,
+            "p95": 34.10000038146973,
+            "max": 66.69999980926514
+          },
+          "gpu": {
+            "p50": 10.288916,
+            "p95": 14.393,
+            "max": 15.154625
+          },
+          "draws": {
+            "p50": 1049,
+            "p95": 1106,
+            "max": 1106
+          },
+          "triangles": {
+            "p50": 4611770,
+            "p95": 4636570,
+            "max": 4636570
+          }
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "Same saved house, matched camera coordinates and fresh browser profiles; live weather/animals advance, not a frozen-world paired causal estimate.",
+    "M1 Pro / headless Chrome / 1440x900 / Vite development server / approximately 60 Hz presentation cap; not an RTX measurement.",
+    "15 seconds per view, excludes startup, bulk save restoration and screenshots. No placement or full-house-fire acceptance.",
+    "Primitive variant retains gameplay support, workers, surface snow, heat and collapse; visual stairs remain a block, animated door/window leaves are omitted by this test-only adapter.",
+    "Before-thermal-query is an intermediate implementation in this pass, NOT the unmodified R22 baseline. Historical ablation is a different experiment."
+  ],
+  "diagnostics": {
+    "scopes": {
+      "diagnostics.gpu-poll": {
+        "count": 721,
+        "meanMs": 0.0047156721477535,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0.09999990463256836,
+        "maximumMs": 0.10000038146972656
+      },
+      "input.pointer-aim": {
+        "count": 721,
+        "meanMs": 0.00027739356857067006,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0,
+        "maximumMs": 0.10000038146972656
+      },
+      "world.floating-island-motion": {
+        "count": 721,
+        "meanMs": 0.6625520095084477,
+        "p50Ms": 0.6000003814697266,
+        "p95Ms": 0.8000001907348633,
+        "p99Ms": 1,
+        "maximumMs": 1.5999999046325684
+      },
+      "sky.update": {
+        "count": 721,
+        "meanMs": 0.017891814407793062,
+        "p50Ms": 0,
+        "p95Ms": 0.09999990463256836,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.10000038146972656
+      },
+      "sky.updateProjectedCelestials": {
+        "count": 721,
+        "meanMs": 0.5147017996122701,
+        "p50Ms": 0.6999998092651367,
+        "p95Ms": 1.1999998092651367,
+        "p99Ms": 1.4000000953674316,
+        "maximumMs": 1.9000000953674316
+      },
+      "clouds.setPresentation": {
+        "count": 721,
+        "meanMs": 0.00499306571632417,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.10000038146972656
+      },
+      "scene.updateCelestialWorldPositions": {
+        "count": 721,
+        "meanMs": 0.005963937254123979,
+        "p50Ms": 0,
+        "p95Ms": 0.09999990463256836,
+        "p99Ms": 0.09999990463256836,
+        "maximumMs": 0.19999980926513672
+      },
+      "scene.applyEnvironmentPresentation": {
+        "count": 721,
+        "meanMs": 0.06338417778068045,
+        "p50Ms": 0,
+        "p95Ms": 0.19999980926513672,
+        "p99Ms": 0.40000009536743164,
+        "maximumMs": 1.8000001907348633
+      },
+      "frame.environment": {
+        "count": 721,
+        "meanMs": 0.38169209008077976,
+        "p50Ms": 0.10000038146972656,
+        "p95Ms": 2,
+        "p99Ms": 5.600000381469727,
+        "maximumMs": 9.300000190734863
+      },
+      "snow.v3.applyWeather": {
+        "count": 631,
+        "meanMs": 0.7914421501703761,
+        "p50Ms": 0.8000001907348633,
+        "p95Ms": 1.1999998092651367,
+        "p99Ms": 1.4000000953674316,
+        "maximumMs": 2
+      },
+      "frame.land-operations": {
+        "count": 721,
+        "meanMs": 0.6993065164753864,
+        "p50Ms": 0.8000001907348633,
+        "p95Ms": 1.0999999046325684,
+        "p99Ms": 1.4000000953674316,
+        "maximumMs": 2
+      },
+      "frame.ice": {
+        "count": 721,
+        "meanMs": 0,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0,
+        "maximumMs": 0
+      },
+      "frame.npc-presentation": {
+        "count": 721,
+        "meanMs": 0.00041608903014544145,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0,
+        "maximumMs": 0.10000038146972656
+      },
+      "frame.gameplay": {
+        "count": 721,
+        "meanMs": 0.014147013136484091,
+        "p50Ms": 0,
+        "p95Ms": 0.09999990463256836,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.7999997138977051
+      },
+      "construction.updateStructuralFireRisk": {
+        "count": 721,
+        "meanMs": 0.03314840512533624,
+        "p50Ms": 0,
+        "p95Ms": 0.39999961853027344,
+        "p99Ms": 0.5,
+        "maximumMs": 0.9000000953674316
+      },
+      "construction.updateFireDamage": {
+        "count": 721,
+        "meanMs": 0.0015256586749411488,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0.09999990463256836,
+        "maximumMs": 0.10000038146972656
+      },
+      "construction.updateRuntimeSurfaceSnow": {
+        "count": 721,
+        "meanMs": 1.5195561731737959,
+        "p50Ms": 1.5,
+        "p95Ms": 1.6999998092651367,
+        "p99Ms": 1.8000001907348633,
+        "maximumMs": 2.3000001907348633
+      },
+      "construction.updateSurfaceMountedFurniture": {
+        "count": 721,
+        "meanMs": 0.0011095703061509894,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0.09999990463256836,
+        "maximumMs": 0.10000038146972656
+      },
+      "construction.updateRecoveredParts": {
+        "count": 721,
+        "meanMs": 0.0001386961229300532,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0,
+        "maximumMs": 0.09999990463256836
+      },
+      "construction.updateBurnedDebris": {
+        "count": 721,
+        "meanMs": 0.0006934819373608297,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0,
+        "maximumMs": 0.10000038146972656
+      },
+      "construction.roofCollapse.update": {
+        "count": 721,
+        "meanMs": 0.0001386961229300532,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0,
+        "maximumMs": 0.09999990463256836
+      },
+      "construction.updateDemolitionWarnings": {
+        "count": 721,
+        "meanMs": 0.0004160883687901596,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0,
+        "maximumMs": 0.09999990463256836
+      },
+      "construction.updateCantileverLoads": {
+        "count": 721,
+        "meanMs": 0.026629680734070925,
+        "p50Ms": 0,
+        "p95Ms": 0.10000038146972656,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.20000028610229492
+      },
+      "construction.updateUnfinishedRoofPresentation": {
+        "count": 721,
+        "meanMs": 0.0022191406123019787,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0.09999990463256836,
+        "maximumMs": 0.10000038146972656
+      },
+      "construction.updateBuiltFireLights": {
+        "count": 721,
+        "meanMs": 0.011650484246453697,
+        "p50Ms": 0,
+        "p95Ms": 0.09999990463256836,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.19999980926513672
+      },
+      "construction.update": {
+        "count": 721,
+        "meanMs": 1.7807212266115144,
+        "p50Ms": 1.799999713897705,
+        "p95Ms": 2.1999998092651367,
+        "p99Ms": 2.5,
+        "maximumMs": 3
+      },
+      "survival.thermal.update": {
+        "count": 721,
+        "meanMs": 0.3868238717606924,
+        "p50Ms": 0.40000009536743164,
+        "p95Ms": 0.5,
+        "p99Ms": 0.5,
+        "maximumMs": 1.700000286102295
+      },
+      "survival.simulation.updateAnimals": {
+        "count": 721,
+        "meanMs": 2.298474334314693,
+        "p50Ms": 2.200000286102295,
+        "p95Ms": 2.700000286102295,
+        "p99Ms": 3.0999999046325684,
+        "maximumMs": 3.5
+      },
+      "survival.simulation.update": {
+        "count": 721,
+        "meanMs": 2.307628285041629,
+        "p50Ms": 2.299999713897705,
+        "p95Ms": 2.700000286102295,
+        "p99Ms": 3.0999999046325684,
+        "maximumMs": 3.5
+      },
+      "survival.updateNearSceneryShadowCasters": {
+        "count": 721,
+        "meanMs": 0.06754507337297712,
+        "p50Ms": 0,
+        "p95Ms": 0.3000001907348633,
+        "p99Ms": 0.40000009536743164,
+        "maximumMs": 0.7999997138977051
+      },
+      "survival.updateTreeMotion": {
+        "count": 721,
+        "meanMs": 0.05256587820807045,
+        "p50Ms": 0.09999990463256836,
+        "p95Ms": 0.10000038146972656,
+        "p99Ms": 0.19999980926513672,
+        "maximumMs": 0.20000028610229492
+      },
+      "survival.updateTreeSurfaceSnow": {
+        "count": 721,
+        "meanMs": 0.0029126225496628085,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0.09999990463256836,
+        "maximumMs": 0.20000028610229492
+      },
+      "survival.updateCliffWeather": {
+        "count": 721,
+        "meanMs": 0.001525658013585867,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0.09999990463256836,
+        "maximumMs": 0.20000028610229492
+      },
+      "survival.updateAnimalHomeSnow": {
+        "count": 721,
+        "meanMs": 0.00027739290721538827,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0,
+        "maximumMs": 0.10000038146972656
+      },
+      "survival.updateAnimalForageSnow": {
+        "count": 721,
+        "meanMs": 0.0019417463823760267,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0.09999990463256836,
+        "maximumMs": 0.10000038146972656
+      },
+      "survival.updateWorldItemSurfaceAnchors": {
+        "count": 721,
+        "meanMs": 0.0002773922458601064,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0,
+        "maximumMs": 0.09999990463256836
+      },
+      "survival.updateAnimalPresentation": {
+        "count": 721,
+        "meanMs": 0.5366158108440087,
+        "p50Ms": 0.5,
+        "p95Ms": 0.6999998092651367,
+        "p99Ms": 0.8000001907348633,
+        "maximumMs": 1.1999998092651367
+      },
+      "survival.updateInteractionMarker": {
+        "count": 721,
+        "meanMs": 0.01692094088592741,
+        "p50Ms": 0,
+        "p95Ms": 0.09999990463256836,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.10000038146972656
+      },
+      "survival.refreshPlanPlacementPreview": {
+        "count": 721,
+        "meanMs": 0.001386961229300532,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0.09999990463256836,
+        "maximumMs": 0.09999990463256836
+      },
+      "survival.roomSmoke.update": {
+        "count": 721,
+        "meanMs": 0.0013869625520110957,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0.09999990463256836,
+        "maximumMs": 0.10000038146972656
+      },
+      "survival.updateCampSmoke": {
+        "count": 721,
+        "meanMs": 0.0409153959456826,
+        "p50Ms": 0,
+        "p95Ms": 0.10000038146972656,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.7000002861022949
+      },
+      "survival.updateCampEmbers": {
+        "count": 721,
+        "meanMs": 0.0011095689834404257,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0.09999990463256836,
+        "maximumMs": 0.09999990463256836
+      },
+      "survival.snow-melt.advance": {
+        "count": 721,
+        "meanMs": 0.0011095696447957074,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0.09999990463256836,
+        "maximumMs": 0.10000038146972656
+      },
+      "frame.wilderness-survival": {
+        "count": 721,
+        "meanMs": 5.445769754428308,
+        "p50Ms": 5.300000190734863,
+        "p95Ms": 6.300000190734863,
+        "p99Ms": 6.800000190734863,
+        "maximumMs": 7.699999809265137
+      },
+      "frame.land-simulation": {
+        "count": 721,
+        "meanMs": 5.926490982759346,
+        "p50Ms": 5.800000190734863,
+        "p95Ms": 6.800000190734863,
+        "p99Ms": 7.400000095367432,
+        "maximumMs": 8.599999904632568
+      },
+      "snow.v3.flushVisualUpdates": {
+        "count": 721,
+        "meanMs": 0.0450762869084923,
+        "p50Ms": 0,
+        "p95Ms": 0.3000001907348633,
+        "p99Ms": 0.7000002861022949,
+        "maximumMs": 1.8999996185302734
+      },
+      "frame.land-snow-mesh": {
+        "count": 721,
+        "meanMs": 0.04660194690614401,
+        "p50Ms": 0,
+        "p95Ms": 0.3000001907348633,
+        "p99Ms": 0.7000002861022949,
+        "maximumMs": 1.8999996185302734
+      },
+      "snow.v3.setActiveCenter": {
+        "count": 721,
+        "meanMs": 0.001803052243511819,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0.09999990463256836,
+        "maximumMs": 0.10000038146972656
+      },
+      "snow.mid.rebuildDirty": {
+        "count": 721,
+        "meanMs": 0.05839112198468551,
+        "p50Ms": 0,
+        "p95Ms": 0.40000009536743164,
+        "p99Ms": 0.7000002861022949,
+        "maximumMs": 1.299999713897705
+      },
+      "frame.land-snow-stream": {
+        "count": 721,
+        "meanMs": 0.08210817620096193,
+        "p50Ms": 0,
+        "p95Ms": 0.40000009536743164,
+        "p99Ms": 0.8000001907348633,
+        "maximumMs": 1.299999713897705
+      },
+      "frame.world-chunks": {
+        "count": 721,
+        "meanMs": 0.011511792091655334,
+        "p50Ms": 0,
+        "p95Ms": 0.09999990463256836,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.10000038146972656
+      },
+      "snow.v3.processPrefetchBudget": {
+        "count": 721,
+        "meanMs": 0.0026352289810921384,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0.09999990463256836,
+        "maximumMs": 0.10000038146972656
+      },
+      "frame.land-snow-prefetch": {
+        "count": 721,
+        "meanMs": 0.0034674063800277394,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0.09999990463256836,
+        "maximumMs": 0.10000038146972656
+      },
+      "frame.land-snow-v4-detail": {
+        "count": 721,
+        "meanMs": 0.0020804438280166435,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0.09999990463256836,
+        "maximumMs": 0.10000038146972656
+      },
+      "snow.v5.syncDetailCoverage": {
+        "count": 721,
+        "meanMs": 0.013453531860478542,
+        "p50Ms": 0,
+        "p95Ms": 0.09999990463256836,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.19999980926513672
+      },
+      "frame.land-snow-v5-microdetail": {
+        "count": 721,
+        "meanMs": 0.169764218482495,
+        "p50Ms": 0,
+        "p95Ms": 0.9000000953674316,
+        "p99Ms": 2.799999713897705,
+        "maximumMs": 2.8000001907348633
+      },
+      "sky-islands.update": {
+        "count": 721,
+        "meanMs": 0.022746189292029435,
+        "p50Ms": 0,
+        "p95Ms": 0.10000038146972656,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.20000028610229492
+      },
+      "frame.floating-islands": {
+        "count": 721,
+        "meanMs": 0.023994455721110478,
+        "p50Ms": 0,
+        "p95Ms": 0.10000038146972656,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.20000028610229492
+      },
+      "frame.presentation-and-audio": {
+        "count": 721,
+        "meanMs": 0.2929265013018858,
+        "p50Ms": 0.19999980926513672,
+        "p95Ms": 1,
+        "p99Ms": 2.9000000953674316,
+        "maximumMs": 3
+      },
+      "frame.world-presentation": {
+        "count": 721,
+        "meanMs": 0.07350900996574582,
+        "p50Ms": 0.09999990463256836,
+        "p95Ms": 0.19999980926513672,
+        "p99Ms": 0.20000028610229492,
+        "maximumMs": 0.20000028610229492
+      },
+      "construction.updateCameraCutaway": {
+        "count": 721,
+        "meanMs": 0.3542302405453919,
+        "p50Ms": 0.3000001907348633,
+        "p95Ms": 0.5,
+        "p99Ms": 0.5,
+        "maximumMs": 1
+      },
+      "scene.updateCharacterToolCamera": {
+        "count": 721,
+        "meanMs": 0.40915395085920736,
+        "p50Ms": 0.40000009536743164,
+        "p95Ms": 0.5999999046325684,
+        "p99Ms": 0.6999998092651367,
+        "maximumMs": 1.5999999046325684
+      },
+      "clouds.update": {
+        "count": 721,
+        "meanMs": 0.012482663629455144,
+        "p50Ms": 0,
+        "p95Ms": 0.09999990463256836,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.10000038146972656
+      },
+      "snowfall.update": {
+        "count": 721,
+        "meanMs": 0.020804440925587562,
+        "p50Ms": 0,
+        "p95Ms": 0.09999990463256836,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.5
+      },
+      "render.shadow-maps": {
+        "count": 721,
+        "meanMs": 1.157142861375531,
+        "p50Ms": 1.0999999046325684,
+        "p95Ms": 1.5,
+        "p99Ms": 1.8000001907348633,
+        "maximumMs": 3.6000003814697266
+      },
+      "sky-islands.sampleCelestialVisibility": {
+        "count": 363,
+        "meanMs": 0.014876029379768476,
+        "p50Ms": 0,
+        "p95Ms": 0.09999990463256836,
+        "p99Ms": 0.19999980926513672,
+        "maximumMs": 0.20000028610229492
+      },
+      "render.renderer-call:Scene#25": {
+        "count": 721,
+        "meanMs": 6.368515937239056,
+        "p50Ms": 6.300000190734863,
+        "p95Ms": 7.599999904632568,
+        "p99Ms": 8.599999904632568,
+        "maximumMs": 13.599999904632568
+      },
+      "render.scene": {
+        "count": 721,
+        "meanMs": 6.393342567713681,
+        "p50Ms": 6.300000190734863,
+        "p95Ms": 7.599999904632568,
+        "p99Ms": 8.599999904632568,
+        "maximumMs": 13.800000190734863
+      },
+      "render.renderer-call:Mesh#2194": {
+        "count": 721,
+        "meanMs": 0.023717054216276425,
+        "p50Ms": 0,
+        "p95Ms": 0.09999990463256836,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.19999980926513672
+      },
+      "render.atmosphere-grade": {
+        "count": 721,
+        "meanMs": 0.034951450755295245,
+        "p50Ms": 0,
+        "p95Ms": 0.10000038146972656,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.20000028610229492
+      },
+      "render.renderer-call:Mesh#2195": {
+        "count": 721,
+        "meanMs": 0.013453540458097206,
+        "p50Ms": 0,
+        "p95Ms": 0.09999990463256836,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.20000028610229492
+      },
+      "render.output": {
+        "count": 721,
+        "meanMs": 0.018585300313285584,
+        "p50Ms": 0,
+        "p95Ms": 0.09999990463256836,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.20000028610229492
+      },
+      "render.total": {
+        "count": 721,
+        "meanMs": 6.472538126655822,
+        "p50Ms": 6.400000095367432,
+        "p95Ms": 7.599999904632568,
+        "p99Ms": 8.600000381469727,
+        "maximumMs": 14.099999904632568
+      },
+      "frame.scene-render": {
+        "count": 721,
+        "meanMs": 10.346185848881566,
+        "p50Ms": 10.300000190734863,
+        "p95Ms": 11.600000381469727,
+        "p99Ms": 12.5,
+        "maximumMs": 19
+      },
+      "frame.cave-aim": {
+        "count": 721,
+        "meanMs": 0.000832177398935601,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0,
+        "maximumMs": 0.10000038146972656
+      },
+      "frame.world-render": {
+        "count": 721,
+        "meanMs": 10.778363380617309,
+        "p50Ms": 10.700000286102295,
+        "p95Ms": 12.099999904632568,
+        "p99Ms": 12.900000095367432,
+        "maximumMs": 19.800000190734863
+      },
+      "frame.hud-and-debug": {
+        "count": 721,
+        "meanMs": 0.8199722585003518,
+        "p50Ms": 0,
+        "p95Ms": 3.299999713897705,
+        "p99Ms": 3.5,
+        "maximumMs": 4.300000190734863
+      },
+      "diagnostics.context": {
+        "count": 721,
+        "meanMs": 0.20416089268233342,
+        "p50Ms": 0.19999980926513672,
+        "p95Ms": 0.3000001907348633,
+        "p99Ms": 0.3000001907348633,
+        "maximumMs": 0.6000003814697266
+      },
+      "snow.v5.createRefreshJob": {
+        "count": 36,
+        "meanMs": 0.00833333863152398,
+        "p50Ms": 0,
+        "p95Ms": 0.09999990463256836,
+        "p99Ms": 0.20000028610229492,
+        "maximumMs": 0.20000028610229492
+      },
+      "snow.v5.advanceRefreshJob": {
+        "count": 63,
+        "meanMs": 1.492063492063492,
+        "p50Ms": 1.3000001907348633,
+        "p95Ms": 2.799999713897705,
+        "p99Ms": 2.8000001907348633,
+        "maximumMs": 2.8000001907348633
+      },
+      "survival.synchronizeThermalInfluences": {
+        "count": 57,
+        "meanMs": 0.5631578428703442,
+        "p50Ms": 0.5999999046325684,
+        "p95Ms": 0.6000003814697266,
+        "p99Ms": 0.8000001907348633,
+        "maximumMs": 0.8000001907348633
+      },
+      "survival.updateResourcePresentation": {
+        "count": 71,
+        "meanMs": 0.22816903826216578,
+        "p50Ms": 0.20000028610229492,
+        "p95Ms": 0.3000001907348633,
+        "p99Ms": 0.3000001907348633,
+        "maximumMs": 0.3000001907348633
+      },
+      "snow.v3.updateTileMesh": {
+        "count": 101,
+        "meanMs": 0.24653467801537846,
+        "p50Ms": 0.19999980926513672,
+        "p95Ms": 0.8000001907348633,
+        "p99Ms": 1.0999999046325684,
+        "maximumMs": 1.3000001907348633
+      },
+      "snow.mid.writeTilePositions": {
+        "count": 112,
+        "meanMs": 0.36964285373687744,
+        "p50Ms": 0.3000001907348633,
+        "p95Ms": 0.8000001907348633,
+        "p99Ms": 0.9000000953674316,
+        "maximumMs": 1.299999713897705
+      },
+      "snow.v3.storeTile": {
+        "count": 56,
+        "meanMs": 0.0428571275302342,
+        "p50Ms": 0,
+        "p95Ms": 0.10000038146972656,
+        "p99Ms": 0.40000009536743164,
+        "maximumMs": 0.40000009536743164
+      },
+      "snow.v3.preparePersistence": {
+        "count": 102,
+        "meanMs": 0.024509794571820426,
+        "p50Ms": 0,
+        "p95Ms": 0.09999990463256836,
+        "p99Ms": 0.10000038146972656,
+        "maximumMs": 0.40000009536743164
+      },
+      "snow.v3.exportState": {
+        "count": 1,
+        "meanMs": 0,
+        "p50Ms": 0,
+        "p95Ms": 0,
+        "p99Ms": 0,
+        "maximumMs": 0
+      },
+      "frame.persistence-total": {
+        "count": 1,
+        "meanMs": 9.399999618530273,
+        "p50Ms": 9.399999618530273,
+        "p95Ms": 9.399999618530273,
+        "p99Ms": 9.399999618530273,
+        "maximumMs": 9.399999618530273
+      },
+      "game.persistWorldState": {
+        "count": 1,
+        "meanMs": 9.599999904632568,
+        "p50Ms": 9.599999904632568,
+        "p95Ms": 9.599999904632568,
+        "p99Ms": 9.599999904632568,
+        "maximumMs": 9.599999904632568
+      },
+      "frame.persistence": {
+        "count": 1,
+        "meanMs": 9.599999904632568,
+        "p50Ms": 9.599999904632568,
+        "p95Ms": 9.599999904632568,
+        "p99Ms": 9.599999904632568,
+        "maximumMs": 9.599999904632568
+      }
+    },
+    "gpu": {
+      "total": {
+        "count": 145,
+        "meanMs": 10.214607034482755,
+        "p50Ms": 10.014874,
+        "p95Ms": 11.639999,
+        "p99Ms": 12.156708,
+        "maximumMs": 12.744958
+      }
+    }
+  }
+}
