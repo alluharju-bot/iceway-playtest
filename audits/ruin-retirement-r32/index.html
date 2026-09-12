@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fi">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Long Winter · Raunioiden elinkaari R32</title>
+<style>
+:root{color-scheme:dark;font:16px/1.65 system-ui;background:#101b23;color:#e5e5db}body{max-width:1150px;margin:auto;padding:32px 20px}h1,h2{font-family:Georgia,serif;font-weight:400;color:#e5c59b;line-height:1.2}h2{margin-top:2em}a{color:#b6d4db}.notice{border-left:3px solid #d89364;padding:14px 20px;background:#1e2830}figure{margin:20px 0}img{width:100%;height:auto;border-radius:8px}figcaption,small{color:#b7c6c9}table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}th,td{padding:10px;text-align:left;border-bottom:1px solid #35434a}th{color:#e5c59b}.scroll{overflow-x:auto}.pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:700px){.pair{grid-template-columns:1fr}}
+</style>
+<small>THE LONG WINTER · 12.9.2026 · R32</small>
+<h1>Jälkipalo säilyy, kylmät rauniot kevenevät</h1>
+<p>Sama 1 000 osan talo kuin aiemmassa palokokeessa. Rakennusosat, tuhoutuminen ja jälkipalo säilyvät. Yksityiskohtaiset rauniot poistuvat porrastetusti 30–45 sekunnin iässä vasta laskeuduttuaan ja liekkien sammuttua. Hiillos hiipuu ensin.</p>
+<p>Yhdelle 8 m alueelle jää pieni mustunut kasa, yksi 108 kolmion mesh. Koko maailman kasamäärä on rajattu 128:aan. Enintään kaksi jäännöstä käsitellään ruudulla, 0,75 ms pehmeällä aikabudjetilla. Kerättävät materiaalit ovat tästä erillisiä. Lapiosiivoaminen on kirjattu jatkoon, ei vielä käytössä.</p>
+<p><a href="../../">Alkuperäinen playtest</a> · <a href="../fire-scheduling-r31/">R31</a> · <a href="https://github.com/alluharju-bot/ICEWAY/blob/feature/modular-vessel-builder-phase1/docs/testing/TLW_RUIN_RETIREMENT_R32.md">Tekninen raportti</a></p>
+<h2>Vertailu: vanha R31 ja uusi R32</h2>
+<p>Chrome 1440×900. 15 s ehjää taloa, 25 s massapaloa, 65 s sortumaa, 45 s jäähtymistä ja 15 s myöhäistä rauniovaihetta. Kamera kiertää viidellä eri korkeudella. Eläimet, rakennusosien pintalumi ja lämpökenttä pois kuten aiemmin; paloa, savua ja sortumaa ei poistettu kokeesta. R31:n vanha hiillos jäähtyy noin 105 sekuntia ja voi vielä hehkua loppuvaiheessakin. Vertailu sisältää siis sekä lyhyemmän hiillosvaiheen että meshien kevennyksen.</p>
+<p class="notice">Tämä testi ei yksin todista 60/120 FPS:n tavoitteen täyttymistä. Tarkastele pahimpia ruutuja, p99:ää ja hitaiden jaksojen kestoa. Yksi vertailupari ei erota kaikkea sään, taustakuorman ja GPU:n vaihtelua; kyseessä ei ole deterministinen säätoisto.</p>
+<div class="scroll"><table><thead><tr><th>Vaihe</th><th>p99 ms</th><th>Pahin ms</th><th>Alin FPS</th><th>Aika alle 60*</th><th>Pisin alitus*</th><th>Raunioita</th></tr></thead><tbody id="metrics"><tr><td colspan="7">Ladataan…</td></tr></tbody></table></div>
+<p><small>* 3 % toleranssi. Raakadata sisältää myös tiukat 60/120 FPS -rajat. <a href="before/report.json">R31 raakaruudut</a> · <a href="after/report.json">R32 raakaruudut ja siivousjonon mittaukset</a>.</small></p>
+<div id="pictures"></div>
+<script type="module">
+const names={'intact-orbit':'Ehjä talo',fire:'Massapalo',collapse:'Sortuma',cleanup:'Jäähtyminen / siivous','cold-ruins':'Myöhäinen rauniovaihe'};
+try{
+  const reports=await Promise.all(['before','after'].map(async id=>{const r=await fetch(`${id}/report.json`);if(!r.ok)throw Error('Mittausraportti puuttuu');return r.json()}));
+  const body=document.querySelector('#metrics');body.replaceChildren();
+  for(let i=0;i<5;i++)for(let j=0;j<2;j++){
+    const r=reports[j].results[i],p=r.pacing,t=p.targets.find(t=>t.targetFps===60&&t.tolerancePercent===3),row=document.createElement('tr');
+    for(const value of [`${names[r.phase]} / ${j?'R32':'R31'}`,p.p99FrameMs.toFixed(1),p.worstFrameMs.toFixed(1),p.minimumInstantFps.toFixed(1),`${t.slowTimePercent.toFixed(1)} %`,`${(t.longestEpisodeMs/1000).toFixed(2)} s`,r.retirement?`${r.retirement.detailed} tarkkaa + ${r.retirement.compact} kasaa`:r.ruins]){const c=document.createElement('td');c.textContent=String(value);row.append(c)}body.append(row);
+  }
+}catch(e){document.querySelector('#metrics').textContent=String(e)}
+for(const [phase,label] of Object.entries(names)){
+  const h=document.createElement('h2');h.textContent=label;document.querySelector('#pictures').append(h);
+  const pair=document.createElement('div');pair.className='pair';
+  for(const [id,label] of [['before','R31 ennen'],['after','R32 jälkeen']]){const f=document.createElement('figure'),a=document.createElement('a'),img=document.createElement('img'),c=document.createElement('figcaption');a.href=`${id}/${phase}.jpg`;img.src=a.href;img.alt=`${label} — ${phase}`;img.loading='lazy';c.textContent=label;a.append(img);f.append(a,c);pair.append(f)}document.querySelector('#pictures').append(pair);
+}
+</script>
+</html>
