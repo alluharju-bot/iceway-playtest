@@ -1,0 +1,52 @@
+{
+  "started": "2026-09-12T09:00:38.480Z",
+  "platform": "darwin",
+  "arch": "arm64",
+  "cpu": "Apple M1 Pro",
+  "logicalCpus": 10,
+  "url": "http://127.0.0.1:5212/",
+  "order": [
+    {
+      "label": "a1",
+      "enabled": false
+    },
+    {
+      "label": "b1",
+      "enabled": true
+    },
+    {
+      "label": "b2",
+      "enabled": true
+    },
+    {
+      "label": "a2",
+      "enabled": false
+    }
+  ],
+  "completed": [
+    {
+      "label": "a1",
+      "started": "2026-09-12T09:00:38.483Z",
+      "finished": "2026-09-12T09:03:53.062Z",
+      "exitCode": 0
+    },
+    {
+      "label": "b1",
+      "started": "2026-09-12T09:03:53.063Z",
+      "finished": "2026-09-12T09:07:08.221Z",
+      "exitCode": 0
+    },
+    {
+      "label": "b2",
+      "started": "2026-09-12T09:07:08.222Z",
+      "finished": "2026-09-12T09:10:21.808Z",
+      "exitCode": 0
+    },
+    {
+      "label": "a2",
+      "started": "2026-09-12T09:10:21.809Z",
+      "finished": "2026-09-12T09:13:35.132Z",
+      "exitCode": 0
+    }
+  ]
+}

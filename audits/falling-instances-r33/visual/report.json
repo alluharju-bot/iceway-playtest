@@ -1,0 +1,53 @@
+{
+  "note": "Frozen same-state visual comparison, not a performance sample.",
+  "a1": {
+    "stateMatches": true,
+    "trial": {
+      "enabled": false,
+      "sourcesChecked": 0,
+      "sourceDraws": 0,
+      "batchDraws": 0,
+      "instances": 0
+    },
+    "draws": 1820,
+    "falling": 8,
+    "geometries": 1035
+  },
+  "b": {
+    "stateMatches": true,
+    "trial": {
+      "enabled": true,
+      "sourcesChecked": 8,
+      "sourceDraws": 7,
+      "batchDraws": 1,
+      "instances": 7
+    },
+    "draws": 1808,
+    "falling": 8,
+    "geometries": 1036
+  },
+  "a2": {
+    "stateMatches": true,
+    "trial": {
+      "enabled": false,
+      "sourcesChecked": 0,
+      "sourceDraws": 0,
+      "batchDraws": 0,
+      "instances": 0
+    },
+    "draws": 1820,
+    "falling": 8,
+    "geometries": 1035
+  },
+  "drift": {
+    "changedPixels": 0,
+    "changedPercent": 0,
+    "maxChannelDifference": 0
+  },
+  "trial": {
+    "changedPixels": 3,
+    "changedPercent": 0.0002314814814814815,
+    "maxChannelDifference": 51
+  },
+  "errors": []
+}
