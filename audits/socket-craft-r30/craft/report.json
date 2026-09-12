@@ -1,0 +1,245 @@
+{
+  "setup": {
+    "parts": 274,
+    "build": "TLW-SOCKET-CRAFT-2026-09-12-R30"
+  },
+  "checks": {
+    "placed": [
+      {
+        "id": "TIMBER_TRIM_1",
+        "valid": true,
+        "reason": "Surface placement · wheel depth offset · Alt + wheel zoom · G alignment grid",
+        "connection": {
+          "targetPieceId": "tlw-build-piece:2",
+          "targetSocketId": "face:-1:-0.500,0.800",
+          "sourceSocketId": "wall-back"
+        },
+        "y": 9.33060585666613,
+        "aim": {
+          "x": -809.4423585115828,
+          "y": 9.33060585666613,
+          "z": -223.55602620507986,
+          "forwardX": -0.8314696123025455,
+          "forwardZ": -0.555570233019602,
+          "hit": {
+            "pieceId": "tlw-build-piece:2",
+            "x": -809.4423585115828,
+            "y": 9.33060585666613,
+            "z": -223.55602620507986,
+            "normalX": 0.8314696123025455,
+            "normalY": 0,
+            "normalZ": 0.555570233019602
+          }
+        },
+        "wall": {
+          "id": "tlw-build-piece:2",
+          "x": -809.8199199815689,
+          "y": 8.530605856666128,
+          "z": -223.206959826891,
+          "yaw": -123.74999999999999
+        }
+      },
+      {
+        "id": "TIMBER_TRIM_1",
+        "valid": true,
+        "reason": "Surface placement · wheel depth offset · Alt + wheel zoom · G alignment grid",
+        "connection": {
+          "targetPieceId": "tlw-build-piece:2",
+          "targetSocketId": "face:-1:0.500,0.800",
+          "sourceSocketId": "wall-back"
+        },
+        "y": 9.33060585666613,
+        "aim": {
+          "x": -809.959038828291,
+          "y": 9.360605856666128,
+          "z": -222.78275946563855,
+          "forwardX": -0.8314696123025455,
+          "forwardZ": -0.555570233019602,
+          "hit": {
+            "pieceId": "tlw-build-piece:2",
+            "x": -809.959038828291,
+            "y": 9.360605856666128,
+            "z": -222.78275946563855,
+            "normalX": 0.8314696123025455,
+            "normalY": 0,
+            "normalZ": 0.555570233019602
+          }
+        },
+        "wall": {
+          "id": "tlw-build-piece:2",
+          "x": -809.8199199815689,
+          "y": 8.530605856666128,
+          "z": -223.206959826891,
+          "yaw": -123.74999999999999
+        }
+      },
+      {
+        "id": "TIMBER_ROSETTE",
+        "valid": true,
+        "reason": "Surface placement · wheel depth offset · Alt + wheel zoom · G alignment grid",
+        "connection": {
+          "targetPieceId": "tlw-build-piece:2",
+          "targetSocketId": "face:-1:0.000,1.450",
+          "sourceSocketId": "wall-back"
+        },
+        "y": 9.980605856666125,
+        "aim": {
+          "x": -809.7201436280926,
+          "y": 9.980605856666125,
+          "z": -223.14029139892864,
+          "forwardX": -0.8314696123025455,
+          "forwardZ": -0.555570233019602,
+          "hit": {
+            "pieceId": "tlw-build-piece:2",
+            "x": -809.7201436280926,
+            "y": 9.980605856666125,
+            "z": -223.14029139892864,
+            "normalX": 0.8314696123025455,
+            "normalY": 0,
+            "normalZ": 0.555570233019602
+          }
+        },
+        "wall": {
+          "id": "tlw-build-piece:2",
+          "x": -809.8199199815689,
+          "y": 8.530605856666128,
+          "z": -223.206959826891,
+          "yaw": -123.74999999999999
+        }
+      }
+    ],
+    "ornamentCount": 3,
+    "air": {
+      "indoors": true,
+      "roofed": true,
+      "enclosure": 1,
+      "ventilation": 0.11318396534240481,
+      "roomVolumeCubicMetres": 180,
+      "floorY": 8.530605856666128,
+      "ceilingY": 13.863520856666115,
+      "vent": {
+        "x": -818.1800800184311,
+        "y": 10.078605856666128,
+        "z": -228.793040173109,
+        "kind": "WALL",
+        "outwardX": -0.8314696123025453,
+        "outwardZ": -0.555570233019602,
+        "exitX": -818.5542413439673,
+        "exitZ": -229.04304677796782
+      },
+      "containment": {
+        "originX": -814,
+        "originZ": -226,
+        "maximumRadius": 6.5,
+        "radialDistances": [
+          4.911716752259269,
+          4.91171675225927,
+          4.911716752259231,
+          4.91171675225923,
+          4.911716752259275,
+          4.911716752259232,
+          4.91171675225923,
+          4.911716752259269,
+          4.911716752259269,
+          4.911716752259268,
+          4.91171675225923,
+          4.911716752259229,
+          4.911716752259275,
+          4.911716752259231,
+          4.91171675225923,
+          4.91171675225927
+        ]
+      }
+    },
+    "after": 277
+  },
+  "pacing": {
+    "frames": 720,
+    "totalMs": 11999.5,
+    "worstFrameMs": 16.80000000000291,
+    "minimumInstantFps": 59.523809523799216,
+    "p95FrameMs": 16.799999999999272,
+    "p99FrameMs": 16.80000000000291,
+    "p999FrameMs": 16.80000000000291,
+    "onePercentLowFps": 59.523809523799216,
+    "pointOnePercentLowFps": 59.523809523799216,
+    "targets": [
+      {
+        "targetFps": 60,
+        "tolerancePercent": 0,
+        "budgetMs": 16.666666666666668,
+        "thresholdMs": 16.666666666666668,
+        "slowFrames": 435,
+        "slowFramePercent": 60.416666666666664,
+        "slowTimeMs": 7268.699999999997,
+        "slowTimePercent": 60.57502395933162,
+        "episodes": 242,
+        "longestEpisodeMs": 66.80000000000291
+      },
+      {
+        "targetFps": 60,
+        "tolerancePercent": 3,
+        "budgetMs": 16.666666666666668,
+        "thresholdMs": 17.182130584192443,
+        "slowFrames": 0,
+        "slowFramePercent": 0,
+        "slowTimeMs": 0,
+        "slowTimePercent": 0,
+        "episodes": 0,
+        "longestEpisodeMs": 0
+      },
+      {
+        "targetFps": 120,
+        "tolerancePercent": 0,
+        "budgetMs": 8.333333333333334,
+        "thresholdMs": 8.333333333333334,
+        "slowFrames": 720,
+        "slowFramePercent": 100,
+        "slowTimeMs": 11999.5,
+        "slowTimePercent": 100,
+        "episodes": 1,
+        "longestEpisodeMs": 11999.5
+      },
+      {
+        "targetFps": 120,
+        "tolerancePercent": 3,
+        "budgetMs": 8.333333333333334,
+        "thresholdMs": 8.591065292096221,
+        "slowFrames": 720,
+        "slowFramePercent": 100,
+        "slowTimeMs": 11999.5,
+        "slowTimePercent": 100,
+        "episodes": 1,
+        "longestEpisodeMs": 11999.5
+      }
+    ],
+    "stalls": [
+      {
+        "thresholdMs": 33.334,
+        "count": 0,
+        "timeMs": 0
+      },
+      {
+        "thresholdMs": 50,
+        "count": 0,
+        "timeMs": 0
+      },
+      {
+        "thresholdMs": 100,
+        "count": 0,
+        "timeMs": 0
+      },
+      {
+        "thresholdMs": 250,
+        "count": 0,
+        "timeMs": 0
+      },
+      {
+        "thresholdMs": 1000,
+        "count": 0,
+        "timeMs": 0
+      }
+    ]
+  },
+  "errors": []
+}

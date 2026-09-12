@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fi">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Long Winter · Socket craft R30</title>
+<style>
+:root{color-scheme:dark;font:16px/1.65 system-ui;background:#101b23;color:#e5e5db}body{max-width:1150px;margin:auto;padding:36px 20px}h1,h2{font-family:Georgia,serif;font-weight:400;color:#e5c59b;line-height:1.2}h1{font-size:2.5rem}h2{margin-top:2em}a{color:#b6d4db}small,.muted{color:#aab9bc}.notice{border-left:3px solid #d89364;padding:14px 20px;background:#1e2830}figure{margin:20px 0}img{width:100%;height:auto;border-radius:8px}figcaption{font-size:.9rem;color:#b7c6c9}table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}th,td{padding:10px;text-align:left;border-bottom:1px solid #35434a}th{color:#e5c59b}section.scroll{overflow-x:auto}.pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:700px){.pair{grid-template-columns:1fr}h1{font-size:2rem}}
+</style>
+<header><small>THE LONG WINTER · 12.9.2026 · R30</small><h1>Socket craft &amp; palon kuormakoe</h1>
+<p>Monikulmainen katto, uusi puinen koristelusarja ja saman 1 000 osan talon vertailu.</p>
+<p><a href="../../">Pelaa nykyistä playtestiä</a> · <a href="https://github.com/alluharju-bot/ICEWAY/blob/feature/modular-vessel-builder-phase1/docs/testing/TLW_BUILD_NIGHT_R30.md">Toteutus, testit ja rajaukset</a></p></header>
+<h2>16-kulmainen kattorunko</h2>
+<p>274 oikeaa rakennusosaa: seinät, ikkunat, ovi, kantavat palkit, pystytuet, kattopuut, välituet, ruoteet ja kate. Koetalo luotiin samoilla auktoritatiivisilla rakennuskomennoilla kuin pelissä. Tämä ei ole väite 274 osan käsin hiirellä rakentamisesta. Listat ja ruusuke sijoitettiin selaimessa osoitussäteellä ja tallennettiin/latautettiin takaisin.</p>
+<figure><a href="craft/polygon-roof.jpg"><img src="craft/polygon-roof.jpg" alt="16-kulmainen puurakennus ja yhtenäinen monilappeinen katto lumimaisemassa"></a><figcaption>Yksi katto, ei erillisiä pieniä harjakattoja joka ruudussa.</figcaption></figure>
+<figure><a href="craft/joinery.jpg"><img loading="lazy" src="craft/joinery.jpg" alt="Puulistoja ja ruusuke ulkoseinällä"></a><figcaption>1 m listojen päätyliitos ja seinään kiinnitettävä koriste. <a href="craft/report.json">Selaintestin tarkistukset</a>.</figcaption></figure>
+<h2>1 000 osaa: ehjä → palo → sortuma</h2>
+<p>Sama talo, kolme kamerakorkeutta ja kiertävä kamera. Ensin 15 s ehjänä, sitten kaikki 1 000 osaa tarkoituksella yhtä aikaa tuleen ja 25 s mittaus, lopuksi 65 s sortumaa ja raunioita. Tämä on rasituskoe, ei normaalin palon leviämisnopeus. Eläimet, rakennusosien pintalumi ja lämpökenttä pysyvät nykyisen playtestin tapaan pois käytöstä.</p>
+<p class="notice">Ei hyväksyttyä 60/120 FPS -suorituskykylupausta. Pahin ruutuaika, p95/p99 sekä alitusten kesto ratkaisevat; keskiarvo-FPS:ää ei käytetä hyväksyntään. Yksi paikallinen Chrome-vertailupari ei ole eri koneiden suorituskykytakuu. Selainajon näyttörytmi on noin 60 Hz, joten se ei todista 120 FPS:n saavutettavuutta.</p>
+<section class="scroll"><table><thead><tr><th>Vaihe / build</th><th>Pahin ms</th><th>p95 / p99 ms</th><th>Alin hetkellinen FPS</th><th>Aika alle 60*</th><th>Pisin alitus*</th></tr></thead><tbody id="metrics"><tr><td colspan="6">Ladataan mittaukset…</td></tr></tbody></table></section>
+<p class="muted">* 3 % toleranssi erottaa 16,7 ms kellopyöristyksen todellisista myöhästymisistä. Raakadatassa myös tiukka 60/120 FPS, yli 50/100/250 ms piikit, CPU/GPU-ajat ja piirtokutsut. <a href="before/report.json">R29.4 ennen</a> · <a href="after/report.json">R30 jälkeen</a>.</p>
+<div id="pictures"></div>
+<script type="module">
+const names={'intact-orbit':'Ehjä talo','fire':'Massapalo','collapse':'Sortuma / rauniot'};
+try{
+  const reports=await Promise.all(['before','after'].map(async id=>{const r=await fetch(`${id}/report.json`);if(!r.ok)throw Error('Mittausraportti puuttuu');return r.json()}));
+  const body=document.querySelector('#metrics');body.replaceChildren();
+  for(let i=0;i<3;i++)for(let j=0;j<2;j++){
+    const r=reports[j].results[i],p=r.pacing,t=p.targets.find(t=>t.targetFps===60&&t.tolerancePercent===3),row=document.createElement('tr');
+    for(const value of [`${names[r.phase]} / ${j?'R30':'R29.4'}`,p.worstFrameMs.toFixed(1),`${p.p95FrameMs.toFixed(1)} / ${p.p99FrameMs.toFixed(1)}`,p.minimumInstantFps.toFixed(1),`${t.slowTimePercent.toFixed(1)} %`,`${(t.longestEpisodeMs/1000).toFixed(2)} s`]){const c=document.createElement('td');c.textContent=value;row.append(c)}body.append(row);
+  }
+}catch(e){document.querySelector('#metrics').textContent=String(e)}
+for(const [phase,label] of Object.entries(names)){
+  const h=document.createElement('h2');h.textContent=label;document.querySelector('#pictures').append(h);
+  const pair=document.createElement('div');pair.className='pair';
+  for(const [id,label] of [['before','R29.4 ennen'],['after','R30 jälkeen']]){const f=document.createElement('figure'),a=document.createElement('a'),img=document.createElement('img'),c=document.createElement('figcaption');a.href=`${id}/${phase}.jpg`;img.src=a.href;img.alt=`${label} — ${phase}`;img.loading='lazy';c.textContent=label;a.append(img);f.append(a,c);pair.append(f)}document.querySelector('#pictures').append(pair);
+}
+</script>
+</html>
