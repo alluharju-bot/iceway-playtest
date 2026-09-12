@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fi">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Long Winter · Palopäivitysten porrastus R31</title>
+<style>
+:root{color-scheme:dark;font:16px/1.65 system-ui;background:#101b23;color:#e5e5db}body{max-width:1150px;margin:auto;padding:32px 20px}h1,h2{font-family:Georgia,serif;font-weight:400;color:#e5c59b;line-height:1.2}h2{margin-top:2em}a{color:#b6d4db}.notice{border-left:3px solid #d89364;padding:14px 20px;background:#1e2830}figure{margin:20px 0}img{width:100%;height:auto;border-radius:8px}figcaption,small{color:#b7c6c9}table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}th,td{padding:10px;text-align:left;border-bottom:1px solid #35434a}th{color:#e5c59b}.scroll{overflow-x:auto}.pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:700px){.pair{grid-template-columns:1fr}}
+</style>
+<small>THE LONG WINTER · 12.9.2026 · R31</small>
+<h1>Mitattu palokuorma ja porrastettu päivitys</h1>
+<p>Sama 1 000 osan talo, samat yksityiskohtaiset assetit ja palohiukkaset. Ei primitiivikorvausta, piilotettua liekkirajaa tai muutettua sortumisnopeutta.</p>
+<p><a href="../../">Alkuperäinen playtest</a> · <a href="../socket-craft-r30/">Edellinen R30-koe</a> · <a href="https://github.com/alluharju-bot/ICEWAY/blob/feature/modular-vessel-builder-phase1/docs/testing/TLW_FIRE_SCHEDULING_R31.md">Toteutus, raakadiagnostiikka ja rajaukset</a></p>
+<h2>Mikä muuttui?</h2>
+<p>Palosolujen koostaminen ja hiukkasten palopintojen päivitys eivät enää kasaudu samalle ruudulle. Tavallinen päivitys käsittelee enintään 64 lähdettä ja julkaisee 16 valmista solua ruudussa; kummallakin vaiheella on lisäksi 0,75 ms pehmeä aikabudjetti. Savun vanhojen aluekuvausten uusinta porrastetaan myös.</p>
+<p>Sortuvan osan tuli <strong>ei sammu heti</strong>: se seuraa osaa maahan ja hiipuu aiemmalla noin 8 sekunnin jälkipalolla valaistuksineen, minkä jälkeen hiillos hehkuu vielä. Vain vanhaan sijaintiin ilmaan jäävä palopinta poistetaan. Maahan laskeutuneen liekin esitystä ei katkaista päivitysjonon ajaksi.</p>
+<p>Diagnostisessa ajossa hiukkaspintojen päivitysten CPU-p99 pieneni 26,5 → 3,8 ms ja palosolujen päivityksen 21,1 → 2,3 ms. Nämä ovat sisäkkäisiä työvaihemittauksia, eivät lupaus koko pelin ruutuajasta.</p>
+<h2>Selainkoe ilman lisäinstrumentointia</h2>
+<p>Chrome 1440×900, kiertävä kamera kolmella korkeudella. 15 s ehjää taloa, 25 s kaikkien 1 000 osan yhtäaikaista paloa ja 65 s sortumaa/raunioita. Eläimet, rakennusosien pintalumi ja lämpökenttä pysyvät pois käytöstä. Alla olevassa vertailussa diagnostiset metodikääreet eivät ole käytössä.</p>
+<p class="notice">Ei hyväksyttyä 60/120 FPS -tulosta. Tarkastele p99:ää, pahinta ruutua ja hitaiden jaksojen kestoa, älä keskiarvo-FPS:ää. Kokeiden aikana koneella oli myös muu aktiivinen Chrome-prosessi. Yksi vertailupari ei erota kaikkea taustakuorman, sään ja GPU:n vaihtelua eikä todista eri koneiden suorituskykyä. Noin 60 Hz:n näyttörytmi ei todista 120 FPS:n kapasiteettia.</p>
+<div class="scroll"><table><thead><tr><th>Vaihe</th><th>Pahin ms</th><th>p95 / p99 ms</th><th>Alin hetkellinen FPS</th><th>Aika alle 60*</th><th>Pisin alitus*</th><th>Yli 100 ms</th></tr></thead><tbody id="metrics"><tr><td colspan="7">Ladataan…</td></tr></tbody></table></div>
+<p><small>* 3 % toleranssi erottaa 16,7 ms kellopyöristyksen todellisesta myöhästymisestä. JSON sisältää myös tiukat 60/120 FPS -rajat. <a href="before-native/report.json">R30 raakaruudut</a> · <a href="after-native/report.json">R31 raakaruudut</a>.</small></p>
+<p>Ensimmäisen, erikseen instrumentoidun R31-ajon sortumavaihe oli huonompi (p99 100 ms, pahin 233,3 ms). Se on säilytetty raportissa, ei poistettu tuloksista. Pahin ruutu kului pääosin ympäristö- ja maastovaiheissa, ei porrastetussa palosolutyössä.</p>
+<div id="pictures"></div>
+<script type="module">
+const names={'intact-orbit':'Ehjä talo','fire':'Massapalo','collapse':'Sortuma / rauniot'};
+try{
+  const reports=await Promise.all(['before-native','after-native'].map(async id=>{const r=await fetch(`${id}/report.json`);if(!r.ok)throw Error('Mittausraportti puuttuu');return r.json()}));
+  const body=document.querySelector('#metrics');body.replaceChildren();
+  for(let i=0;i<3;i++)for(let j=0;j<2;j++){
+    const r=reports[j].results[i],p=r.pacing,t=p.targets.find(t=>t.targetFps===60&&t.tolerancePercent===3),row=document.createElement('tr');
+    for(const value of [`${names[r.phase]} / ${j?'R31':'R30'}`,p.worstFrameMs.toFixed(1),`${p.p95FrameMs.toFixed(1)} / ${p.p99FrameMs.toFixed(1)}`,p.minimumInstantFps.toFixed(1),`${t.slowTimePercent.toFixed(1)} %`,`${(t.longestEpisodeMs/1000).toFixed(2)} s`,p.stalls.find(s=>s.thresholdMs===100).count]){const c=document.createElement('td');c.textContent=String(value);row.append(c)}body.append(row);
+  }
+}catch(e){document.querySelector('#metrics').textContent=String(e)}
+for(const [phase,label] of Object.entries(names)){
+  const h=document.createElement('h2');h.textContent=label;document.querySelector('#pictures').append(h);
+  const pair=document.createElement('div');pair.className='pair';
+  for(const [id,label] of [['before-native','R30 ennen'],['after-native','R31 jälkeen']]){const f=document.createElement('figure'),a=document.createElement('a'),img=document.createElement('img'),c=document.createElement('figcaption');a.href=`${id}/${phase}.jpg`;img.src=a.href;img.alt=`${label} — ${phase}`;img.loading='lazy';c.textContent=label;a.append(img);f.append(a,c);pair.append(f)}document.querySelector('#pictures').append(pair);
+}
+</script>
+</html>
