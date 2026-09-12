@@ -1,0 +1,42 @@
+<!doctype html><html lang="fi"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>TLW R36 · palon suorituskyky</title>
+<style>body{margin:0;background:#111921;color:#e1e9ee;font:16px/1.6 system-ui}main{max-width:1120px;margin:auto;padding:32px 20px}h1,h2{line-height:1.25}a{color:#8edbd1}table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}th,td{text-align:left;padding:10px;border-bottom:1px solid #34414d}th{color:#b8ccdc}figure{margin:24px 0}img{max-width:100%;height:auto;border-radius:8px}.scroll{overflow:auto}.notice{padding:18px;background:#30271c;border-left:3px solid #deb779}small{color:#b2c1ce}</style>
+<main><p><a href="../../">Takaisin peliin</a></p><h1>The Long Winter · R36</h1>
+<p>CPU-työn toiston poisto, pienemmät työerät ja shaderien ensikäytön valmistelu.
+Sama 1000 osan talo: katot, sisustus, palaminen, sortuminen ja hiipuvat rauniot.</p>
+<p class="notice">60 FPS:n tavoitetta ei vielä saavutettu massapalossa. Myös yksittäisiä pitkiä ruutuja jäi.
+Tässä raportoidaan p99, pahin ruutu, 1 % low ja hitaan ajan kesto — ei keskiarvo-FPS:ää.</p>
+<h2>Ennen / jälkeen</h2><p>Ruutuajat millisekunteina: <b>p99 / pahin</b>. Pienempi on parempi.
+Alle 60 FPS:n aika käyttää 3 % toleranssia (yli 17,18 ms ruudut).</p>
+<div class="scroll"><table><thead><tr><th>Vaihe</th><th>R35 A1</th><th>R35 A2</th><th>R36 final</th><th>R36 1 % low FPS</th><th>R36 alle 60 FPS</th></tr></thead><tbody><tr><th>Ehjä talo</th><td>26.8 / 32.3</td><td>35.4 / 43.9</td><td>26.5 / 33.4</td>
+    <td>34.82</td><td>78.8 %</td></tr><tr><th>Kolme syttymiskohtaa</th><td>42.3 / 77.2</td><td>46.5 / 94.9</td><td>35.3 / 60.4</td>
+    <td>22.61</td><td>99.2 %</td></tr><tr><th>Massapalo</th><td>85.8 / 159.1</td><td>91.5 / 230.8</td><td>58.5 / 129.8</td>
+    <td>12.91</td><td>100.0 %</td></tr><tr><th>Vaurioituminen</th><td>82.0 / 127.9</td><td>83.5 / 199.4</td><td>57.4 / 195.2</td>
+    <td>11.72</td><td>100.0 %</td></tr><tr><th>Sortuminen</th><td>68.5 / 205.3</td><td>69.3 / 265.7</td><td>59.5 / 110.0</td>
+    <td>13.62</td><td>95.4 %</td></tr><tr><th>Rauniot</th><td>22.0 / 68.7</td><td>41.9 / 79.3</td><td>21.6 / 78.4</td>
+    <td>33.33</td><td>39.1 %</td></tr></tbody></table></div>
+<h2>Pitkien ruutujen kesto</h2><p>Yli 50 ms ruutujen lukumäärä / niiden yhteenlaskettu kesto.</p>
+<div class="scroll"><table><thead><tr><th>Vaihe</th><th>R35 A1</th><th>R35 A2</th><th>R36 final</th></tr></thead><tbody><tr><th>Ehjä talo</th><td>0 / 0.00 s</td><td>0 / 0.00 s</td><td>0 / 0.00 s</td></tr><tr><th>Kolme syttymiskohtaa</th><td>7 / 0.45 s</td><td>7 / 0.47 s</td><td>4 / 0.22 s</td></tr><tr><th>Massapalo</th><td>310 / 18.37 s</td><td>301 / 17.76 s</td><td>21 / 1.25 s</td></tr><tr><th>Vaurioituminen</th><td>354 / 20.93 s</td><td>351 / 20.87 s</td><td>38 / 2.21 s</td></tr><tr><th>Sortuminen</th><td>449 / 25.72 s</td><td>492 / 28.43 s</td><td>92 / 5.30 s</td></tr><tr><th>Rauniot</th><td>1 / 0.07 s</td><td>2 / 0.15 s</td><td>1 / 0.08 s</td></tr></tbody></table></div>
+<h2>Mitä muuttui?</h2><ul><li>Palovaurioiden solulajittelun välimuisti ja osakohtaiset vauriokyselyt.</li>
+<li>Sisustuksen tukikyselyt ja savun mitätöinti kohdistetaan muuttuviin rakenteisiin.</li>
+<li>Tukiworkerien tulokset hyväksytään pienemmissä pääsäie-erissä; poolin turha uudelleenluonti poistettiin.</li>
+<li>Savun todistetusti avoimen taivaan kyselyt ja vanhat vastaukset eivät täytä jonoja.</li>
+<li>Liekkien esitysvalmistelun ja ääniryhmittelyn turha toisto poistettiin.</li>
+<li>Shaderien ensikäytön uniform-/attribuuttityö valmistellaan latausruudun aikana.</li></ul>
+<p>Katon geometrian jakaminen testattiin mutta jätettiin pois tuotannosta: piirtokutsut vähenivät,
+mutta GPU p99 huononi. Hiukkastiheys-, occlusion- ja muut yksityiset kokeilut pysyvät pois päältä.
+Hiukkasmäärää tai palon voimakkuutta ei leikattu.</p>
+<h2>Menetelmä ja rajat</h2><p>Chrome headless, Apple M1 Pro / ANGLE Metal, 1440 × 900, DPR 1,
+10 loogista prosessoria. Eläimet, osien pintalumi ja lämpökenttä olivat jo vertailuversiossa pois päältä.
+Kamera kiertää taloa eri korkeuksilta. Buildia tai yksikkötestejä ei ajettu samanaikaisesti.
+Ympäristön vaihtelu näkyy myös ehjän talon mittauksissa; täsmällistä yleistä säästöprosenttia ei luvata.
+Jonojen nopeutuessa palon elinkaaren tilat eivät pysy ruutu ruudulta identtisinä.</p>
+<p>CPU-profilointiajot eivät sisälly FPS-taulukkoon. Niissä käynnistys itsessään aiheutti noin 0,5 s piikin.
+R36:n erillinen profiili osoitti edelleen roskienkeruuta ja esitystyötä; kaikkia nykäyksiä ei väitetä korjatuiksi.
+Windows/Edge/RTX-varmistusta ei tehty tällä koneella.</p>
+<p>Tarkistukset: 94 testitiedostoa / 868 testiä läpi, TypeScript ja tuotantobuild läpi.
+Todellisten rakennusohjainten selainkoe läpi. Kaikki neljä täyttä palo-/sortuma-ajoa päättyivät
+ilman selainvirheitä ja ilman seisovia rakennusosia. Rauniot ja palon hiipuminen säilyivät.</p>
+<p>Raakadata: <a href="r35-a.json">R35 A1</a> · <a href="r35-a2.json">R35 A2</a> · <a href="r36-final.json">R36 final</a> · <a href="summary.json">Yhteenveto JSON</a></p>
+<h2>Lopullisen ajon kuvat</h2><figure><a href="native-baseline.jpg"><img loading="lazy" src="native-baseline.jpg" alt="1000 osan talon testivaihe native-baseline.jpg"></a><figcaption>native-baseline.jpg</figcaption></figure><figure><a href="native-mass-ignition-stress.jpg"><img loading="lazy" src="native-mass-ignition-stress.jpg" alt="1000 osan talon testivaihe native-mass-ignition-stress.jpg"></a><figcaption>native-mass-ignition-stress.jpg</figcaption></figure><figure><a href="native-damage.jpg"><img loading="lazy" src="native-damage.jpg" alt="1000 osan talon testivaihe native-damage.jpg"></a><figcaption>native-damage.jpg</figcaption></figure><figure><a href="native-collapse.jpg"><img loading="lazy" src="native-collapse.jpg" alt="1000 osan talon testivaihe native-collapse.jpg"></a><figcaption>native-collapse.jpg</figcaption></figure><figure><a href="native-rubble.jpg"><img loading="lazy" src="native-rubble.jpg" alt="1000 osan talon testivaihe native-rubble.jpg"></a><figcaption>native-rubble.jpg</figcaption></figure>
+<small>Build: TLW-FIRE-CPU-2026-09-12-R36. Kuvakaappaukset vaiheiden välissä, eivät mitatun jakson sisällä.</small></main></html>

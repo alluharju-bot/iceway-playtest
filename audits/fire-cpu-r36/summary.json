@@ -1,0 +1,4049 @@
+{
+  "scope": "Production-default 1000-piece fire; no average FPS acceptance",
+  "runs": [
+    {
+      "label": "R35 A1",
+      "folder": "r35-a",
+      "setup": {
+        "pieces": 1000,
+        "roofMode": "production-default",
+        "logicalCpus": 10,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+        "features": {
+          "animals": false,
+          "buildingSurfaceSnow": false,
+          "thermalField": false
+        }
+      },
+      "errors": [],
+      "results": [
+        {
+          "phase": "baseline",
+          "gpuApiCalls": [],
+          "programs": 1613,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 5282.400000095367,
+            "programs": 1613,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 756,
+            "totalMs": 15018.800000190735,
+            "worstFrameMs": 32.30000019073486,
+            "minimumInstantFps": 30.959752139160862,
+            "p95FrameMs": 24.199999809265137,
+            "p99FrameMs": 26.800000190734863,
+            "p999FrameMs": 32.30000019073486,
+            "onePercentLowFps": 34.34950621178263,
+            "pointOnePercentLowFps": 30.959752139160862,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 745,
+                "slowFramePercent": 98.54497354497354,
+                "slowTimeMs": 14839.100000858307,
+                "slowTimePercent": 98.80349961827746,
+                "episodes": 12,
+                "longestEpisodeMs": 4705.299999713898
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 724,
+                "slowFramePercent": 95.76719576719577,
+                "slowTimeMs": 14483.900000095367,
+                "slowTimePercent": 96.43846379145755,
+                "episodes": 32,
+                "longestEpisodeMs": 2964.7999997138977
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 756,
+                "slowFramePercent": 100,
+                "slowTimeMs": 15018.800000190735,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 15018.800000190735
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 756,
+                "slowFramePercent": 100,
+                "slowTimeMs": 15018.800000190735,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 15018.800000190735
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 50,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 1000,
+          "burning": 0,
+          "ruins": 0,
+          "smokeParticles": 0,
+          "simulationSeconds": 25.27530000019075,
+          "peakFireMs": 0,
+          "peakDamageMs": 0.09999990463256836,
+          "peakSupportMs": 0.20000028610229492,
+          "peakAirPostMs": 0,
+          "peakCollapseMs": 0,
+          "airWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 0,
+            "completed": 0,
+            "failures": 0,
+            "stale": 0,
+            "cacheHits": 0,
+            "computeMs": 0,
+            "latencyMs": 0,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 0,
+            "mirrorPieces": 0,
+            "patchPieces": 0,
+            "affinityHits": 0,
+            "affinityWaits": 0
+          },
+          "airRegions": {
+            "captures": 0,
+            "unchanged": 0,
+            "deferred": 0,
+            "budgetDeferred": 0,
+            "frameCaptures": 0,
+            "captureMs": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 0.49990000009536745,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 8,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 806.5,
+            "latencyMs": 1005.2000002861023,
+            "terrainBytes": 153600,
+            "patchRecords": 17920,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 0,
+            "cells": 0,
+            "particles": 0,
+            "clippedSources": 0,
+            "composedCells": 0,
+            "processedSources": 0,
+            "pendingSources": 0,
+            "pendingCells": 0,
+            "urgentCells": 0,
+            "settledSources": 0,
+            "updateMs": 0
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 3370,
+              "batchDraws": 86,
+              "instances": 1592,
+              "checked": 63
+            },
+            "effects": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 63
+            }
+          },
+          "fireWork": {
+            "cycles": 0,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.2409000000953675
+          }
+        },
+        {
+          "phase": "three-seed-spread",
+          "gpuApiCalls": [],
+          "programs": 1613,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 5282.400000095367,
+            "programs": 1613,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 1230,
+            "totalMs": 30031.5,
+            "worstFrameMs": 77.2000002861023,
+            "minimumInstantFps": 12.953367827642639,
+            "p95FrameMs": 32,
+            "p99FrameMs": 42.30000019073486,
+            "p999FrameMs": 70.5,
+            "onePercentLowFps": 18.214936228251513,
+            "pointOnePercentLowFps": 13.540961382030467,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 1230,
+                "slowFramePercent": 100,
+                "slowTimeMs": 30031.5,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 30031.5
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 1230,
+                "slowFramePercent": 100,
+                "slowTimeMs": 30031.5,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 30031.5
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 1230,
+                "slowFramePercent": 100,
+                "slowTimeMs": 30031.5,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 30031.5
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 1230,
+                "slowFramePercent": 100,
+                "slowTimeMs": 30031.5,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 30031.5
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 54,
+                "timeMs": 2210.0999999046326
+              },
+              {
+                "thresholdMs": 50,
+                "count": 7,
+                "timeMs": 453.40000009536743
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 1000,
+          "burning": 3,
+          "ruins": 0,
+          "smokeParticles": 297,
+          "simulationSeconds": 55.55180000019079,
+          "peakFireMs": 1,
+          "peakDamageMs": 22.90000009536743,
+          "peakSupportMs": 18.299999713897705,
+          "peakAirPostMs": 0.7000002861022949,
+          "peakCollapseMs": 0,
+          "airWorker": {
+            "active": 5,
+            "pending": 25,
+            "jobs": 1298,
+            "completed": 3343,
+            "failures": 0,
+            "stale": 22,
+            "cacheHits": 9373,
+            "computeMs": 0.3000001907348633,
+            "latencyMs": 28,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 61,
+            "mirrorPieces": 5903,
+            "patchPieces": 28,
+            "affinityHits": 1296,
+            "affinityWaits": 3037
+          },
+          "airRegions": {
+            "captures": 142,
+            "unchanged": 91,
+            "deferred": 10,
+            "budgetDeferred": 758,
+            "frameCaptures": 0,
+            "captureMs": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 0.4996999998092651,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 16,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 957.9000000953674,
+            "latencyMs": 1123.7000002861023,
+            "terrainBytes": 153600,
+            "patchRecords": 24,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 1,
+            "cells": 4,
+            "particles": 374,
+            "clippedSources": 0,
+            "composedCells": 0,
+            "processedSources": 0,
+            "pendingSources": 0,
+            "pendingCells": 0,
+            "urgentCells": 0,
+            "settledSources": 0,
+            "updateMs": 0
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 3349,
+              "batchDraws": 86,
+              "instances": 1583,
+              "checked": 65
+            },
+            "effects": {
+              "sourceDraws": 2,
+              "batchDraws": 1,
+              "instances": 2,
+              "checked": 65
+            }
+          },
+          "fireWork": {
+            "cycles": 58,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.36250000000000004
+          }
+        },
+        {
+          "phase": "mass-ignition-stress",
+          "gpuApiCalls": [],
+          "programs": 1613,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 5282.400000095367,
+            "programs": 1613,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 346,
+            "totalMs": 20090.10000038147,
+            "worstFrameMs": 159.09999990463257,
+            "minimumInstantFps": 6.285355126331981,
+            "p95FrameMs": 72.40000009536743,
+            "p99FrameMs": 85.80000019073486,
+            "p999FrameMs": 159.09999990463257,
+            "onePercentLowFps": 9.155413146011703,
+            "pointOnePercentLowFps": 6.285355126331981,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 346,
+                "slowFramePercent": 100,
+                "slowTimeMs": 20090.10000038147,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 20090.10000038147
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 346,
+                "slowFramePercent": 100,
+                "slowTimeMs": 20090.10000038147,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 20090.10000038147
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 346,
+                "slowFramePercent": 100,
+                "slowTimeMs": 20090.10000038147,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 20090.10000038147
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 346,
+                "slowFramePercent": 100,
+                "slowTimeMs": 20090.10000038147,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 20090.10000038147
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 345,
+                "timeMs": 20067.200000286102
+              },
+              {
+                "thresholdMs": 50,
+                "count": 310,
+                "timeMs": 18374.50000143051
+              },
+              {
+                "thresholdMs": 100,
+                "count": 2,
+                "timeMs": 261.3999996185303
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 997,
+          "burning": 997,
+          "ruins": 0,
+          "smokeParticles": 320,
+          "simulationSeconds": 75.98210000085844,
+          "peakFireMs": 4.399999618530273,
+          "peakDamageMs": 12.800000190734863,
+          "peakSupportMs": 20.700000762939453,
+          "peakAirPostMs": 1.3000001907348633,
+          "peakCollapseMs": 13.799999713897705,
+          "airWorker": {
+            "active": 8,
+            "pending": 1238,
+            "jobs": 3871,
+            "completed": 30362,
+            "failures": 0,
+            "stale": 770,
+            "cacheHits": 371117,
+            "computeMs": 2.299999713897705,
+            "latencyMs": 63.299999713897705,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 8597,
+            "mirrorPieces": 28417,
+            "patchPieces": 5918,
+            "affinityHits": 3831,
+            "affinityWaits": 8234
+          },
+          "airRegions": {
+            "captures": 522,
+            "unchanged": 234,
+            "deferred": 105772,
+            "budgetDeferred": 179826,
+            "frameCaptures": 2,
+            "captureMs": 0.6999993324279785
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 1.7527000002861022,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 48,
+            "stale": 10,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 410.40000009536743,
+            "latencyMs": 811.6999998092651,
+            "terrainBytes": 152832,
+            "patchRecords": 64,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 997,
+            "cells": 470,
+            "particles": 115149,
+            "clippedSources": 9,
+            "composedCells": 43,
+            "processedSources": 64,
+            "pendingSources": 677,
+            "pendingCells": 222,
+            "urgentCells": 27,
+            "settledSources": 0,
+            "updateMs": 1.5
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 96
+            },
+            "effects": {
+              "sourceDraws": 3137,
+              "batchDraws": 102,
+              "instances": 3137,
+              "checked": 96
+            }
+          },
+          "fireWork": {
+            "cycles": 75,
+            "steps": 86,
+            "pending": 1,
+            "milliseconds": 1.5,
+            "backlogSeconds": 0
+          }
+        },
+        {
+          "phase": "damage",
+          "gpuApiCalls": [],
+          "programs": 1614,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 5282.400000095367,
+            "programs": 1613,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 441,
+            "totalMs": 25038.800000190735,
+            "worstFrameMs": 127.90000009536743,
+            "minimumInstantFps": 7.818608281894913,
+            "p95FrameMs": 68,
+            "p99FrameMs": 82,
+            "p999FrameMs": 127.90000009536743,
+            "onePercentLowFps": 9.704968947692306,
+            "pointOnePercentLowFps": 7.818608281894913,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 441,
+                "slowFramePercent": 100,
+                "slowTimeMs": 25038.800000190735,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 25038.800000190735
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 441,
+                "slowFramePercent": 100,
+                "slowTimeMs": 25038.800000190735,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 25038.800000190735
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 441,
+                "slowFramePercent": 100,
+                "slowTimeMs": 25038.800000190735,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 25038.800000190735
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 441,
+                "slowFramePercent": 100,
+                "slowTimeMs": 25038.800000190735,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 25038.800000190735
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 441,
+                "timeMs": 25038.800000190735
+              },
+              {
+                "thresholdMs": 50,
+                "count": 354,
+                "timeMs": 20929.999999523163
+              },
+              {
+                "thresholdMs": 100,
+                "count": 2,
+                "timeMs": 255
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 804,
+          "burning": 804,
+          "ruins": 52,
+          "smokeParticles": 320,
+          "simulationSeconds": 102.01000000047705,
+          "peakFireMs": 3,
+          "peakDamageMs": 17.300000190734863,
+          "peakSupportMs": 14.09999942779541,
+          "peakAirPostMs": 1.5999999046325684,
+          "peakCollapseMs": 4.900000095367432,
+          "airWorker": {
+            "active": 8,
+            "pending": 1184,
+            "jobs": 6959,
+            "completed": 67726,
+            "failures": 0,
+            "stale": 3522,
+            "cacheHits": 810349,
+            "computeMs": 2.0999999046325684,
+            "latencyMs": 48.299999713897705,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 38356,
+            "mirrorPieces": 35762,
+            "patchPieces": 36563,
+            "affinityHits": 7040,
+            "affinityWaits": 12176
+          },
+          "airRegions": {
+            "captures": 1347,
+            "unchanged": 310,
+            "deferred": 627570,
+            "budgetDeferred": 583234,
+            "frameCaptures": 2,
+            "captureMs": 0.5999994277954102
+          },
+          "collapseQueue": {
+            "pending": 163,
+            "checked": 5,
+            "removed": 1,
+            "milliseconds": 1.6000003814697266
+          },
+          "peakFireBacklog": 1.9196999998092654,
+          "supportWorker": {
+            "active": 6,
+            "pending": 1,
+            "jobs": 1,
+            "stale": 7,
+            "failures": 0,
+            "captureMs": 1,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 217.59999990463257,
+            "latencyMs": 429.80000019073486,
+            "terrainBytes": 13600,
+            "patchRecords": 1764,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 770,
+            "cells": 459,
+            "particles": 44682,
+            "clippedSources": 0,
+            "composedCells": 16,
+            "processedSources": 64,
+            "pendingSources": 450,
+            "pendingCells": 157,
+            "urgentCells": 0,
+            "settledSources": 0,
+            "updateMs": 0.5
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 154
+            },
+            "effects": {
+              "sourceDraws": 2468,
+              "batchDraws": 83,
+              "instances": 2468,
+              "checked": 154
+            }
+          },
+          "fireWork": {
+            "cycles": 93,
+            "steps": 96,
+            "pending": 1,
+            "milliseconds": 0.2999997138977051,
+            "backlogSeconds": 0.9669999999999999
+          }
+        },
+        {
+          "phase": "collapse",
+          "gpuApiCalls": [],
+          "programs": 1614,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 5282.400000095367,
+            "programs": 1613,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 1503,
+            "totalMs": 55019.699999809265,
+            "worstFrameMs": 205.30000019073486,
+            "minimumInstantFps": 4.870920599468805,
+            "p95FrameMs": 61,
+            "p99FrameMs": 68.5,
+            "p999FrameMs": 117,
+            "onePercentLowFps": 11.235166074312769,
+            "pointOnePercentLowFps": 6.205398693193962,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 1501,
+                "slowFramePercent": 99.86693280106454,
+                "slowTimeMs": 54988.800000190735,
+                "slowTimePercent": 99.94383829861188,
+                "episodes": 3,
+                "longestEpisodeMs": 51749
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 1496,
+                "slowFramePercent": 99.53426480372588,
+                "slowTimeMs": 54903.89999961853,
+                "slowTimePercent": 99.78952993165878,
+                "episodes": 5,
+                "longestEpisodeMs": 51732.199999809265
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 1503,
+                "slowFramePercent": 100,
+                "slowTimeMs": 55019.699999809265,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 55019.699999809265
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 1503,
+                "slowFramePercent": 100,
+                "slowTimeMs": 55019.699999809265,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 55019.699999809265
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 681,
+                "timeMs": 35978.10000038147
+              },
+              {
+                "thresholdMs": 50,
+                "count": 449,
+                "timeMs": 25715.900002479553
+              },
+              {
+                "thresholdMs": 100,
+                "count": 3,
+                "timeMs": 430.59999990463257
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 0,
+          "burning": 0,
+          "ruins": 433,
+          "smokeParticles": 320,
+          "simulationSeconds": 157.39990000057256,
+          "peakFireMs": 3.4000000953674316,
+          "peakDamageMs": 1.3999996185302734,
+          "peakSupportMs": 7.700000286102295,
+          "peakAirPostMs": 2.1999998092651367,
+          "peakCollapseMs": 8.5,
+          "airWorker": {
+            "active": 8,
+            "pending": 8,
+            "jobs": 14712,
+            "completed": 127285,
+            "failures": 0,
+            "stale": 8262,
+            "cacheHits": 1662749,
+            "computeMs": 0,
+            "latencyMs": 18.59999990463257,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 110605,
+            "mirrorPieces": 44050,
+            "patchPieces": 55612,
+            "affinityHits": 15181,
+            "affinityWaits": 16147
+          },
+          "airRegions": {
+            "captures": 2768,
+            "unchanged": 387,
+            "deferred": 1416134,
+            "budgetDeferred": 855436,
+            "frameCaptures": 0,
+            "captureMs": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 1.0081999998092652,
+          "supportWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 42,
+            "stale": 75,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 1,
+            "latencyMs": 40.90000009536743,
+            "terrainBytes": 2752,
+            "patchRecords": 7,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 0,
+            "cells": 0,
+            "particles": 0,
+            "clippedSources": 0,
+            "composedCells": 0,
+            "processedSources": 0,
+            "pendingSources": 0,
+            "pendingCells": 0,
+            "urgentCells": 0,
+            "settledSources": 0,
+            "updateMs": 0
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 0
+            },
+            "effects": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 0
+            }
+          },
+          "fireWork": {
+            "cycles": 152,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.2914000000953675
+          }
+        },
+        {
+          "phase": "rubble",
+          "gpuApiCalls": [],
+          "programs": 1614,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 5282.400000095367,
+            "programs": 1613,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 866,
+            "totalMs": 15005.299999713898,
+            "worstFrameMs": 68.7000002861023,
+            "minimumInstantFps": 14.556040696295245,
+            "p95FrameMs": 19.799999713897705,
+            "p99FrameMs": 22,
+            "p999FrameMs": 68.7000002861023,
+            "onePercentLowFps": 33.54453967052511,
+            "pointOnePercentLowFps": 14.556040696295245,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 560,
+                "slowFramePercent": 64.66512702078522,
+                "slowTimeMs": 10214.39999628067,
+                "slowTimePercent": 68.07194788824899,
+                "episodes": 197,
+                "longestEpisodeMs": 940.0999999046326
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 452,
+                "slowFramePercent": 52.19399538106236,
+                "slowTimeMs": 8388.899993419647,
+                "slowTimePercent": 55.906246416796705,
+                "episodes": 201,
+                "longestEpisodeMs": 548.3000001907349
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 866,
+                "slowFramePercent": 100,
+                "slowTimeMs": 15005.299999713898,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 15005.299999713898
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 866,
+                "slowFramePercent": 100,
+                "slowTimeMs": 15005.299999713898,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 15005.299999713898
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 2,
+                "timeMs": 102.10000038146973
+              },
+              {
+                "thresholdMs": 50,
+                "count": 1,
+                "timeMs": 68.7000002861023
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 0,
+          "burning": 0,
+          "ruins": 124,
+          "smokeParticles": 320,
+          "simulationSeconds": 172.71670000028695,
+          "peakFireMs": 0.09999990463256836,
+          "peakDamageMs": 0,
+          "peakSupportMs": 0.10000038146972656,
+          "peakAirPostMs": 0.20000028610229492,
+          "peakCollapseMs": 0,
+          "airWorker": {
+            "active": 8,
+            "pending": 20,
+            "jobs": 17549,
+            "completed": 132745,
+            "failures": 0,
+            "stale": 8262,
+            "cacheHits": 1918189,
+            "computeMs": 0,
+            "latencyMs": 11.700000286102295,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 110605,
+            "mirrorPieces": 44050,
+            "patchPieces": 55612,
+            "affinityHits": 18018,
+            "affinityWaits": 16301
+          },
+          "airRegions": {
+            "captures": 2768,
+            "unchanged": 387,
+            "deferred": 1416134,
+            "budgetDeferred": 855436,
+            "frameCaptures": 0,
+            "captureMs": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 0.49959999990463255,
+          "supportWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 42,
+            "stale": 75,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 1,
+            "latencyMs": 40.90000009536743,
+            "terrainBytes": 2752,
+            "patchRecords": 7,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 0,
+            "cells": 0,
+            "particles": 0,
+            "clippedSources": 0,
+            "composedCells": 0,
+            "processedSources": 0,
+            "pendingSources": 0,
+            "pendingCells": 0,
+            "urgentCells": 0,
+            "settledSources": 0,
+            "updateMs": 0
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 0
+            },
+            "effects": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 0
+            }
+          },
+          "fireWork": {
+            "cycles": 152,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.3168999996185302
+          }
+        }
+      ]
+    },
+    {
+      "label": "R35 A2",
+      "folder": "r35-a2",
+      "setup": {
+        "pieces": 1000,
+        "roofMode": "production-default",
+        "logicalCpus": 10,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+        "features": {
+          "animals": false,
+          "buildingSurfaceSnow": false,
+          "thermalField": false
+        }
+      },
+      "errors": [],
+      "results": [
+        {
+          "phase": "baseline",
+          "gpuApiCalls": [],
+          "programs": 1613,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 5704.200000286102,
+            "programs": 1613,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 608,
+            "totalMs": 15019.299999713898,
+            "worstFrameMs": 43.90000009536743,
+            "minimumInstantFps": 22.77904323069752,
+            "p95FrameMs": 31.299999713897705,
+            "p99FrameMs": 35.39999961853027,
+            "p999FrameMs": 43.90000009536743,
+            "onePercentLowFps": 26.217228417597944,
+            "pointOnePercentLowFps": 22.77904323069752,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 608,
+                "slowFramePercent": 100,
+                "slowTimeMs": 15019.299999713898,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 15019.299999713898
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 608,
+                "slowFramePercent": 100,
+                "slowTimeMs": 15019.299999713898,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 15019.299999713898
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 608,
+                "slowFramePercent": 100,
+                "slowTimeMs": 15019.299999713898,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 15019.299999713898
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 608,
+                "slowFramePercent": 100,
+                "slowTimeMs": 15019.299999713898,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 15019.299999713898
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 12,
+                "timeMs": 437.0000009536743
+              },
+              {
+                "thresholdMs": 50,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 1000,
+          "burning": 0,
+          "ruins": 0,
+          "smokeParticles": 0,
+          "simulationSeconds": 25.24659999990464,
+          "peakFireMs": 0,
+          "peakDamageMs": 0,
+          "peakSupportMs": 0.19999980926513672,
+          "peakAirPostMs": 0,
+          "peakCollapseMs": 0,
+          "airWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 0,
+            "completed": 0,
+            "failures": 0,
+            "stale": 0,
+            "cacheHits": 0,
+            "computeMs": 0,
+            "latencyMs": 0,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 0,
+            "mirrorPieces": 0,
+            "patchPieces": 0,
+            "affinityHits": 0,
+            "affinityWaits": 0
+          },
+          "airRegions": {
+            "captures": 0,
+            "unchanged": 0,
+            "deferred": 0,
+            "budgetDeferred": 0,
+            "frameCaptures": 0,
+            "captureMs": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 0.498300000190735,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 8,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0.09999990463256836,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 916.8000001907349,
+            "latencyMs": 1170.5,
+            "terrainBytes": 153600,
+            "patchRecords": 17920,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 0,
+            "cells": 0,
+            "particles": 0,
+            "clippedSources": 0,
+            "composedCells": 0,
+            "processedSources": 0,
+            "pendingSources": 0,
+            "pendingCells": 0,
+            "urgentCells": 0,
+            "settledSources": 0,
+            "updateMs": 0
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 3370,
+              "batchDraws": 86,
+              "instances": 1592,
+              "checked": 63
+            },
+            "effects": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 63
+            }
+          },
+          "fireWork": {
+            "cycles": 0,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.0265
+          }
+        },
+        {
+          "phase": "three-seed-spread",
+          "gpuApiCalls": [],
+          "programs": 1613,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 5704.200000286102,
+            "programs": 1613,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 1105,
+            "totalMs": 30047.699999809265,
+            "worstFrameMs": 94.90000009536743,
+            "minimumInstantFps": 10.53740778709246,
+            "p95FrameMs": 35.60000038146973,
+            "p99FrameMs": 46.5,
+            "p999FrameMs": 78.90000009536743,
+            "onePercentLowFps": 16.918088240104268,
+            "pointOnePercentLowFps": 11.507479849281486,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 1105,
+                "slowFramePercent": 100,
+                "slowTimeMs": 30047.699999809265,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 30047.699999809265
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 1105,
+                "slowFramePercent": 100,
+                "slowTimeMs": 30047.699999809265,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 30047.699999809265
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 1105,
+                "slowFramePercent": 100,
+                "slowTimeMs": 30047.699999809265,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 30047.699999809265
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 1105,
+                "slowFramePercent": 100,
+                "slowTimeMs": 30047.699999809265,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 30047.699999809265
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 111,
+                "timeMs": 4291.499999523163
+              },
+              {
+                "thresholdMs": 50,
+                "count": 7,
+                "timeMs": 471.5999994277954
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 1000,
+          "burning": 3,
+          "ruins": 0,
+          "smokeParticles": 300,
+          "simulationSeconds": 55.52009999990466,
+          "peakFireMs": 0.7000002861022949,
+          "peakDamageMs": 14.200000286102295,
+          "peakSupportMs": 21.09999942779541,
+          "peakAirPostMs": 0.5999999046325684,
+          "peakCollapseMs": 0,
+          "airWorker": {
+            "active": 5,
+            "pending": 10,
+            "jobs": 1109,
+            "completed": 3349,
+            "failures": 0,
+            "stale": 18,
+            "cacheHits": 8974,
+            "computeMs": 0.09999990463256836,
+            "latencyMs": 20.100000381469727,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 31,
+            "mirrorPieces": 6424,
+            "patchPieces": 27,
+            "affinityHits": 1107,
+            "affinityWaits": 3634
+          },
+          "airRegions": {
+            "captures": 145,
+            "unchanged": 95,
+            "deferred": 17,
+            "budgetDeferred": 775,
+            "frameCaptures": 0,
+            "captureMs": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 0.49940000009536745,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 24,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 449.5,
+            "latencyMs": 653.0999999046326,
+            "terrainBytes": 153600,
+            "patchRecords": 8,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 1,
+            "cells": 4,
+            "particles": 374,
+            "clippedSources": 0,
+            "composedCells": 0,
+            "processedSources": 0,
+            "pendingSources": 0,
+            "pendingCells": 0,
+            "urgentCells": 0,
+            "settledSources": 0,
+            "updateMs": 0.10000038146972656
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 3349,
+              "batchDraws": 86,
+              "instances": 1583,
+              "checked": 65
+            },
+            "effects": {
+              "sourceDraws": 2,
+              "batchDraws": 1,
+              "instances": 2,
+              "checked": 65
+            }
+          },
+          "fireWork": {
+            "cycles": 58,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.4645999999046325
+          }
+        },
+        {
+          "phase": "mass-ignition-stress",
+          "gpuApiCalls": [],
+          "programs": 1613,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 5704.200000286102,
+            "programs": 1613,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 348,
+            "totalMs": 20043.200000286102,
+            "worstFrameMs": 230.7999997138977,
+            "minimumInstantFps": 4.332755637953255,
+            "p95FrameMs": 74.19999980926514,
+            "p99FrameMs": 91.5,
+            "p999FrameMs": 230.7999997138977,
+            "onePercentLowFps": 7.648183556405353,
+            "pointOnePercentLowFps": 4.332755637953255,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 348,
+                "slowFramePercent": 100,
+                "slowTimeMs": 20043.200000286102,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 20043.200000286102
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 348,
+                "slowFramePercent": 100,
+                "slowTimeMs": 20043.200000286102,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 20043.200000286102
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 348,
+                "slowFramePercent": 100,
+                "slowTimeMs": 20043.200000286102,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 20043.200000286102
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 348,
+                "slowFramePercent": 100,
+                "slowTimeMs": 20043.200000286102,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 20043.200000286102
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 347,
+                "timeMs": 20015.5
+              },
+              {
+                "thresholdMs": 50,
+                "count": 301,
+                "timeMs": 17764.700000286102
+              },
+              {
+                "thresholdMs": 100,
+                "count": 2,
+                "timeMs": 331.69999980926514
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 997,
+          "burning": 997,
+          "ruins": 0,
+          "smokeParticles": 320,
+          "simulationSeconds": 75.76939999961859,
+          "peakFireMs": 2.4000000953674316,
+          "peakDamageMs": 12.300000190734863,
+          "peakSupportMs": 18.699999809265137,
+          "peakAirPostMs": 1.1999998092651367,
+          "peakCollapseMs": 14.099999904632568,
+          "airWorker": {
+            "active": 8,
+            "pending": 1231,
+            "jobs": 3695,
+            "completed": 30317,
+            "failures": 0,
+            "stale": 719,
+            "cacheHits": 375077,
+            "computeMs": 2.700000286102295,
+            "latencyMs": 59.90000009536743,
+            "postMs": 0.7999997138977051,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 8016,
+            "mirrorPieces": 31540,
+            "patchPieces": 5658,
+            "affinityHits": 3639,
+            "affinityWaits": 8420
+          },
+          "airRegions": {
+            "captures": 546,
+            "unchanged": 263,
+            "deferred": 100388,
+            "budgetDeferred": 175471,
+            "frameCaptures": 2,
+            "captureMs": 2.0999999046325684
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 1.852300000190735,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 56,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 385.7000002861023,
+            "latencyMs": 800.8000001907349,
+            "terrainBytes": 152832,
+            "patchRecords": 64,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 997,
+            "cells": 469,
+            "particles": 110931,
+            "clippedSources": 42,
+            "composedCells": 25,
+            "processedSources": 64,
+            "pendingSources": 507,
+            "pendingCells": 207,
+            "urgentCells": 9,
+            "settledSources": 0,
+            "updateMs": 1.0999999046325684
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 95
+            },
+            "effects": {
+              "sourceDraws": 3136,
+              "batchDraws": 100,
+              "instances": 3136,
+              "checked": 95
+            }
+          },
+          "fireWork": {
+            "cycles": 75,
+            "steps": 79,
+            "pending": 1,
+            "milliseconds": 1.5,
+            "backlogSeconds": 0
+          }
+        },
+        {
+          "phase": "damage",
+          "gpuApiCalls": [],
+          "programs": 1614,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 5704.200000286102,
+            "programs": 1613,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 439,
+            "totalMs": 25033.800000190735,
+            "worstFrameMs": 199.40000009536743,
+            "minimumInstantFps": 5.015045133007663,
+            "p95FrameMs": 69.30000019073486,
+            "p99FrameMs": 83.5,
+            "p999FrameMs": 199.40000009536743,
+            "onePercentLowFps": 9.159186654623689,
+            "pointOnePercentLowFps": 5.015045133007663,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 439,
+                "slowFramePercent": 100,
+                "slowTimeMs": 25033.800000190735,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 25033.800000190735
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 439,
+                "slowFramePercent": 100,
+                "slowTimeMs": 25033.800000190735,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 25033.800000190735
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 439,
+                "slowFramePercent": 100,
+                "slowTimeMs": 25033.800000190735,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 25033.800000190735
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 439,
+                "slowFramePercent": 100,
+                "slowTimeMs": 25033.800000190735,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 25033.800000190735
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 439,
+                "timeMs": 25033.800000190735
+              },
+              {
+                "thresholdMs": 50,
+                "count": 351,
+                "timeMs": 20874.800000667572
+              },
+              {
+                "thresholdMs": 100,
+                "count": 1,
+                "timeMs": 199.40000009536743
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 812,
+          "burning": 812,
+          "ruins": 58,
+          "smokeParticles": 320,
+          "simulationSeconds": 101.6815999994279,
+          "peakFireMs": 3.1999998092651367,
+          "peakDamageMs": 13.699999809265137,
+          "peakSupportMs": 9.999999046325684,
+          "peakAirPostMs": 1.3000001907348633,
+          "peakCollapseMs": 9.700000286102295,
+          "airWorker": {
+            "active": 8,
+            "pending": 1028,
+            "jobs": 6725,
+            "completed": 67561,
+            "failures": 0,
+            "stale": 2879,
+            "cacheHits": 821489,
+            "computeMs": 2.6999998092651367,
+            "latencyMs": 51.09999990463257,
+            "postMs": 0.5,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 36866,
+            "mirrorPieces": 39262,
+            "patchPieces": 37977,
+            "affinityHits": 6782,
+            "affinityWaits": 12015
+          },
+          "airRegions": {
+            "captures": 1355,
+            "unchanged": 338,
+            "deferred": 592403,
+            "budgetDeferred": 593456,
+            "frameCaptures": 2,
+            "captureMs": 0.5999994277954102
+          },
+          "collapseQueue": {
+            "pending": 210,
+            "checked": 5,
+            "removed": 1,
+            "milliseconds": 3.5999999046325684
+          },
+          "peakFireBacklog": 2.4348999996185308,
+          "supportWorker": {
+            "active": 6,
+            "pending": 1,
+            "jobs": 5,
+            "stale": 30,
+            "failures": 0,
+            "captureMs": 1,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 304.7999997138977,
+            "latencyMs": 570.2999997138977,
+            "terrainBytes": 69664,
+            "patchRecords": 9084,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 774,
+            "cells": 459,
+            "particles": 45082,
+            "clippedSources": 0,
+            "composedCells": 18,
+            "processedSources": 64,
+            "pendingSources": 264,
+            "pendingCells": 210,
+            "urgentCells": 2,
+            "settledSources": 0,
+            "updateMs": 0.40000009536743164
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 65
+            },
+            "effects": {
+              "sourceDraws": 2474,
+              "batchDraws": 85,
+              "instances": 2474,
+              "checked": 65
+            }
+          },
+          "fireWork": {
+            "cycles": 93,
+            "steps": 37,
+            "pending": 1,
+            "milliseconds": 1.5,
+            "backlogSeconds": 0.30779999971389765
+          }
+        },
+        {
+          "phase": "collapse",
+          "gpuApiCalls": [],
+          "programs": 1614,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 5704.200000286102,
+            "programs": 1613,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 1339,
+            "totalMs": 55035,
+            "worstFrameMs": 265.69999980926514,
+            "minimumInstantFps": 3.7636432093257732,
+            "p95FrameMs": 62.59999990463257,
+            "p99FrameMs": 69.30000019073486,
+            "p999FrameMs": 103.7999997138977,
+            "onePercentLowFps": 10.88308457630761,
+            "pointOnePercentLowFps": 5.412719898730679,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 1339,
+                "slowFramePercent": 100,
+                "slowTimeMs": 55035,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 55035
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 1339,
+                "slowFramePercent": 100,
+                "slowTimeMs": 55035,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 55035
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 1339,
+                "slowFramePercent": 100,
+                "slowTimeMs": 55035,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 55035
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 1339,
+                "slowFramePercent": 100,
+                "slowTimeMs": 55035,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 55035
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 751,
+                "timeMs": 39035.099997997284
+              },
+              {
+                "thresholdMs": 50,
+                "count": 492,
+                "timeMs": 28429.29999923706
+              },
+              {
+                "thresholdMs": 100,
+                "count": 2,
+                "timeMs": 369.49999952316284
+              },
+              {
+                "thresholdMs": 250,
+                "count": 1,
+                "timeMs": 265.69999980926514
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 0,
+          "burning": 0,
+          "ruins": 438,
+          "smokeParticles": 320,
+          "simulationSeconds": 157.0624999995232,
+          "peakFireMs": 4.299999713897705,
+          "peakDamageMs": 1.3000001907348633,
+          "peakSupportMs": 10.5,
+          "peakAirPostMs": 0.9000000953674316,
+          "peakCollapseMs": 20,
+          "airWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 13936,
+            "completed": 126827,
+            "failures": 0,
+            "stale": 7273,
+            "cacheHits": 1606982,
+            "computeMs": 0.09999990463256836,
+            "latencyMs": 20.699999809265137,
+            "postMs": 0.09999990463256836,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 106482,
+            "mirrorPieces": 49909,
+            "patchPieces": 56155,
+            "affinityHits": 14358,
+            "affinityWaits": 16359
+          },
+          "airRegions": {
+            "captures": 2753,
+            "unchanged": 416,
+            "deferred": 1383454,
+            "budgetDeferred": 898385,
+            "frameCaptures": 0,
+            "captureMs": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 1.2382999997138977,
+          "supportWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 44,
+            "stale": 78,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 0.5999999046325684,
+            "latencyMs": 36.59999990463257,
+            "terrainBytes": 2752,
+            "patchRecords": 3,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 0,
+            "cells": 0,
+            "particles": 0,
+            "clippedSources": 0,
+            "composedCells": 0,
+            "processedSources": 0,
+            "pendingSources": 0,
+            "pendingCells": 0,
+            "urgentCells": 0,
+            "settledSources": 0,
+            "updateMs": 0
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 0
+            },
+            "effects": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 0
+            }
+          },
+          "fireWork": {
+            "cycles": 150,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.21790000009536742
+          }
+        },
+        {
+          "phase": "rubble",
+          "gpuApiCalls": [],
+          "programs": 1614,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 5704.200000286102,
+            "programs": 1613,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 666,
+            "totalMs": 15010.199999809265,
+            "worstFrameMs": 79.30000019073486,
+            "minimumInstantFps": 12.61034044886215,
+            "p95FrameMs": 30.40000009536743,
+            "p99FrameMs": 41.90000009536743,
+            "p999FrameMs": 79.30000019073486,
+            "onePercentLowFps": 19.110019100068396,
+            "pointOnePercentLowFps": 12.61034044886215,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 640,
+                "slowFramePercent": 96.09609609609609,
+                "slowTimeMs": 14598.599997997284,
+                "slowTimePercent": 97.2578646399301,
+                "episodes": 26,
+                "longestEpisodeMs": 3180.199999809265
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 625,
+                "slowFramePercent": 93.84384384384384,
+                "slowTimeMs": 14345.199996948242,
+                "slowTimePercent": 95.56967926563621,
+                "episodes": 40,
+                "longestEpisodeMs": 3118.8999996185303
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 666,
+                "slowFramePercent": 100,
+                "slowTimeMs": 15010.199999809265,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 15010.199999809265
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 666,
+                "slowFramePercent": 100,
+                "slowTimeMs": 15010.199999809265,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 15010.199999809265
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 26,
+                "timeMs": 1068.5000004768372
+              },
+              {
+                "thresholdMs": 50,
+                "count": 2,
+                "timeMs": 148.80000019073486
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 0,
+          "burning": 0,
+          "ruins": 127,
+          "smokeParticles": 318,
+          "simulationSeconds": 172.53689999961824,
+          "peakFireMs": 0,
+          "peakDamageMs": 0.09999990463256836,
+          "peakSupportMs": 0.10000038146972656,
+          "peakAirPostMs": 0.20000028610229492,
+          "peakCollapseMs": 0,
+          "airWorker": {
+            "active": 8,
+            "pending": 7,
+            "jobs": 16235,
+            "completed": 132015,
+            "failures": 0,
+            "stale": 7273,
+            "cacheHits": 1808880,
+            "computeMs": 0,
+            "latencyMs": 13,
+            "postMs": 0.09999990463256836,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 106482,
+            "mirrorPieces": 49909,
+            "patchPieces": 56155,
+            "affinityHits": 16657,
+            "affinityWaits": 16518
+          },
+          "airRegions": {
+            "captures": 2753,
+            "unchanged": 416,
+            "deferred": 1383454,
+            "budgetDeferred": 898385,
+            "frameCaptures": 0,
+            "captureMs": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 0.49909999990463255,
+          "supportWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 44,
+            "stale": 78,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 0.5999999046325684,
+            "latencyMs": 36.59999990463257,
+            "terrainBytes": 2752,
+            "patchRecords": 3,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 0,
+            "cells": 0,
+            "particles": 0,
+            "clippedSources": 0,
+            "composedCells": 0,
+            "processedSources": 0,
+            "pendingSources": 0,
+            "pendingCells": 0,
+            "urgentCells": 0,
+            "settledSources": 0,
+            "updateMs": 0
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 0
+            },
+            "effects": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 0
+            }
+          },
+          "fireWork": {
+            "cycles": 150,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.3355999999046325
+          }
+        }
+      ]
+    },
+    {
+      "label": "R36 final",
+      "folder": "r36-final",
+      "setup": {
+        "pieces": 1000,
+        "roofMode": "production-default",
+        "logicalCpus": 10,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+        "features": {
+          "animals": false,
+          "buildingSurfaceSnow": false,
+          "thermalField": false
+        }
+      },
+      "errors": [],
+      "results": [
+        {
+          "phase": "baseline",
+          "gpuApiCalls": [],
+          "programs": 1629,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 7519.400000095367,
+            "programs": 1629,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 818,
+            "totalMs": 15026.200000286102,
+            "worstFrameMs": 33.40000009536743,
+            "minimumInstantFps": 29.940119674990648,
+            "p95FrameMs": 22.100000381469727,
+            "p99FrameMs": 26.5,
+            "p999FrameMs": 33.40000009536743,
+            "onePercentLowFps": 34.81624764642817,
+            "pointOnePercentLowFps": 29.940119674990648,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 725,
+                "slowFramePercent": 88.63080684596576,
+                "slowTimeMs": 13521.100001811981,
+                "slowTimePercent": 89.98349550488172,
+                "episodes": 71,
+                "longestEpisodeMs": 1058
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 626,
+                "slowFramePercent": 76.5281173594132,
+                "slowTimeMs": 11848.100000858307,
+                "slowTimePercent": 78.84960935321449,
+                "episodes": 141,
+                "longestEpisodeMs": 421.7000002861023
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 818,
+                "slowFramePercent": 100,
+                "slowTimeMs": 15026.200000286102,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 15026.200000286102
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 818,
+                "slowFramePercent": 100,
+                "slowTimeMs": 15026.200000286102,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 15026.200000286102
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 1,
+                "timeMs": 33.40000009536743
+              },
+              {
+                "thresholdMs": 50,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 1000,
+          "burning": 0,
+          "ruins": 0,
+          "smokeParticles": 0,
+          "simulationSeconds": 25.338899999618512,
+          "peakFireMs": 0,
+          "peakDamageMs": 0.09999990463256836,
+          "peakSupportMs": 0.20000028610229492,
+          "peakAirPostMs": 0,
+          "peakCollapseMs": 0,
+          "airWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 0,
+            "completed": 0,
+            "failures": 0,
+            "stale": 0,
+            "cacheHits": 0,
+            "computeMs": 0,
+            "latencyMs": 0,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 0,
+            "mirrorPieces": 0,
+            "patchPieces": 0,
+            "affinityHits": 0,
+            "affinityWaits": 0,
+            "openSkyHits": 0,
+            "invalidatedSamples": 0
+          },
+          "airRegions": {
+            "captures": 0,
+            "unchanged": 0,
+            "deferred": 0,
+            "budgetDeferred": 0,
+            "frameCaptures": 0,
+            "captureMs": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 0.49989999961853027,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 8,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 743.8000001907349,
+            "latencyMs": 940.5,
+            "terrainBytes": 153600,
+            "patchRecords": 17920,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 0,
+            "cells": 0,
+            "particles": 0,
+            "clippedSources": 0,
+            "composedCells": 0,
+            "processedSources": 0,
+            "pendingSources": 0,
+            "pendingCells": 0,
+            "urgentCells": 0,
+            "settledSources": 0,
+            "updateMs": 0
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 3370,
+              "batchDraws": 86,
+              "instances": 1592,
+              "checked": 63
+            },
+            "effects": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 63
+            }
+          },
+          "fireWork": {
+            "cycles": 0,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.38649999999999995
+          }
+        },
+        {
+          "phase": "three-seed-spread",
+          "gpuApiCalls": [],
+          "programs": 1629,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 7519.400000095367,
+            "programs": 1629,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 1393,
+            "totalMs": 30039.800000190735,
+            "worstFrameMs": 60.39999961853027,
+            "minimumInstantFps": 16.556291495293443,
+            "p95FrameMs": 27.899999618530273,
+            "p99FrameMs": 35.30000019073486,
+            "p999FrameMs": 55.700000286102295,
+            "onePercentLowFps": 22.60981914582313,
+            "pointOnePercentLowFps": 17.22652886858613,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 1387,
+                "slowFramePercent": 99.56927494615937,
+                "slowTimeMs": 29942.400000095367,
+                "slowTimePercent": 99.6757634867917,
+                "episodes": 7,
+                "longestEpisodeMs": 18974.400000095367
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 1378,
+                "slowFramePercent": 98.92318736539842,
+                "slowTimeMs": 29789.400000572205,
+                "slowTimePercent": 99.16643919194888,
+                "episodes": 16,
+                "longestEpisodeMs": 10203.099999904633
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 1393,
+                "slowFramePercent": 100,
+                "slowTimeMs": 30039.800000190735,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 30039.800000190735
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 1393,
+                "slowFramePercent": 100,
+                "slowTimeMs": 30039.800000190735,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 30039.800000190735
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 17,
+                "timeMs": 722.4999990463257
+              },
+              {
+                "thresholdMs": 50,
+                "count": 4,
+                "timeMs": 224.89999961853027
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 1000,
+          "burning": 3,
+          "ruins": 0,
+          "smokeParticles": 307,
+          "simulationSeconds": 55.65019999980927,
+          "peakFireMs": 1.3999996185302734,
+          "peakDamageMs": 14.699999809265137,
+          "peakSupportMs": 3,
+          "peakAirPostMs": 0.6999998092651367,
+          "peakCollapseMs": 0,
+          "airWorker": {
+            "active": 1,
+            "pending": 5,
+            "jobs": 935,
+            "completed": 2359,
+            "failures": 0,
+            "stale": 33,
+            "cacheHits": 9882,
+            "computeMs": 0.09999990463256836,
+            "latencyMs": 21.199999809265137,
+            "postMs": 0.09999990463256836,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 80,
+            "mirrorPieces": 4290,
+            "patchPieces": 28,
+            "affinityHits": 946,
+            "affinityWaits": 3587,
+            "openSkyHits": 1094,
+            "invalidatedSamples": 899
+          },
+          "airRegions": {
+            "captures": 112,
+            "unchanged": 61,
+            "deferred": 39,
+            "budgetDeferred": 241,
+            "frameCaptures": 0,
+            "captureMs": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 0.49980000019073484,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 16,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0.10000038146972656,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 901.0999999046326,
+            "latencyMs": 992,
+            "terrainBytes": 153600,
+            "patchRecords": 24,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 1,
+            "cells": 4,
+            "particles": 374,
+            "clippedSources": 0,
+            "composedCells": 0,
+            "processedSources": 0,
+            "pendingSources": 0,
+            "pendingCells": 0,
+            "urgentCells": 0,
+            "settledSources": 0,
+            "updateMs": 0
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 3349,
+              "batchDraws": 86,
+              "instances": 1583,
+              "checked": 66
+            },
+            "effects": {
+              "sourceDraws": 2,
+              "batchDraws": 1,
+              "instances": 2,
+              "checked": 66
+            }
+          },
+          "fireWork": {
+            "cycles": 59,
+            "steps": 96,
+            "pending": 1,
+            "milliseconds": 0.19999980926513672,
+            "backlogSeconds": 0
+          }
+        },
+        {
+          "phase": "mass-ignition-stress",
+          "gpuApiCalls": [],
+          "programs": 1629,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 7519.400000095367,
+            "programs": 1629,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 576,
+            "totalMs": 20051.5,
+            "worstFrameMs": 129.80000019073486,
+            "minimumInstantFps": 7.7041602352122345,
+            "p95FrameMs": 47.40000009536743,
+            "p99FrameMs": 58.5,
+            "p999FrameMs": 129.80000019073486,
+            "onePercentLowFps": 12.906001301190038,
+            "pointOnePercentLowFps": 7.7041602352122345,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 576,
+                "slowFramePercent": 100,
+                "slowTimeMs": 20051.5,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 20051.5
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 576,
+                "slowFramePercent": 100,
+                "slowTimeMs": 20051.5,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 20051.5
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 576,
+                "slowFramePercent": 100,
+                "slowTimeMs": 20051.5,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 20051.5
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 576,
+                "slowFramePercent": 100,
+                "slowTimeMs": 20051.5,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 20051.5
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 246,
+                "timeMs": 10154.299999713898
+              },
+              {
+                "thresholdMs": 50,
+                "count": 21,
+                "timeMs": 1248.5999975204468
+              },
+              {
+                "thresholdMs": 100,
+                "count": 1,
+                "timeMs": 129.80000019073486
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 997,
+          "burning": 997,
+          "ruins": 0,
+          "smokeParticles": 320,
+          "simulationSeconds": 76.02269999980942,
+          "peakFireMs": 2.5,
+          "peakDamageMs": 10.099999904632568,
+          "peakSupportMs": 3.1000003814697266,
+          "peakAirPostMs": 1.3999996185302734,
+          "peakCollapseMs": 11.900000095367432,
+          "airWorker": {
+            "active": 8,
+            "pending": 801,
+            "jobs": 5149,
+            "completed": 37925,
+            "failures": 0,
+            "stale": 1430,
+            "cacheHits": 561360,
+            "computeMs": 2.5,
+            "latencyMs": 33.10000038146973,
+            "postMs": 0.40000009536743164,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 9603,
+            "mirrorPieces": 26685,
+            "patchPieces": 12115,
+            "affinityHits": 5135,
+            "affinityWaits": 10967,
+            "openSkyHits": 28215,
+            "invalidatedSamples": 30910
+          },
+          "airRegions": {
+            "captures": 618,
+            "unchanged": 185,
+            "deferred": 298595,
+            "budgetDeferred": 111963,
+            "frameCaptures": 2,
+            "captureMs": 0.6000003814697266
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 1.1904000000953676,
+          "supportWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 48,
+            "stale": 72,
+            "failures": 0,
+            "captureMs": 0.09999990463256836,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 306.90000009536743,
+            "latencyMs": 546.3999996185303,
+            "terrainBytes": 152832,
+            "patchRecords": 64,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 997,
+            "cells": 468,
+            "particles": 108550,
+            "clippedSources": 14,
+            "composedCells": 16,
+            "processedSources": 64,
+            "pendingSources": 869,
+            "pendingCells": 31,
+            "urgentCells": 0,
+            "settledSources": 0,
+            "updateMs": 0.8000001907348633
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 113
+            },
+            "effects": {
+              "sourceDraws": 3013,
+              "batchDraws": 98,
+              "instances": 3013,
+              "checked": 113
+            }
+          },
+          "fireWork": {
+            "cycles": 84,
+            "steps": 47,
+            "pending": 0,
+            "milliseconds": 0.5,
+            "backlogSeconds": 0.7790999999046324
+          }
+        },
+        {
+          "phase": "damage",
+          "gpuApiCalls": [],
+          "programs": 1629,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 7519.400000095367,
+            "programs": 1629,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 664,
+            "totalMs": 25028.400000095367,
+            "worstFrameMs": 195.19999980926514,
+            "minimumInstantFps": 5.122950824677896,
+            "p95FrameMs": 50.39999961853027,
+            "p99FrameMs": 57.40000009536743,
+            "p999FrameMs": 195.19999980926514,
+            "onePercentLowFps": 11.717442247878369,
+            "pointOnePercentLowFps": 5.122950824677896,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 664,
+                "slowFramePercent": 100,
+                "slowTimeMs": 25028.400000095367,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 25028.400000095367
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 664,
+                "slowFramePercent": 100,
+                "slowTimeMs": 25028.400000095367,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 25028.400000095367
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 664,
+                "slowFramePercent": 100,
+                "slowTimeMs": 25028.400000095367,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 25028.400000095367
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 664,
+                "slowFramePercent": 100,
+                "slowTimeMs": 25028.400000095367,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 25028.400000095367
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 430,
+                "timeMs": 18119.099997997284
+              },
+              {
+                "thresholdMs": 50,
+                "count": 38,
+                "timeMs": 2206.8999996185303
+              },
+              {
+                "thresholdMs": 100,
+                "count": 1,
+                "timeMs": 195.19999980926514
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 717,
+          "burning": 717,
+          "ruins": 100,
+          "smokeParticles": 320,
+          "simulationSeconds": 101.7984000000957,
+          "peakFireMs": 5.200000286102295,
+          "peakDamageMs": 17.699999809265137,
+          "peakSupportMs": 9.200000286102295,
+          "peakAirPostMs": 1.1999998092651367,
+          "peakCollapseMs": 8.200000286102295,
+          "airWorker": {
+            "active": 8,
+            "pending": 1478,
+            "jobs": 8264,
+            "completed": 69876,
+            "failures": 0,
+            "stale": 3146,
+            "cacheHits": 935806,
+            "computeMs": 0.6999998092651367,
+            "latencyMs": 36.90000009536743,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 52026,
+            "mirrorPieces": 30215,
+            "patchPieces": 33321,
+            "affinityHits": 8620,
+            "affinityWaits": 16131,
+            "openSkyHits": 88153,
+            "invalidatedSamples": 62637
+          },
+          "airRegions": {
+            "captures": 1703,
+            "unchanged": 300,
+            "deferred": 1132183,
+            "budgetDeferred": 365948,
+            "frameCaptures": 2,
+            "captureMs": 0.40000009536743164
+          },
+          "collapseQueue": {
+            "pending": 251,
+            "checked": 5,
+            "removed": 2,
+            "milliseconds": 2
+          },
+          "peakFireBacklog": 1.4900999999046327,
+          "supportWorker": {
+            "active": 8,
+            "pending": 1,
+            "jobs": 596,
+            "stale": 23825,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0.7999997138977051,
+            "copyMs": 0,
+            "applyMs": 1.4000000953674316,
+            "computeMs": 84.09999990463257,
+            "latencyMs": 144.2000002861023,
+            "terrainBytes": 88320,
+            "patchRecords": 83,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 776,
+            "cells": 461,
+            "particles": 43771,
+            "clippedSources": 2,
+            "composedCells": 30,
+            "processedSources": 7,
+            "pendingSources": 3,
+            "pendingCells": 227,
+            "urgentCells": 14,
+            "settledSources": 2,
+            "updateMs": 0.5999999046325684
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 138
+            },
+            "effects": {
+              "sourceDraws": 2427,
+              "batchDraws": 76,
+              "instances": 2427,
+              "checked": 138
+            }
+          },
+          "fireWork": {
+            "cycles": 114,
+            "steps": 96,
+            "pending": 1,
+            "milliseconds": 0.6000003814697266,
+            "backlogSeconds": 0.4215999999046326
+          }
+        },
+        {
+          "phase": "collapse",
+          "gpuApiCalls": [],
+          "programs": 1629,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 7519.400000095367,
+            "programs": 1629,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 1929,
+            "totalMs": 55055.699999809265,
+            "worstFrameMs": 110,
+            "minimumInstantFps": 9.090909090909092,
+            "p95FrameMs": 49.799999713897705,
+            "p99FrameMs": 59.5,
+            "p999FrameMs": 103.2999997138977,
+            "onePercentLowFps": 13.618412107299502,
+            "pointOnePercentLowFps": 9.376465085244389,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 1829,
+                "slowFramePercent": 94.81596682218766,
+                "slowTimeMs": 53473.99999952316,
+                "slowTimePercent": 97.12709129065368,
+                "episodes": 68,
+                "longestEpisodeMs": 44342.199999809265
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 1774,
+                "slowFramePercent": 91.96474857439088,
+                "slowTimeMs": 52544.7999997139,
+                "slowTimePercent": 95.43934597125444,
+                "episodes": 98,
+                "longestEpisodeMs": 44342.199999809265
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 1929,
+                "slowFramePercent": 100,
+                "slowTimeMs": 55055.699999809265,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 55055.699999809265
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 1929,
+                "slowFramePercent": 100,
+                "slowTimeMs": 55055.699999809265,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 55055.699999809265
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 604,
+                "timeMs": 26681.400000095367
+              },
+              {
+                "thresholdMs": 50,
+                "count": 92,
+                "timeMs": 5303.800000667572
+              },
+              {
+                "thresholdMs": 100,
+                "count": 2,
+                "timeMs": 213.2999997138977
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 0,
+          "burning": 0,
+          "ruins": 341,
+          "smokeParticles": 320,
+          "simulationSeconds": 157.3251000003827,
+          "peakFireMs": 3.6000003814697266,
+          "peakDamageMs": 0.10000038146972656,
+          "peakSupportMs": 4.400000095367432,
+          "peakAirPostMs": 7.799999713897705,
+          "peakCollapseMs": 16.09999990463257,
+          "airWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 10212,
+            "completed": 92893,
+            "failures": 0,
+            "stale": 5454,
+            "cacheHits": 1060988,
+            "computeMs": 0,
+            "latencyMs": 24.59999990463257,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 129396,
+            "mirrorPieces": 42632,
+            "patchPieces": 40804,
+            "affinityHits": 11079,
+            "affinityWaits": 17672,
+            "openSkyHits": 883347,
+            "invalidatedSamples": 85656
+          },
+          "airRegions": {
+            "captures": 3027,
+            "unchanged": 347,
+            "deferred": 2015001,
+            "budgetDeferred": 524098,
+            "frameCaptures": 0,
+            "captureMs": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 0.6103000001907348,
+          "supportWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 0,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 0,
+            "latencyMs": 0,
+            "terrainBytes": 0,
+            "patchRecords": 0,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 0,
+            "cells": 0,
+            "particles": 0,
+            "clippedSources": 0,
+            "composedCells": 0,
+            "processedSources": 0,
+            "pendingSources": 0,
+            "pendingCells": 0,
+            "urgentCells": 0,
+            "settledSources": 0,
+            "updateMs": 0
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 0
+            },
+            "effects": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 0
+            }
+          },
+          "fireWork": {
+            "cycles": 167,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.3527000002861023
+          }
+        },
+        {
+          "phase": "rubble",
+          "gpuApiCalls": [],
+          "programs": 1629,
+          "startupWarmup": {
+            "status": "ready",
+            "durationMs": 7519.400000095367,
+            "programs": 1629,
+            "textures": 43,
+            "assetsComplete": true,
+            "warmedPointTiers": [
+              0,
+              1,
+              2,
+              4,
+              8,
+              16,
+              24,
+              32
+            ],
+            "memoryLimited": false,
+            "error": ""
+          },
+          "pacing": {
+            "frames": 895,
+            "totalMs": 15003.800000190735,
+            "worstFrameMs": 78.40000009536743,
+            "minimumInstantFps": 12.755102025300749,
+            "p95FrameMs": 19.300000190734863,
+            "p99FrameMs": 21.59999990463257,
+            "p999FrameMs": 78.40000009536743,
+            "onePercentLowFps": 33.333333333333336,
+            "pointOnePercentLowFps": 12.755102025300749,
+            "targets": [
+              {
+                "targetFps": 60,
+                "tolerancePercent": 0,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 16.666666666666668,
+                "slowFrames": 436,
+                "slowFramePercent": 48.71508379888268,
+                "slowTimeMs": 7871.60000038147,
+                "slowTimePercent": 52.46404244445675,
+                "episodes": 283,
+                "longestEpisodeMs": 184.39999961853027
+              },
+              {
+                "targetFps": 60,
+                "tolerancePercent": 3,
+                "budgetMs": 16.666666666666668,
+                "thresholdMs": 17.182130584192443,
+                "slowFrames": 317,
+                "slowFramePercent": 35.41899441340782,
+                "slowTimeMs": 5860.10000038147,
+                "slowTimePercent": 39.057438784221155,
+                "episodes": 259,
+                "longestEpisodeMs": 78.40000009536743
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 0,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.333333333333334,
+                "slowFrames": 895,
+                "slowFramePercent": 100,
+                "slowTimeMs": 15003.800000190735,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 15003.800000190735
+              },
+              {
+                "targetFps": 120,
+                "tolerancePercent": 3,
+                "budgetMs": 8.333333333333334,
+                "thresholdMs": 8.591065292096221,
+                "slowFrames": 895,
+                "slowFramePercent": 100,
+                "slowTimeMs": 15003.800000190735,
+                "slowTimePercent": 100,
+                "episodes": 1,
+                "longestEpisodeMs": 15003.800000190735
+              }
+            ],
+            "stalls": [
+              {
+                "thresholdMs": 33.334,
+                "count": 1,
+                "timeMs": 78.40000009536743
+              },
+              {
+                "thresholdMs": 50,
+                "count": 1,
+                "timeMs": 78.40000009536743
+              },
+              {
+                "thresholdMs": 100,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 250,
+                "count": 0,
+                "timeMs": 0
+              },
+              {
+                "thresholdMs": 1000,
+                "count": 0,
+                "timeMs": 0
+              }
+            ]
+          },
+          "standing": 0,
+          "burning": 0,
+          "ruins": 11,
+          "smokeParticles": 35,
+          "simulationSeconds": 172.70500000000217,
+          "peakFireMs": 0.10000038146972656,
+          "peakDamageMs": 0.09999990463256836,
+          "peakSupportMs": 0.10000038146972656,
+          "peakAirPostMs": 0,
+          "peakCollapseMs": 0,
+          "airWorker": {
+            "active": 8,
+            "pending": 0,
+            "jobs": 10212,
+            "completed": 92893,
+            "failures": 0,
+            "stale": 5454,
+            "cacheHits": 1060988,
+            "computeMs": 0,
+            "latencyMs": 24.59999990463257,
+            "postMs": 0,
+            "fallbackMs": 0,
+            "fallbackQueries": 0,
+            "cancelledQueries": 129396,
+            "mirrorPieces": 42632,
+            "patchPieces": 40804,
+            "affinityHits": 11079,
+            "affinityWaits": 17672,
+            "openSkyHits": 1011991,
+            "invalidatedSamples": 85704
+          },
+          "airRegions": {
+            "captures": 3029,
+            "unchanged": 347,
+            "deferred": 2015001,
+            "budgetDeferred": 524098,
+            "frameCaptures": 0,
+            "captureMs": 0
+          },
+          "collapseQueue": {
+            "pending": 0,
+            "checked": 0,
+            "removed": 0,
+            "milliseconds": 0
+          },
+          "peakFireBacklog": 0.4999000000953675,
+          "supportWorker": {
+            "active": 0,
+            "pending": 0,
+            "jobs": 0,
+            "stale": 0,
+            "failures": 0,
+            "captureMs": 0,
+            "patchMs": 0,
+            "copyMs": 0,
+            "applyMs": 0,
+            "computeMs": 0,
+            "latencyMs": 0,
+            "terrainBytes": 0,
+            "patchRecords": 0,
+            "fallbackChecks": 0,
+            "fallbackMs": 0,
+            "churnFallbacks": 0
+          },
+          "snowWorker": {
+            "pending": 0,
+            "completed": 0,
+            "cancelled": 0,
+            "failures": 0,
+            "workers": 0,
+            "computeMs": 0,
+            "postMs": 0,
+            "accepted": 0,
+            "stale": 0,
+            "peakCaptureMs": 0,
+            "peakApplyMs": 0
+          },
+          "fireCells": {
+            "sources": 0,
+            "cells": 0,
+            "particles": 0,
+            "clippedSources": 0,
+            "composedCells": 0,
+            "processedSources": 0,
+            "pendingSources": 0,
+            "pendingCells": 0,
+            "urgentCells": 0,
+            "settledSources": 0,
+            "updateMs": 0
+          },
+          "rendering": {
+            "static": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 0
+            },
+            "effects": {
+              "sourceDraws": 0,
+              "batchDraws": 0,
+              "instances": 0,
+              "checked": 0
+            }
+          },
+          "fireWork": {
+            "cycles": 167,
+            "steps": 0,
+            "pending": 0,
+            "milliseconds": 0,
+            "backlogSeconds": 0.4172999997138977
+          }
+        }
+      ]
+    }
+  ]
+}
