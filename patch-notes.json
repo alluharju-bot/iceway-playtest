@@ -1,5 +1,17 @@
 [
   {
+    "version": "0.2.1",
+    "date": "2026-09-27",
+    "title": "Stair end sockets and reliable wall placement",
+    "changes": [
+      "Modular steps have five sockets at each end: four corners and a centre. Nearby step joins take priority over walls and floors. Centre joins extend a tread at the same height; corner joins continue the rise.",
+      "Press Z for the next valid socket placement, or Shift+Z for the previous one. A selected attachment stays selected while aiming at the same spot. The build toolbar also has a socket button.",
+      "Upper floors prefer the player side at stacked wall seams. Floor rotations use the wall centreline, and narrow deck seams are easier to target from below.",
+      "Window walls inherit the exact angle of the wall they replace in both Socket and Grid modes, including walls rotated independently of their building grid. Wider 45-degree bays receive a matching wide window.",
+      "New stair joins retain physical support, save/load and collapse behaviour; an isolated corner touch cannot support a floating step."
+    ]
+  },
+  {
     "version": "0.2.0",
     "date": "2026-09-26",
     "title": "Modular steps and updates that keep your world",
