@@ -1,5 +1,15 @@
 [
   {
+    "version": "0.2.3",
+    "date": "2026-09-27",
+    "title": "Wider steps and vertical stacking",
+    "changes": [
+      "Aim at the left or right side centre of a modular step to join another tread at the same height and make the stair wider. Both narrow sides have four corner sockets and a centre.",
+      "Front and rear centre sockets still extend tread depth. Z / Shift+Z also selects top and bottom centre sockets for vertical stacking; ordinary ascending stairs remain the default.",
+      "Side and stacked joins use physical contact for support, save/load, fire and collapse. A corner touch or a floating cycle cannot support the widened stair."
+    ]
+  },
+  {
     "version": "0.2.2",
     "date": "2026-09-27",
     "title": "Open hearths and fires made from loose fuel",
