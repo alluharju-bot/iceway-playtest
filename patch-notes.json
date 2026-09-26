@@ -1,5 +1,17 @@
 [
   {
+    "version": "0.2.2",
+    "date": "2026-09-27",
+    "title": "Open hearths and fires made from loose fuel",
+    "changes": [
+      "The Camp build tray includes an open 1 × 2 m stone hearth. It starts empty and can stand on a supported floor or level ground.",
+      "Face the hearth and use DROP 1 in the backpack to add branches, logs or charcoal. Fuel stays cold until a flame reaches it; tinder and flint remain available through the camp interactions.",
+      "Dropped branches and logs can now become a campfire when touched by a flame, Burning water or a Fire Gate rune. Nearby dropped fuel joins the fire and burns only once.",
+      "Fuel, heat, smoke and remaining burn time use the existing camp simulation and persist with your world. Flames respect walls and storey height; covered braziers cannot ignite loose fuel.",
+      "Spent logs and groups of branches leave collectible charcoal after the embers cool. Charcoal gives a longer, quieter burn and cannot produce more charcoal."
+    ]
+  },
+  {
     "version": "0.2.1",
     "date": "2026-09-27",
     "title": "Stair end sockets and reliable wall placement",
