@@ -1,0 +1,14 @@
+[
+  {
+    "version": "0.2.0",
+    "date": "2026-09-26",
+    "title": "Modular steps and updates that keep your world",
+    "changes": [
+      "Build stairs one step at a time from floors, wall faces or another step. Five standard steps climb half a storey; ten climb a full storey. Turned steps share an exact connecting edge.",
+      "Use G for a local surface grid, R / Shift+R to turn, C to reverse, and Q/E to adjust the step length. Steps participate in structural support, fire, collapse and saves.",
+      "Upper floors and roof tiles placed on a wall prefer the player’s side. Pointing near a wall’s upper edge from below also selects the upper-floor bearing.",
+      "An update notice lets you save and restart into the newest build. Your buildings, inventory and world progress are preserved. Full reset remains a separate option in the top bar.",
+      "Open the version button in the top bar to read the patch history. This is the first entry in the in-game archive; earlier development reports remain in the project documentation."
+    ]
+  }
+]
