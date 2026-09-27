@@ -1,5 +1,18 @@
 [
   {
+    "version": "0.3.0",
+    "date": "2026-09-27",
+    "title": "General timber frames and joined roof slopes",
+    "changes": [
+      "General wood beams, metal-bound beams and narrow planks can be posts, horizontal members, rafters or shelves. Choose 1 / 2 / 4 m, adjust with Q/E, or use FIT between two joints for the exact length. Material cost follows length.",
+      "End sockets and side sockets at every metre work on either part. Z / Shift+Z chooses the carried station and nearby target face. R / Shift+R turns the part, Shift+C changes pitch in 22.5-degree steps, and the selected joint stays fixed.",
+      "Wood carries 4 m laterally from a grounded bearing; metal-bound timber carries 8 m and planks 2 m. Opposing bearings share a span. Short pieces, floating loops and a post above a weak cantilever cannot reset this budget. Existing material-height, fire and collapse rules still apply.",
+      "Cover boards fit between parallel general timbers up to 2 m apart. New frames carry snow without reciprocal joints disabling the snow-load graph. Intact recovered timbers keep their original length.",
+      "Quick roof tiles have an optional JOIN setting with HIP and VALLEY modes. Real crossing slopes are cut on both sides at arbitrary angles; picking, walking, snow, support and smoke use the cut faces. Removing a neighbour restores the original outline, including after save/load and undo.",
+      "Existing specialist roof parts, buildings and saves remain compatible. Frame picking and bearing checks stay local; unchanged previews reuse their last evaluation."
+    ]
+  },
+  {
     "version": "0.2.3",
     "date": "2026-09-27",
     "title": "Wider steps and vertical stacking",
