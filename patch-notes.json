@@ -1,5 +1,17 @@
 [
   {
+    "version": "0.3.2",
+    "date": "2026-09-27",
+    "title": "A clearer building library",
+    "changes": [
+      "B enters or leaves building. Tab opens and closes All parts; choose a part to return straight to placement. Close buttons and Escape are also available.",
+      "Browse simple categories, search all parts, and recognise pieces from previews of their actual models. Names are shorter, with dimensions shown separately. Roof variants can be selected directly.",
+      "Eight quick slots switch between Most used and Recently used. Successful placements count towards Most used; recent parts are unique selections. History and the selected quick view persist between sessions.",
+      "Most used stays in place while you build. Number keys 1–8 match the visible slots. B resumes the last selected part; first-time builders start in the library.",
+      "Searching does not move the character, rotate a piece or zoom the camera. Closing the library preserves the view and does not place a part. Existing buildings and saves are preserved."
+    ]
+  },
+  {
     "version": "0.3.1",
     "date": "2026-09-27",
     "title": "One camera for exploring and building",
