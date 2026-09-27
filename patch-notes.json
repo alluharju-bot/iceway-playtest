@@ -1,5 +1,16 @@
 [
   {
+    "version": "0.3.3",
+    "date": "2026-09-27",
+    "title": "A smaller toolbar, help when you need it",
+    "changes": [
+      "A compact top row shows the held part, Keys, the illustrated guide and Tools. Placement feedback sits quietly below the eight quick parts.",
+      "Minus and plus resize the toolbar from 72% to 160%. Your size and position are remembered. Click the percentage to restore the default layout.",
+      "Keys opens a short controls reference. The info button opens three-picture guides for ground levelling, floors, walls, stairs, openings, fires, upper floors and roofs.",
+      "Help closes with its Close button or Tab; Escape remains a fallback. Reading help preserves your part and camera, and cannot trigger building shortcuts."
+    ]
+  },
+  {
     "version": "0.3.2",
     "date": "2026-09-27",
     "title": "A clearer building library",
