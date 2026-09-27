@@ -1,5 +1,17 @@
 [
   {
+    "version": "0.3.4",
+    "date": "2026-09-27",
+    "title": "Carry supplies, light kindling, build clearer joins",
+    "changes": [
+      "Backpack → Carry 1 puts a physical item in your hand. Aim at a clear surface within 2 m and click or press F to place it. X cancels without spending the item.",
+      "Cold branches and charcoal remain collectible, including inside an open hearth. Old cold hearth fuel is restored to loose supplies; removing the hearth leaves no invisible reserved area. Pickup aim follows the visible item on snow and floors.",
+      "Equip the Fire striker and strike three times at dry tinder beside branches. Tinder is consumed when the kindling catches. Existing flames, torches, fire magic and burning water still ignite real fuel.",
+      "Crossing quick roofs join automatically, including 26° roofs and existing saved tiles. AUTO selects hip or valley from the eaves; Tools offers HIP, VALLEY and JOIN off for deliberate overlaps. Removing a neighbour restores the original tile.",
+      "New stair treads are 1 m wide. R turns the tread 90° for side-to-end joins; Shift + R curves an extension. Six visible face centres replace the crowded markers. Z cycles rising, level and stacked joins. Older stair dimensions and saved structures are preserved."
+    ]
+  },
+  {
     "version": "0.3.3",
     "date": "2026-09-27",
     "title": "A smaller toolbar, help when you need it",
