@@ -1,5 +1,16 @@
 [
   {
+    "version": "0.3.1",
+    "date": "2026-09-27",
+    "title": "One camera for exploring and building",
+    "changes": [
+      "Opening or closing the build tray keeps the same camera distance, heading and pitch. Exploration and building share one continuous wheel zoom, with a wider default view and room to pull back.",
+      "Enclosed rooms keep their own closer framing in both gameplay and building. Open shelters do not force a close-up. Real walls and ceilings can shorten the camera arm further; leaving the room smoothly restores your outdoor zoom.",
+      "Camera clearance follows nearby building surfaces, including real door openings and gaps between beams. A small camera volume prevents its edges from passing through walls; a wider lens helps when space is tight. Brief gaps between obstacles do not pump the zoom, and the avatar clears the view when a wall forces the camera very close.",
+      "Normal perspective building keeps walls and roofs solid. Manual ghost/hidden storeys remain available, and the optional isometric view retains its cutaway. Camera changes do not alter structural collision, support or saved buildings."
+    ]
+  },
+  {
     "version": "0.3.0",
     "date": "2026-09-27",
     "title": "General timber frames and joined roof slopes",
